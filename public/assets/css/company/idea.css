@@ -1,0 +1,253 @@
+@charset "UTF-8";
+/* =========================================================
+	Company / Idea
+========================================================= */
+#conts p {
+	line-height: 1.9;
+}
+
+#conts .lead {
+	font-size: 2.2rem;
+	text-align: center;
+	line-height: 1.8;
+}
+
+#conts .ideaList {
+	-webkit-display: flex;
+	display: flex;
+	margin-top: 55px;
+}
+
+#conts .ideaList li {
+	padding: 113px 0 8px;
+	border-left: 1px solid #BBB;
+	font-size: 1.8rem;
+	text-align: center;
+	position: relative;
+}
+
+#conts .ideaList li:nth-child(1) {
+	width: 301px;
+	border: none;
+}
+
+#conts .ideaList li:nth-child(2) {
+	width: 329px;
+}
+
+#conts .ideaList li:nth-child(3) {
+	width: 300px;
+}
+
+#conts .ideaList li:before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 50%;
+}
+
+#conts .ideaList li:nth-child(1):before {
+	width: 124px;
+	height: 84px;
+	margin-left: -62px;
+	background: url(../../img/company/idea/icon_idea01.png) no-repeat;
+	top: 16px;
+}
+
+#conts .ideaList li:nth-child(2):before {
+	width: 92px;
+	height: 66px;
+	margin-left: -46px;
+	background: url(../../img/company/idea/icon_idea02.png) no-repeat;
+	top: 34px;
+}
+
+#conts .ideaList li:nth-child(3):before {
+	width: 54px;
+	height: 84px;
+	margin-left: -27px;
+	background: url(../../img/company/idea/icon_idea03.png) no-repeat;
+	top: 16px;
+}
+
+#conts .btnList01 {
+	margin-bottom: 40px;
+}
+
+#conts .visionSec,
+#conts .missionSec {
+	overflow: hidden;
+}
+
+#conts .visionSec .headline02 {
+	margin-bottom: 5px;
+}
+
+#conts .visionSec .textBox {
+	float: left;
+	width: 420px;
+	padding-top: 47px;
+}
+
+#conts .visionSec .textBox p {
+	margin-top: 25px;
+}
+
+#conts .visionSec .textBox .catch {
+	margin-top: 0;
+	font-size: 2.2rem;
+}
+
+#conts .visionSec .textBox .catch + p {
+	margin-top: 52px;
+}
+
+#conts .visionSec .imgBox {
+	float: right;
+	margin-right: 33px;
+}
+
+#conts .missionSec .headline02 {
+	margin-bottom: 35px;
+}
+
+#conts .missionSec .textBox {
+	float: left;
+	width: 470px;
+}
+
+#conts .missionSec .textBox p {
+	margin-top: 25px;
+}
+
+#conts .missionSec .textBox .catch {
+	margin-top: 0;
+	font-size: 2.2rem;
+}
+
+#conts .missionSec .textBox .catch + p {
+	margin-top: 37px;
+}
+
+#conts .missionSec .imgBox {
+	float: right;
+	padding-top: 17px;
+	position: relative;
+	right: 49px;
+}
+
+@media screen and (max-width: 767px) {
+	#conts .lead {
+		font-size: 1.7rem;
+	}
+
+	#conts .ideaList {
+		margin-top: 25px;
+	}
+
+	#conts .ideaList li {
+		width: 33.3%!important;
+		padding: 58px 12px 0;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		font-size: 1.3rem;
+	}
+
+	#conts .ideaList li:nth-child(3) {
+		width: 33.4%!important;
+	}
+
+	#conts .ideaList li:nth-child(1):before {
+		margin-left: -31px;
+		-webkit-background-size: 62px 42px;
+		        background-size: 62px 42px;
+		top: 8px;
+	}
+
+	#conts .ideaList li:nth-child(2):before {
+		margin-left: -23px;
+		-webkit-background-size: 46px 33px;
+		        background-size: 46px 33px;
+		top: 18px;
+	}
+
+	#conts .ideaList li:nth-child(3):before {
+		margin-left: -13.5px;
+		-webkit-background-size: 27px 42px;
+		        background-size: 27px 42px;
+		top: 8px;
+	}
+
+	#conts .visionSec {
+		margin-bottom: 55px;
+	}
+
+	#conts .visionSec .headline02 {
+		margin-bottom: 15px;
+	}
+
+	#conts .visionSec .textBox {
+		float: none;
+		width: 100%;
+		padding-top: 0;
+		text-align: center;
+	}
+
+	#conts .visionSec .textBox .catch {
+		font-size: 1.7rem;
+	}
+
+	#conts .visionSec .textBox p {
+		margin-top: 25px;
+	}
+
+	#conts .visionSec .textBox .catch + p {
+		margin-top: 20px;
+	}
+
+	#conts .visionSec .imgBox {
+		float: none;
+		margin: 45px 0 0;
+		padding: 0 15px;
+		text-align: center;
+	}
+
+	#conts .missionSec .headline02 {
+		margin-bottom: 15px;
+	}
+
+	#conts .missionSec .textBox {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	#conts .missionSec .textBox .catch {
+		font-size: 1.7rem;
+	}
+
+	#conts .missionSec .textBox p {
+		margin-top: 25px;
+	}
+
+	#conts .missionSec .textBox .catch + p {
+		margin-top: 20px;
+	}
+
+	#conts .missionSec .imgBox {
+		float: none;
+		margin-top: 40px;
+		padding: 0 25px;
+		text-align: center;
+		position: static;
+	}
+}
+
+/* Print
+--------------------------------------------------------- */
+@media print {
+	#conts .visionSec .imgBox {
+		width: 410px;
+		margin-right: 0;
+	}
+}

@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+/*0.0331604*/
+body,
+input,
+select,
+textarea {
+  font-family:  helvetica, Arial, "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "ＭＳ Ｐゴシック", MS PGothic, sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+/*  height: 100%;*/
+  background: #fff;
+}
+body {
+  color: #000;
+  line-height: 1;
+  text-align: center;
+}
+a:link,
+a:visited,
+a:active {
+  color: #000;
+}
+a {
+  -webkit-tap-highlight-color: rgba(220,220,220,0.5);
+}
+strong {
+  font-weight: 700;
+}
+em {
+  font-style: normal;
+}
+sup,
+sub {
+  height: 0;
+  line-height: 0;
+  font-size: 10px;
+}
+sup {
+  vertical-align: super;
+}
+sub {
+  vertical-align: sub;
+}
+
+img{
+	width: 100%;
+}
+
+h1 {
+	width: 156px;
+	margin: 30px auto 0;
+}
+
+.content{
+	width: 90%;
+	margin: 90px auto 0;
+	position: relative;
+}
+
+.content p{
+	width: 100%;
+	text-align: center;
+	font-size:14px;
+	letter-spacing:1px;
+	line-height: 2;
+}
+
+.content div{
+	width: 100%;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.content div a{
+	font-size:18px;
+	font-weight: bold;
+	letter-spacing:1px;
+	line-height: 1;
+
+}
+
+footer{
+	width:100%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 10px;
+	background: #e85d03;
+	color: #fff;
+	position: fixed;
+	bottom: 0;
+}

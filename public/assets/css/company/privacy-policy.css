@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/* =========================================================
+	Privacy-Policy / Index
+========================================================= */
+#conts p {
+	line-height: 1.9;
+}
+
+#conts p a,
+#conts .policySec ul li a {
+	color: #4CAC3B;
+	text-decoration: none;
+}
+
+#conts p a:hover,
+#conts .policySec ul li a:hover {
+	text-decoration: underline;
+}
+
+#conts .btnList01 {
+	margin-bottom: 45px;
+}
+
+#conts .policySec {
+	margin-top: 20px;
+	padding-top: 20px;
+	border-top: 1px solid #CCC;
+}
+
+#conts .policySec02 {
+	margin-top: 40px;
+}
+
+#conts .infoSec .lead {
+	text-align: center;
+}
+
+#conts .purposeSec {
+	margin-top: 50px;
+}
+
+#conts .purposeSec h3 {
+	margin-bottom: 20px;
+	font-size: 2.2rem;
+	font-weight: normal;
+	text-align: center;
+}
+
+#conts .provideList {
+	margin-top: 30px;
+	padding-left: 20px;
+	line-height: 2.0;
+}
+
+#conts .provideList li {
+	margin-left: 1.5em;
+	text-indent: -1.5em;
+}
+
+#conts .pointSec {
+	margin-top: 45px;
+	padding: 40px 30px;
+	background: #F9F8F8;
+}
+
+#conts .pointSec h4 {
+	margin-bottom: 15px;
+	font-size: 2.2rem;
+	font-weight: normal;
+}
+
+#conts .pointSec ol {
+	margin-top: 30px;
+	padding-left: 20px;
+	line-height: 2.0;
+}
+
+#conts .pointSec ol > li {
+	margin-top: 25px;
+}
+
+#conts .pointSec ol > li:first-child {
+	margin-top: 0;
+}
+
+#conts .pointSec ol > li p {
+	margin-top: 0;
+}
+
+#conts .pointSec ol > li p + p {
+	padding-left: 1.5em;
+}
+
+#conts .pointSec ol > li ul {
+	list-style-type: none;
+	padding-left:0em /*2.5em*/;
+}
+
+#conts .disclosureList > li {
+	margin-top: 25px;
+}
+
+#conts .disclosureList > li:first-child {
+	margin-top: 0;
+}
+
+#conts .disclosureList > li > p + p {
+	margin-top: 0;
+}
+
+#conts .disclosureList > li .contactBox {
+	margin-top: 25px;
+}
+
+#conts .policyList {
+	line-height: 2.0;
+}
+
+#conts .policyList > li {
+	margin-top: 20px;
+}
+
+#conts .policyList > li {
+	margin-left: 1.5em;
+	text-indent: -1.5em;
+}
+
+#conts .policyList > li:nth-child(n+10) {
+	margin-left: 2.1em;
+	text-indent: -2.1em;
+}
+
+#conts .policyList > li:first-child {
+	margin-top: 0;
+}
+
+#conts .revision {
+	margin-top: 3px;
+	text-align: right;
+}
+
+#conts .contactBox {
+	margin-top: 40px;
+}
+
+@media screen and (max-width: 767px) {
+	#conts .privacySec,
+	#conts .infoSec {
+		padding-bottom: 25px;
+	}
+
+	#conts .infoSec .lead {
+		text-align: left;
+	}
+
+	#conts .purposeSec {
+		margin-top: 30px;
+	}
+
+	#conts .purposeSec h3 {
+		margin-bottom: 10px;
+		font-size: 1.7rem;
+	}
+
+	#conts .purposeSec .cmnTable01 > .tblHead {
+		display: none;
+	}
+
+	#conts .purposeSec .cmnTable01 > dl > dd {
+		text-align: left;
+	}
+
+	#conts .policySec {
+		margin-top: 15px;
+		padding-top: 15px;
+	}
+
+	#conts .policySec02 {
+		margin-top: 30px;
+	}
+
+	#conts .provideList {
+		margin-top: 15px;
+		padding-left: 0;
+	}
+
+	#conts .pointSec {
+		margin-top: 20px;
+		padding: 15px 15px;
+	}
+
+	#conts .pointSec h4 {
+		margin-bottom: 10px;
+		font-size: 1.7rem;
+	}
+
+	#conts .pointSec ol {
+		margin-top: 25px;
+		padding-left: 0;
+	}
+
+	#conts .pointSec ol > li > p:first-child {
+		margin-bottom: 10px;
+	}
+
+	#conts .pointSec ol > li ul {
+		padding-left: 1.2em;
+	}
+
+	#conts .pointSec ol > li p + p {
+		padding-left: 0;
+	}
+
+	#conts .disclosureList > li > p:first-child {
+		margin-bottom: 10px;
+	}
+
+	#conts .policyList > li,
+	#conts .policyList > li:nth-child(n+10) {
+		margin: 25px 0 0;
+		text-indent: 0;
+	}
+
+	#conts .policyList > li > p {
+		margin-bottom: 10px;
+	}
+
+	#conts .revision {
+		margin-top: 10px;
+	}
+
+	#conts .contactBox {
+		margin-top: 20px;
+	}
+
+}

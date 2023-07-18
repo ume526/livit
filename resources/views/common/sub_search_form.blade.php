@@ -1,0 +1,120 @@
+                              <form action="{{ $search_action }}#search-section" method="get" name="topSearch" id="topSearch">
+
+                                @if ($place_tags)
+                                  <div class="unit unit01 arrow">
+                                    <dl class="row">
+  	                                  <dt>
+  	                                    <p>どこで？</p>
+  	                                  </dt>
+  	                                  <dd>
+  	                                    <div class="firstBox pivotBoxList">
+  		                                  <ul class="fList">
+                                            @php $idx = 1 @endphp
+                                            @foreach ($place_tags as $tag)
+  			                                  <li><input id="s{{ $idx  }}" name="pt[]" type="checkbox" value="{{ $tag->id  }}" @if(in_array($tag->id, $selected_tag_ids)) checked @endif ><label for="s{{ $idx }}" class="btn {{ $tag-> class }}">{{ format_pivot_shop(format_tekute_shop($tag->name)) }}</label></li>
+                                                                                @php $idx++ @endphp
+                                            @endforeach
+  		                                  </ul>
+  	                                    </div>
+  	                                  </dd>
+                                    </dl>
+                                  </div>
+                                @endif
+
+                                @if($object_tags)
+                                  <div class="unit unit02 arrow">
+                                  <dl class="row">
+                                    <dt>
+                                      <p>何を探す？</p>
+                                    </dt>
+                                    <dd>
+                                      <div class="acBox">
+                                        <ul class="acList">
+                                          @php $idx = 1; @endphp
+                                          @foreach ($object_tags as $tag)
+                                            <li><input id="ac{{ $idx }}" name="ot[]" type="checkbox" value="{{ $tag->id }}" @if(in_array($tag->id, $selected_tag_ids)) checked @endif ><label for="ac{{ $idx }}" class="btn  {{ config('livit.tag_class_on_search_box')[$tag->name] ?? '' }}">{{ $tag->name }}</label></li>
+                                           @php $idx++ @endphp
+                                          @endforeach
+                                        </ul>
+                                      </div>
+                                    </dd>
+                                  </dl>
+                                  </div>
+                                @else
+                                  <div class="unit unit02 arrow">
+                                    <dl class="row">
+  	                                  <dt>
+  	                                    <p>何を探す？</p>
+  	                                  </dt>
+  	                                  <dd>
+  	                                    <div class="acBox cateBox">
+                                          <ul class="caterow" id="objectTags">
+  			                                <li class="cate01">
+                                              <div class="cateitem">
+                                                <div class="catettl"><p>お店を探す</p></div>
+                                                <div class="catew">
+                                                  <ul class="acList">
+                                                    @foreach($shop_tags as $tag)
+                                                      <li>
+                                                        <input id="ac{{ $tag->id }}" name="ot[]" type="checkbox" value="{{ $tag->id }}" @if(in_array($tag->id, $selected_tag_ids)) checked @endif ><label for="ac{{ $tag->id }}" class="btn {{ config('livit.tag_class_on_search_box')[$tag->name] ?? '' }}">{{ $tag->name }}</label>
+                                                      </li>
+                                                    @endforeach
+                                                  </ul>
+                                                </div>
+                                              </div>
+                                            </li>
+  			                                <li class="cate02">
+                                              <div class="cateitem">
+                                                <div class="catettl"><p>商品を探す</p></div>
+                                                <div class="catew">
+                                                  <ul class="acList">
+                                                    @foreach($product_tags as $tag)
+                                                      <li>
+                                                        <input id="ac{{ $tag->id }}" name="ot[]" type="checkbox" value="{{ $tag->id }}" @if(in_array($tag->id, $selected_tag_ids)) checked @endif ><label for="ac{{ $tag->id }}" class="btn {{ config('livit.tag_class_on_search_box')[$tag->name] ?? '' }}">{{ $tag->name }}</label>
+                                                      </li>
+                                                    @endforeach
+                                                  </ul>
+                                                </div>
+                                              </div>
+                                            </li>
+  			                                <li class="cate03">
+                                              <div class="cateitem">
+                                                <div class="catettl"><p>情報を探す</p></div>
+                                                <div class="catew">
+                                                  <ul class="acList">
+                                                    @foreach($information_tags as $tag)
+                                                      <li class="{{ config('livit.item_class_on_search_box')[$tag->name] ?? '' }}">
+                                                        <input id="ac{{ $tag->id }}" name="ot[]" type="checkbox" value="{{ $tag->id }}" @if(in_array($tag->id, $selected_tag_ids)) checked @endif ><label for="ac{{ $tag->id }}" class="btn {{ config('livit.tag_class_on_search_box')[$tag->name] ?? '' }}">{{ $tag->name }}</label>
+                                                      </li>
+                                                    @endforeach
+                                                  </ul>
+                                                </div>
+                                              </div>
+                                            </li>
+                                          </ul>
+  	                                    </div>
+                                      </dd>
+                                  </div>
+                                @endif
+                                <div class="unit unit03">
+                                  <dl class="row">
+  	                                <dt><p>キーワード</p></dt>
+  	                                <dd>
+  	                                  <div class="keyBox">
+	                                    <input class="keyword" name="keywords" type="text" value="{{ $keywords }}" placeholder="キーワードを入力してください。">
+                                        <p class="keycaption">{!! keycaption() !!}</p>
+  	                                  </div>
+  	                                </dd>
+                                  </dl>
+                                </div>
+
+                                <div class="unit unit04">
+                                  <div class="btnBox">
+  	                                <ul class="btnList">
+  	                                  <li><div class="rst" id="js_allclear"><p class="btn">検索条件のクリア</p></div></li>
+  	                                  <li><button class="smt" type='submit'><p class="btn">この条件で検索する</p></button></li>
+  	                                </ul>
+                                  </div>
+                                </div>
+
+                              </form>

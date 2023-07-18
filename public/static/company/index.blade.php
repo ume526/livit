@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="4976fc6f-e5db-4478-8d55-e9bbdac18af4" data-blockingmode="auto" type="text/javascript"></script>
+<script src="/assets/js/analytics.js"></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width">
+
+	<meta name="description" content="JR東日本グループ「JR東日本東北総合サービス株式会社」の公式サイト。会社概要・事業案内などの企業情報や採用情報をご覧いただけます。">
+	<meta name="keywords" content="">
+	<title>JR東日本東北総合サービス株式会社【LiViT】｜企業情報</title>
+
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Varela+Round" rel="stylesheet">
+
+<link rel="icon" href="/assets/img/common/favicon.ico">
+<link rel="stylesheet" href="/assets/css/common.css">
+<script src="/assets/js/common.js"></script>
+
+	<!-- slick -->
+	<link rel="stylesheet" href="/assets/js/slick/slick.css">
+	<link rel="stylesheet" href="/assets/js/slick/slick-theme.css">
+	<script src="/assets/js/slick/slick.min.js"></script>
+
+	<!-- jScrollPnae -->
+	<link rel="stylesheet" href="/assets/js/jscrollpane/jquery.jscrollpane.css">
+	<script src="/assets/js/jscrollpane/jquery.jscrollpane.min.js"></script>
+
+	<link rel="stylesheet" href="/assets/css/company/index.css">
+</head>
+<body>
+	<div id="wrap" class="company">
+
+		<header id="header">
+	<div class="standard-box standard-box-large">
+		<ul class="sp-only sp-flex-layout tabs">
+			<li><a href="/"><span>SERVICE</span><span>サービス情報</span></a></li>
+			<li><a href="/company/" class="current"><span>COMPANY</span><span>企業情報</span></a></li>
+		</ul>
+		<div class="box01 pc-flex-layout">
+			<div class="logo"><a href="/"><img src="/assets/img/common/logo.png" width="282" height="106" alt="Livit JR東日本総合サービス株式会社"></a></div>
+			<ul class="pc-only pc-flex-layout tabs">
+				<li><a href="/"><span>SERVICE</span><span>サービス情報</span></a></li>
+				<li><a href="/company/" class="current"><span>COMPANY</span><span>企業情報</span></a></li>
+			</ul>
+			<div class="pc-only contact opacity">
+				<a href="/company/contact/" class="pc-flex-layout"><span>CONTACT</span><span>お問合せ</span></a>
+			</div>
+<!--                    <div class="pc-only contact opacity">
+                                <a href="/company/contact/index.html#recruit" class="pc-flex-layout"><span>RECRUIT</span><br><span>CONTACT</span><br><span>採用お問合せ</span></a>
+                        </div>
+                -->
+			<div id="search_btn" class="pc-only search pc-flex-layout">
+				<gcse:searchbox-only></gcse:searchbox-only>
+			</div>
+			<div class="sp-only menu_btn">
+				<a href="javascript:void(0)" id="sp-menu-open"><span class="bar"></span><span class="bar"></span><span class="bar"></span><span>メニュー</span></a>
+			</div>
+		</div>
+	</div>
+	<nav id="global_nav" class="global_nav company_nav standard-box-wrap">
+		<ul class="list pc-flex-layout">
+			<li class="sp-only sp-flex-layout box02">
+				<div class="search"><gcse:searchbox-only></gcse:searchbox-only></div>
+				<div class="close_btn"><a href="javascript:void(0)" id="sp-menu-close"><span>メニュー</span></a></div>
+			</li>
+			<li class="style01"><a href="/company/"><span>HOME</span><span>ホーム</span></a></li>
+			<li class="style01"><a href="/company/idea/"><span>IDEA</span><span>企業理念</span></a></li>
+			<li class="style01"><a href="/company/business/"><span>BUSINESS</span><span>事業紹介</span></a></li>
+			<li class="style01"><a href="/company/csr/diversity/"><span>CSR</span><span>CSR活動</span></a></li>
+			<li class="style01"><a href="/company/profile/"><span>PROFILE</span><span>会社概要</span></a></li>
+			<li class="style01"><a href="/company/news-release/"><span>NEWS RELEASE</span><span>ニュースリリース</span></a></li>
+			<li class="style01"><a href="/company/recruit/"><span>RECRUIT</span><span>採用情報</span></a></li>
+			<li class="sp-only contact style01"><a href="/company/contact/"><span>CONTACT</span><span>採用お問合せ</span></a></li>
+		</ul>
+	</nav>
+</header>
+
+
+		<div id="contents">
+
+                       <div class="key_visual standard-box-wrap">
+                                <ul id="main-slider" class="main-slider">
+                                        <li><a href="/company/recruit/guideline/"><img src="/assets/img/company/index/keyvisual_img09.jpg" alt="LiViT 社員募集"></a></li>
+                                        <li><a href="https://www.livit.jregroup.ne.jp/gyutan-sushistreet/"><img src="/assets/img/company/index/keyvisual_img10.jpg" alt="牛たん通りす
+し通り"></a></li>
+                                        <li><a href="https://www.livit.jregroup.ne.jp/search?keywords=%E3%81%84%E3%82%8D%E3%81%A8%E3%81%84%E3%82%8D"><img src="/assets/img/company/index/keyvisual_img01.jpg" alt="いろといろ"></a></li>
+
+<li><img src="/assets/img/company/index/keyvisual_img05.jpg" alt="暮らすしあわせと、訪れるよろこびを。家族"></li>
+                                </ul>
+
+                                <ul id="thumbnail-slider" class="thumbnail-slider">
+					<li><a href="/company/recruit/guideline/"><img src="/assets/img/company/index/keyvisual_img09.jpg" alt="LiViT 社員募集"></a></li>
+					<li><a href="https://www.livit.jregroup.ne.jp/gyutan-sushistreet/"><img src="/assets/img/company/index/keyvisual_img10.jpg" alt="牛たん通りす
+し通り"></a></li>
+					<li><a href="https://www.livit.jregroup.ne.jp/search?keywords=%E3%81%84%E3%82%8D%E3%81%A8%E3%81%84%E3%82%8D"><img src="/assets/img/company/index/keyvisual_img01.jpg" alt="いろといろ"></a></li>
+					<li><img src="/assets/img/company/index/keyvisual_img05.jpg" alt="暮らすしあわせと、訪れるよろこびを。家族"></li>
+                                 	<li><a href="https://www.livit.jregroup.ne.jp/company/caution.html"><img src="/assets/img/company/index/important.png" alt="重要なお知らせ"></a></li>
+
+                                </ul>
+                        </div>
+
+			<main id="conts">
+				<div class="news_release bg-pattern01 standard-box-wrap">
+					<div class="standard-box">
+						<p class="headline01"><span><span class="eng">NEWS RELEASE</span><span class="jpn">ニュースリリース</span></span></p>
+						<div class="list jscrollpane">
+							<ul>
+<!-- company ニュースリリース -->
+							@foreach($news_release as $news)
+								<li class="pc-flex-layout">
+										<p class="date"><time datetime="{{ format_date_s($news->publication_date_time_start) }}">{{ format_date_s($news->publication_date_time_start) }}</time></p>
+										@switch( $news->link_type )
+											@case(1)
+												<!-- {{-- URL --}} -->
+												<p class="title"><a href="{{ $news->url }}">{!! $news->title !!}</a></p>
+												@break
+
+											@case(2)
+												<!-- {{-- PDF --}} -->
+												<p class="title"><a href="{{ $news->pdf_link_url }}" target="_blank" >{!! $news->title !!}</a></p>
+												@break
+
+											@case(3)
+												<!-- {{-- 記事 --}} -->
+												<p class="title"><a href="/company/news-release/article/{{ $news->id }}">{!! $news->title !!}</a></p>
+												@break
+
+											@case(4)
+											<!-- {{-- リンクなし --}} -->
+												<p class="title">{!! $news->title !!}</p>
+												@break
+
+											@default
+												<p class="title">{!! $news->title !!}</p>
+										@endswitch
+								</li>
+							@endforeach
+<!-- company ニュースリリース ここまで-->
+							</ul>
+						</div>
+						<p class="more"><a href="/company/news-release/">MORE ≫</a></p>
+					</div>
+				</div>
+
+				<section class="about">
+					<div class="standard-box">
+						<h1 class="headline01"><span><span class="eng">WHAT’S LiViT</span><span class="jpn">リビットとは</span></span></h1>
+						<p class="lead">「LiViT（リビット）」はJR東日本東北総合サービス株式会社の<span class="accent">愛称</span>です。<br>私たちは、一人ひとりの東北への地元愛と知恵を総動員して、駅を起点に3つの事業領域から東北の未来を創ってまいります。</p>
+						<div class="formula">
+							<p class="img01"><img src="/assets/img/company/index/about_txt01.png" width="224" height="86" alt="LiViT"></p>
+							<p class="txt01 font-varela-round"><span>=</span></p>
+							<p class="txt02 font-varela-round"><span>Li</span>ve + <span>Vi</span>sit + <span>T</span>OHOKU</p>
+						</div>
+						<ul class="list01 flex-layout">
+							<li>
+								<figure>
+									<span class="img"><img src="/assets/img/company/index/about_img01.png" width="43" height="41" alt=""></span>
+									<figcaption>暮らす</figcaption>
+								</figure>
+							</li>
+							<li>
+								<figure>
+									<span class="img"><img src="/assets/img/company/index/about_img02.png" width="55" height="71" alt=""></span>
+									<figcaption>訪れる</figcaption>
+								</figure>
+							</li>
+							<li>
+								<figure>
+									<span class="img"><img src="/assets/img/company/index/about_img03.png" width="38" height="79" alt=""></span>
+									<figcaption>東北</figcaption>
+								</figure>
+							</li>
+						</ul>
+						<ul class="list02 flex-layout">
+							<li>
+								<figure>
+									<p class="icon font-varela-round">L</p>
+									<figcaption>Local<br class="sp-only">（地元の）<br>Life<br class="sp-only">（いのち）</figcaption>
+								</figure>
+							</li>
+							<li>
+								<figure>
+									<p class="icon font-varela-round">i</p>
+									<figcaption>地元愛</figcaption>
+								</figure>
+							</li>
+							<li>
+								<figure>
+									<p class="icon font-varela-round">V</p>
+									<figcaption>Variety<br class="sp-only">（多様性）<br>Value<br class="sp-only">（価値）</figcaption>
+								</figure>
+							</li>
+							<li>
+								<figure>
+									<p class="icon font-varela-round">i</p>
+									<figcaption>intelligence<br class="sp-only">（知恵）</figcaption>
+								</figure>
+							</li>
+							<li>
+								<figure>
+									<p class="icon font-varela-round">T</p>
+									<figcaption>Tradition<br class="sp-only">（伝統）<br>Time<br class="sp-only">（時代）</figcaption>
+								</figure>
+							</li>
+						</ul>
+
+						<section class="project">
+							<h2><span>3つの事業領域</span></h2>
+							<div class="box01">
+								<div class="img01"><img src="/assets/img/company/index/project_img01.png" width="479" height="160" alt=""></div>
+								<ul class="list03 flex-layout">
+									<li>
+										<figure>
+											<figcaption><span>開発運営</span></figcaption>
+											<span class="img"><img src="/assets/img/company/index/project_img02.png" width="224" height="144" alt=""></span>
+										</figure>
+									</li>
+									<li>
+										<figure>
+											<figcaption><span>駅活性</span></figcaption>
+											<span class="img"><img src="/assets/img/company/index/project_img03.png" width="224" height="144" alt=""></span>
+										</figure>
+									</li>
+									<li>
+										<figure>
+											<figcaption><span>JR資産活用</span></figcaption>
+											<span class="img"><img src="/assets/img/company/index/project_img04.png" width="224" height="144" alt=""></span>
+										</figure>
+									</li>
+								</ul>
+								<p class="txt01"><a href="/company/business/">詳しくはこちら ≫</a></p>
+							</div>
+						</section>
+					</div>
+				</section>
+			</main>
+
+		</div>
+		
+		<footer>
+	<div id="footer-inner" class="box01">
+		<div id="pagetop-btn" class="pagetop-btn opacity"><a href="#wrap"><img src="/assets/img/common/page_top.png" width="15" height="14" alt=""></a></div>
+		<ul class="sns flex-layout opacity">
+		<!--<li class="twitter"><a href="#"><img src="/assets/img/common/icon_twitter.png" width="57" height="48" alt="Twitter"></a></li>-->
+		<!--<li class="facebook"><a href="#"><img src="/assets/img/common/icon_facebook.png" width="26" height="48" alt="Facebook"></a></li>-->
+		<!--<li class="instagram"><a href="#"><img src="/assets/img/common/icon_instagram.png" width="48" height="47" alt="Instagram"></a></li>-->
+		</ul>
+		<nav class="link_list">
+			<ul class="pc-flex-layout">
+				<li><a href="/company/contact/">お問合せ</a></li>
+				<li><a href="/company/privacy-policy/">個人情報保護方針</a></li>
+				<li><a href="/company/site-policy/">ウェブサイトご利用にあたって</a></li>
+				<li><a href="/company/social-policy/">ソーシャルメディアポリシー</a></li>
+				<li><a href="/cookie-policy/">クッキーポリシー</a></li>
+				<li><a href="/company/sitemap/">サイトマップ</a></li>
+			</ul>
+		</nav>
+		<div class="copy">
+			<small>Copyright&copy; TOHOKU SOUGOU SERVICE. All Rights Reserved.</small>
+		</div>
+	</div>
+</footer>
+
+<div id="loading_animation" class="loading_animation"><i class="loading_animation_line"></i></div>
+
+<script type="text/javascript" src="https://www.google.com/cse/brand?form=cse-search-box&lang=ja"></script>
+<script>
+  (function() {
+    var cx = '018186300925055370683:szx4_pcrwsc';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+	</div>
+</body>
+</html>

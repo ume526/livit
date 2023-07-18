@@ -1,0 +1,355 @@
+@charset "UTF-8";
+/* =========================================================
+	Company / Index
+========================================================= */
+.news_release {
+	margin-top: 30px!important;
+}
+.news_release .headline01 > span:before,
+.news_release .headline01 > span:after {
+	content: none;
+}
+.news_release .list {
+	max-height: 164px;
+}
+.news_release .list ul {
+	margin-right: 24px;
+}
+.news_release .list ul li {
+	-webkit-align-items: center;
+			align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid #CCCCCC;
+}
+.news_release .list ul li:first-child {
+	padding-top: 0;
+	border-top: none;
+}
+.news_release .list ul li:last-child {
+	padding-bottom: 0;
+}
+.news_release .list ul li .date {
+	padding: 2px 7px;
+	background-color: #87CB3D;
+	font-weight: normal !important;
+	color: #fff;
+}
+.news_release .list ul li .title {
+	margin-left: 10px;
+}
+.news_release .list ul li .title a {
+	text-decoration: none;
+}
+.news_release .more {
+	margin-top: 54px;
+	text-align: center;
+}
+.news_release .more a {
+	text-decoration: none;
+}
+.about .headline01 {
+	margin-bottom: 32px;
+}
+.about .lead {
+	text-align: center;
+	line-height: 2;
+}
+.about .lead .accent {
+	color: #F85926;
+}
+.about .formula {
+	margin-top: 48px;
+	text-align: center;
+}
+.about .formula .txt01 {
+	margin-top: -7px;
+	font-size: 5.9rem;
+	line-height: 1;
+}
+.about .formula .txt01 span {
+	display: inline-block;
+	-webkit-transform: rotate(90deg);
+			transform: rotate(90deg);
+}
+.about .formula .txt02 {
+	margin-top: -6px;
+	font-size: 5.9rem;
+	line-height: 1;
+}
+.about .formula .txt02 span {
+	color: #F45826;
+}
+.about .list01 {
+	-webkit-justify-content: center;
+			justify-content: center;
+	-webkit-align-items: flex-end;
+			align-items: flex-end;
+	margin-top: 8px;
+}
+.about .list01 li {
+	margin-left: 100px;
+}
+.about .list01 li:first-child {
+	margin-left: 0;
+}
+.about .list01 li figure {
+	text-align: center;
+}
+.about .list01 li figure figcaption {
+	font-size: 2.1rem;
+}
+.about .list01 li:nth-child(1) figure figcaption {
+	margin-top: 18px;
+}
+.about .list01 li:nth-child(2) figure figcaption {
+	margin-top: 9px;
+}
+.about .list01 li:nth-child(3) figure figcaption {
+	margin-top: 5px;
+}
+.about .list02 {
+	margin-top: 30px;
+	-webkit-justify-content: center;
+			justify-content: center;
+}
+.about .list02 li {
+	width: 126px;
+}
+.about .list02 li figure {
+	text-align: center;
+}
+.about .list02 li figure .icon {
+	padding-top: 7px;
+	padding-bottom: 2px;
+	background-image: url(../../img/company/index/icon_bg01.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 4.4rem;
+	color: #fff;
+}
+.about .list02 li figure figcaption {
+	font-size: 1.2rem;
+	line-height: 2;
+}
+.about .project {
+	-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+	position: relative;
+	margin-top: 91px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 52px;
+	width: 744px;
+	height: 487px;
+	background-image: url(../../img/company/index/project_bg01.png);
+	background-repeat: no-repeat;
+}
+.about .project h2 {
+	position: absolute;
+	width: 100%;
+	top: -24px;
+	left: 0;
+	text-align: center;
+	font-size: 2.6rem;
+	font-weight: normal;
+}
+.about .project h2 span {
+	padding: 7px 45px 4px;
+	display: inline-block;
+	background-color: #E6CBBD;
+	border-radius: 25px;
+}
+.about .project .img01 {
+	text-align: center;
+}
+.about .project .list03 {
+	-webkit-justify-content: center;
+			justify-content: center;
+	margin-top: -9px;
+}
+.about .project .list03 li {
+	margin-left: 14px;
+}
+.about .project .list03 li:first-child {
+	margin-left: 0;
+}
+.about .project .list03 li figure figcaption {
+	text-align: center;
+	font-size: 1.6rem;
+	color: #fff;
+}
+.about .project .list03 li figure figcaption span {
+	display: inline-block;
+	padding-top: 4px;
+	padding-bottom: 2px;
+	width: 110px;
+	border-radius: 15px;
+	text-align: center;
+}
+.about .project .list03 li:nth-child(1) figure figcaption span {
+	background-color: #A7D971;
+}
+.about .project .list03 li:nth-child(2) figure figcaption span {
+	background-color: #FAC090;
+}
+.about .project .list03 li:nth-child(3) figure figcaption span {
+	background-color: #95B3D7;
+}
+.about .project .list03 li figure .img {
+	display: block;
+	margin-top: 11px;
+}
+.about .project .txt01 {
+	margin-top: 36px;
+	text-align: center;
+}
+.about .project .txt01 a {
+	text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+	#contents {
+		border-top: none;
+	}
+	.news_release .list {
+		max-height: 186px;
+	}
+	.news_release .list ul {
+		margin-right: 10px;
+	}
+	.news_release .list ul li {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.news_release .list ul li .date {
+		display: inline-block;
+		padding: 0 4px;
+		line-height: 1.5;
+	}
+	.news_release .list ul li .title {
+		margin-left: 0;
+		margin-top: 6px;
+		line-height: 1.4;
+	}
+	.news_release .more {
+		margin-top: 11px;
+	}
+	.about .headline01 {
+		margin-bottom: 8px;
+	}
+	.about .lead {
+		text-align: left;
+	}
+	.about .formula {
+		margin-top: 19px;
+	}
+	.about .formula .img01 img {
+		width: 112px;
+	}
+	.about .formula .img02 {
+		margin-top: 3px;
+	}
+	.about .formula .txt01 {
+		margin-top: -2px;
+		font-size: 2.9rem;
+	}
+	.about .formula .txt02 {
+		margin-top: -4px;
+		font-size: 2.9rem;
+	}
+	.about .list01 {
+		margin-top: 5px;
+	}
+	.about .list01 li {
+		margin-left: 50px;
+	}
+	.about .list01 li figure figcaption {
+		font-size: 1.2rem;
+	}
+	.about .list01 li:nth-child(1) figure .img img {
+		width: 22px;
+	}
+	.about .list01 li:nth-child(1) figure figcaption {
+		margin-top: 8px;
+	}
+	.about .list01 li:nth-child(2) figure .img img {
+		width: 28px;
+	}
+	.about .list01 li:nth-child(2) figure figcaption {
+		margin-top: 3px;
+	}
+	.about .list01 li:nth-child(3) figure .img img {
+		width: 19px;
+	}
+	.about .list01 li:nth-child(3) figure figcaption {
+		margin-top: 1px;
+	}
+	.about .list02 {
+		margin-top: 14px;
+	}
+	.about .list02 li {
+		width: 62px;
+	}
+	.about .list02 li figure {
+		text-align: center;
+	}
+	.about .list02 li figure .icon {
+		padding-top: 2px;
+		padding-bottom: 0;
+		background-size: contain;
+		font-size: 2.2rem;
+	}
+	.about .list02 li figure figcaption {
+		margin-top: -3px;
+		font-size: 1rem;
+	}
+	.about .project {
+		margin-top: 37px;
+		padding-top: 26px;
+		padding-bottom: 24px;
+		width: auto;
+		height: auto;
+		background-size: 100% 100%;
+	}
+	.about .project h2 {
+		top: -11px;
+		font-size: 1.3rem;
+	}
+	.about .project h2 span {
+		padding: 4px 22px 2px;
+		border-radius: 13px;
+	}
+	.about .project .img01 {
+		width: 70%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.about .project .list03 {
+		margin-top: -5px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	.about .project .list03 li figure figcaption {
+		font-size: 1.2rem;
+	}
+	.about .project .list03 li figure figcaption span {
+		padding-top: 4px;
+		padding-bottom: 2px;
+		width: 79px;
+		border-radius: 11px;
+	}
+	.about .project .list03 li figure .img {
+		margin-top: 7px;
+	}
+	.about .project .txt01 {
+		margin-top: 11px;
+	}
+}
+@media screen and (max-width: 340px) {
+	.about .formula .txt01 {
+		font-size: 2.6rem;
+	}
+	.about .formula .txt02 {
+		font-size: 2.6rem;
+	}
+}

@@ -1,0 +1,2022 @@
+@charset "utf-8";
+.introduction .keyvisual,
+.introduction .slidArea {
+  width: 100%;
+}
+.introduction .keyvisual .sl,
+.introduction .slidArea .sl {
+  width: 100%;
+}
+.introduction .keyvisual .sl img,
+.introduction .slidArea .sl img {
+  width: 100%;
+}
+.introduction .slidArea .blk {
+  overflow: hidden;
+}
+.introduction .slidArea .slider {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.introduction .slidArea .sl {
+  overflow: hidden;
+  outline: none;
+  display: inline-block;
+  vertical-align: top;
+}
+.introduction .slidArea .slick-list {
+  transform: none;
+}
+.introduction .keyvisual .slidArea .sl .imgpc {
+  display: block;
+}
+.introduction .keyvisual .slidArea .sl .imgsp {
+  display: none;
+}
+img {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.LinkBox3col .linkList .btn .desc{
+  overflow: hidden;
+}
+.LinkBox3col .linkList .btn .desc p{
+  overflow: hidden;
+  display: -webkit-box;
+  display: box;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-line-clamp: 4 !important;
+  line-clamp: 4 !important;
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* min-width:769px */
+/* //////////////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 769px) {
+  /* introduction */
+  .introduction .keyvisual {
+    text-align: center;
+  }
+  .introduction .keyvisual .slidArea {
+    width: 100%;
+  }
+  .introduction .keyvisual .slidArea .sl {
+    width: 100%;
+  }
+  .introduction .keyvisual .slidArea .sl img {
+    width: 100%;
+  }
+  .introduction .keyvisual .slidArea .blk {
+    overflow: hidden;
+  }
+  .introduction .keyvisual .slidArea .slider {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .introduction .keyvisual .slidArea .sl {
+    outline: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .introduction .keyvisual .slidArea .slick-dotted.slick-slider {
+    margin-bottom: 0;
+  }
+  .introduction .keyvisual .slidArea .slick-dots {
+    left: 22%;
+    bottom: 23px;
+    width: auto;
+  }
+  .introduction .keyvisual .slidArea .slider .slick-dots li {
+    padding: 0 11px !important;
+  }
+  .introduction .keyvisual .slidArea .slick-dots li button {
+    border: none;
+    background: #fff;
+    width: 13px;
+    height: 13px;
+  }
+  .introduction .keyvisual .slidArea .slick-dots li.slick-active button {
+    background: #54aee6;
+  }
+  .introduction .summary .title {
+    text-align: center;
+    padding-top: 82px;
+  }
+  .introduction .summary .title .row {
+    position: relative;
+  }
+  .introduction .summary .title .sns{
+    position:absolute;
+    top:-50px;
+    left:0;
+    z-index:1;
+  }
+  .introduction .summary .title .sns .snslist{
+    display: table;
+  }
+  .introduction .summary .title .sns .snslist >li{
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 10px;
+  }
+  .introduction .summary .title .sns .snslist >li a {
+    display: block;
+    width:45px;
+  }
+  .introduction .summary .title .ttl {
+    font-size: 29px;
+    line-height: 1.62;
+    letter-spacing: 0.19em;
+  }
+  .introduction .summary .lead {
+    text-align: center;
+    font-size: 15px;
+    line-height: 2.13;
+    letter-spacing: 0.2em;
+    padding-top: 40px;
+  }
+  .introduction .storeinfo {
+    padding-top: 100px;
+  }
+  .introduction .storeinfo .heading {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+  .introduction .storeinfo .heading p {
+    background: #fff;
+    display: inline-block;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.15em;
+    padding: 28px;
+  }
+  .introduction .storeinfo .datablk {
+    margin-top: -35px;
+  }
+  .introduction .storeinfo .datablk .border {
+    border: 1px solid #000;
+    border-radius: 25px;
+  }
+  .introduction .storeinfo .datablk .bdrin {
+    padding: 48px 10px 45px 45px;
+  }
+  .introduction .storeinfo .datablk .column {
+    display: table;
+  }
+  .introduction .storeinfo .datablk .column >dt,
+  .introduction .storeinfo .datablk .column >dd {
+    display: table-cell;
+    vertical-align: top;
+    position: relative;
+  }
+  .introduction .storeinfo .datablk .column >dt {
+    width: 550px;
+  }
+  .introduction .storeinfo .datablk .indentlist .indent {
+    display: table;
+  }
+  .introduction .storeinfo .datablk .indentlist .indent >dt,
+  .introduction .storeinfo .datablk .indentlist .indent >dd {
+    display: table-cell;
+    vertical-align: top;
+  }
+  .introduction .storeinfo .datablk .info .table .ttl {
+    border-bottom: 4px solid #000;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 1.47;
+    letter-spacing: 0.06em;
+    padding-bottom: 10px;
+  }
+  .introduction .storeinfo .datablk .info .table .ttl h3 {
+    font-weight: 700;
+  }
+  .introduction .storeinfo .datablk .info .table .list {
+    padding-top: 12px;
+  }
+  .introduction .storeinfo .datablk .info .table .list >li {
+    border-top: 1px solid #000;
+    padding: 12px 0 10px 0;
+  }
+  .introduction .storeinfo .datablk .info .table .list >li:first-child {
+    border: none;
+  }
+  .introduction .storeinfo .datablk .info .table .row {
+    display: table;
+    width: 100%;
+  }
+  .introduction .storeinfo .datablk .info .table .row >dt,
+  .introduction .storeinfo .datablk .info .table .row >dd {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .introduction .storeinfo .datablk .info .table .row >dt {
+    width: 154px;
+  }
+  .introduction .storeinfo .datablk .info .table .item {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.47;
+    letter-spacing: 0.08em;
+  }
+  .introduction .storeinfo .datablk .info .table .data {
+    font-size: 18px;
+    line-height: 1.47;
+    letter-spacing: 0.02em;
+  }
+  .introduction .storeinfo .datablk .info .table .maplink {
+    position: relative;
+    top: -2px;
+    padding-left: 15px;
+  }
+  .introduction .storeinfo .datablk .info .table .maplink .btn {
+    display: inline-block;
+    border-radius: 25px;
+    background: #949494;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    padding: 4px 12px;
+  }
+  .introduction .storeinfo .datablk .info .table .mapset {
+    position: relative;
+  }
+  .introduction .storeinfo .datablk .info .table .mapset .data,
+  .introduction .storeinfo .datablk .info .table .mapset .maplink {
+    display: inline;
+  }
+  .introduction .storeinfo .datablk .bdrbox {
+    padding-top: 15px;
+  }
+  .introduction .storeinfo .datablk .bdrbox .bdr {
+    border: 1px solid #000;
+  }
+  .introduction .storeinfo .datablk .bdrbox .ttl {
+    background: #bcbcbc;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.08em;
+    padding: 9px 10px 9px 20px;
+  }
+  .introduction .storeinfo .datablk .bdrbox .row {
+    display: table;
+    width: 100%;
+  }
+  .introduction .storeinfo .datablk .bdrbox .row >dt,
+  .introduction .storeinfo .datablk .bdrbox .row >dd {
+    display: table-cell;
+    vertical-align: top;
+  }
+  .introduction .storeinfo .datablk .bdrbox .row >dt {
+    width: 172px;
+  }
+  .introduction .storeinfo .datablk .bdrbox .list {
+    padding: 0 25px 0 20px;
+  }
+  .introduction .storeinfo .datablk .bdrbox .list >li {
+    border-top: 1px solid #000;
+    padding: 12px 0 10px 0;
+  }
+  .introduction .storeinfo .datablk .bdrbox .list >li:first-child {
+    border: none;
+  }
+  .introduction .storeinfo .datablk .bdrbox .item {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.47;
+    letter-spacing: 0.08em;
+  }
+  .introduction .storeinfo .datablk .bdrbox .data {
+    font-size: 18px;
+    line-height: 1.47;
+    letter-spacing: 0.02em;
+  }
+  .introduction .storeinfo .datablk .use {
+    padding-top: 70px;
+    padding-left: 45px;
+  }
+  .introduction .storeinfo .datablk .use .title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.08em;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  .introduction .storeinfo .datablk .use .pay .list >li {
+    padding-top: 30px;
+  }
+  .introduction .storeinfo .datablk .use .pay .unit .ttl {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.24em;
+    text-align: center;
+    padding-bottom: 12px;
+  }
+  .introduction .storeinfo .datablk .use .pay .row {
+    display: table;
+    width: 100%;
+  }
+  .introduction .storeinfo .datablk .use .pay .row >dt,
+  .introduction .storeinfo .datablk .use .pay .row >dd {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .introduction .storeinfo .datablk .use .pay .row >dd {
+    padding-left: 10px;
+  }
+  .introduction .storeinfo .datablk .use .pay .data {
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.2em;
+  }
+  .introduction .storeinfo .datablk .use .pay .txt {
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.2em;
+    text-align: center;
+  }
+  .introduction .storeinfo .datablk .use .pay .lead {
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0em;
+    padding-top: 10px;
+  }
+  .introduction .storeinfo .case2 .datablk .info .table .row >dt {
+    width: 174px;
+  }
+  .introduction .storeinfo .case2 .datablk .bdrbox .row >dt {
+    width: 310px;
+  }
+  .introduction .storeinfo .case2 .use .pay .unit01 .lead {
+    letter-spacing: 0.02em;
+  }
+  .introduction .storeinfo .case2 .use .pay .unit02 .lead {
+    letter-spacing: 0em;
+  }
+  .introduction .storeinfo .case2 .use .pay .txt span {
+    letter-spacing: 0.04em;
+  }
+  .introduction .storeinfo .case3 .datablk .column >dt {
+    width: 565px;
+  }
+  .introduction .storeinfo .case3 .datablk .info .table .row >dt {
+    width: 140px;
+  }
+  .introduction .storeinfo .case3 .datablk .info .data .indent {
+    letter-spacing: 0em;
+  }
+  .introduction .storeinfo .case3 .datablk .bdrbox {
+    padding-right: 35px;
+  }
+  .introduction .storeinfo .case3 .datablk .use {
+    padding-left: 30px;
+  }
+  .introduction .iro {
+    padding-top: 140px;
+  }
+  .introduction .iro .heading {
+    text-align: center;
+  }
+  .introduction .iro .heading .ttlh3 {
+    font-size: 33px;
+    line-height: 1;
+    letter-spacing: 0.19em;
+    position: relative;
+    z-index: 2;
+  }
+  .introduction .iro .heading .ttlsub {
+    padding-top: 15px;
+  }
+  .introduction .iro .heading .line {
+    position: absolute;
+    z-index: 1;
+    top: 8px;
+  }
+  .introduction .iro .heading .line01 {
+    left: 0;
+  }
+  .introduction .iro .heading .line02 {
+    right: -5px;
+  }
+  .introduction .iro .btm .mv {
+    text-align: center;
+    padding: 95px 0 110px;
+  }
+  .introduction .iro .btm .obj {
+    position: absolute;
+    z-index: 1;
+  }
+  .introduction .iro .btm .obj01 {
+    top: 55px;
+    left: 0;
+    width: 320px;
+  }
+  .introduction .iro .btm .obj02 {
+    top: 305px;
+    left: 0;
+    width: 320px;
+  }
+  .introduction .iro .btm .obj03 {
+    top: 55px;
+    right: -5px;
+    width: 305px;
+  }
+  .introduction .iro .btm .obj04 {
+    top: 305px;
+    right: -5px;
+    width: 305px;
+  }
+  .introduction .iro .btm .unit .desc {
+    font-size: 15px;
+    line-height: 1.73;
+    letter-spacing: 0.2em;
+    padding-top: 15px;
+  }
+  /* search */
+  .search {
+    padding-top: 200px;
+  }
+  .search .bgHead {
+    background: url("/serviceinfo/assets/img/search/index/bg_search_head_pc.png") no-repeat center top;
+    background-size: cover;
+    height: 58px;
+  }
+  .search .bgMian {
+    background: url("/serviceinfo/assets/img/search/index/bg_search_main_pc.png") repeat center top;
+    margin-top: -1px;
+  }
+  .search .bgBottom {
+    background: url("/serviceinfo/assets/img/search/index/bg_search_bottom_pc.png") no-repeat center top;
+    background-size: cover;
+    height: 60px;
+    margin-top: -30px;
+  }
+  .searchArea .acdn .acdnPanel {
+    display: none;
+  }
+  .searchArea {
+    padding: 0 40px;
+  }
+  .searchArea .acdn .acdnBlk {
+    text-align: center;
+    padding: 32px 0;
+  }
+  .searchArea .acdn .acdnBlk .bar {
+    position: relative;
+    display: table;
+    margin: 0 auto;
+    cursor: pointer;
+    padding-top: 8px;
+    padding-right: 92px;
+  }
+  .searchArea .acdn .acdnBlk .bar >dt,
+  .searchArea .acdn .acdnBlk .bar >dd {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .searchArea .acdn .acdnBlk .bar >dt {
+    width: 42px;
+  }
+  .searchArea .acdn .acdnBlk .bar >dd {
+    padding-left: 58px;
+  }
+  .searchArea .acdn .acdnBlk .bar .ico {
+    border-radius: 50%;
+    background: #aea180;
+    width: 42px;
+    height: 42px;
+    position: relative;
+    display: inline-block;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  .searchArea .acdn .acdnBlk .bar .ico span {
+    display: inline-block;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    width: 24px;
+    height: 4px;
+    background: #fff;
+    border-radius: 4px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  .searchArea .acdn .acdnBlk .bar .ico span:nth-of-type(1) {
+    top: 0;
+    bottom: 0;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  .searchArea .acdn .acdnBlk .bar .ico span:nth-of-type(2) {
+    top: 0;
+    bottom: 0;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .searchArea .acdn .acdnBlk .bar.acdnOn .ico span:nth-of-type(1) {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+  .searchArea .acdn .acdnBlk .bar.acdnOn .ico span:nth-of-type(2) {
+    opacity: 0;
+  }
+  .searchArea .acdn .acdnBlk .ttl {
+    color: #aea180;
+    font-size: 33px;
+    line-height: 1;
+    letter-spacing: 0.12em;
+  }
+  .searchArea .acdn .acdnBlk .lead {
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 0.18em;
+    padding-top: 15px;
+  }
+  .searchArea .bginner {
+    border-radius: 20px;
+    background: #fff;
+  }
+  /* result */
+  .result .bg_repeat {
+    background: url("/serviceinfo/assets/img/search/index/bg_leaf.png") repeat-y center top;
+  }
+  .result .resultBtnArea {
+    padding: 80px 0 75px;
+  }
+  .result .resultBtnArea .ttl {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    padding-bottom: 30px;
+  }
+  .result .resultBtnArea .row {
+    display: table;
+    margin: 0 auto;
+    min-width: 400px;
+  }
+  .result .resultBtnArea .row >dt,
+  .result .resultBtnArea .row >dd {
+    display: table-cell;
+    vertical-align: top;
+  }
+  .result .resultBtnArea .row >dt {
+    width: 95px;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    padding-top: 8px;
+    white-space: nowrap;
+  }
+  .result .resultBtnArea .tagList {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: -webkit-flexbox;
+    display: -moz-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 925px;
+  }
+  .result .resultBtnArea .tagList >li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  .result .resultBtnArea .tagList >li.sp {
+    display: none;
+  }
+  .result .resultBtnArea .tagList .tag {
+    cursor: pointer;
+    border-radius: 15px;
+    background: #fff;
+    color: #fff;
+    width: 100%;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    padding: 8px 20px 7px 38px;
+    position: relative;
+  }
+  .result .resultBtnArea .tagList .tag:after,
+  .result .resultBtnArea .tagList .tag:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    margin: auto;
+    vertical-align: middle;
+    width: 1px;
+    height: 15px;
+    border-right: 1px solid #fff;
+  }
+  .result .resultBtnArea .tagList .tag:after {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .result .resultBtnArea .tagList .tag:before {
+    top: 1px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  .result .resultBtnArea .tagList .tag.s1 {
+    background: #e9b003;
+  }
+  .result .resultBtnArea .tagList .tag.s2 {
+    background: #5c8dc0;
+  }
+  .result .resultBtnArea .tagList .tag.s3 {
+    background: #c17ebe;
+  }
+  .result .resultBtnArea .tagList .tag.s4 {
+    background: #e5793a;
+  }
+  .result .resultBtnArea .tagList .tag.s5 {
+    background: #3ebb6d;
+  }
+  .result .resultBtnArea .tagList .tag.s6 {
+    background: #6fbf28;
+  }
+  .result .resultBtnArea .tagList .tag.ac1 {
+    background: #a2977d;
+  }
+  .result .resultBtnArea .rst {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .result .resultBtnArea .rst .btn {
+    display: inline-block;
+    border: 1px solid #000;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    margin: 0 auto;
+    padding: 13px 22px;
+  }
+  .result {
+    padding-bottom: 60px;
+  }
+  .result .LinkBox3col .linkList .btn .desc{
+    height: 90px;
+  }
+  /* anime */
+  .setObj {
+    position: absolute;
+    z-index: 1;
+  }
+  .search .setObj01 {
+    top: -203px;
+    left: 30px;
+  }
+  .search .setObj02 {
+    top: -217px;
+    left: 288px;
+  }
+  .search .setObj03 {
+    top: -232px;
+    right: 200px;
+  }
+  .search .setObj04 {
+    top: -202px;
+    right: -100px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .introduction .summary .title .sns a:hover {
+    opacity: 0.7;
+  }
+  .introduction .storeinfo .datablk .info .table .maplink .btn:hover {
+    opacity: 0.7;
+  }
+  .searchArea .acdn .acdnBlk .bar:hover {
+    opacity: 0.7;
+  }
+  .result .resultBtnArea .tagList .tag:hover {
+    opacity: 0.7;
+  }
+  .result .resultBtnArea .rst .btn:hover {
+    opacity: 0.7;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .introduction .keyvisual .wrap {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .introduction .keyvisual .wrap {
+    width: 1400px;
+  }
+  .introduction .keyvisual .slidArea .sl {
+    width: 1400px;
+  }
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* max-width:768px */
+/* //////////////////////////////////////////////////////////////////////////////// */
+@media screen and (max-width: 768px) {
+  .introduction .keyvisual .slidArea .sl .imgpc {
+    display: none;
+  }
+  .introduction .keyvisual .slidArea .sl .imgsp {
+    display: block;
+  }
+  /* introduction */
+  .introduction .keyvisual .wrap {
+    width: 100%;
+    padding: 0;
+  }
+  .introduction .keyvisual .slidArea .sl img {
+    width: 100%;
+  }
+  .introduction .keyvisual .slidArea .blk {
+    overflow: hidden;
+  }
+  .introduction .keyvisual .slidArea .slider {
+    white-space: nowrap;
+  }
+  .introduction .keyvisual .slidArea .sl {
+    outline: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .introduction .keyvisual .slidArea .slick-dotted.slick-slider {
+    margin-bottom: 0;
+  }
+  .introduction .keyvisual .slidArea .slick-dots {
+    left: 8%;
+    bottom: 0.5rem;
+    width: auto;
+  }
+  .introduction .keyvisual .slidArea .slider .slick-dots li {
+    padding: 0 0.2rem !important;
+  }
+  .introduction .keyvisual .slidArea .slick-dots li button {
+    border: none;
+    background: #fff;
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+  .introduction .keyvisual .slidArea .slick-dots li.slick-active button {
+    background: #54aee6;
+  }
+  .introduction .summary .wrap {
+    width: 100%;
+    padding: 0;
+  }
+  .introduction .summary .title {
+    padding-top: 2.454rem;
+  }
+  .introduction .summary .title .row {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .introduction .summary .title .row >dd {
+   margin: 0 auto;
+   display: inline-block;
+  }
+  .introduction .summary .title .sns{
+    text-align: left;
+    padding-bottom: 1rem;
+  }
+  .introduction .summary .title .sns .snslist{
+    display: table;
+  }
+  .introduction .summary .title .sns .snslist >li{
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 0.5rem;
+  }
+  .introduction .summary .title .sns .snslist >li a {
+    display: block;
+    width: 2rem;
+  }
+  .introduction .summary .title .sns .snslist >li a img{
+    width: 100%;
+  }
+  .introduction .summary .title .ttl {
+    font-size: 1.791rem;
+    line-height: 1.53;
+    letter-spacing: 0.2em;
+  }
+  .introduction .summary .lead {
+    text-align: center;
+    font-size: 0.928rem;
+    line-height: 1.71;
+    letter-spacing: 0.12em;
+    padding-top: 1.492rem;
+  }
+  .introduction .storeinfo {
+    padding-top: 4.974rem;
+    padding-left: 0.497rem;
+    padding-right: 0.497rem;
+  }
+  .introduction .storeinfo .heading {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+  .introduction .storeinfo .heading p {
+    background: #fff;
+    display: inline-block;
+    font-size: 1.625rem;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.15em;
+    padding: 0.995rem;
+  }
+  .introduction .storeinfo .datablk {
+    margin-top: -1.559rem;
+  }
+  .introduction .storeinfo .datablk .border {
+    border: 1px solid #000;
+    border-radius: 0.995rem;
+  }
+  .introduction .storeinfo .datablk .bdrin {
+    padding: 2.819rem 0.995rem 1.326rem 0.995rem;
+  }
+  .introduction .storeinfo .datablk .indentlist .indent {
+    display: table;
+  }
+  .introduction .storeinfo .datablk .indentlist .indent >dt,
+  .introduction .storeinfo .datablk .indentlist .indent >dd {
+    display: table-cell;
+    vertical-align: top;
+  }
+  .introduction .storeinfo .datablk .info .table .ttl {
+    border-bottom: 3px solid #000;
+    font-size: 1.393rem;
+    font-weight: 700;
+    line-height: 1.47;
+    letter-spacing: 0.06em;
+    padding-bottom: 0.497rem;
+  }
+  .introduction .storeinfo .datablk .info .table .ttl h3 {
+    font-weight: 700;
+  }
+  .introduction .storeinfo .datablk .info .table .list {
+    padding-top: 0.166rem;
+  }
+  .introduction .storeinfo .datablk .info .table .list >li {
+    border-top: 1px solid #000;
+    padding: 1.161rem 0 0.995rem 0;
+  }
+  .introduction .storeinfo .datablk .info .table .list >li:first-child {
+    border: none;
+  }
+  .introduction .storeinfo .datablk .info .table .row {
+    display: table;
+    width: 100%;
+  }
+  .introduction .storeinfo .datablk .info .table .row >dt,
+  .introduction .storeinfo .datablk .info .table .row >dd {
+    display: table-cell;
+    vertical-align: top;
+  }
+  .introduction .storeinfo .datablk .info .table .row >dt {
+    width: 5.571rem;
+  }
+  .introduction .storeinfo .datablk .info .table .item {
+    font-size: 0.962rem;
+    font-weight: 700;
+    line-height: 1.47;
+    letter-spacing: 0.08em;
+  }
+  .introduction .storeinfo .datablk .info .table .data {
+    font-size: 0.962rem;
+    line-height: 1.47;
+    letter-spacing: 0.02em;
+  }
+  .introduction .storeinfo .datablk .info .table .data .data_sp {
+    padding-right: 0.663rem;
+  }
+  .introduction .storeinfo .datablk .info .table .maplink {
+    position: relative;
+  }
+  .introduction .storeinfo .datablk .info .table .maplink .btn {
+    display: inline-block;
+    border-radius: 0.663rem;
+    background: #949494;
+    color: #fff;
+    font-size: 0.962rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    padding: 0.202rem 0.862rem 0.272rem;
+  }
+  .introduction .storeinfo .datablk .info .table .mapset {
+    position: relative;
+    padding-bottom: 1.194rem;
+  }
+  .introduction .storeinfo .datablk .info .table .mapset .maplink {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .introduction .storeinfo .datablk .bdrbox .bdr {
+    border: 1px solid #000;
+  }
+  .introduction .storeinfo .datablk .bdrbox .ttl {
+    background: #bcbcbc;
+    color: #fff;
+    font-size: 0.962rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.08em;
+    padding: 0.398rem 0.332rem 0.398rem 0.663rem;
+  }
+  .introduction .storeinfo .datablk .bdrbox .row {
+    display: table;
+    width: 100%;
+  }
+  .introduction .storeinfo .datablk .bdrbox .row >dt,
+  .introduction .storeinfo .datablk .bdrbox .row >dd {
+    display: table-cell;
+    vertical-align: top;
+  }
+  .introduction .storeinfo .datablk .bdrbox .row >dt {
+    width: 7.958rem;
+  }
+  .introduction .storeinfo .datablk .bdrbox .list {
+    padding: 0 0.829rem 0 0.829rem;
+  }
+  .introduction .storeinfo .datablk .bdrbox .list >li {
+    border-top: 1px solid #000;
+    padding: 1.161rem 0 0.995rem 0;
+  }
+  .introduction .storeinfo .datablk .bdrbox .list >li:first-child {
+    border: none;
+  }
+  .introduction .storeinfo .datablk .bdrbox .item {
+    font-size: 0.962rem;
+    font-weight: 700;
+    line-height: 1.47;
+    letter-spacing: 0.08em;
+  }
+  .introduction .storeinfo .datablk .bdrbox .data {
+    font-size: 0.962rem;
+    line-height: 1.47;
+    letter-spacing: 0.02em;
+  }
+  .introduction .storeinfo .datablk .use {
+    padding-top: 1.99rem;
+  }
+  .introduction .storeinfo .datablk .use .title {
+    font-size: 1.127rem;
+    font-weight: 700;
+    line-height: 1.47;
+    letter-spacing: 0.08em;
+    text-align: center;
+    padding-bottom: 0.663rem;
+  }
+  .introduction .storeinfo .datablk .use .pay .list >li {
+    padding-top: 0.995rem;
+  }
+  .introduction .storeinfo .datablk .use .pay .unit .ttl {
+    font-size: 0.962rem;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.24em;
+    text-align: center;
+    padding-bottom: 12px;
+  }
+  .introduction .storeinfo .datablk .use .pay .row {
+    display: table;
+    width: 100%;
+  }
+  .introduction .storeinfo .datablk .use .pay .row >dt,
+  .introduction .storeinfo .datablk .use .pay .row >dd {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .introduction .storeinfo .datablk .use .pay .row >dd {
+    padding-left: 0.663rem;
+  }
+  .introduction .storeinfo .datablk .use .pay .item img {
+    width: 3.979rem;
+  }
+  .introduction .storeinfo .datablk .use .pay .data {
+    font-size: 0.962rem;
+    line-height: 1.55;
+    letter-spacing: 0.1em;
+  }
+  .introduction .storeinfo .datablk .use .pay .img {
+    text-align: center;
+  }
+  .introduction .storeinfo .datablk .use .pay .img01 img {
+    width: 16.448rem;
+  }
+  .introduction .storeinfo .datablk .use .pay .txt {
+    font-size: 0.962rem;
+    line-height: 1.55;
+    letter-spacing: 0.2em;
+    text-align: center;
+  }
+  .introduction .storeinfo .datablk .use .pay .lead {
+    font-size: 0.962rem;
+    line-height: 1.55;
+    letter-spacing: 0.02em;
+    padding-top: 0.663rem;
+  }
+  .introduction .storeinfo .case2 .datablk .bdrbox .row >dt {
+    width: 10rem;
+  }
+  .introduction .storeinfo .case2 .use .pay .txt span {
+    letter-spacing: 0.02em;
+  }
+  .introduction .storeinfo .case3 .datablk .bdrbox .row >dt {
+    width: 6rem;
+  }
+  .introduction .iro {
+    padding-top: 5.306rem;
+  }
+  .introduction .iro .heading {
+    text-align: center;
+  }
+  .introduction .iro .heading .ttlh3 {
+    font-size: 1.559rem;
+    line-height: 1;
+    letter-spacing: 0.19em;
+    position: relative;
+    z-index: 2;
+  }
+  .introduction .iro .heading .ttlsub {
+    padding-top: 0.497rem;
+  }
+  .introduction .iro .heading .line {
+    position: absolute;
+    z-index: 1;
+    top: 0.332rem;
+    width: 5.637rem;
+  }
+  .introduction .iro .heading .line img {
+    width: 100%;
+  }
+  .introduction .iro .heading .line01 {
+    left: 0;
+  }
+  .introduction .iro .heading .line02 {
+    right: 0;
+  }
+  .introduction .iro .btm {
+    padding-bottom: 1.326rem;
+  }
+  .introduction .iro .btm .mv {
+    text-align: center;
+    padding: 1.658rem 0 0.497rem;
+  }
+  .introduction .iro .btm .mv img {
+    width: 16.58rem;
+  }
+  .introduction .iro .btm .unit {
+    padding-top: 1.161rem;
+    padding-left: 0.497rem;
+    padding-right: 0.166rem;
+  }
+  .introduction .iro .btm .unit .ttl img {
+    width: 12.933rem;
+  }
+  .introduction .iro .btm .unit .desc {
+    font-size: 0.962rem;
+    line-height: 1.55;
+    letter-spacing: 0.2em;
+    padding-top: 0.497rem;
+  }
+  /* search */
+  .search {
+    padding-top: 8.29rem;
+  }
+  .search .bgHead {
+    background: url("/serviceinfo/assets/img/search/index/bg_search_head_sp.png") no-repeat center top;
+    background-size: cover;
+    height: 1.525rem;
+  }
+  .search .bgMian {
+    background: url("/serviceinfo/assets/img/search/index/bg_search_main_sp.png") repeat-y center top;
+    background-size: 100% auto;
+    margin-top: -1px;
+  }
+  .search .bgBottom {
+    background: url("/serviceinfo/assets/img/search/index/bg_search_bottom_sp.png") no-repeat center top;
+    background-size: cover;
+    height: 1.724rem;
+    margin-top: -1px;
+  }
+  .searchArea .acdn .acdnPanel {
+    display: none;
+  }
+  .searchArea .acdn .acdnBlk {
+    text-align: center;
+    padding: 1.061rem 0 0.995rem;
+  }
+  .searchArea .acdn .acdnBlk .bar {
+    position: relative;
+    display: table;
+    margin: 0 auto;
+    cursor: pointer;
+    padding-top: 0.332rem;
+  }
+  .searchArea .acdn .acdnBlk .bar >dt,
+  .searchArea .acdn .acdnBlk .bar >dd {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .searchArea .acdn .acdnBlk .bar >dt {
+    width: 1.658rem;
+  }
+  .searchArea .acdn .acdnBlk .bar >dd {
+    padding-left: 1.127rem;
+  }
+  .searchArea .acdn .acdnBlk .bar .ico {
+    border-radius: 50%;
+    background: #aea180;
+    width: 1.658rem;
+    height: 1.658rem;
+    position: relative;
+    display: inline-block;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  .searchArea .acdn .acdnBlk .bar .ico span {
+    display: inline-block;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    width: 0.995rem;
+    height: 0.199rem;
+    background: #fff;
+    border-radius: 4px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  .searchArea .acdn .acdnBlk .bar .ico span:nth-of-type(1) {
+    top: 0;
+    bottom: 0;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  .searchArea .acdn .acdnBlk .bar .ico span:nth-of-type(2) {
+    top: 0;
+    bottom: 0;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .searchArea .acdn .acdnBlk .bar.acdnOn .ico span:nth-of-type(1) {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+  .searchArea .acdn .acdnBlk .bar.acdnOn .ico span:nth-of-type(2) {
+    opacity: 0;
+  }
+  .searchArea .acdn .acdnBlk .ttl {
+    color: #aea180;
+    font-size: 1.724rem;
+    line-height: 1;
+    letter-spacing: 0.12em;
+  }
+  .searchArea .acdn .acdnBlk .lead {
+    font-size: 0.763rem;
+    line-height: 1;
+    letter-spacing: 0.18em;
+    padding-top: 0.663rem;
+  }
+  .searchArea .bginner {
+    border-radius: 20px;
+    background: #fff;
+  }
+  .searchArea .searchBoxFrom {
+    padding: 0 0.995rem 2.487rem 0.995rem;
+  }
+  /* result */
+  .result .bg_repeat {
+    background: url("/serviceinfo/assets/img/search/index/bg_leaf_sp.png") repeat-y center top;
+    background-size: 100% auto;
+  }
+  .result .wrap {
+    padding: 0;
+  }
+  .result .resultBtnArea {
+    padding: 3.648rem 0 2.653rem;
+  }
+  .result .resultBtnArea .ttl {
+    text-align: center;
+    font-size: 1.094rem;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    padding-bottom: 1.658rem;
+  }
+  .result .resultBtnArea .row >dt {
+    display: none;
+  }
+  .result .resultBtnArea .tagList {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: -webkit-flexbox;
+    display: -moz-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0.663rem;
+  }
+  .result .resultBtnArea .tagList >li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 0.332rem 0.663rem 0.332rem;
+  }
+  .result .resultBtnArea .tagList >li.sp {
+    display: block;
+    padding: 0.497rem 0 0 0.663rem;
+  }
+  .result .resultBtnArea .tagList .tl {
+    font-size: 0.962rem;
+    line-height: 1;
+    letter-spacing: 0.2em;
+  }
+  .result .resultBtnArea .tagList .tag {
+    cursor: pointer;
+    border-radius: 0.995rem;
+    background: #fff;
+    color: #fff;
+    width: 100%;
+    font-size: 0.962rem;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    padding: 0.531rem 1.161rem 0.531rem 2.321rem;
+    position: relative;
+  }
+  .result .resultBtnArea .tagList .tag:after,
+  .result .resultBtnArea .tagList .tag:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 1.161rem;
+    margin: auto;
+    vertical-align: middle;
+    width: 1px;
+    height: 0.995rem;
+    border-right: 1px solid #fff;
+  }
+  .result .resultBtnArea .tagList .tag:after {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .result .resultBtnArea .tagList .tag:before {
+    top: 1px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  .result .resultBtnArea .tagList .tag.s1 {
+    background: #e9b003;
+  }
+  .result .resultBtnArea .tagList .tag.s2 {
+    background: #5c8dc0;
+  }
+  .result .resultBtnArea .tagList .tag.s3 {
+    background: #c17ebe;
+  }
+  .result .resultBtnArea .tagList .tag.s4 {
+    background: #e5793a;
+  }
+  .result .resultBtnArea .tagList .tag.s5 {
+    background: #3ebb6d;
+  }
+  .result .resultBtnArea .tagList .tag.s6 {
+    background: #6fbf28;
+  }
+  .result .resultBtnArea .tagList .tag.ac1 {
+    background: #a2977d;
+  }
+  .result .resultBtnArea .rst {
+    text-align: center;
+    padding-top: 1.161rem;
+  }
+  .result .resultBtnArea .rst .btn {
+    display: inline-block;
+    border: 1px solid #000;
+    font-size: 0.962rem;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    margin: 0 auto;
+    padding: 1.061rem 1.393rem;
+  }
+  .result {
+    padding-bottom: 9.948rem;
+  }
+  .result .resizeRatioBox .resizeRatioImg img {
+    max-width: 22.416rem;
+   }
+  .result .LinkBox3col .linkList .btn .desc{
+    height: 6.632rem;
+  }
+  /* anime */
+  .setObj {
+    position: absolute;
+    z-index: 1;
+  }
+  .search .setObj01 {
+    display: none;
+  }
+  .search .setObj02 {
+    top: -7.2rem;
+    left: -0.3rem;
+  }
+  .search .setObj02 .obj {
+    width: 5.5rem;
+  }
+  .search .setObj03 {
+    top: -8.2rem;
+    right: 8.2rem;
+  }
+  .search .setObj03 .obj {
+    width: 2.5rem;
+  }
+  .search .setObj04 {
+    top: -7.9rem;
+    right: -0.3rem;
+  }
+  .search .setObj04 .obj {
+    width: 6.25rem;
+  }
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* print */
+/* //////////////////////////////////////////////////////////////////////////////// */
+@media print {
+  .introduction .keyvisual .slidArea .sl img{
+    width:1024px !important;
+  }
+
+
+  /* introduction */
+  .introduction .keyvisual {
+    text-align: center;
+  }
+  .introduction .keyvisual .slidArea {
+    width: 100%;
+  }
+  .introduction .keyvisual .slidArea .sl {
+    width: 100%;
+  }
+  .introduction .keyvisual .slidArea .sl img {
+    width: 100%;
+  }
+  .introduction .keyvisual .slidArea .blk {
+    overflow: hidden;
+  }
+  .introduction .keyvisual .slidArea .slider {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .introduction .keyvisual .slidArea .sl {
+    outline: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .introduction .keyvisual .slidArea .slick-dotted.slick-slider {
+    margin-bottom: 0;
+  }
+  .introduction .keyvisual .slidArea .slick-dots {
+    left: 22%;
+    bottom: 23px;
+    width: auto;
+  }
+  .introduction .keyvisual .slidArea .slider .slick-dots li {
+    padding: 0 11px !important;
+  }
+  .introduction .keyvisual .slidArea .slick-dots li button {
+    border: none;
+    background: #fff;
+    width: 13px;
+    height: 13px;
+  }
+  .introduction .keyvisual .slidArea .slick-dots li.slick-active button {
+    background: #54aee6;
+  }
+  .introduction .summary .title {
+    text-align: center;
+    padding-top: 82px;
+  }
+  .introduction .summary .title .row {
+    position: relative;
+  }
+  .introduction .summary .title .sns {
+    position: absolute;
+    top: 0;
+    left: 130px;
+    z-index: 1;
+  }
+  .introduction .summary .title .sns a {
+    display: block;
+  }
+  .introduction .summary .title .ttl {
+    font-size: 29px;
+    line-height: 1.62;
+    letter-spacing: 0.19em;
+  }
+  .introduction .summary .lead {
+    text-align: center;
+    font-size: 15px;
+    line-height: 2.13;
+    letter-spacing: 0.2em;
+    padding-top: 40px;
+  }
+  .introduction .storeinfo {
+    padding-top: 100px;
+  }
+  .introduction .storeinfo .heading {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+  .introduction .storeinfo .heading p {
+    background: #fff;
+    display: inline-block;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.15em;
+    padding: 28px;
+  }
+  .introduction .storeinfo .datablk {
+    margin-top: -35px;
+  }
+  .introduction .storeinfo .datablk .border {
+    border: 1px solid #000;
+    border-radius: 25px;
+  }
+  .introduction .storeinfo .datablk .bdrin {
+    padding: 48px 10px 45px 45px;
+  }
+  .introduction .storeinfo .datablk .column {
+    display: table;
+  }
+  .introduction .storeinfo .datablk .column >dt,
+  .introduction .storeinfo .datablk .column >dd {
+    display: table-cell;
+    vertical-align: top;
+    position: relative;
+  }
+  .introduction .storeinfo .datablk .column >dt {
+    width: 550px;
+  }
+  .introduction .storeinfo .datablk .indentlist .indent {
+    display: table;
+  }
+  .introduction .storeinfo .datablk .indentlist .indent >dt,
+  .introduction .storeinfo .datablk .indentlist .indent >dd {
+    display: table-cell;
+    vertical-align: top;
+  }
+  .introduction .storeinfo .datablk .info .table .ttl {
+    border-bottom: 4px solid #000;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 1.47;
+    letter-spacing: 0.06em;
+    padding-bottom: 10px;
+  }
+  .introduction .storeinfo .datablk .info .table .ttl h3 {
+    font-weight: 700;
+  }
+  .introduction .storeinfo .datablk .info .table .list {
+    padding-top: 12px;
+  }
+  .introduction .storeinfo .datablk .info .table .list >li {
+    border-top: 1px solid #000;
+    padding: 12px 0 10px 0;
+  }
+  .introduction .storeinfo .datablk .info .table .list >li:first-child {
+    border: none;
+  }
+  .introduction .storeinfo .datablk .info .table .row {
+    display: table;
+    width: 100%;
+  }
+  .introduction .storeinfo .datablk .info .table .row >dt,
+  .introduction .storeinfo .datablk .info .table .row >dd {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .introduction .storeinfo .datablk .info .table .row >dt {
+    width: 154px;
+  }
+  .introduction .storeinfo .datablk .info .table .item {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.47;
+    letter-spacing: 0.08em;
+  }
+  .introduction .storeinfo .datablk .info .table .data {
+    font-size: 18px;
+    line-height: 1.47;
+    letter-spacing: 0.02em;
+  }
+  .introduction .storeinfo .datablk .info .table .maplink {
+    position: relative;
+    top: -2px;
+    padding-left: 15px;
+  }
+  .introduction .storeinfo .datablk .info .table .maplink .btn {
+    display: inline-block;
+    border-radius: 25px;
+    background: #949494;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    padding: 4px 12px;
+  }
+  .introduction .storeinfo .datablk .info .table .mapset {
+    position: relative;
+  }
+  .introduction .storeinfo .datablk .info .table .mapset .data,
+  .introduction .storeinfo .datablk .info .table .mapset .maplink {
+    display: inline;
+  }
+  .introduction .storeinfo .datablk .bdrbox {
+    padding-top: 15px;
+  }
+  .introduction .storeinfo .datablk .bdrbox .bdr {
+    border: 1px solid #000;
+  }
+  .introduction .storeinfo .datablk .bdrbox .ttl {
+    background: #bcbcbc;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.08em;
+    padding: 9px 10px 9px 20px;
+  }
+  .introduction .storeinfo .datablk .bdrbox .row {
+    display: table;
+    width: 100%;
+  }
+  .introduction .storeinfo .datablk .bdrbox .row >dt,
+  .introduction .storeinfo .datablk .bdrbox .row >dd {
+    display: table-cell;
+    vertical-align: top;
+  }
+  .introduction .storeinfo .datablk .bdrbox .row >dt {
+    width: 172px;
+  }
+  .introduction .storeinfo .datablk .bdrbox .list {
+    padding: 0 25px 0 20px;
+  }
+  .introduction .storeinfo .datablk .bdrbox .list >li {
+    border-top: 1px solid #000;
+    padding: 12px 0 10px 0;
+  }
+  .introduction .storeinfo .datablk .bdrbox .list >li:first-child {
+    border: none;
+  }
+  .introduction .storeinfo .datablk .bdrbox .item {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.47;
+    letter-spacing: 0.08em;
+  }
+  .introduction .storeinfo .datablk .bdrbox .data {
+    font-size: 18px;
+    line-height: 1.47;
+    letter-spacing: 0.02em;
+  }
+  .introduction .storeinfo .datablk .use {
+    padding-top: 70px;
+    padding-left: 45px;
+  }
+  .introduction .storeinfo .datablk .use .title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.08em;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  .introduction .storeinfo .datablk .use .pay .list >li {
+    padding-top: 30px;
+  }
+  .introduction .storeinfo .datablk .use .pay .unit .ttl {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.24em;
+    text-align: center;
+    padding-bottom: 12px;
+  }
+  .introduction .storeinfo .datablk .use .pay .row {
+    display: table;
+    width: 100%;
+  }
+  .introduction .storeinfo .datablk .use .pay .row >dt,
+  .introduction .storeinfo .datablk .use .pay .row >dd {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .introduction .storeinfo .datablk .use .pay .row >dd {
+    padding-left: 10px;
+  }
+  .introduction .storeinfo .datablk .use .pay .data {
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.2em;
+  }
+  .introduction .storeinfo .datablk .use .pay .txt {
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.2em;
+    text-align: center;
+  }
+  .introduction .storeinfo .datablk .use .pay .lead {
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0em;
+    padding-top: 10px;
+  }
+  .introduction .storeinfo .case2 .datablk .info .table .row >dt {
+    width: 174px;
+  }
+  .introduction .storeinfo .case2 .datablk .bdrbox .row >dt {
+    width: 310px;
+  }
+  .introduction .storeinfo .case2 .use .pay .unit01 .lead {
+    letter-spacing: 0.02em;
+  }
+  .introduction .storeinfo .case2 .use .pay .unit02 .lead {
+    letter-spacing: 0em;
+  }
+  .introduction .storeinfo .case2 .use .pay .txt span {
+    letter-spacing: 0.04em;
+  }
+  .introduction .storeinfo .case3 .datablk .column >dt {
+    width: 565px;
+  }
+  .introduction .storeinfo .case3 .datablk .info .table .row >dt {
+    width: 140px;
+  }
+  .introduction .storeinfo .case3 .datablk .info .data .indent {
+    letter-spacing: 0em;
+  }
+  .introduction .storeinfo .case3 .datablk .bdrbox {
+    padding-right: 35px;
+  }
+  .introduction .storeinfo .case3 .datablk .use {
+    padding-left: 30px;
+  }
+  .introduction .iro {
+    padding-top: 140px;
+  }
+  .introduction .iro .heading {
+    text-align: center;
+  }
+  .introduction .iro .heading .ttlh3 {
+    font-size: 33px;
+    line-height: 1;
+    letter-spacing: 0.19em;
+    position: relative;
+    z-index: 2;
+  }
+  .introduction .iro .heading .ttlsub {
+    padding-top: 15px;
+  }
+  .introduction .iro .heading .line {
+    position: absolute;
+    z-index: 1;
+    top: 8px;
+  }
+  .introduction .iro .heading .line01 {
+    left: 0;
+  }
+  .introduction .iro .heading .line02 {
+    right: -5px;
+  }
+  .introduction .iro .btm .mv {
+    text-align: center;
+    padding: 95px 0 110px;
+  }
+  .introduction .iro .btm .obj {
+    position: absolute;
+    z-index: 1;
+  }
+  .introduction .iro .btm .obj01 {
+    top: 55px;
+    left: 0;
+    width: 320px;
+  }
+  .introduction .iro .btm .obj02 {
+    top: 305px;
+    left: 0;
+    width: 320px;
+  }
+  .introduction .iro .btm .obj03 {
+    top: 55px;
+    right: -5px;
+    width: 305px;
+  }
+  .introduction .iro .btm .obj04 {
+    top: 305px;
+    right: -5px;
+    width: 305px;
+  }
+  .introduction .iro .btm .unit .desc {
+    font-size: 15px;
+    line-height: 1.73;
+    letter-spacing: 0.2em;
+    padding-top: 15px;
+  }
+  /* search */
+  .search {
+    padding-top: 200px;
+  }
+  .search .bgHead {
+    background: url("/serviceinfo/assets/img/search/index/bg_search_head_pc.png") no-repeat center top;
+    background-size: cover;
+    height: 58px;
+  }
+  .search .bgMian {
+    background: url("/serviceinfo/assets/img/search/index/bg_search_main_pc.png") repeat center top;
+    margin-top: -1px;
+  }
+  .search .bgBottom {
+    background: url("/serviceinfo/assets/img/search/index/bg_search_bottom_pc.png") no-repeat center top;
+    background-size: cover;
+    height: 60px;
+    margin-top: -30px;
+  }
+  .searchArea .acdn .acdnPanel {
+    display: none;
+  }
+  .searchArea {
+    padding: 0 40px;
+  }
+  .searchArea .acdn .acdnBlk {
+    text-align: center;
+    padding: 32px 0;
+  }
+  .searchArea .acdn .acdnBlk .bar {
+    position: relative;
+    display: table;
+    margin: 0 auto;
+    cursor: pointer;
+    padding-top: 8px;
+    padding-right: 92px;
+  }
+  .searchArea .acdn .acdnBlk .bar >dt,
+  .searchArea .acdn .acdnBlk .bar >dd {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .searchArea .acdn .acdnBlk .bar >dt {
+    width: 42px;
+  }
+  .searchArea .acdn .acdnBlk .bar >dd {
+    padding-left: 58px;
+  }
+  .searchArea .acdn .acdnBlk .bar .ico {
+    border-radius: 50%;
+    background: #aea180;
+    width: 42px;
+    height: 42px;
+    position: relative;
+    display: inline-block;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  .searchArea .acdn .acdnBlk .bar .ico span {
+    display: inline-block;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    width: 24px;
+    height: 4px;
+    background: #fff;
+    border-radius: 4px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  .searchArea .acdn .acdnBlk .bar .ico span:nth-of-type(1) {
+    top: 0;
+    bottom: 0;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  .searchArea .acdn .acdnBlk .bar .ico span:nth-of-type(2) {
+    top: 0;
+    bottom: 0;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .searchArea .acdn .acdnBlk .bar.acdnOn .ico span:nth-of-type(1) {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+  .searchArea .acdn .acdnBlk .bar.acdnOn .ico span:nth-of-type(2) {
+    opacity: 0;
+  }
+  .searchArea .acdn .acdnBlk .ttl {
+    color: #aea180;
+    font-size: 33px;
+    line-height: 1;
+    letter-spacing: 0.12em;
+  }
+  .searchArea .acdn .acdnBlk .lead {
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 0.18em;
+    padding-top: 15px;
+  }
+  .searchArea .bginner {
+    border-radius: 20px;
+    background: #fff;
+  }
+  /* result */
+  .result .bg_repeat {
+    background: url("/serviceinfo/assets/img/search/index/bg_leaf.png") repeat-y center top;
+  }
+  .result .resultBtnArea {
+    padding: 80px 0 75px;
+  }
+  .result .resultBtnArea .ttl {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    padding-bottom: 30px;
+  }
+  .result .resultBtnArea .row {
+    display: table;
+    margin: 0 auto;
+    min-width: 400px;
+  }
+  .result .resultBtnArea .row >dt,
+  .result .resultBtnArea .row >dd {
+    display: table-cell;
+    vertical-align: top;
+  }
+  .result .resultBtnArea .row >dt {
+    width: 95px;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    padding-top: 8px;
+    white-space: nowrap;
+  }
+  .result .resultBtnArea .tagList {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: -webkit-flexbox;
+    display: -moz-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 925px;
+  }
+  .result .resultBtnArea .tagList >li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  .result .resultBtnArea .tagList >li.sp {
+    display: none;
+  }
+  .result .resultBtnArea .tagList .tag {
+    cursor: pointer;
+    border-radius: 15px;
+    background: #fff;
+    color: #fff;
+    width: 100%;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    padding: 8px 20px 7px 38px;
+    position: relative;
+  }
+  .result .resultBtnArea .tagList .tag:after,
+  .result .resultBtnArea .tagList .tag:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    margin: auto;
+    vertical-align: middle;
+    width: 1px;
+    height: 15px;
+    border-right: 1px solid #fff;
+  }
+  .result .resultBtnArea .tagList .tag:after {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .result .resultBtnArea .tagList .tag:before {
+    top: 1px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  .result .resultBtnArea .tagList .tag.s1 {
+    background: #e9b003;
+  }
+  .result .resultBtnArea .tagList .tag.s2 {
+    background: #5c8dc0;
+  }
+  .result .resultBtnArea .tagList .tag.s3 {
+    background: #c17ebe;
+  }
+  .result .resultBtnArea .tagList .tag.s4 {
+    background: #e5793a;
+  }
+  .result .resultBtnArea .tagList .tag.s5 {
+    background: #3ebb6d;
+  }
+  .result .resultBtnArea .tagList .tag.s6 {
+    background: #6fbf28;
+  }
+  .result .resultBtnArea .tagList .tag.ac1 {
+    background: #a2977d;
+  }
+  .result .resultBtnArea .rst {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .result .resultBtnArea .rst .btn {
+    display: inline-block;
+    border: 1px solid #000;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    margin: 0 auto;
+    padding: 13px 22px;
+  }
+  .result {
+    padding-bottom: 60px;
+  }
+  .result .LinkBox3col .linkList .btn .desc{
+    height: 90px;
+  }
+  /* anime */
+  .setObj {
+    position: absolute;
+    z-index: 1;
+  }
+  .search .setObj01 {
+    top: -203px;
+    left: 30px;
+  }
+  .search .setObj02 {
+    top: -217px;
+    left: 288px;
+  }
+  .search .setObj03 {
+    top: -232px;
+    right: 200px;
+  }
+  .search .setObj04 {
+    top: -202px;
+    right: -100px;
+  }
+}

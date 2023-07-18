@@ -1,0 +1,19 @@
+<aside class="tpl_btmBnr" role="complementary">
+	<div class="tpl_wrap">
+		<div class="tpl_btmRelated">
+			<div class="tpl_linkBox">
+				<ul class="tpl_linkList">
+					<li><a href="https://www.jrepoint.jp/" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/bnr_foot_related_01.jpg" alt="JRE POINT" height="81" width="321"></a></li>
+					<li><a href="https://www.jreastmall.com/shop/c/c13/" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/bnr_foot_related_02.jpg" alt="トライ・ワン" height="81" width="321"></a></li>
+					<li><a href="https://tokubai.co.jp/offices/1250/redirect?for=office_shops_link" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/bnr_foot_related_03.jpg" alt="トクバイ" height="81" width="321"></a></li>
+					<li><a href="https://yorimichi-sendai.jp/" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/bnr_foot_related_05.jpg" alt="ヨリ未知 SENDAI" height="81" width="321"></a></li>
+					<li><a href="http://www.jreast.co.jp/suicamoney/index.html/" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/bnr_foot_related_06.png" alt="Suica" height="81" width="321"></a></li>
+					<li><a href="https://www.jreast.co.jp/card/" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/bnr_foot_related_07.jpg" alt="VIEW CARD" height="81" width="321"></a></li>
+					<li><a href="https://familio-folkloro.com/takahata/" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/bnr_foot_related_08.jpg" alt="フォルクローロ" height="81" width="321"></a></li>
+					<li><a href="https://btimes.jp/?utm_source=livit&utm_medium=referral" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/bnr_foot_related_09.jpg" alt="B-Times" height="81" width="321"></a></li>
+					<li><a href="https://www.jreast.co.jp/card/campaign/adm/jrecard.html" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/bnr_foot_related_10.png" alt="JRE CARD" height="81" width="321"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</aside>

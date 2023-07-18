@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* =========================================================
+	Social-Policy / Index
+========================================================= */
+#conts p {
+	line-height: 1.9;
+}
+
+#conts p a,
+#conts .policySec ul li a {
+	color: #4CAC3B;
+	text-decoration: none;
+}
+
+#conts p a:hover,
+#conts .policySec ul li a:hover {
+	text-decoration: underline;
+}
+
+#conts .btnList01 {
+	margin-bottom: 45px;
+}
+
+#conts .policySec {
+	margin-top: 20px;
+	padding-top: 20px;
+	border-top: 1px solid #CCC;
+}
+
+#conts .standard-box > .policySec:last-child {
+	margin-top: 50px;
+	padding-top: 25px;
+}
+
+#conts .standard-box > .policySec:last-child .headline03 {
+	margin-bottom: 0;
+	padding-left: 18px;
+}
+
+#conts .policyList {
+	line-height: 2.0;
+}
+
+#conts .policyList > li {
+	margin-top: 28px;
+}
+
+#conts .termSec .policyList > li {
+	margin-left: 1.0em;
+	text-indent: -1.0em;
+}
+
+#conts .policyList > li:first-child {
+	margin-top: 0;
+}
+
+#conts .policyList > li ol {
+	padding-left: 18px;
+}
+#conts .policyList > li ol li {
+	margin-left: 2.6em;
+	text-indent: -2.6em;
+}
+
+#conts .announceList {
+	line-height: 2.0;
+}
+
+#conts .termSec .announceList {
+	margin-top: 30px;
+}
+
+#conts .announceList li {
+	margin-left: 1.0em;
+	text-indent: -1.0em;
+}
+
+#conts .contactBox {
+	margin-top: 40px;
+}
+
+#conts .linkList {
+	padding-left: 20px;
+	line-height: 2.0;
+}
+
+#conts .att {
+	margin: 15px 0 -5px;
+}
+
+@media screen and (max-width: 767px) {
+	#conts .mediaSec {
+		padding-bottom: 25px;
+	}
+
+	#conts .policySec {
+		margin-top: 15px;
+		padding-top: 15px;
+	}
+
+	#conts .standard-box > .policySec:last-child {
+		margin-top: 15px;
+		padding-top: 15px;
+	}
+
+	#conts .standard-box > .policySec:last-child .headline03 {
+		margin-bottom: 15px;
+		padding-left: 0;
+	}
+
+	#conts .policyList > li {
+		margin-top: 15px;
+	}
+
+	#conts .mediaSec .policyList > li {
+		margin-top: 25px;
+	}
+
+	#conts .mediaSec .policyList > li:first-child {
+		margin-top: 0;
+	}
+
+	#conts .policyList > li > p {
+		margin-bottom: 10px;
+	}
+
+	#conts .policyList > li ol {
+		padding-left: 0;
+	}
+
+	#conts .termSec .announceList {
+		margin-top: 15px;
+	}
+
+	#conts .contactBox {
+		margin-top: 20px;
+	}
+
+	#conts .linkList {
+		padding-left: 0;
+	}
+
+	#conts .att {
+		margin-bottom: 0;
+	}
+}

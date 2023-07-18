@@ -1,0 +1,217 @@
+@charset "UTF-8";
+/* =========================================================
+	Company / Recruit / Works / Lower
+========================================================= */
+.page_title {
+	margin-top: 35px !important;
+}
+.page_title + .staff {
+	margin-top: 0 !important;
+}
+.staff + .staff {
+	margin-top: 35px !important;
+}
+.staff.bg-pettern03 {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.staff .outline .img {
+	-webkit-flex-shrink: 0;
+			flex-shrink: 0;
+	width: 575px;
+}
+.staff .outline .career {
+	margin-top: 21px;
+	margin-left: 10px;
+}
+.staff .outline .career .division {
+	font-size: 2.6rem;
+	font-weight: normal;
+	line-height: 1.4;
+}
+.staff .outline .career .post {
+	margin-top: 5px;
+	font-size: 1.8rem;
+}
+.staff .outline .career .history {
+	margin-top: 21px;
+}
+.staff .outline .career .history dl {
+	-webkit-align-items: flex-start;
+			align-items: flex-start;
+	margin-top: 8px;
+}
+.staff .outline .career .history dl:first-child {
+	margin-top: 0;
+}
+.staff .outline .career .history dl dt {
+	-webkit-flex-shrink: 0;
+			flex-shrink: 0;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	width: 67px;
+	background-color: #87CB3D;
+	color: #FFF;
+	text-align: center;
+}
+.staff .outline .career .history dl dd {
+	padding-top: 4px;
+	margin-left: 10px;
+	line-height: 1.4;
+}
+.staff .detail {
+	-webkit-align-items: flex-start;
+			align-items: flex-start;
+	margin-top: 6px;
+}
+.staff .detail .comment {
+	-webkit-flex-shrink: 0;
+			flex-shrink: 0;
+	margin-top: 15px;
+	/* width: 575px; */
+}
+.staff .detail .comment .qanda dt{
+	color: #EB5C01;
+}
+.staff .detail .comment .qanda dd {
+	border-bottom: 2px solid #fbcb1f;
+}
+
+.staff .detail .comment .qanda dt{
+	font-size: 16px;
+	font-weight: bold;
+}
+.staff .detail .comment .qanda dd {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+.staff .detail .comment p {
+	line-height: 1.8;
+}
+.staff .detail .comment p + p {
+	margin-top: 1.8em !important;
+}
+.staff .detail .schedule {
+	-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+	margin-left: 10px;
+	padding: 20px 25px;
+	width: 100%;
+	background-color: #F8E18A;
+}
+.staff .detail .schedule .title {
+	-webkit-align-items: center;
+			align-items: center;
+}
+.staff .detail .schedule .title .txt {
+	margin-left: 11px;
+	font-size: 1.8rem;
+}
+.staff .detail .schedule .timeline {
+	margin-top: 12px;
+}
+.staff .detail .schedule .timeline dl:not(:first-child) {
+	margin-top: 3px;
+}
+.staff .detail .schedule .timeline dl dt {
+	-webkit-flex-shrink: 0;
+			flex-shrink: 0;
+	width: 4em;
+}
+.back_list {
+	text-align: center;
+}
+.back_list a {
+	text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+	#conts {
+		margin-top: 0;
+	}
+	.staff .detail .comment  {
+	}
+	.staff .detail .comment .qanda{
+		width: 575px;
+		float: left;
+	}
+	.staff .detail .comment .schedule {
+		width: 347px;
+		float: right;
+	}
+}
+@media screen and (max-width: 767px) {
+	.page_title {
+		margin-top: 17.5px !important;
+	}
+	.staff + .staff {
+		margin-top: 30px !important;
+	}
+	.staff.bg-pettern03 {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.staff .outline .img {
+		width: auto;
+		margin-right: 29px;
+		margin-left: 29px;
+		text-align: center;
+	}
+	.staff .outline .career {
+		margin-top: 12px;
+		margin-left: 0;
+	}
+	.staff .outline .career .division {
+		font-size: 1.7rem;
+		text-align: center;
+	}
+	.staff .outline .career .post {
+		display: none;
+	}
+	.staff .outline .career .history {
+		display: none;
+	}
+	.staff .detail {
+		margin-top: 11px;
+	}
+	.staff .detail .comment {
+		margin-top: 0;
+		width: auto;
+	}
+	.staff .detail .schedule {
+		margin-top: 20px;
+		margin-right: 29px;
+		margin-left: 29px;
+		padding: 15px 20px;
+		width: auto;
+	}
+	.staff .detail .schedule .title {
+		-webkit-justify-content: center;
+				justify-content: center;
+	}
+	.staff .detail .schedule .title .icon {
+		width: 14px;
+		line-height: 0;
+	}
+	.staff .detail .schedule .title .txt {
+		margin-left: 5px;
+		font-size: 1.3rem;
+	}
+	.staff .detail .schedule .timeline {
+		-webkit-justify-content: center;
+				justify-content: center;
+		margin-top: 10px;
+	}
+	.staff .detail .schedule .timeline dl {
+		line-height: 1.8;
+	}
+	.staff .detail .schedule .timeline dl:not(:first-child) {
+		margin-top: 0;
+	}
+}
+
+@media print {
+	#conts {
+		margin-top: 0;
+	}
+}

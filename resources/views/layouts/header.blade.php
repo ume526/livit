@@ -1,0 +1,210 @@
+<!-- [s]header -->
+<header id="tpl_header" class="tpl_header" role="banner">
+	<div class="tpl_head">
+		<div class="tpl_wrap">
+
+			<dl class="tpl_row tpl_clr">
+				<dt>
+					<div class="tpl_logo"><a href="/" class="tpl_btn"><img src="/serviceinfo/assets/img/common/logo.png" alt="Livit JR東日本総合サービス株式会社" height="52" width="139"></a></div>
+				</dt>
+				<dd>
+					<div id="tpl_gNav_sp" class="tpl_gNav_sp">
+						<nav class="tpl_gNav" role="navigation">
+							<div class="tpl_gMenu_sp">
+
+								<div class="tpl_gMenu_head_sp">
+									<div class="tpl_gMenu_logo"><a href="/" class="tpl_btn"><img src="/serviceinfo/assets/img/common/logo.png" alt="Livit JR東日本総合サービス株式会社"></a></div>
+								</div>
+
+								<ul class="tpl_gMenuList_sp">
+									<li>
+										<div class="tpl_unit tpl_unit01">
+											<a class="tpl_btn tpl_navBtn" href="/#giftgourmet"><dl><dt><img src="/serviceinfo/assets/img/common/ico_gnav_01_sp.png" alt="お店"></dt><dd>駅からお店を探す</dd></dl></a>
+										</div>
+									</li>
+									<li>
+										<div class="tpl_unit tpl_unit02">
+											<div class="tpl_acdn">
+												<div class="tpl_acdnBlk">
+													<div class="tpl_bar js_tpl_trigger">
+														<div class="tpl_navBtn"><dl><dt><img src="/serviceinfo/assets/img/common/ico_gnav_02_sp.png" alt="お買いもの"></dt><dd>日常のお買いもの</dd></dl></div>
+														<div class="tpl_ico"><p><span></span><span></span></p></div>
+													</div>
+												</div>
+												<div class="tpl_acdnPanel">
+													<div class="tpl_panelInner">
+														<ul class="tpl_subList_sp">
+															<li><a href="{{ route('tekute-top') }}" class="tpl_btn">tekute</a></li>
+															<li class="tpl_subLink"><a href="{{ route('tekute-sendai') }}" class="tpl_btn"><span>tekuteせんだい</span></a></li>
+															<li class="tpl_subLink"><a href="{{ route('tekute-nagamachi') }}" class="tpl_btn"><span>tekuteながまち</span></a></li>
+															<li class="tpl_subLink"><a href="{{ route('sub-search', config('livit.static_tag_names.tekute_tagajo')) }}" class="tpl_btn"><span>tekuteたがじょう</span></a></li>
+															<li class="tpl_subLink"><a href="{{ route('sub-search', config('livit.static_tag_names.tekute_honshiogama')) }}" class="tpl_btn"><span>tekuteほんしおがま</span></a></li>
+															<li><a href="{{ route('pivot-top') }}" class="tpl_btn">Pivot</a></li>
+															<li class="tpl_subLink"><a href="{{ route('pivot-haranomachi') }}" class="tpl_btn"><span>クオリティフードストア <br>仙台原ノ町ピボット</span></a></li>
+															<li class="tpl_subLink"><a href="{{ route('pivot-koriyama') }}" class="tpl_btn"><span>郡山駅食品館ピボット</span></a></li>
+															<li class="tpl_subLink"><a href="{{ route('pivot-aizuwakamatsu') }}" class="tpl_btn"><span>会津若松駅食品館ピボット</span></a></li>
+															<li class="tpl_subLink"><a href="{{ route('pivot-fukushima') }}" class="tpl_btn"><span>福島駅西口パワーシティピボット</span></a></li>
+															<li><a href="{{ route('sub-search', config('livit.static_tag_names.seagull')) }}" class="tpl_btn">シーガルタウン本八戸</a></li>
+															<li><a href="{{ route('sub-search', config('livit.static_tag_names.market')) }}" class="tpl_btn">秋田生鮮市場保戸野店</a></li>
+															<li><a href="//www.jreastmall.com/shop/c/c13/" target="_blank" class="tpl_btn">東北MONO WEB SHOP</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="tpl_unit tpl_unit03">
+											<div class="tpl_acdn">
+												<div class="tpl_acdnBlk">
+													<div class="tpl_bar js_tpl_trigger">
+														<div class="tpl_navBtn"><dl><dt><img src="/serviceinfo/assets/img/common/ico_gnav_03_sp.png" alt="駐車場"></dt><dd>月極駐車場を探す</dd></dl></div>
+														<div class="tpl_ico"><p><span></span><span></span></p></div>
+													</div>
+												</div>
+												<div class="tpl_acdnPanel">
+													<div class="tpl_panelInner">
+														<ul class="tpl_subList_sp">
+															<li><a href="{{ route('parking') }}?aomori" class="tpl_btn">青森県</a></li>
+															<li><a href="{{ route('parking') }}?iwate" class="tpl_btn">岩手県</a></li>
+															<li><a href="{{ route('parking') }}?akita" class="tpl_btn">秋田県</a></li>
+															<li><a href="{{ route('parking') }}?miyagi" class="tpl_btn">宮城県</a></li>
+															<li><a href="{{ route('parking') }}?yamagata" class="tpl_btn">山形県</a></li>
+															<li><a href="{{ route('parking') }}?fukushima" class="tpl_btn">福島県</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="tpl_unit tpl_unit04">
+											<a class="tpl_btn tpl_navBtn" href="{{ route('search') }}?tag_names={{ urlencode('ニュース・イベント') }}"><dl><dt><img src="/serviceinfo/assets/img/common/ico_gnav_04_sp.png" alt="ニュース"></dt><dd>ニュース&イベント</dd></dl></a>
+										</div>
+									</li>
+									<li>
+										<div class="tpl_unit tpl_unit05">
+											<div class="tpl_acdn">
+												<div class="tpl_acdnBlk">
+													<div class="tpl_bar js_tpl_trigger">
+														<div class="tpl_navBtn"><dl><dt><img src="/serviceinfo/assets/img/common/ico_gnav_05_sp.png" alt="広告"></dt><dd>広告・出店・商品募集</dd></dl></div>
+														<div class="tpl_ico"><p><span></span><span></span></p></div>
+													</div>
+												</div>
+												<div class="tpl_acdnPanel">
+													<div class="tpl_panelInner">
+														<ul class="tpl_subList_sp">
+															<li><a href="{{ route('transit-advertising') }}" class="tpl_btn">JR東日本交通広告</a></li>
+															<li><a href="{{ route('tenant') }}" class="tpl_btn">出店・商品の募集</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+
+								<ul class="tpl_gMenuSubList_sp">
+									<li><a class="tpl_btn" href="/company/contact/">お問合せ</a></li>
+									<li><a class="tpl_btn" href="/company/">企業情報</a></li>
+									<li><a class="tpl_btn" href="/company/recruit/">採用情報</a></li>
+								</ul>
+							</div>
+
+
+							<div class="tpl_gMenu_pc">
+								<dl class="tpl_nav_row tpl_clr">
+									<dt>
+										<ul class="tpl_gNavList tpl_clr">
+											<li>
+												<div class="tpl_dropdown gn1">
+													<a class="tpl_btn tpl_navBtn" href="/#giftgourmet"><dl><dt><p></p></dt><dd>駅からお店を探す</dd></dl></a>
+												</div>
+											</li>
+											<li>
+												<div class="tpl_dropdown gn2">
+													<div class="tpl_btn tpl_navBtn tpl_nolink"><dl><dt><p></p></dt><dd>日常のお買いもの</dd></dl></div>
+													<div class="tpl_down">
+														<div class="tpl_downBox">
+															<ul class="tpl_downList">
+																<li><a href="{{ route('tekute-top') }}" class="tpl_btn">tekute</a></li>
+																<li class="tpl_subLink"><a href="{{ route('tekute-sendai') }}" class="tpl_btn"><span>tekuteせんだい</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('tekute-nagamachi') }}" class="tpl_btn"><span>tekuteながまち</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('sub-search', config('livit.static_tag_names.tekute_tagajo')) }}" class="tpl_btn"><span>tekuteたがじょう</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('sub-search', config('livit.static_tag_names.tekute_honshiogama')) }}" class="tpl_btn"><span>tekuteほんしおがま</span></a></li>
+																<li><a href="{{ route('pivot-top') }}" class="tpl_btn">Pivot</a></li>
+																<li class="tpl_subLink"><a href="{{ route('pivot-haranomachi') }}" class="tpl_btn"><span>クオリティフードストア <br>仙台原ノ町ピボット</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('pivot-koriyama') }}" class="tpl_btn"><span>郡山駅食品館ピボット</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('pivot-aizuwakamatsu') }}" class="tpl_btn"><span>会津若松駅食品館ピボット</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('pivot-fukushima') }}" class="tpl_btn"><span>福島駅西口パワーシティピボット</span></a></li>
+																<li><a href="{{ route('sub-search', config('livit.static_tag_names.seagull')) }}" class="tpl_btn">シーガルタウン本八戸</a></li>
+																<li><a href="{{ route('sub-search', config('livit.static_tag_names.market')) }}" class="tpl_btn">秋田生鮮市場保戸野店</a></li>
+																<li><a href="//www.jreastmall.com/shop/c/c13/" target="_blank" class="tpl_btn">東北MONO WEB SHOP</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="tpl_dropdown gn3">
+													<a class="tpl_btn tpl_navBtn" href="{{ route('parking') }}"><dl><dt><p></p></dt><dd>月極駐車場を探す</dd></dl></a>
+													<div class="tpl_down">
+														<div class="tpl_downBox">
+															<ul class="tpl_downList">
+																<li><a href="{{ route('parking') }}?aomori" class="tpl_btn">青森県</a></li>
+																<li><a href="{{ route('parking') }}?iwate" class="tpl_btn">岩手県</a></li>
+																<li><a href="{{ route('parking') }}?akita" class="tpl_btn">秋田県</a></li>
+																<li><a href="{{ route('parking') }}?miyagi" class="tpl_btn">宮城県</a></li>
+																<li><a href="{{ route('parking') }}?yamagata" class="tpl_btn">山形県</a></li>
+																<li><a href="{{ route('parking') }}?fukushima" class="tpl_btn">福島県</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="tpl_dropdown gn4">
+													<a class="tpl_btn tpl_navBtn" href="{{ route('search') }}?tag_names={{ urlencode('ニュース・イベント') }}"><dl><dt><p></p></dt><dd>ニュース&イベント</dd></dl></a>
+												</div>
+											</li>
+											<li>
+												<div class="tpl_dropdown gn5">
+													<div class="tpl_btn tpl_navBtn tpl_nolink"><dl><dt><p></p></dt><dd>広告・出店・商品募集</dd></dl></div>
+													<div class="tpl_down">
+														<div class="tpl_downBox">
+															<ul class="tpl_downList">
+																<li><a href="{{ route('transit-advertising') }}" class="tpl_btn">JR東日本交通広告</a></li>
+																<li><a href="{{ route('tenant') }}" class="tpl_btn">出店・商品の募集</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</dt>
+									<dd>
+										<div class="tpl_translation">
+<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit(){
+new google.translate.TranslateElement({pageLanguage: 'ja', includedLanguages:"ja,en,zh-CN,zh-TW,ko", layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false, gaTrack: true, gaId: 'UA-18299667-1'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+										</div>
+										<ul class="tpl_gNavSubList">
+											<li><a class="tpl_btn" href="/company/contact/">お問合せ</a></li>
+											<li><a class="tpl_btn" href="/company/recruit/">採用情報</a></li>
+											<li><a class="tpl_btn" href="/company/">企業情報</a></li>
+										</ul>
+									</dd>
+								</dl>
+							</div>
+						</nav>
+					</div>
+				</dd>
+			</dl>
+
+		</div>
+	</div>
+</header>
+<div id="tpl_gBtn_sp" class="tpl_gBtn_sp"><p class="tpl_btn"></p></div>
+<!-- [e]header -->

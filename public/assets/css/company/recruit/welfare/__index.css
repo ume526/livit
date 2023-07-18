@@ -1,0 +1,318 @@
+@charset "UTF-8";
+/* =========================================================
+	Company / Recruit / Welfare / Index
+========================================================= */
+#conts p {
+	line-height: 1.9;
+}
+
+#conts .welfareWrap {
+	width: 932px;
+	padding: 30px 0 17px;
+	overflow: hidden;
+}
+
+#conts .welfareList {
+	width: 948px;
+}
+
+#conts .welfareList li {
+	width: 300px;
+	margin-bottom: 15px;
+	background: #FCF2B6;
+	-webkit-border-radius: 50px;
+	        border-radius: 50px;
+	text-align: center;
+}
+
+#conts .welfareList li.item01 {
+	padding: 47px 0 48px;
+	background: #B494C7;
+}
+
+#conts .welfareList li.item02 {
+	padding: 61px 0 56px;
+}
+#conts .welfareList li.item02 img {
+	width: 230px;
+}
+#conts .welfareList li.item03 {
+	padding: 37px 0;
+}
+#conts .welfareList li.item03 img {
+	width: 200px;
+}
+#conts .welfareList li.item04 {
+	padding: 42px 0 40px;
+}
+
+#conts .welfareList li.item05 {
+	padding: 30px 0;
+}
+
+#conts .welfareList li.item06 {
+	padding: 40px 0 41px;
+}
+
+#conts .welfareList li.item07 {
+	padding: 14px 0;
+}
+
+#conts .welfareList li.item08 {
+	padding: 15px 0;
+}
+
+#conts .welfareList li.item09 {
+	padding: 21px 0 22px;
+}
+
+#conts .legalSec {
+	margin-bottom: 50px;
+}
+
+#conts .outLegalSec {
+	margin-bottom: 60px;
+}
+
+#conts .tblTitle {
+	text-align: left;
+}
+
+#conts .cmnTable01 > dl > dt {
+	width: 201px;
+}
+
+#conts .welfareSec {
+	padding: 30px 220px 40px;
+	background: #FCF2B6;
+	-webkit-border-radius: 50px;
+	        border-radius: 50px;
+	overflow: hidden;
+}
+
+#conts .welfareSec h2 {
+	margin-bottom: 25px;
+	font-size: 2.2rem;
+	font-weight: normal;
+	text-align: center;
+}
+
+#conts .welfareSec .imgBox {
+	float: right;
+}
+
+#conts .welfareSec > p,
+#conts .welfareSec > section {
+	float: left;
+	width: 320px;
+}
+
+#conts .welfareSec h3 {
+	margin: 10px 0 8px;
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+#conts .banners01 ul {
+	-webkit-justify-content: center;
+			justify-content: center;
+	margin-left: -30px;/*-44*/
+}
+
+#conts .banners01 ul li {
+	margin-left: 30px;/*44*/
+}
+/******  2020年4月現在入力　******/
+#conts .standard-box .welfareWrap p.txtright {
+	text-align: right;
+}
+#conts .txtright {
+	text-align: right;
+}
+
+@media screen and (min-width: 768px) {
+	#conts {
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#conts .welfareWrap {
+		width: 100%;
+		padding: 15px 0;
+	}
+
+	#conts .welfareList {
+		width: 100%;
+	}
+
+	#conts .welfareList li {
+		width: 46%;
+		margin: 0 2% 15px;
+		-webkit-border-radius: 30px;
+		        border-radius: 30px;
+	}
+
+	#conts .welfareList li.item01 {
+		padding: 26px 0;
+	}
+
+	#conts .welfareList li.item01 img {
+		width: 108px;
+	}
+
+	#conts .welfareList li.item02 {
+		padding: 27px 0 25px;
+	}
+
+	#conts .welfareList li.item02 img {
+		width: 106px;
+	}
+
+	#conts .welfareList li.item03 {
+		padding: 10px 0;
+	}
+
+	#conts .welfareList li.item03 img {
+		width: 90px;
+	}
+
+	#conts .welfareList li.item04 {
+		padding: 16px 0;
+	}
+
+	#conts .welfareList li.item04 img {
+		width: 105px;
+	}
+
+	#conts .welfareList li.item05 {
+		padding: 20px 0;
+	}
+
+	#conts .welfareList li.item05 img {
+		width: 110px;
+	}
+
+	#conts .welfareList li.item06 {
+		padding: 26px 0;
+	}
+
+	#conts .welfareList li.item06 img {
+		width: 106px;
+	}
+
+	#conts .welfareList li.item07 {
+		padding: 6px 0;
+	}
+
+	#conts .welfareList li.item07 img {
+		width: 90px;
+	}
+
+	#conts .welfareList li.item08 {
+		padding: 20px 0;
+	}
+
+	#conts .welfareList li.item08 img {
+		width: 90px;
+	}
+
+	#conts .welfareList li.item09 {
+		padding: 13px 0;
+	}
+
+	#conts .welfareList li.item09 img {
+		width: 90px;
+	}
+
+	#conts .legalSec {
+		margin-bottom: 25px;
+	}
+
+	#conts .outLegalSec {
+		margin-bottom: 35px;
+	}
+
+	#conts .cmnTable01 > dl > dt,
+	#conts .cmnTable01 > dl > dd {
+		text-align: left;
+	}
+
+	#conts .cmnTable01 > dl > dt {
+		width: 100%;
+	}
+
+	#conts .welfareSec {
+		padding: 15px 40px;
+		-webkit-border-radius: 30px;
+		        border-radius: 30px;
+	}
+
+	#conts .welfareSec h2 {
+		margin-bottom: 10px;
+		font-size: 1.7rem;
+	}
+
+	#conts .welfareSec .imgBox {
+		width: 32%;
+	}
+
+	#conts .welfareSec > p {
+		width: 60%;
+	}
+
+	#conts .welfareSec > section {
+		clear: both;
+		width: 100%;
+		padding-top: 10px;
+	}
+
+	#conts .welfareSec h3 {
+		margin: 0 0 10px;
+		font-size: 1.3rem;
+	}
+
+	#conts .welfareSec .cmnList01 {
+		overflow: hidden;
+	}
+
+	#conts .welfareSec .cmnList01 li {
+		float: left;
+		width: 50%;
+		margin-top: 0;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+
+	#conts .welfareSec .cmnList01 li:nth-child(n+3) {
+		margin-top: 7px;
+	}
+
+	#conts .banners01 > div {
+		padding-right: 12vw;
+		padding-left: 12vw;
+	}
+
+	#conts .banners01 ul {
+		-webkit-justify-content: space-between;
+				justify-content: space-between;
+		-webkit-flex-wrap: wrap;
+				flex-wrap: wrap;
+		margin-top: -3.6vw;
+		margin-left: 0;
+	}
+
+	#conts .banners01 ul li {
+		width: 47%;
+		margin-top: 3.6vw;
+		margin-left: 0;
+		text-align: center;
+	}
+}
+
+
+@media print {
+	#conts {
+		margin-top: 0;
+	}
+}

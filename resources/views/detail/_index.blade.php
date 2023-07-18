@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+@include('layouts.meta_head')
+@php
+if(isset($title)) {
+    $title .= '｜';
+} else {
+    $title = '';
+}
+$title .= config('livit.site_name');
+@endphp
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $meta_description ?? '' }}">
+<meta name="keywords" content="{{ $meta_keywords ?? '' }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $meta_description ?? '' }}">
+<meta property="og:url" content="{{ url()->full() }}">
+@include('layouts.meta_bottom')
+<!-- [start]css -->
+<link rel="stylesheet" href="/serviceinfo/assets/css/common/reset.css">
+<link rel="stylesheet" href="/serviceinfo/assets/css/common/base.css">
+<link rel="stylesheet" href="/serviceinfo/assets/css/common/common.css">
+<link rel="stylesheet" href="/serviceinfo/assets/css/detail/detail.css">
+<link rel="stylesheet" href="/serviceinfo/assets/css/detail/magnific-popup.css">
+<!-- [end]css -->
+@include('layouts.head_close')
+</head>
+<body>
+@include('layouts.body_head')
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  <div class="serviceIndex">
+	<div class="tpl_wrapper">
+      @include('layouts.header')
+	  <main role="main">
+        <div class="breadcrumbs">
+	      <div class="wrap">
+	        <ul class="breadcrumbsList">
+		      <li><a href="/"><img src="/serviceinfo/assets/img/common/ico_breadcrumbs_home.png" alt="home" height="10" width="12"></a></li>
+		      <li>{{ $content->title }}</li>
+	        </ul>
+	      </div>
+        </div>
+        <div class="tpl_contents">
+          <section class="shopinfo">
+            <div class="headTtl">
+	          <ul class="sns">
+                <li class="tw"><a href="https://twitter.com/share?screen_name=LiViT_jregroup&ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+                <li class="fb"><div class="fb-share-button" data-href="{{ url()->full() }}" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ urlencode(url()->full()) }}&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">シェア</a></div></li>
+                <li class="line">
+                  <div class="line-it-button" data-lang="ja" data-type="share-a" data-url="{{ url()->full() }}" style="display: none;"></div>
+                  <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async defer></script></li>
+	          </ul>
+	          <h2 class="heading fontM">{{ $content->title }}</h2>
+	        </div>
+	        <div class="shopdetail">
+              <div class="photo resizeRatioBox"><div class="resizeRatioBoxIn"><p class="resizeRatioImg">
+                <a class="popup-image" href="{{ $content->main_image_url }}"><img src="{{ $content->main_image_url }}" alt=""></a>
+              </p></div></div>
+	          <div class="summary">
+		        <ul class="tag">
+                  @foreach ($content->tags as $tag)
+			        <li class="{{ $tag['class'] }}">{{ $tag['name'] }}</li>
+                  @endforeach
+		        </ul>
+		        <p class="date">{{ format_date($content->publication_date_time) }}</p>
+		        <div class="txt">{!! $content->body !!}</div>
+	         
+              @if ($content->business_hours || $content->holiday || $content->contact || $content->floor || $content->access || $content->website || $content->selling_period || $content->selling_place || $content->manufacturer)
+	            <div class="shopdata">
+		          <table>
+                    @if ($content->business_hours)
+			          <tr>
+			            <th>【営業時間】</th>
+			            <td>{!! $content->business_hours !!}</td>
+			          </tr>
+                    @endif
+                    @if ($content->holiday)
+			          <tr>
+			            <th>【定休日】</th>
+			            <td>{!! $content->holiday !!}</td>
+			          </tr>
+                    @endif
+                    @if ($content->contact)
+			          <tr>
+			            <th>【お問合せ】</th>
+			            <td>{!! $content->contact !!}</td>
+			          </tr>
+                    @endif
+                    @if ($content->floor)
+			          <tr>
+			            <th>【フロア】</th>
+			            <td>{!! $content->floor !!}</td>
+			          </tr>
+                    @endif
+                    @if ($content->access)
+			          <tr>
+			            <th>【アクセス】</th>
+			            <td>{!! $content->access !!}</td>
+			          </tr>
+                    @endif
+                    @if ($content->website)
+			          <tr>
+			            <th>【公式サイト】</th>
+			            <td style="word-break: break-all">{!! url_to_link($content->website) !!}</td>
+			          </tr>
+                    @endif
+                    @if ($content->selling_period)
+			          <tr>
+			            <th>【販売期間】</th>
+			            <td>{!! $content->selling_period !!}</td>
+			          </tr>
+                    @endif
+                    @if ($content->selling_place)
+			          <tr>
+			            <th>【主な販売場所】</th>
+			            <td>{!! $content->selling_place !!}</td>
+			          </tr>
+                    @endif
+                    @if ($content->manufacturer)
+			          <tr>
+			            <th>【製造元】</th>
+			            <td>{!! $content->manufacturer !!}</td>
+			          </tr>
+                    @endif
+		          </table>
+											</div>		
+              @endif
+										</div>				
+	        </div>
+            @if ($content->blog_title)
+              <h2 class="fontM" style="font-size: 29px; letter-spacing: 2px; text-align: center; margin-bottom: 25px;">{{ $content->blog_title }}</h2>
+            @endif
+            @if ($content->blog_body)
+	          <div class="articlebox">
+                {!! $content->blog_body !!}
+	          </div>
+            @endif
+          </section>
+
+          @if ($content->products)
+            <section class="osusume">
+	          <h2 class="headTtl">{!! $content->product_list_title  !!}</h2>
+              <div class="wrap">
+                <div class="LinkBox3col">
+	              <ul class="linkList itemList">
+                    @foreach ($content->products as $product)
+		              <li class="btn">
+                        <div class="resizeRatioBox">
+                          <div class="resizeRatioBoxIn">
+                            <div class="resizeRatioImg">
+		                      <img src="{{ $product->image_url }}" alt="" />
+                            </div>
+                          </div>
+                        </div>
+		                <ul class="LBoxTagList tag">
+                          @foreach ($product->tags as $tag)
+			                <li class="{{ $tag['class'] }}">{{ $tag['name'] }}</li>
+                          @endforeach
+		                </ul>
+		                <p class="ttl">{{ $product->name }}</p>
+		                {!! $product->body !!}
+                      </li>
+                    @endforeach
+	              </ul>
+                </div>
+              </div>
+            </section>
+          @endif
+
+          @if ($content->floor_image_url)
+            <section class="access">
+	          <div class="tpl_wrap">
+	            <h2 class="headTtl">フロアマップ</h2>
+	            <div class="floormap">
+				  <div class="image">
+					<iframe src="{{ route('detail-map', $content->id) }}" width="100%" height="300" scrolling="no"></iframe>
+				  </div>
+                  <div class="floor_body">
+                  {!! $content->floor_body !!}
+                  </div>
+	            </div>
+
+	            <!--<div class="googlemap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.7074162351546!2d140.38587321609157!3d37.39675104158956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60206c80c0512f13%3A0xff1ea2c139625f6a!2z5p2x5YyX57eP5ZCI44K144O844OT44K577yI5qCq77yJIOmDoeWxseWWtualreaJgA!5e0!3m2!1sja!2sjp!4v1534152787575" width="1024" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+		             <div class="btn_app sp"><a href="">地図アプリで見る</a></div>-->
+	          </div>
+            </section>
+          @endif
+
+          <div class="btn_back"><a href="javascript:history.back();">Back</a></div>
+
+          @if(count($relevant_contents) != 0)
+	        <section class="relate">
+	          <h2 class="headTtl">関連情報</h2>
+	          <ul class="list">
+                @foreach($relevant_contents as $rc)
+			      <li>
+                    <a href="{{ route('detail', $rc->content_id) }}">
+                    <div class="resizeRatioBox">
+                      <div class="resizeRatioBoxIn">
+                        <div class="resizeRatioImg">
+                            <img src="{{ $rc->image_url }}" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <p>{{ $rc->title }}</p>
+                    </a>
+                  </li>
+                @endforeach
+	          </ul>
+	        </section>
+          @endif
+        </div><!-- /.tpl_contents -->
+	  </main>
+      @include('layouts.footer')
+	</div><!-- /.tpl_wrapper -->
+  </div><!-- /.Index -->
+  <!-- [start]script -->
+  <script src="/serviceinfo/assets/js/common/jquery.js"></script>
+  <script src="/serviceinfo/assets/js/common/base.js"></script>
+  <script src="/serviceinfo/assets/js/common/common.js"></script>
+  <script src="/serviceinfo/assets/js/detail/jquery.magnific-popup.min.js"></script>
+  <script>
+   $(function(){
+       $('.popup-image').magnificPopup({
+           type: 'image'
+       });
+   });
+  </script>
+  <!-- [end]script -->
+  @include('layouts.body_close')
+</body>
+</html>

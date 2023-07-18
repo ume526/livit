@@ -1,0 +1,663 @@
+@charset "utf-8";
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* min-width:769px */
+/* //////////////////////////////////////////////////////////////////////////////// */
+img{
+-webkit-backface-visibility: hidden;
+}
+@media screen and (min-width: 769px) {
+
+	/*-------------------
+
+		 pc
+
+	-------------------*/
+
+section{
+	min-width:1024px;
+	margin:0 auto;
+	position: relative;
+}
+
+.inner{
+	width: 1024px;
+	margin:0 auto;
+}
+/* mainVisual
+--------------*/
+.mainVisual{
+	margin:0 auto 120px;
+	/*margin:110px auto 90px;*/
+	position: relative;
+	max-width:1396px;
+}
+.mainVisual .heading{
+	font-size:0;
+	width: 381px;
+	height:166px;
+	position: absolute;
+	top:-110px;
+	left:0;
+	right:0;
+	margin:0 auto;
+ background:url(../../img/transit-advertising/ttl_kaigo_pc.png) no-repeat;
+}
+.mainVisual .main{
+	margin-bottom:100px;
+}
+.mainVisual .info{
+	display:none;
+}
+.mainVisual h3.tit{
+	font-size:0;
+	background:url(../../img/transit-advertising/tit_pc.gif) no-repeat;
+	width: 782px;
+	height:53px;
+	margin:0 auto 36px;
+}
+.mainVisual .lead{
+	text-align:center;
+	font-size:16px;
+	letter-spacing:3px;
+	line-height:2.5;
+}
+
+/* advert
+--------------*/
+.advert{
+	width: 700px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.advert li{
+	margin-bottom:75px;
+}
+.advert .photo{
+	border-radius:50px;
+	overflow: hidden;
+	margin-bottom:35px;
+}
+.advert .photo a {
+	width:100%;
+	height:inherit;
+  position: relative;
+  display: inline-block;
+}
+.advert .photo a:hover:before{
+ content:'';
+	display:block;
+	background:url(../../img/transit-advertising/download_pc.png) no-repeat;
+	width: 167px;
+	height:105px;
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	z-index:100;
+}
+.advert .photo a:after {
+	background:rgba(91,208,222,0.9);
+
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ content: "";
+ transition: transform .6s cubic-bezier(0.38, 0.005, 0.215, 1),opacity .6s cubic-bezier(0.38, 0.005, 0.215, 1);
+ transform-origin: top center;
+ transform: scaleY(0);
+ opacity: 0;
+}
+.advert .photo a:hover {
+ text-decoration: none;
+}
+.advert .photo a:hover:after {
+ /* width: 100%; */
+ transform: scaleY(1);
+ opacity: 1;
+}
+.advert h3{
+	font-size:22px;
+	letter-spacing:3px;
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:25px;
+}
+.advert p{
+	font-size:16px;
+	letter-spacing:2px;
+	text-align:center;
+	line-height:1.8;
+}
+.contents .small{
+	font-size:12px;
+	letter-spacing:2px;
+	text-align:center;
+	margin-bottom:80px;
+}
+
+/* contact
+--------------*/
+.contact{
+	background:#c2eef3;
+	margin-bottom:150px;
+}
+.contact .inner{
+	width: 1024px;
+	margin:0 auto;
+	padding:91px 0 78px;
+	position: relative;
+}
+.contact h2.tit{
+font-size: 33px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 5px;
+		margin:0 auto 34px;
+}
+.contact p.lead{
+	font-size:16px;
+	letter-spacing:2px;
+	margin-bottom:50px;
+	text-align:center;
+}
+.contact .box{
+	background:#fff;
+	width:980px;
+	margin:0 auto;
+	padding:50px 0 60px;
+	position: relative;
+}
+.contact .box h3.tit{
+	font-size:21px;
+	letter-spacing:3px;
+	font-weight:bold;
+	text-align:center;
+	padding:0 0 33px;
+}
+.contact .box .accept dt{
+	 width:790px;
+	 margin:0 auto 27px;
+	 font-size:21px;
+		color:#fff;
+		font-weight:500;
+		text-align:center;
+		background:#5bd0de;
+		padding:18px 0;
+		border-radius:27.5px;
+}
+.contact .box .tel{
+	font-size:0;
+ background:url(../../img/transit-advertising/tel_pc.gif) no-repeat;
+	width: 398px;
+	height:31px;
+	margin:0 auto 18px;
+}
+.contact .box .mail{
+ background:url(../../img/transit-advertising/mail_pc.gif) no-repeat;
+	width: 789px;
+	height:46px;
+	margin:0 auto;
+	text-indent:-9999px;
+}
+.contact .box .mail a{
+	display:block;
+	width:100%;
+	height:inherit;
+	position: relative;
+}
+.contact .box .mail a:hover:after{
+	content:'';
+	display:block;
+	height:5px;
+	width:647px;
+ background:#00abbf;
+	position: absolute;
+	right:0;
+	bottom:-5px;
+}
+
+
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* max-width:768px */
+/* //////////////////////////////////////////////////////////////////////////////// */
+@media screen and (max-width: 768px) {
+		/*-------------------
+
+		 sp
+
+	-------------------*/
+.mainVisual {
+/*	padding:15.2vw 0 0;*/
+	position: relative;
+}
+.mainVisual .heading{
+	font-size:0;
+	width: 54.1%;
+	height:27.2vw;
+	background:url(../../img/transit-advertising/ttl_kaigo_sp.png) no-repeat;
+	background-size:contain;
+	margin:0 auto;
+	position: absolute;
+	left:0;
+	right:0;
+	top:0;
+}
+.mainVisual .main{
+}
+.mainVisual .info{
+	margin:5.7vw 4.9% 16vw;
+	padding-bottom:6vw;
+	background: url(../../img/transit-advertising/dot.gif) repeat-x bottom;
+ background-size: 5px 1.5px;
+}
+.mainVisual .info dt img{
+	width:23.6vw;
+	margin:0 auto;
+	display:block;
+	text-align:center;
+}
+.mainVisual .info dt{
+	padding-bottom:3.4vw;
+	border-bottom:3px solid #0bb8cd;
+	margin-bottom:4.4vw;
+}
+.mainVisual .info h3{
+	font-size:1.125rem;
+	font-weight:bold;
+	text-align:center;
+	margin-bottom:2.9vw;
+}
+.mainVisual .info a{
+	display:block;
+	width:100%;
+	height:inherit;
+}
+.mainVisual .info span{
+	display:inline-block;
+	width:100%;
+	height:inherit;
+}
+.mainVisual .info .tel{
+	text-indent:-999px;
+	width:66.2vw;
+	height:16.4vw;
+	margin:0 auto 5vw;
+	background:url(../../img/transit-advertising/head_tel.gif) no-repeat;
+	background-size:contain;
+}
+.mainVisual .info .mail{
+	text-indent:-999px;
+	width:90.4vw;
+	height:15.2vw;
+	margin:0 auto;
+	background:url(../../img/transit-advertising/head_mail.gif) no-repeat;
+	background-size:contain;
+}
+.mainVisual .lead{
+	width: 90vw;
+	margin:0 auto;
+	text-align:center;
+	font-size:0.9rem;
+	line-height:1.6;
+ padding-bottom:13.3vw;
+}
+
+/* advert
+--------------*/
+.advert li{
+	margin:0 4.9% 11.3vw;
+}
+.advert li .photo{
+	margin-bottom:6vw;
+}
+.advert .photo a {
+	width:100%;
+	height:inherit;
+  position: relative;
+  display: inline-block;
+}
+.advert .photo a:hover:before{
+ content:'';
+	display:block;
+	background:url(../../img/transit-advertising/download_sp.png) no-repeat;
+	background-size:contain;
+	width: 36.8vw;
+	height:16.4vw;
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	z-index:100;
+}
+.advert .photo a:after {
+ content: "";
+ position: absolute;
+ display: block;
+	background:rgba(91,208,222,0.9);
+ width: 0;
+ height: 100%;
+	bottom:0;
+ left: 0;
+	border-radius:25px;
+ -webkit-transition: .4s ease 0s;
+ transition: .4s ease 0s;
+}
+.advert .photo a:hover {
+ text-decoration: none;
+}
+.advert .photo a:hover:after {
+ width: 100%;
+}
+.advert li h3{
+	font-size:1.15rem;
+ font-weight:bold;
+	text-align:center;
+	margin-bottom:2.6vw;
+}
+.advert li p{
+	width:80vw;
+	margin:0 auto;
+	font-size:0.9rem;
+	line-height:1.5;
+	letter-spacing:1px;
+	text-align:center;
+}
+.contents .small{
+	font-size:0.7rem;
+	text-align:center;
+	margin-bottom:18vw;
+}
+
+
+/* contact
+--------------*/
+.contact{
+	background:#c2eef3;
+	padding:12.4vw 4.9vw 11.7vw;
+	margin-bottom:20vw;
+	position: relative;
+}
+.contact h2.tit{
+    font-size: 1.6rem;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-align: center;
+				margin:0 auto 4.4vw;
+}
+.contact p.lead{
+	font-size:0.9rem;
+	text-align:center;
+	line-height:1.5;
+	letter-spacing:2px;
+	margin-bottom:4vw;
+}
+.contact .box{
+	background:#fff;
+	padding:7.7vw 0;
+	position: relative;
+}
+
+.contact .box h3.tit{
+	font-size:1rem;
+	letter-spacing:2px;
+	font-weight:bold;
+	text-align:center;
+	padding:0 0 5.7vw;
+}
+.contact .accept dt{
+	width:66.6vw;
+	font-size:1rem;
+	line-height:1;
+	font-weight:500;
+	color:#fff;
+	padding:10px 0 12px;
+	margin:0 auto 3.5vw;
+	text-align:center;
+	border-radius:18px;
+	background:#5bd0de;
+}
+.contact .accept .tel{
+	text-indent:-9999px;
+ background:url(../../img/transit-advertising/tel_sp.gif) no-repeat;
+	background-size:contain;
+	width: 60.6vw;
+	height:5vw;
+	margin:0 auto 4.5vw;
+}
+.contact .accept .mail{
+	text-indent:-9999px;
+ background:url(../../img/transit-advertising/mail_sp.gif) no-repeat;
+	background-size:contain;
+	width: 60.6vw;
+	height:21vw;
+	margin:0 auto;
+}
+.contact .accept a{
+	width:100%;
+	height:inherit;
+	display:block;
+}
+.contact .accept span{
+	width:100%;
+	height:inherit;
+	display:inline-block;
+}
+
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* print */
+/* //////////////////////////////////////////////////////////////////////////////// */
+@media print {
+	section{
+	min-width:1024px;
+	margin:0 auto;
+	position: relative;
+}
+
+.inner{
+	width: 1024px;
+	margin:0 auto;
+}
+/* mainVisual
+--------------*/
+.mainVisual{
+	margin:0 auto 120px;
+	/*margin:110px auto 90px;*/
+	position: relative;
+	max-width:1396px;
+}
+.mainVisual .heading{
+	font-size:0;
+	width: 381px;
+	height:166px;
+	position: absolute;
+	top:-110px;
+	left:0;
+	right:0;
+	margin:0 auto;
+ background:url(../../img/transit-advertising/ttl_kaigo_pc.png) no-repeat;
+}
+.mainVisual .main{
+	margin-bottom:100px;
+}
+.mainVisual .info{
+	display:none;
+}
+.mainVisual h3.tit{
+	font-size:0;
+	background:url(../../img/transit-advertising/tit_pc.gif) no-repeat;
+	width: 782px;
+	height:53px;
+	margin:0 auto 36px;
+}
+.mainVisual .lead{
+	text-align:center;
+	font-size:16px;
+	letter-spacing:3px;
+	line-height:2.5;
+}
+
+/* advert
+--------------*/
+.advert{
+	width: 700px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.advert li{
+	margin-bottom:75px;
+}
+.advert .photo{
+	margin-bottom:35px;
+}
+.advert .photo a {
+	width:100%;
+	height:inherit;
+  position: relative;
+  display: inline-block;
+}
+.advert .photo a:hover:before{
+ content:'';
+	display:block;
+	background:url(../../img/transit-advertising/download_pc.png) no-repeat;
+	width: 167px;
+	height:105px;
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	z-index:100;
+}
+.advert .photo a:after {
+ content: "";
+ position: absolute;
+ display: block;
+	background:rgba(91,208,222,0.9);
+ width: 0;
+ height: 100%;
+	bottom:0;
+ left: 0;
+	border-radius:50px;
+ -webkit-transition: .4s ease 0s;
+ transition: .4s ease 0s;
+}
+.advert .photo a:hover {
+ text-decoration: none;
+}
+.advert .photo a:hover:after {
+ width: 100%;
+}
+.advert h3{
+	font-size:22px;
+	letter-spacing:3px;
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:25px;
+}
+.advert p{
+	font-size:16px;
+	letter-spacing:2px;
+	text-align:center;
+	line-height:1.8;
+}
+.contents .small{
+	font-size:12px;
+	letter-spacing:2px;
+	text-align:center;
+	margin-bottom:80px;
+}
+
+/* contact
+--------------*/
+.contact{
+	background:#c2eef3;
+	margin-bottom:150px;
+}
+.contact .inner{
+	width: 1024px;
+	margin:0 auto;
+	padding:91px 0 78px;
+	position: relative;
+}
+.contact h2.tit{
+font-size: 33px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 5px;
+		margin:0 auto 34px;
+}
+.contact p.lead{
+	font-size:16px;
+	letter-spacing:2px;
+	margin-bottom:50px;
+	text-align:center;
+}
+.contact .box{
+	background:#fff;
+	width:960px;
+	margin:0 auto;
+	padding:50px 0 60px;
+	position: relative;
+}
+.contact .box h3.tit{
+	font-size:21px;
+	letter-spacing:3px;
+	font-weight:bold;
+	text-align:center;
+	padding:0 0 33px;
+}
+.contact .box .accept dt{
+	 width:790px;
+	 margin:0 auto 27px;
+	 font-size:21px;
+		color:#fff;
+		font-weight:500;
+		text-align:center;
+		background:#5bd0de;
+		padding:18px 0;
+		border-radius:27.5px;
+}
+.contact .box .tel{
+	font-size:48px;
+	font-weight:500;
+	height:31px;
+	text-align:center;
+	margin:0 auto 18px;
+}
+.contact .box .mail{
+	font-size:48px;
+	font-weight:500;
+	width: 789px;
+	height:46px;
+	margin:0 auto;
+}
+.contact .box .mail a{
+	display:block;
+	width:100%;
+	height:inherit;
+	position: relative;
+	color:#00abbf;
+}
+.contact .box .mail a:hover:after{
+	content:'';
+	display:block;
+	height:5px;
+	width:647px;
+ background:#00abbf;
+	position: absolute;
+	right:0;
+	bottom:-5px;
+}
+
+}

@@ -1,0 +1,265 @@
+@charset "UTF-8";
+/* =========================================================
+	Company / Recruit / Training
+========================================================= */
+.breadcrumbs h1 {
+	display: inline-block;
+	font-size: inherit;
+	font-weight: normal;
+}
+@media screen and (min-width: 768px) {
+	#conts {
+		margin-top: 0;
+	}
+}
+.lead .txt {
+	line-height: 1.8;
+}
+.lead ol {
+	position: relative;
+	margin-top: 30px;
+	height: 236px;
+}
+.lead ol > li {
+	-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+	position: absolute;
+	padding-top: 17px;
+	padding-bottom: 22px;
+	height: 100%;
+	top: 0;
+	background-repeat: no-repeat;
+}
+.lead ol > li:nth-child(1) {
+	width: 341px;
+	height:320px;
+	margin-bottom: 22px;
+	padding-right: 33px;
+	left: 0;
+	background-image: url(../../../img/company/recruit/training/lead_bg01.png);
+}
+.lead ol > li:nth-child(2) {
+	width: 304px;
+	left: 311px;
+	background-image: url(../../../img/company/recruit/training/lead_bg02.png);
+}
+.lead ol > li:nth-child(3) {
+	width: 346px;
+	left: 585px;
+	background-image: url(../../../img/company/recruit/training/lead_bg03.png);
+}
+.lead ol > li .title {
+	font-size: 1.8rem;
+	color: #FFF;
+	text-align: center;
+}
+.lead ol > li:nth-child(2) .title,
+.lead ol > li:nth-child(3) .title {
+	margin-left: 30px;
+}
+.lead ol > li:nth-child(1) ul {
+	margin-top: 13px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 272px;
+}
+.lead ol > li:nth-child(2) ul {
+	margin-top: 61px;
+	margin-left: 48px;
+	width: 232px;
+}
+.lead ol > li:nth-child(3) ul {
+	margin-top: 61px;
+	margin-left: 48px;
+	width: 272px;
+}
+.lead ol > li ul li {
+	margin-top: 8px;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	border-radius: 6px;
+	background-color: #FFF;
+	text-align: center;
+}
+
+.lead ol > li ul li:first-child {
+	margin-top: 0;
+}
+.lead ol > li:nth-child(1) ul li {
+	color: #FDA875;
+}
+.lead ol > li:nth-child(2) ul li {
+	color: #FB8A46;
+}
+.lead ol > li:nth-child(3) ul li {
+	color: #EE5B03;
+}
+.training .table dl dt {
+	text-align: center;
+}
+.system .box01 {
+	-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+	padding: 25px 28px;
+	background-color: #FCF2B6;
+	border-radius: 54px;
+}
+.system .box01 .title {
+	-webkit-justify-content: center;
+			justify-content: center;
+	-webkit-align-items: center;
+			align-items: center;
+}
+.system .box01 .title span:last-child {
+	margin-left: 12px;
+	font-size: 2.2rem;
+}
+.system .box01 .cmnList01 {
+	-webkit-flex-wrap: wrap;
+			flex-wrap: wrap;
+}
+.system .box01 .cmnList01 li {
+	margin-top: 16px;
+}
+.system .box01 .txt {
+	margin-top: 10px;
+	line-height: 1.98;
+}
+.system .box01 .txt02 {
+	text-align: center;
+}
+.system .system_box {
+	-webkit-justify-content: space-between;
+			justify-content: space-between;
+	margin-top: 20px;
+}
+.system .headline02 + .system_box {
+	margin-top: 0;
+}
+.system .system_box .box01,
+.system .system_box.half_box {
+	width: 456px;
+}
+.system .system_box .box01 .cmnList01 li:nth-child(2n+1) {
+	width: 225px;
+}
+.system .system_box.box01 .cmnList01 li:nth-child(3n+1),
+.system .system_box.box01 .cmnList01 li:nth-child(3n+2) {
+	width: 240px;
+}
+
+
+@media screen and (max-width: 767px) {
+	.lead .txt {
+		line-height: 1.8;
+	}
+	.lead ol {
+		margin-top: 12px;
+		height: auto;
+	}
+	.lead ol > li {
+		position: static;
+		padding-bottom: 0;
+		height: auto;
+		background-size: auto 100%;
+		background-position: center top;
+	}
+	.lead ol > li:nth-child(1) {
+		width: auto;
+		height: 209px;
+		padding-top: 11px;
+		padding-right: 0;
+		left: auto;
+		background-image: url(../../../img/company/recruit/training/lead_bg01_sp.png);
+	}
+	.lead ol > li:nth-child(2),
+	.lead ol > li:nth-child(3) {
+		margin-top: -19px;
+		padding-top: 39px;
+		width: auto;
+		left: auto;
+	}
+	.lead ol > li:nth-child(2) {
+		height: 120px;
+		background-image: url(../../../img/company/recruit/training/lead_bg02_sp.png);
+	}
+	.lead ol > li:nth-child(3) {
+		height: 148.5px;
+		background-image: url(../../../img/company/recruit/training/lead_bg03_sp.png);
+	}
+	.lead ol > li .title {
+		font-size: 1.3rem;
+	}
+	.lead ol > li:nth-child(2) .title,
+	.lead ol > li:nth-child(3) .title {
+		margin-left: 0;
+	}
+	.lead ol > li:nth-child(1) ul,
+	.lead ol > li:nth-child(2) ul,
+	.lead ol > li:nth-child(3) ul {
+		margin-top: 6px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 238px;
+	}
+	.lead ol > li ul li {
+		margin-top: 6px;
+		border-radius: 3px;
+	}
+	.training .table dl dd {
+		text-align: left;
+		line-height: 1.4;
+	}
+	.system .box01 {
+		padding: 20px;
+		border-radius: 27px;
+	}
+	.system .img + .box01,
+	.system .box01 + .box01 {
+		margin-top: 20px;
+	}
+	.system .box01 .title span:last-child {
+		margin-left: 6px;
+		font-size: 1.7rem;
+	}
+	.system .box01 .title .icon01 {
+		width: 21.5px;
+	}
+	.system .box01 .title .icon02 {
+		width: 26.5px;
+	}
+	.system .box01 .title .icon03 {
+		width: 20.5px;
+	}
+	.system .box01 .title .icon04 {
+		width: 26px;
+	}
+	.system .box01 .title .icon05 {
+		width: 18px;
+	}
+	.system .box01 .title .icon06 {
+		width: 21px;
+	}
+	.system .box01 .cmnList01 {
+		-webkit-justify-content: space-between;
+				justify-content: space-between;
+	}
+	.system .box01 .cmnList01 li {
+		width: 40% !important;
+		margin-top: 8px;
+	}
+	.system .box01 .txt {
+		margin-top: 5px;
+	}
+	.system .system_box .box01,
+	.system .system_box.half_box {
+		width: auto;
+	}
+}
+
+
+@media print {
+	#conts {
+		margin-top: 0;
+	}
+}

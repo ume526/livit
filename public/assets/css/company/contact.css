@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* =========================================================
+	Contact / Index
+========================================================= */
+#conts p {
+	line-height: 1.9;
+}
+
+#conts .summary {
+	/* text-align: center; */
+}
+
+#conts .cmnBtn01 {
+	margin-top: 50px;
+}
+h3 {
+	margin-top: 20px;
+}
+.border-line {
+	text-decoration: underline;
+}
+.standard-box .dotlist li {
+	margin-left: 1em;
+	list-style-type: disc;
+}
+
+@media screen and (max-width: 767px) {
+	#conts .summary {
+		text-align: left;
+	}
+
+	#conts .cmnBtn01 {
+		margin-top: 40px;
+	}
+}

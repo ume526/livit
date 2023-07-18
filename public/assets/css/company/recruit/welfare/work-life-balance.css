@@ -1,0 +1,555 @@
+@charset "UTF-8";
+/* =========================================================
+	Company / Recruit / Welfare / Work-Life-Balance
+========================================================= */
+#conts p {
+	line-height: 1.6;/*1.9;*/
+}
+
+#conts .mainVisual {
+	max-width: 1160px;
+	min-width: 960px;
+	margin: 0 auto;
+	text-align: right;
+}
+
+#conts .answerSec h2 {
+	font-size: 2.2rem;
+	font-weight: normal;
+	text-align: center;
+}
+
+#conts .answerSec h2 span {
+	display: inline-block;
+	position: relative;
+}
+
+#conts .answerSec h2 span:before,
+#conts .answerSec h2 span:after {
+	content: "";
+	display: block;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: 7px;
+	background: url(../../../../img/company/recruit/welfare/common/bg_title01.png) no-repeat;
+}
+
+#conts .answerSec h2 span:before {
+	left: -30px;
+}
+
+#conts .answerSec h2 span:after {
+	-webkit-transform: scale(-1,1);
+			transform: scale(-1,1);
+	right: -25px;
+}
+
+#conts .answerSec .personList {
+	display: -webkit-flex;
+	display: flex;
+	margin-top: 35px;
+	margin-left: 155px;
+}
+
+#conts .answerSec .personList li {
+	padding-top: 6px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-left: 1px solid #333;
+	overflow: hidden;
+}
+
+#conts .answerSec .personList li:nth-child(1) {
+	width: 311px;
+	border-left: none;
+}
+
+#conts .answerSec .personList li:nth-child(2) {
+	width: 310px;
+	padding-left: 10px;
+}
+
+#conts .answerSec .personList li:nth-child(3) {
+	width: 291px;
+	padding-left: 23px;
+}
+
+#conts .answerSec .personList li .imgBox {
+	float: left;
+	padding-top: 7px;
+}
+
+#conts .answerSec .personList li:nth-child(1) .imgBox {
+	width: 122px;
+	margin-right: 3px;
+}
+
+#conts .answerSec .personList li:nth-child(2) .imgBox {
+	width: 122px;
+	margin-right: 7px;
+}
+
+#conts .answerSec .personList li:nth-child(3) .imgBox {
+	margin-right: 10px;
+}
+
+#conts .answerSec .personList li .introBox {
+	float: left;
+}
+
+#conts .answerSec .personList li:nth-child(1) .introBox {
+	width: 166px;
+}
+
+#conts .answerSec .personList li:nth-child(2) .introBox {
+	width: 155px;
+}
+
+#conts .answerSec .personList li:nth-child(3) .introBox {
+	width: 120px;
+}
+
+#conts .answerSec .personList li .introBox .status {
+	margin-top: 11px;
+	padding-top: 11px;
+		/*  テキストの上に点線　background: url(../../../../img/company/recruit/welfare/common/line01.png) repeat-x 0 top; */
+}
+
+#conts .answerSec .qaWrap {
+	width: 834px;
+	margin: 40px auto 0;
+}
+
+#conts .answerSec .qaWrap .qaBox {
+	margin-bottom: 35px;
+	padding-bottom: 26px;
+	border-bottom: 1px solid #F19A50;
+	overflow: hidden;
+}
+
+#conts .answerSec .qaWrap .qaBox:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+
+#conts .answerSec .qaWrap .qaBox .questionBox {
+	float: left;
+	width: 336px;
+	height: 140px;/*215px;*/
+	padding: 0px 15px 0 20px;/*18px 30px 0 40px;*/
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	background: url(../../../../img/company/recruit/welfare/work-life-balance/bg_q01.png) no-repeat center center;
+	-webkit-background-size: cover;
+	        background-size: cover;
+	overflow: hidden;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* #conts .answerSec .qaWrap .qaBox:last-child .questionBox {
+	margin-top: 107px;
+} */
+
+#conts .answerSec .qaWrap .qaBox .questionBox .imgBox {
+	float: left;
+	margin-right: 20px;
+}
+
+#conts .answerSec .qaWrap .qaBox .questionBox .num {
+	color: #F25826;
+	font-size: 3.8rem;
+	font-weight: bold;
+	line-height: 1.7;
+	margin-right: 10px;
+}
+
+#conts .answerSec .qaWrap .qaBox .questionBox .summary {
+	clear: both;
+	padding-top: 10px;
+}
+
+#conts .answerSec .qaWrap .qaBox .answerBox {
+	float: right;
+	width: 446px;
+	overflow: hidden;
+}
+
+/* #conts .answerSec .qaWrap .qaBox:nth-child(1) .answerBox {
+	padding-top: 22px;
+} */
+
+/* #conts .answerSec .qaWrap .qaBox:nth-child(2) .answerBox {
+	padding-top: 35px;
+} */
+#conts .answerSec .qaWrap .qaBox .answerBox .answerWrap {
+	display: flex;
+}
+#conts .answerSec .qaWrap .qaBox:nth-child(3) .answerBox .answerWrap:last-child {
+	padding-top: 27px;
+}
+
+#conts .answerSec .qaWrap .qaBox .answerBox .imgBox {
+	width: 90px;
+	float: left;
+	margin-right: 10px;
+	flex-shrink: 0;
+}
+
+#conts .answerSec .qaWrap .qaBox .answerBox .answerWrap:not(:last-of-type) {
+	margin-bottom: 30px;
+	/* padding-top: 35px; */
+}
+
+#conts .answerSec .qaWrap .qaBox .answerBox p strong {
+	color: #EB5C01;
+	font-weight: normal;
+}
+
+#conts .answerSec .pointSec {
+	margin-top: 42px;
+}
+
+#conts .answerSec .pointSec h3 {
+	text-align: center;
+}
+
+#conts .answerSec .pointSec .pointBox {
+	padding: 32px 35px;
+	background: #FCF2B6;
+	-webkit-border-radius: 50px;
+	        border-radius: 50px;
+	position: relative;
+}
+
+#conts .answerSec .pointSec .pointBox .pointList {
+	font-size: 2.2rem;
+	line-height: 2.0;
+}
+
+#conts .answerSec .pointSec .pointBox .imgBox {
+	position: absolute;
+	top: -65px;
+	right: 5px;
+}
+
+
+#conts .banners01 ul {
+	-webkit-justify-content: center;
+			justify-content: center;
+	margin-left: -30px;/*-44*/
+}
+
+#conts .banners01 ul li {
+	margin-left: 30px;/*44*/
+}
+
+/*0202
+#conts .bg-pettern03 {
+	margin-top: 35px;
+}
+
+#conts .bg-pettern03 .bnList {
+	overflow: hidden;
+}
+--0202*/
+/*  20220124*//*0202
+#conts .bg-pettern03 .bnList li {
+	float :left;
+	margin-left: 0;
+}
+#conts .bg-pettern03 .bnList li:first-child {
+	margin-left: 0px;
+}---0202*/
+	/*  20220124 ここまで*/
+	/*0202
+#conts .bg-pettern03 .bnList li:last-child {
+	float: right;
+}*/
+/*0202--*/
+
+
+@media screen and (min-width: 768px) {
+	#conts {
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#conts .mainVisual {
+		max-width: 100%;
+		min-width: 0;
+		margin: 0 2px;
+		text-align: center;
+	}
+
+	#conts .answerSec h2 {
+		font-size: 1.7rem;
+	}
+
+	#conts .answerSec h2 span:before,
+	#conts .answerSec h2 span:after {
+		width: 17px;
+		height: 17px;
+		background: url(../../../../img/company/recruit/welfare/common/bg_title01_sp.png) no-repeat;
+		-webkit-background-size: 17px 17px;
+		        background-size: 17px 17px;
+		top: 5px;
+	}
+
+	#conts .answerSec h2 span:before {
+		left: -25px;
+	}
+
+	#conts .answerSec h2 span:after {
+		right: -20px;
+	}
+
+	#conts .answerSec .personList {
+		display: flex;
+		margin-top: 25px;
+		margin-left: 0;
+		justify-content: center;
+		align-items: center;
+	}
+	#conts .answerSec .personList li:not(:last-child) {
+       border-right: 1px solid #333;
+	}
+
+	#conts .answerSec .personList li {
+		display: -webkit-flex;
+		display: flex;
+		width: 100%!important;
+		margin-bottom: 10px;
+		padding: 0 10px 15px 0!important;
+		border-left: none!important;
+		/* border-bottom: 1px solid #333; */
+		display: flex;
+		align-items: center;
+	}
+
+	#conts .answerSec .personList li:last-child {
+		margin-bottom: 0;
+	}
+	#conts .answerSec .personList li:last-child {
+		margin-bottom: 0;
+		padding: 0 0 15px 10px!important;;
+		display: flex;
+		align-items: center;
+	}
+
+	#conts .answerSec .personList li .imgBox {
+		float: none;
+		width: 19%;
+		margin-right: 5%!important;
+		padding-top: 3px;
+	}
+
+	#conts .answerSec .personList li:nth-child(1) .imgBox img {
+		width: 97%;
+	}
+
+	#conts .answerSec .personList li:nth-child(2) .imgBox img {
+		width: 90%;
+	}
+
+	#conts .answerSec .personList li .introBox {
+		font-size: 1rem;
+		width: 75%!important;
+		float: none;
+	}
+
+	#conts .answerSec .personList li .introBox .status {
+		margin-top: 8px;
+		padding-top: 8px;
+		/*background: url(../../../../img/company/recruit/welfare/common/line01_sp.png) repeat-x 0 top;
+		-webkit-background-size: 6px 1px;
+		        background-size: 6px 1px;*/
+	}
+	#conts .answerSec .qaWrap .qaBox .answerBox .answerWrap:not(:last-of-type) {
+		margin-bottom: 20px;
+	}
+	#conts .answerSec .qaWrap {
+		width: 100%;
+		margin-top: 25px;
+	}
+
+	#conts .answerSec .qaWrap .qaBox {
+		margin-bottom: 25px;
+		padding-bottom: 20px;
+	}
+
+	#conts .answerSec .qaWrap .qaBox .questionBox {
+		float: none;
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		border-radius: 25px;
+		padding: 10px 20px 15px;/*30 20 35 */
+		-webkit-background-size: 100% 100%;
+		        background-size: 100% 100%;
+	}
+
+	#conts .answerSec .qaWrap .qaBox:last-child .questionBox {
+		margin-top: 0;
+	}
+
+	#conts .answerSec .qaWrap .qaBox .questionBox .imgBox {
+		width: 19%;
+		margin: 0 10px 0 20%;
+	}
+
+	#conts .answerSec .qaWrap .qaBox .questionBox .num {
+		font-size: 3.1rem;
+		line-height: 1.3;
+	}
+
+	#conts .answerSec .qaWrap .qaBox .answerBox {
+		float: none;
+		width: 100%;
+		padding-top: 20px!important;
+	}
+
+	#conts .answerSec .qaWrap .qaBox:nth-child(3) .answerBox .answerWrap:last-child {
+		padding-top: 20px;
+	}
+
+	#conts .answerSec .qaWrap .qaBox .answerBox .imgBox {
+		width: 13%;
+		margin-right: 5px;
+	}
+
+	#conts .answerSec .qaWrap .qaBox .answerBox p {
+		padding-top: 4px;
+	}
+
+	#conts .answerSec .pointSec {
+		margin-top: 25px;
+	}
+
+	#conts .answerSec .pointSec h3 img {
+		width: 198px;
+	}
+
+	#conts .answerSec .pointSec .pointBox {
+		padding: 20px 20px;
+		-webkit-border-radius: 30px;
+		        border-radius: 30px;
+	}
+
+	#conts .answerSec .pointSec .pointBox .pointList {
+		font-size: 1.7rem;
+		line-height: 1.5;
+	}
+
+	#conts .answerSec .pointSec .pointBox .pointList li {
+		margin: 12px 0 0 1.0em;
+		text-indent: -1.0em;
+	}
+
+	#conts .answerSec .pointSec .pointBox .pointList li:first-child {
+		margin-top: 0;
+	}
+
+	#conts .answerSec .pointSec .pointBox .imgBox {
+		display: none;
+	}
+
+	/*0408  index.cssより*/
+		#conts .banners01 > div {
+			padding-right: 4vw;
+			padding-left: 4vw;
+		}
+
+		#conts .banners01 ul {
+			-webkit-justify-content: space-between;
+					justify-content: space-between;
+			-webkit-flex-wrap: wrap;
+					flex-wrap: wrap;
+			margin-top: -3.6vw;
+			margin-left: 0;
+		}
+
+		#conts .banners01 ul li {
+			width: 47%;
+			margin-top: 3.6vw;
+			margin-left: 0;
+			text-align: center;
+		}
+
+	/**   20220127↓  */
+	/*0202--
+		#conts .bg-pettern03 > div {
+			padding-right: 12vw;
+			padding-left: 12vw;
+		}
+
+		#conts .bg-pettern03 ul {
+			-webkit-justify-content: space-between;
+					justify-content: space-between;
+			-webkit-flex-wrap: wrap;
+					flex-wrap: wrap;
+			margin-top: -3.6vw;
+			margin-left: 0;
+		}
+
+		#conts .bg-pettern03 ul li {
+			width: 47%;
+			margin-top: 3.6vw;
+			margin-left: 0;
+			text-align: center;
+		}    ---0202
+		*/
+	/**   20220127
+		#conts .bg-pettern03 {
+			margin-top: 27px;
+		}
+
+		#conts .bg-pettern03 .bnList {
+			width: 228px;
+			margin: 0 auto;
+		}
+
+		#conts .bg-pettern03 .bnList li {
+			margin-top: 15px;
+		}
+
+		#conts .bg-pettern03 .bnList li:first-child {
+			margin-top: 0;
+		}
+		*/
+
+}
+
+@media print {
+	#conts {
+		margin-top: 0;
+	}
+
+	#conts .answerSec .qaWrap .qaBox:nth-child(2){
+		page-break-before: always;
+	}
+
+	#conts .answerSec .pointSec .pointBox .imgBox {
+		top: -70px;
+	}
+
+	@-moz-document url-prefix() {
+		#conts .answerSec .qaWrap .qaBox {
+			overflow: visible;
+		}
+
+		#conts .answerSec .qaWrap .qaBox:after {
+			content: "";
+			display: block;
+			clear: both;
+		}
+
+		#conts .answerSec .qaWrap .qaBox:nth-child(2){
+			page-break-before: auto;
+		}
+	}
+}

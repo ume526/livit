@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ $channelTitle }}</title>
+    <link>{{ $link }}</link>
+    <description>{{ $desc }}</description>
+    <language>ja</language>
+    <pubDate>{{ $pubDate }}</pubDate>
+    <lastBuildDate>{{ $lastBuildDate }}</lastBuildDate>
+    <docs>{{ $docs }}</docs>
+    <category>{{ $title }}</category>
+    @if ($image)
+      <image>
+        <url>{{ $image }}</url>
+      </image>
+    @endif
+    @include($items_template)
+  </channel>
+</rss>

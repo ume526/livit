@@ -1,0 +1,33 @@
+@if (count($magazines))
+  <section class="magazine">
+	<div class="inner slickSlider">
+	  <h2 class="tit">Pivot MAGAZINE | ピボットマガジン</h2>
+      <div class="LinkBox3col">
+	    <ul class="slider 3column-slider">
+          @foreach ($magazines as $magazine)
+		    <li>
+              <p class="thumb">
+                <a href="{{ route('detail', $magazine->content_id) }}"><img src="{{ $magazine->image_url }}"  width="100%" alt=""></a>
+              </p>
+			  <dl>
+			    <dt>{!! to_plain($magazine->title) !!}</dt>
+			    <dd><p>{!! to_plain($magazine->body) !!}</p></dd>
+			  </dl>
+			  <ul class="LBoxTagList">
+                @foreach ($magazine->tags as $tag)
+				  <li class="{{ $tag['class'] }}">{{ $tag['name'] }}</li>
+                @endforeach
+			  </ul>
+		    </li>
+          @endforeach
+	    </ul>
+      </div>
+	  <div class="btn_more"><a href="{{ route('pivot-search') }}?tag_names={{ urlencode($selected_tag_name.',Pivotマガジン') }}"><img src="/serviceinfo/assets/img/pivot/btn_more.png" alt="More"></a></div>
+	  <ul class="bgItem">
+		<li class="item09 sp"></li>
+		<li class="item10"></li>
+		<li class="item11"></li>
+	  </ul>
+	</div>
+  </section>
+@endif

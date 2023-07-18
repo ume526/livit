@@ -1,0 +1,297 @@
+@charset "UTF-8";
+/* =========================================================
+	Company / Business / Index
+========================================================= */
+#conts p {
+	line-height: 1.9;
+}
+
+#conts .headline02 {
+	margin-bottom: 50px;
+}
+
+#conts .btnList01 {
+	margin-bottom: 40px;
+}
+
+#conts .leadBox {
+	padding: 0 60px;
+	overflow: hidden;
+}
+
+#conts .leadBox .textBox {
+	float: left;
+	width: 515px;
+	padding-top: 50px;
+}
+
+#conts .leadBox .textBox .catch {
+	font-size: 1.8rem;
+	line-height: 1.5;
+}
+
+#conts .leadBox .textBox .catch span {
+	font-size: 3.4rem;
+}
+
+#conts .leadBox .textBox .catch + p {
+	margin-top: 12px;
+}
+
+#conts .leadBox .imgBox {
+	float: right;
+}
+
+#conts .standard-box + .standard-box-wrap {
+	margin-top: 35px;
+}
+
+#conts .introBox {
+	padding: 0 48px;
+	overflow: hidden;
+}
+
+#conts .introBox .imgBox {
+	float: left;
+	margin-right: 30px;
+}
+
+#conts .developSec .introBox .textBox {
+	padding-top: 57px;
+}
+
+#conts .activitySec .introBox .textBox {
+	padding-top: 50px;
+}
+
+#conts .activitySec .introBox .textBox p {
+	margin-top: 0;
+}
+
+#conts .assetSec .introBox .textBox {
+	padding-top: 77px;
+}
+
+#conts .businessBox {
+	display: -webkit-flex;
+	display: flex;
+	margin-top: 60px;
+	padding: 0 22px;
+}
+
+#conts .businessBox section {
+	width: 270px;
+	padding: 13px 20px 4px;
+	border-left: 1px solid #CCC;
+}
+#conts .businessBox .colbox {
+	width: 510px;
+}
+#conts .businessBox .colbox .cmnList01 li:first-child {
+	margin-top: 10px;
+}
+/* #conts .businessBox .colbox .imgBox img {
+	width: 376px;
+} */
+#conts .businessBox .colbox .border-box {
+    border: 1px solid #6fc187;
+    padding: 10px;
+    margin: 0 -10px -10px;
+}
+#conts .businessBox .colbox .flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+#conts .businessBox .colbox .flex li {
+	width: 45%;
+}
+#conts .businessBox .cmnList01 + .border-box{
+	margin-top: 20px;
+}
+#conts .businessBox section:first-child {
+	border: none;
+}
+
+#conts .businessBox section h3 {
+	background: url(../../../img/company/business/bg_headline01.png) repeat-x 0 center;
+	font-size: 1.8rem;
+	font-weight: normal;
+	text-align: center;
+}
+
+#conts .businessBox section h3 span {
+	display: inline-block;
+	padding: 0 13px;
+	background: #F7F7F7;
+}
+
+#conts .businessBox section .imgBox {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#conts .businessBox section .cmnList01 {
+	margin-top: 12px;
+}
+
+#conts .areaSec h2 {
+	font-size: 3.0rem;
+	font-weight: normal;
+}
+
+#conts .areaSec p {
+	margin-top: 20px;
+}
+
+#conts .areaSec .imgBox {
+	margin-top: -115px;
+	padding-left: 198px;
+}
+#conts .businessBox .colbox .border-box h4 {
+	text-align: center;
+}
+#conts .businessBox .colbox .border-box .flex li:last-child {
+	margin-top: 0;
+}
+@media screen and (max-width: 767px) {
+	#conts .headline02 {
+		margin-bottom: 15px;
+	}
+
+	#conts .leadBox {
+		padding: 0;
+	}
+
+	#conts .leadBox .textBox {
+		float: none;
+		width: 100%;
+		padding-top: 0;
+	}
+
+	#conts .leadBox .textBox .catch {
+		font-size: 1.3rem;
+		text-align: center;
+	}
+
+	#conts .leadBox .textBox .catch span {
+		font-size: 2.3rem;
+	}
+
+	#conts .leadBox .textBox .catch + p {
+		margin-top: 20px;
+	}
+
+	#conts .leadBox .imgBox {
+		float: none;
+		margin-top: 20px;
+		padding: 0 30px;
+		text-align: center;
+	}
+
+	#conts .leadBox .imgBox img {
+		width: 100%;
+	}
+	
+	#conts .standard-box + .standard-box-wrap {
+		margin-top: 27px;
+	}
+
+	#conts .introBox {
+		padding: 0;
+	}
+
+	#conts .introBox .imgBox {
+		float: none;
+		margin: 0;
+		text-align: center;
+	}
+
+	#conts .introBox .imgBox img {
+		width: 50%;
+	}
+
+	#conts .introBox .textBox {
+		padding-top: 20px!important;
+	}
+
+	#conts .developSec,
+	#conts .activitySec {
+		padding-bottom: 30px;
+	}
+
+	#conts .businessBox {
+		margin-top: 15px;
+		padding: 0;
+		-webkit-flex-wrap: wrap;
+				flex-wrap: wrap;
+	}
+
+	#conts .businessBox section {
+		width: 50%;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+
+	#conts .businessBox section:nth-child(odd) {
+		padding: 0 7px 0 0;
+		border: none;
+	}
+
+	#conts .businessBox section:nth-child(even) {
+		padding: 0 0 0 7px;
+		border-left: 1px solid #CCC;
+	}
+
+	#conts .businessBox section:nth-child(n+3) {
+		margin-top: 20px;
+	}
+
+	#conts .businessBox section h3 {
+		font-size: 1.3rem;
+		-webkit-background-size: 1px 9px;
+		        background-size: 1px 9px;
+	}
+
+	#conts .businessBox section h3 span {
+		padding: 0 4px;
+	}
+
+	#conts .businessBox section .imgBox {
+		margin-top: 10px;
+		padding: 0 16px;
+	}
+
+	#conts .businessBox section .cmnList01 {
+		margin-top: 8px;
+	}
+
+	#conts .areaSec h2 {
+		font-size: 2.1rem;
+		text-align: center;
+	}
+
+	#conts .areaSec p {
+		margin-top: 10px;
+		text-align: center;
+	}
+
+	#conts .areaSec .imgBox {
+		margin-top: 25px;
+		padding: 0 60px;
+		text-align: center;
+	}
+	
+	#conts .businessBox .colbox .imgBox img {
+	    width: 192px;
+	}
+	#conts .businessBox .colbox {
+		width: 100%;
+		margin: 0 5px 0 10px;
+	}
+	#conts .businessBox .colbox .border-box .flex li:last-child {
+		margin-top: 0;
+	}
+	#conts .businessBox .colbox .border-box h4 {
+		text-align: center;
+	}
+}

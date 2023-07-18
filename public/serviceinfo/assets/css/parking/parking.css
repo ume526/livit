@@ -1,0 +1,1288 @@
+@charset "utf-8";
+
+img{
+    -webkit-backface-visibility: hidden;
+}
+.serviceIndex{
+    overflow: hidden;
+}
+html{
+    opacity: 0;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* min-width:769px */
+/* //////////////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 769px) {
+
+    /*-------------------
+
+    pc
+
+    -------------------*/
+
+/*
+div.serviceIndex{background-image: url(../_dm_pc.png);background-repeat: no-repeat;background-position: 50% 18px;background-size: auto auto;}div.tpl_wrapper{opacity:0.5;}
+ */
+
+
+/* layout
+--------------*/
+section>div.inner{
+    width: 1024px;
+    margin: 0 auto 0 auto;
+}
+
+/* headingTtl
+--------------*/
+.headingTtl{
+    padding: 45px 0 45px 0;
+    text-align:center;
+    background-color:#f0f0e6;
+}
+.headingTtl h1 p{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 10px;
+}
+
+/* map
+--------------*/
+section.map{
+    height: 916px;
+}
+
+section.map .titlebox{
+    padding: 78px 0 60px 0;
+    text-align:center;
+}
+section.map .titlebox p{
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+section.map .tabbox{
+    padding: 0 0 35px 0;
+}
+section.map .tabbox ul{
+    width: 960px;
+    font-size: 0;
+    letter-spacing: 0;
+    white-space: nowrap;
+    margin: 0 auto 0 auto;
+}
+section.map .tabbox ul>li{
+    display: inline-block;
+    position: relative;
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    letter-spacing: 7px;
+    text-indent: 7px;
+    text-align: center;
+    margin: 0 0 0 24px;
+}
+section.map .tabbox ul>li:nth-of-type(1){
+    margin: 0 0 0 0;
+}
+section.map .tabbox ul>li .parent label{
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 48px;
+    font-weight: 500;
+    background-color: #ffffff;
+    border-style: solid;border-width: 2px;border-color: #333333;
+}
+section.map .tabbox ul>li.aomori .parent label.curr{
+    background-color: #e9b003;
+    border-color: #e9b003;
+}
+section.map .tabbox ul>li.iwate .parent label.curr{
+    background-color: #5c8dc0;
+    border-color: #5c8dc0;
+}
+section.map .tabbox ul>li.akita .parent label.curr{
+    background-color: #e5793a;
+    border-color: #e5793a;
+}
+section.map .tabbox ul>li.yamagata .parent label.curr{
+    background-color: #3ebb6d;
+    border-color: #3ebb6d;
+}
+section.map .tabbox ul>li.miyagi .parent label.curr{
+    background-color: #c17ebe;
+    border-color: #c17ebe;
+}
+section.map .tabbox ul>li.fukushima .parent label.curr{
+    background-color: #6fbf28;
+    border-color: #6fbf28;
+}
+section.map .tabbox ul>li .child{
+    position: absolute;left: 0;top: 50px;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition-property: height;transition-property: height;
+    -webkit-transition-duration: 0.4s;transition-duration: 0.4s;
+}
+section.map .tabbox ul>li.appear .child.count1{
+    height: 50px;
+}
+section.map .tabbox ul>li.appear .child.count2{
+    height: 100px;
+}
+section.map .tabbox ul>li.appear .child.count3{
+    height: 150px;
+}
+section.map .tabbox ul>li.appear .child.count4{
+    height: 200px;
+}
+section.map .tabbox ul>li.appear .child.count5{
+    height: 250px;
+}
+section.map .tabbox ul>li .child label{
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 48px;
+    font-size: 17px;
+    letter-spacing: 0;
+    border-style: solid;border-width: 0 0 1px 0;border-color: rgba(255,255,255,1);
+    opacity: 0.8;
+}
+section.map .tabbox ul>li .child label:nth-of-type(1){
+    border-width: 1px 0 1px 0;
+}
+section.map .tabbox ul>li.aomori .child label{
+    background-color: #e9b003;
+}
+section.map .tabbox ul>li.iwate .child label{
+    background-color: #5c8dc0;
+}
+section.map .tabbox ul>li.akita .child label{
+    background-color: #e5793a;
+}
+section.map .tabbox ul>li.yamagata .child label{
+    background-color: #3ebb6d;
+}
+section.map .tabbox ul>li.miyagi .child label{
+    background-color: #c17ebe;
+}
+section.map .tabbox ul>li.fukushima .child label{
+    background-color: #6fbf28;
+}
+section.map .tabbox ul>li .child label.curr{
+    color: rgba(255,255,255,1);
+    font-weight: 700;
+    opacity: 1;
+    cursor: default;
+}
+section.map .tabbox ul>li .child label:not(.curr):hover{
+    opacity: 1;
+}
+
+section.map .gmapbox{
+    position: relative;
+    width: 960px;
+    height: 555px;
+    margin: 0 auto 0 auto;
+}
+
+section.map .gmapbox .gmap{
+    width: 100%;
+    height: 100%;
+    background-color: #eeeeee;
+}
+
+section.map .gmapbox .tip{
+    position: absolute;left: -32px;top: 35px;
+    height: 50px;
+    padding: 0 30px 0 30px;
+    line-height: 50px;
+    font-size: 18px;
+    letter-spacing: 0;
+    font-weight: 700;
+    text-align:center;
+    color: #ffffff;
+}
+section.map .gmapbox .tip[my_pnum="1"]{
+    background-color: #e9b003;
+}
+section.map .gmapbox .tip[my_pnum="2"]{
+    background-color: #5c8dc0;
+}
+section.map .gmapbox .tip[my_pnum="3"]{
+    background-color: #e5793a;
+}
+section.map .gmapbox .tip[my_pnum="4"]{
+    background-color: #c17ebe;
+}
+section.map .gmapbox .tip[my_pnum="5"]{
+    background-color: #3ebb6d;
+}
+section.map .gmapbox .tip[my_pnum="6"]{
+    background-color: #6fbf28;
+}
+
+section.map .gmapbox .overlay{
+    display: none;
+    position: absolute;left: 0;top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+section.map .gmapbox .overlay .inbox{
+    position: relative;
+    width: 530px;
+    height: 480px;
+    background-color: #ffffff;
+    margin: 40px auto 0 auto;
+}
+section.map .gmapbox .overlay label.close{
+    position: absolute;right: 10px;top: 0;
+    width: 64px;
+    height: 64px;
+    opacity: 0.5;
+}
+section.map .gmapbox .overlay label.close:hover{
+    opacity: 1;
+}
+section.map .gmapbox .overlay .eachwrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+section.map .gmapbox .overlay .each{
+    display: none;
+    position: absolute;left: 0;top: 0;
+    width: 100%;
+    padding: 0 40px 40px 40px;
+}
+section.map .gmapbox .overlay .each.appear{
+    display: block;
+}
+section.map .gmapbox .overlay .each .myname{
+    padding: 20px 0 20px 0;
+    font-size: 17px;
+    text-align: center;
+}
+section.map .gmapbox .overlay .each .myname p:nth-of-type(1){
+    padding: 0 0 10px 0;
+}
+section.map .gmapbox .overlay .each .myname p:nth-of-type(2){
+    color: #c17ebe;
+}
+section.map .gmapbox .overlay .each .property{
+    padding: 0 0 20px 0;
+}
+section.map .gmapbox .overlay .each .property table{
+    font-size: 17px;
+    font-weight: 500;
+    border-collapse: collapse;
+}
+section.map .gmapbox .overlay .each .property table tr{
+    border-style: solid;border-width: 0 0 4px 0;border-color: #debedd;
+}
+section.map .gmapbox .overlay .each .property table tr:nth-of-type(1){
+    border-width: 4px 0 4px 0;
+}
+section.map .gmapbox .overlay .each .property table tr:nth-of-type(4){
+    background-color: #debedd;
+}
+section.map .gmapbox .overlay .each .property table td{
+    padding: 8px 0 8px 0;
+    line-height: 1.3;
+    vertical-align: middle;
+}
+section.map .gmapbox .overlay .each .property table td:nth-of-type(1){
+    text-indent: 20px;
+}
+section.map .gmapbox .overlay .each .property table td:nth-of-type(2){
+    width: 210px;
+}
+section.map .gmapbox .overlay .each .inquiry{
+    line-height: 1.7;
+    font-size: 15px;
+}
+section.map .gmapbox .overlay .each .inquiry p:nth-of-type(1){
+    color: #c17ebe;
+}
+section.map .gmapbox .overlay .each .inquiry p:nth-of-type(5){
+    font-size: 19px;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+section.map .gmapbox .overlay .each.aomori .myname p:nth-of-type(2),
+section.map .gmapbox .overlay .each.aomori .inquiry p:nth-of-type(1){
+    color: #e9b003;
+}
+section.map .gmapbox .overlay .each.aomori .property table tr{
+    border-color: #e9b003;
+}
+section.map .gmapbox .overlay .each.aomori .property table tr:nth-of-type(4){
+    background-color: #e9b003;
+}
+section.map .gmapbox .overlay .each.iwate .myname p:nth-of-type(2),
+section.map .gmapbox .overlay .each.iwate .inquiry p:nth-of-type(1){
+    color: #5c8dc0;
+}
+section.map .gmapbox .overlay .each.iwate .property table tr{
+    border-color: #5c8dc0;
+}
+section.map .gmapbox .overlay .each.iwate .property table tr:nth-of-type(4){
+    background-color: #5c8dc0;
+}
+section.map .gmapbox .overlay .each.akita .myname p:nth-of-type(2),
+section.map .gmapbox .overlay .each.akita .inquiry p:nth-of-type(1){
+    color: #e5793a;
+}
+section.map .gmapbox .overlay .each.akita .property table tr{
+    border-color: #e5793a;
+}
+section.map .gmapbox .overlay .each.akita .property table tr:nth-of-type(4){
+    background-color: #e5793a;
+}
+section.map .gmapbox .overlay .each.yamagata .myname p:nth-of-type(2),
+section.map .gmapbox .overlay .each.yamagata .inquiry p:nth-of-type(1){
+    color: #3ebb6d;
+}
+section.map .gmapbox .overlay .each.yamagata .property table tr{
+    border-color: #3ebb6d;
+}
+section.map .gmapbox .overlay .each.yamagata .property table tr:nth-of-type(4){
+    background-color: #3ebb6d;
+}
+section.map .gmapbox .overlay .each.miyagi .myname p:nth-of-type(2),
+section.map .gmapbox .overlay .each.miyagi .inquiry p:nth-of-type(1){
+    color: #c17ebe;
+}
+section.map .gmapbox .overlay .each.miyagi .property table tr{
+    border-color: #c17ebe;
+}
+section.map .gmapbox .overlay .each.miyagi .property table tr:nth-of-type(4){
+    background-color: #c17ebe;
+}
+section.map .gmapbox .overlay .each.fukushima .myname p:nth-of-type(2),
+section.map .gmapbox .overlay .each.fukushima .inquiry p:nth-of-type(1){
+    color: #6fbf28;
+}
+section.map .gmapbox .overlay .each.fukushima .property table tr{
+    border-color: #6fbf28;
+}
+section.map .gmapbox .overlay .each.fukushima .property table tr:nth-of-type(4){
+    background-color: #6fbf28;
+}
+
+/* contact
+--------------*/
+section.contact{
+    text-align:center;
+    background-color:#f0f0e6;
+}
+
+section.contact .eachwrap{
+    position: relative;
+	padding: 0 0 80px 0;
+}
+section.contact .each{
+	display: none;
+}
+section.contact .each.appear{
+	display: block;
+}
+
+section.contact .each h2{
+    padding: 70px 0 30px 0;
+    text-align:center;
+}
+section.contact .each h2 p{
+    font-size: 33px;
+    font-weight: 700;
+    letter-spacing: 8px;
+}
+
+section.contact .each .excuse{
+    padding: 0 0 30px 0;
+}
+section.contact .each .excuse p{
+    line-height: 1.3;
+}
+section.contact .each .detail{
+    padding: 40px 50px 40px 50px;
+    text-align: left;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin: 0 0 30px 0;
+}
+section.contact .each .detail .info{
+    display: inline-block;
+    vertical-align: top;
+}
+section.contact .each .detail .howto{
+    display: inline-block;
+    vertical-align: top;
+}
+section.contact .each .detail .myname{
+    width: 520px;
+    padding: 0 0 20px 0;
+}
+section.contact .each .detail .myname p:nth-of-type(1){
+    padding: 0 0 10px 0;
+    font-size: 20px;
+} 
+section.contact .each .detail .myname p:nth-of-type(2){
+    font-size: 30px;
+    font-weight: 700;
+}
+section.contact .each .detail .address{
+    position: relative;
+    width: 460px;
+}
+section.contact .each .detail .address p:nth-of-type(1){
+    padding: 0 0 5px 0;
+    font-size: 18px;
+} 
+section.contact .each .detail .address p:nth-of-type(2){
+    line-height: 1.5;
+    padding: 0 0 5px 0;
+    font-size: 18px;
+}
+/*
+section.contact .each .detail .address p:nth-of-type(3){
+    position: absolute;left: 340px;top: 20px;
+}
+section.contact .each .detail .address p:nth-of-type(3) a{
+    display: block;
+    width: 128px;
+    padding: 6px 0 6px 0;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #989696;
+    border-radius: 20px;
+}
+section.contact .each .detail .address p:nth-of-type(3) a:hover{
+    opacity: 0.5;
+}
+*/
+section.contact .each .detail .tel{
+    width: 520px;
+}
+section.contact .each .detail .tel p:nth-of-type(1){
+    padding: 10px 0 10px 0;
+    font-size: 18px;
+}
+section.contact .each .detail .tel p:nth-of-type(1) b{
+    display: block;
+    padding: 5px 0 0 0;
+    font-size: 15px;
+    font-weight: normal;
+}
+section.contact .each .detail .tel p:nth-of-type(2){
+    font-size: 50px;
+    font-weight: 700;
+} 
+section.contact .each .detail .tel p:nth-of-type(3){
+    padding: 10px 0 0 0;
+    font-size: 25px;
+    font-weight: 700;
+}
+section.contact .each .detail .tel p:nth-of-type(3) a{
+    display: inline-block;
+    vertical-align: bottom;
+    white-space: nowrap;
+    text-decoration: underline;
+}
+section.contact .each .detail .tel p:nth-of-type(3) a:hover{
+    opacity: 0.5;
+}
+section.contact .each .detail .guide1{
+    width: 370px;
+    padding: 0 0 20px 0;
+}
+section.contact .each .detail .guide1 p:nth-of-type(1){
+    padding: 0 0 0 8px;
+    font-size: 20px;
+    border-style: solid;border-width: 0 0 0 5px;
+    margin: 0 0 15px 0;
+} 
+section.contact .each .detail .guide1 p:nth-of-type(2){
+    line-height: 1.7;
+    font-size: 16px;
+}
+section.contact .each .detail .guide2{
+    width: 385px;
+}
+section.contact .each .detail .guide2 p:nth-of-type(1){
+    position: relative;
+    padding: 0 0 20px 8px;
+    font-size: 20px;
+    border-style: solid;border-width: 0 0 0 5px;border-color: #be7ebb;
+    margin: 0 0 15px 0;
+} 
+section.contact .each .detail .guide2 p:nth-of-type(1) span{
+    position: absolute;left: 8px;bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    white-space: nowrap;
+}
+section.contact .each .detail .guide2 p:nth-of-type(2){
+    line-height: 1.7;
+    font-size: 16px;
+}
+section.contact .each .detail .guide2 p:nth-of-type(2) b{
+    font-size: 14px;
+    font-weight: normal;
+}
+section.contact .each.aomori .detail .guide1 p:nth-of-type(1),
+section.contact .each.aomori .detail .guide2 p:nth-of-type(1){
+    color: #e9b003;
+    border-color: #e9b003;
+}
+section.contact .each.iwate .detail .guide1 p:nth-of-type(1),
+section.contact .each.iwate .detail .guide2 p:nth-of-type(1){
+    color: #5c8dc0;
+    border-color: #5c8dc0;
+}
+section.contact .each.akita .detail .guide1 p:nth-of-type(1),
+section.contact .each.akita .detail .guide2 p:nth-of-type(1){
+    color: #e5793a;
+    border-color: #e5793a;
+}
+section.contact .each.yamagata .detail .guide1 p:nth-of-type(1),
+section.contact .each.yamagata .detail .guide2 p:nth-of-type(1){
+    color: #3ebb6d;
+    border-color: #3ebb6d;
+}
+section.contact .each.miyagi .detail .guide1 p:nth-of-type(1),
+section.contact .each.miyagi .detail .guide2 p:nth-of-type(1){
+    color: #c17ebe;
+    border-color: #c17ebe;
+}
+section.contact .each.fukushima .detail .guide1 p:nth-of-type(1),
+section.contact .each.fukushima .detail .guide2 p:nth-of-type(1){
+    color: #6fbf28;
+    border-color: #6fbf28;
+}
+
+section.contact .each .anew{
+    position: relative;
+    padding: 25px 50px 0 50px;
+    text-align: left;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+section.contact .each .anew i{
+    position: absolute;left: 13px;top: -24px;
+    width: 100px;
+    height: 140px;
+}
+section.contact .each .anew dl{
+    padding: 0 0 25px 80px;
+}
+section.contact .each .anew dl>dt{
+    padding: 0 0 20px 0;
+}
+section.contact .each .anew dl>dt p{
+    display: inline-block;
+    padding: 0 0 10px 0;
+	line-height: 1.5;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    vertical-align: top;
+    border-style: solid;border-width: 0 0 4px 0;border-color: #fff47f;
+}
+section.contact .each .anew dl>dd p{
+    line-height: 1.5;
+    font-size: 20px;
+}
+section.contact .each .anew dl>dd p a{
+    text-decoration: underline;
+}
+section.contact .each .anew dl>dd p a:hover{
+    opacity: 0.5;
+}
+
+/* reserve
+--------------*/
+section.reserve{
+}
+section.reserve .eachwrap{
+    position: relative;
+}
+section.reserve .each{
+    display: none;
+    padding: 115px 0 115px 0;
+    text-align: center;
+}
+section.reserve .each.appear{
+    display: block;
+}
+section.reserve .each .inbox{
+    display: inline-block;
+    position: relative;
+    width: 460px;
+    height: 170px;
+    vertical-align: top;
+    text-align: left;
+    border-style: solid;border-width: 6px;border-color: #fff47f;
+    border-radius: 15px;
+}
+section.reserve .each .inbox a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+section.reserve .each .inbox a:hover{
+    opacity: 0.5;
+}
+section.reserve .each .inbox i{
+    position: absolute;left: 30px;top: 20px;
+    width: 120px;
+    height: 120px;
+}
+section.reserve .each .inbox p{
+    padding: 40px 0 0 170px;
+    line-height: 1.7;
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 7px;
+}
+
+
+/*--------------*/
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* max-width:768px */
+/* //////////////////////////////////////////////////////////////////////////////// */
+@media screen and (max-width: 768px) {
+    /*-------------------
+
+    sp
+
+    -------------------*/
+/* px2rem
+0.032594737
+*/
+
+/*
+div.serviceIndex{background-image: url(../_dm_sp.png);background-repeat: no-repeat;background-position: 0 -80px;background-size: 100% auto;}div.tpl_wrapper{opacity:0.5;}
+*/
+
+
+
+/* headingTtl
+--------------*/
+.headingTtl{
+    padding: 1.304rem 0 1.304rem 0;
+    text-align:center;
+    background-color:#f0f0e6;
+}
+.headingTtl h1 p{
+    font-size: 1.630rem;
+    font-weight: 500;
+    letter-spacing: 0.326rem;
+}
+
+/* map
+--------------*/
+section.map{
+    height: 45.633rem;
+}
+
+section.map .titlebox{
+    padding: 1.467rem 0 2.119rem 0;
+    text-align:center;
+}
+section.map .titlebox p{
+    line-height: 1.5;
+    font-size: 1.141rem;
+    letter-spacing: 0.098rem;
+}
+
+section.map .tabbox{
+    padding: 0 0 3.608rem 0;
+}
+section.map .tabbox ul{
+    font-size: 0;
+    letter-spacing: 0;
+    text-align: center;
+}
+section.map .tabbox ul>li{
+    display: inline-block;
+    position: relative;
+    width: 6.393rem;
+    height: 2.608rem;
+    font-size: 1.043rem;
+    letter-spacing: 0.228rem;
+    text-indent: 0.228rem;
+    margin: 0 0 0.978rem 0.815rem;
+}
+section.map .tabbox ul>li:nth-of-type(3n-2){
+    margin: 0 0 0.978rem 0;
+}
+section.map .tabbox ul>li .parent label{
+    display: block;
+    width: 100%;
+    height: 2.608rem;
+    line-height: 2.456rem;
+    font-weight: 500;
+    background-color: #ffffff;
+    border-style: solid;border-width: 0.125rem;border-color: #333333;
+}
+section.map .tabbox ul>li.aomori .parent label.curr{
+    background-color: #e9b003;
+    border-color: #e9b003;
+}
+section.map .tabbox ul>li.iwate .parent label.curr{
+    background-color: #5c8dc0;
+    border-color: #5c8dc0;
+}
+section.map .tabbox ul>li.akita .parent label.curr{
+    background-color: #e5793a;
+    border-color: #e5793a;
+}
+section.map .tabbox ul>li.yamagata .parent label.curr{
+    background-color: #3ebb6d;
+    border-color: #3ebb6d;
+}
+section.map .tabbox ul>li.miyagi .parent label.curr{
+    background-color: #c17ebe;
+    border-color: #c17ebe;
+}
+section.map .tabbox ul>li.fukushima .parent label.curr{
+    background-color: #6fbf28;
+    border-color: #6fbf28;
+}
+section.map .tabbox ul>li .child{
+    position: absolute;left: 0;top: 2.608rem;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition-property: height;transition-property: height;
+    -webkit-transition-duration: 0.4s;transition-duration: 0.4s;
+}
+section.map .tabbox ul>li.appear .child.count1{
+    height: 2.608rem;
+}
+section.map .tabbox ul>li.appear .child.count2{
+    height: 5.215rem;
+}
+section.map .tabbox ul>li.appear .child.count3{
+    height: 7.823rem;
+}
+section.map .tabbox ul>li.appear .child.count4{
+    height: 10.430rem;
+}
+section.map .tabbox ul>li.appear .child.count5{
+    height: 13.040rem;
+}
+section.map .tabbox ul>li .child label{
+    display: block;
+    width: 100%;
+    height: 2.282rem;
+    line-height: 2.282rem;
+    font-size: 0.815rem;
+    letter-spacing: 0;
+    white-space: nowrap;
+    background-color: #c17ebe;
+    border-style: solid;border-width: 0 0 0.065rem 0;border-color: rgba(255,255,255,1);
+}
+section.map .tabbox ul>li .child label:nth-of-type(1){
+    border-width: 0.065rem 0 0.065rem 0;
+}
+section.map .tabbox ul>li.aomori .child label{
+    background-color: #e9b003;
+}
+section.map .tabbox ul>li.iwate .child label{
+    background-color: #5c8dc0;
+}
+section.map .tabbox ul>li.akita .child label{
+    background-color: #e5793a;
+}
+section.map .tabbox ul>li.yamagata .child label{
+    background-color: #3ebb6d;
+}
+section.map .tabbox ul>li.miyagi .child label{
+    background-color: #c17ebe;
+}
+section.map .tabbox ul>li.fukushima .child label{
+    background-color: #6fbf28;
+}
+section.map .tabbox ul>li .child label.curr{
+    color: #ffffff;
+}
+
+section.map .gmapbox{
+    position: relative;
+    width: 22.164rem;
+    height: 23.957rem;
+    margin: 0 auto 0 auto;
+}
+
+section.map .gmapbox .gmap{
+    width: 100%;
+    height: 100%;
+    background-color: #eeeeee;
+}
+
+section.map .gmapbox .tip{
+    position: absolute;left: 0;top: -2.282rem;
+    height: 2.282rem;
+    padding: 0 1.304rem 0 1.304rem;
+    line-height: 2.282rem;
+    font-size: 0.815rem;
+    letter-spacing: 0.100rem;
+    text-align:center;
+    color: #ffffff;
+}
+section.map .gmapbox .tip[my_pnum="1"]{
+    background-color: #e9b003;
+}
+section.map .gmapbox .tip[my_pnum="2"]{
+    background-color: #5c8dc0;
+}
+section.map .gmapbox .tip[my_pnum="3"]{
+    background-color: #e5793a;
+}
+section.map .gmapbox .tip[my_pnum="4"]{
+    background-color: #c17ebe;
+}
+section.map .gmapbox .tip[my_pnum="5"]{
+    background-color: #3ebb6d;
+}
+section.map .gmapbox .tip[my_pnum="6"]{
+    background-color: #6fbf28;
+}
+
+section.map .gmapbox .overlay{
+    display: none;
+    position: absolute;left: 0;top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+section.map .gmapbox .overlay .inbox{
+    position: relative;
+    width: 20.372rem;
+    height: 22.164rem;
+    background-color: #ffffff;
+    margin: 0.815rem auto 0 auto;
+}
+section.map .gmapbox .overlay label.close{
+    position: absolute;right: 0;top: 0;
+    width: 2.608rem;
+    height: 2.608rem;
+}
+section.map .gmapbox .overlay label.close img{
+    width: 100%;
+}
+section.map .gmapbox .overlay .eachwrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+section.map .gmapbox .overlay .each{
+    display: none;
+    position: absolute;left: 0;top: 0;
+    width: 100%;
+    padding: 0 1.304rem 1.304rem 1.304rem;
+}
+section.map .gmapbox .overlay .each.appear{
+    display: block;
+}
+section.map .gmapbox .overlay .each .myname{
+    padding: 0.978rem 0 0.652rem 0;
+    font-size: 1.043rem;
+    text-align: center;
+}
+section.map .gmapbox .overlay .each .myname p:nth-of-type(1){
+    padding: 0 0 0.326rem 0;
+}
+section.map .gmapbox .overlay .each .myname p:nth-of-type(2){
+    color: #c17ebe;
+}
+section.map .gmapbox .overlay .each .property{
+    padding: 0 0 0.978rem 0;
+}
+section.map .gmapbox .overlay .each .property table{
+    font-size: 0.815rem;
+    font-weight: 500;
+    border-collapse: collapse;
+}
+section.map .gmapbox .overlay .each .property table tr{
+    border-style: solid;border-width: 0 0 0.130rem 0;border-color: #debedd;
+}
+section.map .gmapbox .overlay .each .property table tr:nth-of-type(1){
+    border-width: 0.130rem 0 0.130rem 0;
+}
+section.map .gmapbox .overlay .each .property table tr:nth-of-type(4){
+    background-color: #debedd;
+}
+section.map .gmapbox .overlay .each .property table td{
+    padding: 0.326rem 0 0.326rem 0;
+    line-height: 1.3;
+    vertical-align: middle;
+}
+section.map .gmapbox .overlay .each .property table td:nth-of-type(1){
+    text-indent: 0.326rem;
+}
+section.map .gmapbox .overlay .each .property table td:nth-of-type(2){
+    width: 8.149rem;
+}
+section.map .gmapbox .overlay .each .inquiry{
+    line-height: 1.3;
+    font-size: 0.782rem;
+}
+section.map .gmapbox .overlay .each .inquiry p:nth-of-type(1){
+    padding: 0 0 0.326rem 0;
+    font-weight: 500;
+    color: #c17ebe;
+}
+section.map .gmapbox .overlay .each .inquiry p:nth-of-type(5){
+    font-size: 1.043rem;
+    letter-spacing: 0;
+}
+section.map .gmapbox .overlay .each .inquiry p:nth-of-type(5) span.str{
+    display: block;
+}
+
+section.map .gmapbox .overlay .each.aomori .myname p:nth-of-type(2),
+section.map .gmapbox .overlay .each.aomori .inquiry p:nth-of-type(1){
+    color: #e9b003;
+}
+section.map .gmapbox .overlay .each.aomori .property table tr{
+    border-color: #e9b003;
+}
+section.map .gmapbox .overlay .each.aomori .property table tr:nth-of-type(4){
+    background-color: #e9b003;
+}
+section.map .gmapbox .overlay .each.iwate .myname p:nth-of-type(2),
+section.map .gmapbox .overlay .each.iwate .inquiry p:nth-of-type(1){
+    color: #5c8dc0;
+}
+section.map .gmapbox .overlay .each.iwate .property table tr{
+    border-color: #5c8dc0;
+}
+section.map .gmapbox .overlay .each.iwate .property table tr:nth-of-type(4){
+    background-color: #5c8dc0;
+}
+section.map .gmapbox .overlay .each.akita .myname p:nth-of-type(2),
+section.map .gmapbox .overlay .each.akita .inquiry p:nth-of-type(1){
+    color: #e5793a;
+}
+section.map .gmapbox .overlay .each.akita .property table tr{
+    border-color: #e5793a;
+}
+section.map .gmapbox .overlay .each.akita .property table tr:nth-of-type(4){
+    background-color: #e5793a;
+}
+section.map .gmapbox .overlay .each.yamagata .myname p:nth-of-type(2),
+section.map .gmapbox .overlay .each.yamagata .inquiry p:nth-of-type(1){
+    color: #3ebb6d;
+}
+section.map .gmapbox .overlay .each.yamagata .property table tr{
+    border-color: #3ebb6d;
+}
+section.map .gmapbox .overlay .each.yamagata .property table tr:nth-of-type(4){
+    background-color: #3ebb6d;
+}
+section.map .gmapbox .overlay .each.miyagi .myname p:nth-of-type(2),
+section.map .gmapbox .overlay .each.miyagi .inquiry p:nth-of-type(1){
+    color: #c17ebe;
+}
+section.map .gmapbox .overlay .each.miyagi .property table tr{
+    border-color: #c17ebe;
+}
+section.map .gmapbox .overlay .each.miyagi .property table tr:nth-of-type(4){
+    background-color: #c17ebe;
+}
+section.map .gmapbox .overlay .each.fukushima .myname p:nth-of-type(2),
+section.map .gmapbox .overlay .each.fukushima .inquiry p:nth-of-type(1){
+    color: #6fbf28;
+}
+section.map .gmapbox .overlay .each.fukushima .property table tr{
+    border-color: #6fbf28;
+}
+section.map .gmapbox .overlay .each.fukushima .property table tr:nth-of-type(4){
+    background-color: #6fbf28;
+}
+
+/* contact
+--------------*/
+section.contact{
+    text-align:center;
+    background-color:#f0f0e6;
+}
+
+section.contact .eachwrap{
+    position: relative;
+	padding: 0 0 2.771rem 0;
+}
+section.contact .each{
+	display: none;
+}
+section.contact .each.appear{
+	display: block;
+}
+
+section.contact .each h2{
+    padding: 2.771rem 0 1rem 0;
+    text-align:center;
+}
+section.contact .each h2 p{
+    font-size: 1.630rem;
+    font-weight: 700;
+    letter-spacing: 0.065rem;
+}
+
+section.contact .each .excuse{
+    padding: 0 1rem 1rem 1rem;
+    text-align: left;
+}
+section.contact .each .excuse p{
+    line-height: 1.3;
+    padding: 0 0 0 1em;
+    text-indent: -1em;
+    font-size: 0.878rem;
+}
+section.contact .each .detail{
+    width: 22.164rem;
+    padding: 1.793rem 1.793rem 1.793rem 1.793rem;
+    text-align: left;
+    background-color: #ffffff;
+    border-radius: 1.304rem;
+    margin: 0 auto 2.282rem auto;
+}
+section.contact .each .detail .info{
+}
+section.contact .each .detail .howto{
+}
+section.contact .each .detail .myname{
+    padding: 0 0 2.119rem 0;
+    text-align: center;
+}
+section.contact .each .detail .myname p:nth-of-type(1){
+    padding: 0 0 0.652rem 0;
+    font-size: 0.978rem;
+} 
+section.contact .each .detail .myname p:nth-of-type(2){
+    font-size: 1.304rem;
+    font-weight: 700;
+}
+section.contact .each .detail .address{
+    position: relative;
+    padding: 0 0 0.815rem 0;
+}
+section.contact .each .detail .address p:nth-of-type(1){
+    padding: 0 0 0.326rem 0;
+    font-size: 0.978rem;
+} 
+section.contact .each .detail .address p:nth-of-type(2){
+    padding: 0 0 0.652rem 0;
+    font-size: 0.978rem;
+}
+/*
+section.contact .each .detail .address p:nth-of-type(3){
+    text-align: center;
+}
+section.contact .each .detail .address p:nth-of-type(3) a{
+    display: inline-block;
+    width: 7.334rem;
+    padding: 0.326rem 0 0.326rem 0;
+    font-size: 0.978rem;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #989696;
+    border-radius: 0.978rem;
+}
+*/
+section.contact .each .detail .tel{
+    padding: 0 0 1.630rem 0;
+}
+section.contact .each .detail .tel p:nth-of-type(1){
+    padding: 0 0 0.400rem 0;
+    font-size: 0.978rem;
+}
+section.contact .each .detail .tel p:nth-of-type(1) b{
+    display: block;
+    padding: 0.326rem 0 0 0;
+    font-size: 0.800rem;
+    font-weight: normal;
+}
+section.contact .each .detail .tel p:nth-of-type(2){
+    font-size: 1.956rem;
+    font-weight: 700;
+    white-space: nowrap;
+} 
+section.contact .each .detail .tel p:nth-of-type(3){
+    padding: 0.326rem 0 0 0;
+    font-size: 1.056rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+section.contact .each .detail .tel p:nth-of-type(3) a{
+    text-decoration: underline;
+}
+section.contact .each .detail .guide1{
+    padding: 0 0 1.304rem 0;
+}
+section.contact .each .detail .guide1 p:nth-of-type(1){
+    padding: 0 0 0 0.326rem;
+    font-size: 1.108rem;
+    border-style: solid;border-width: 0 0 0 0.326rem;
+    margin: 0 0 0.489rem 0;
+} 
+section.contact .each .detail .guide1 p:nth-of-type(2){
+    line-height: 1.7;
+    font-size: 0.782rem;
+}
+section.contact .each .detail .guide2{
+    position: relative;
+}
+section.contact .each .detail .guide2 p:nth-of-type(1){
+    position: relative;
+    padding: 0 0 1.304rem 0.326rem;
+    font-size: 1.108rem;
+    border-style: solid;border-width: 0 0 0 0.326rem;
+    margin: 0 0 0.489rem 0;
+} 
+section.contact .each .detail .guide2 p:nth-of-type(1) span{
+    position: absolute;left: 0.326rem;bottom: 0;
+    width: 100%;
+    font-size: 0.782rem;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+section.contact .each .detail .guide2 p:nth-of-type(2){
+    line-height: 1.7;
+    font-size: 0.880rem;
+}
+section.contact .each .detail .guide2 p:nth-of-type(2) b{
+    font-size: 0.782rem;
+    font-weight: normal;
+}
+section.contact .each.aomori .detail .guide1 p:nth-of-type(1),
+section.contact .each.aomori .detail .guide2 p:nth-of-type(1){
+    color: #e9b003;
+    border-color: #e9b003;
+}
+section.contact .each.iwate .detail .guide1 p:nth-of-type(1),
+section.contact .each.iwate .detail .guide2 p:nth-of-type(1){
+    color: #5c8dc0;
+    border-color: #5c8dc0;
+}
+section.contact .each.akita .detail .guide1 p:nth-of-type(1),
+section.contact .each.akita .detail .guide2 p:nth-of-type(1){
+    color: #e5793a;
+    border-color: #e5793a;
+}
+section.contact .each.yamagata .detail .guide1 p:nth-of-type(1),
+section.contact .each.yamagata .detail .guide2 p:nth-of-type(1){
+    color: #3ebb6d;
+    border-color: #3ebb6d;
+}
+section.contact .each.miyagi .detail .guide1 p:nth-of-type(1),
+section.contact .each.miyagi .detail .guide2 p:nth-of-type(1){
+    color: #c17ebe;
+    border-color: #c17ebe;
+}
+section.contact .each.fukushima .detail .guide1 p:nth-of-type(1),
+section.contact .each.fukushima .detail .guide2 p:nth-of-type(1){
+    color: #6fbf28;
+    border-color: #6fbf28;
+}
+
+section.contact .each .anew{
+    position: relative;
+    width: 22.164rem;
+    padding: 1.304rem 1.304rem 0 1.304rem;
+    background-color: #ffffff;
+    border-radius: 1.304rem;
+    margin: 0 auto 0 auto;
+}
+section.contact .each .anew i{
+    position: absolute;left: 0.497rem;top: -1.904rem;
+    width: 3.259rem;
+    height: 4.563rem;
+}
+section.contact .each .anew dl{
+	padding: 0 0 1.304rem 0;
+}
+section.contact .each .anew dl>dt{
+    padding: 0 2.400rem 0.978rem 2.400rem;
+	line-height: 1.5;
+    text-align: center;
+}
+section.contact .each .anew dl>dt p{
+    display: inline-block;
+    padding: 0 0 0.326rem 0;
+    font-size: 1.043rem;
+    font-weight: 700;
+    letter-spacing: 0.326rem;
+    vertical-align: top;
+    text-align: left;
+    border-style: solid;border-width: 0 0 0.130rem 0;border-color: #fff47f;
+}
+section.contact .each .anew dl>dd p{
+    line-height: 1.5;
+    font-size: 0.978rem;
+    text-align: left;
+}
+section.contact .each .anew dl>dd p a{
+    text-decoration: underline;
+}
+
+/* reserve
+--------------*/
+section.reserve{
+}
+section.reserve .eachwrap{
+    position: relative;
+}
+section.reserve .each{
+    display: none;
+    margin: 5.378rem 0 5.378rem 0;
+    text-align: center;
+}
+section.reserve .each.appear{
+    display: block;
+}
+section.reserve .each .inbox{
+    display: inline-block;
+    position: relative;
+    width: 17.927rem;
+    height: 6.519rem;
+    vertical-align: top;
+    text-align: left;
+    border-style: solid;border-width: 0.261rem;border-color: #fff47f;
+    border-radius: 0.489rem;
+}
+section.reserve .each .inbox a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+section.reserve .each .inbox i{
+    position: absolute;left: 0.978rem;top: 0.652rem;
+    width: 4.889rem;
+    height: 4.889rem;
+}
+section.reserve .each .inbox p{
+    padding: 1.304rem 0 0 6.519rem;
+    line-height: 1.7;
+    font-size: 0.978rem;
+    font-weight: 500;
+    letter-spacing: 0.228rem;
+}
+
+
+/*--------------*/
+}

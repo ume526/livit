@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/* =========================================================
+	Company / Recruit / Profile
+========================================================= */
+#conts p {
+	line-height: 1.9;
+}
+
+#conts .image {
+	cursor: pointer;
+}
+
+#conts .bg-pettern03 .headline02 > span {
+	background: #FEF9DC;
+}
+
+#conts #message {
+	overflow: hidden;
+}
+
+#conts #message .imgBox {
+	float: right;
+	margin-left: 40px;
+}
+
+#conts #message .textBox h1 {
+	font-size: 2.2rem;
+	font-weight: normal;
+}
+
+#conts #message .textBox p {
+	line-height: 2.1;
+}
+
+#conts #message .textBox h1 + p {
+	margin-top: 20px;
+}
+
+#conts #message .textBox .signature {
+	text-align: right;
+}
+
+#conts .btnList01 {
+	margin-bottom: 40px;
+}
+
+#conts .ideaSec .lead {
+	padding-top: 35px;
+	font-size: 2.2rem;
+	text-align: center;
+	line-height: 1.8;
+}
+
+#conts .ideaSec .ideaList {
+	-webkit-display: flex;
+	display: flex;
+	margin-top: 55px;
+}
+
+#conts .ideaSec .ideaList li {
+	padding: 113px 0 8px;
+	border-left: 1px solid #BBB;
+	font-size: 1.8rem;
+	text-align: center;
+	position: relative;
+}
+
+#conts .ideaSec .ideaList li:nth-child(1) {
+	width: 301px;
+	border: none;
+}
+
+#conts .ideaSec .ideaList li:nth-child(2) {
+	width: 329px;
+}
+
+#conts .ideaSec .ideaList li:nth-child(3) {
+	width: 300px;
+}
+
+#conts .ideaSec .ideaList li:before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 50%;
+}
+
+#conts .ideaSec .ideaList li:nth-child(1):before {
+	width: 124px;
+	height: 84px;
+	margin-left: -62px;
+	background: url(../../../img/company/recruit/profile/icon_idea01.png) no-repeat;
+	top: 16px;
+}
+
+#conts .ideaSec .ideaList li:nth-child(2):before {
+	width: 92px;
+	height: 66px;
+	margin-left: -46px;
+	background: url(../../../img/company/recruit/profile/icon_idea02.png) no-repeat;
+	top: 34px;
+}
+
+#conts .ideaSec .ideaList li:nth-child(3):before {
+	width: 54px;
+	height: 84px;
+	margin-left: -27px;
+	background: url(../../../img/company/recruit/profile/icon_idea03.png) no-repeat;
+	top: 16px;
+}
+
+#conts .aboutSec .cmnTable01 dt {
+	width: 120px;
+	padding: 8px 10px 8px 18px;
+}
+
+#conts .aboutSec .cmnTable01 dd ol li {
+	margin-left: 3.0em;
+	text-indent: -3.0em;
+}
+
+@media screen and (min-width: 768px) {
+	#conts {
+		margin-top: 0;
+	}
+
+	#conts .bg-pettern03 {
+		padding: 55px 0;
+	}
+
+	#conts .bg-pettern03 .standard-box {
+		padding: 0;		
+	}
+
+	#conts .btnList01,
+	#conts .ideaSec,
+	#conts .aboutSec {
+		padding: 0 14px;
+	}
+
+	#conts .aboutSec .cmnTable01 {
+		margin-top: 30px;
+	}
+
+	#conts .groupSec .headline02 {
+		margin : 0 14px 20px;
+	}
+}
+#conts .tabConts .imgBox {
+    text-align: center;
+}
+@media screen and (max-width: 767px) {
+	#conts #message .imgBox {
+		width: 50%;
+		margin: 0 0 9px 16px;
+	}
+
+	#conts #message .textBox h1 {
+		font-size: 1.7rem;
+	}
+
+	#conts #message .textBox h1 + p {
+		margin-top: 12px;
+	}
+
+	#conts .ideaSec,
+	#conts .aboutSec {
+		padding-bottom: 25px;
+	}
+
+	#conts .ideaSec .lead {
+		padding-top: 0;
+		font-size: 1.7rem;
+	}
+
+	#conts .ideaSec .ideaList {
+		margin-top: 25px;
+	}
+
+	#conts .ideaSec .ideaList li {
+		width: 33.3%!important;
+		padding: 58px 12px 0;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		font-size: 1.3rem;
+	}
+
+	#conts .ideaSec .ideaList li:nth-child(3) {
+		width: 33.4%!important;
+	}
+
+	#conts .ideaSec .ideaList li:nth-child(1):before {
+		margin-left: -31px;
+		-webkit-background-size: 62px 42px;
+		        background-size: 62px 42px;
+		top: 8px;
+	}
+
+	#conts .ideaSec .ideaList li:nth-child(2):before {
+		margin-left: -23px;
+		-webkit-background-size: 46px 33px;
+		        background-size: 46px 33px;
+		top: 18px;
+	}
+
+	#conts .ideaSec .ideaList li:nth-child(3):before {
+		margin-left: -13.5px;
+		-webkit-background-size: 27px 42px;
+		        background-size: 27px 42px;
+		top: 8px;
+	}
+
+	#conts .aboutSec .cmnTable01 dt {
+		width: 100%;
+		padding: 10px 10px;
+	}
+
+}
+
+
+@media print {
+	#conts {
+		margin-top: 0;
+	}
+}

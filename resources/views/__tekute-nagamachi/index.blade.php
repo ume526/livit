@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+@include('layouts.meta_head')
+<title>tekuteながまち｜JR東日本東北総合サービス株式会社【LiViT】</title>
+<meta name="description" content="JR長町駅の改札を出て直ぐ目の前、宮城のおみやげ品やスイーツ、生鮮食品などを扱う専門店が揃っており便利です。お買い物中の休憩やお食事ができる飲食店もございます。毎日のお買い物はもちろん、休日のちょっとしたお出かけにもお使いいただけます。">
+<meta name="keywords" content="仙台,長町,ショッピング,買い物,飲食店,食料品,生鮮,雑貨,手土産,プレゼント,弁当,惣菜,スイーツ,カフェ,てくて,テクテ,tekute,ＡＴＭ,店舗一覧">
+<meta property="og:title" content="tekuteながまち｜JR東日本東北総合サービス株式会社【LiViT】">
+<meta property="og:description" content="JR長町駅の改札を出て直ぐ目の前、宮城のおみやげ品やスイーツ、生鮮食品などを扱う専門店が揃っており便利です。お買い物中の休憩やお食事ができる飲食店もございます。毎日のお買い物はもちろん、休日のちょっとしたお出かけにもお使いいただけます。">
+<meta property="og:url" content="{{ url()->full() }}">
+@include('layouts.meta_bottom')
+<!-- [start]css -->
+<link rel="stylesheet" href="/serviceinfo/assets/css/common/reset.css">
+<link rel="stylesheet" href="/serviceinfo/assets/css/common/base.css">
+<link rel="stylesheet" href="/serviceinfo/assets/css/common/common.css">
+<link rel="stylesheet" href="/serviceinfo/assets/css/common/slick.css">
+<link rel="stylesheet" href="/serviceinfo/assets/css/tekute-nagamachi/nagamachi.css">
+<!-- [end]css -->
+@include('layouts.head_close')
+</head>
+<body class="tekute">
+@include('layouts.body_head')
+<div class="serviceIndex">
+		<div class="tpl_wrapper">
+          @include('layouts.header')
+				<main role="main" class="main">
+				<div class="breadcrumbs">
+								<div class="wrap">
+										<ul class="breadcrumbsList">
+												<li><a href="/"><img src="/serviceinfo/assets/img/common/ico_breadcrumbs_home.png" alt="home" height="10" width="12"></a></li>
+												<li>tekuteながまち</li>
+										</ul>
+								</div>
+						</div>
+						<div class="tpl_contents">
+								<div class="headingTtl">
+										<p class="logo"><img src="/serviceinfo/assets/img/tekute-nagamachi/ttl.png" alt="tekuteながまち"></p>
+                                        <ul class="sns">
+                                                                               <li class="line"><a href="https://page.line.me/tekutenagamachi" target="_blank"><img src="/serviceinfo/assets/img/common/btn_line.png" width="100%" alt=""></a></li>
+                                        </ul>
+								</div>
+								<section class="mainVisual">
+										<ul id="slide">
+												<li><img src="/serviceinfo/assets/img/tekute-nagamachi/main01_pc.jpg" width="100%" alt="" class="pc"><img src="/serviceinfo/assets/img/tekute-nagamachi/main01_sp.jpg" alt="" class="sp"></li>
+												<li><img src="/serviceinfo/assets/img/tekute-nagamachi/main02_pc.jpg" width="100%" alt="" class="pc"><img src="/serviceinfo/assets/img/tekute-nagamachi/main02_sp.jpg" alt="" class="sp"></li>
+												<li><img src="/serviceinfo/assets/img/tekute-nagamachi/main03_pc.jpg" width="100%" alt="" class="pc"><img src="/serviceinfo/assets/img/tekute-nagamachi/main03_sp.jpg" alt="" class="sp"></li>
+										</ul>
+										<div class="message">
+												<div class="inner">
+														<h2>てくてく歩く先に、人が集い、笑顔が行き交い、そして街が、地域が、元気で満たされていく</h2>
+														<p class="txt">そんな、ワクワクの起点となる場所をこの長町の高架下につくりたくて、ｔｅｋｕｔｅながまちは誕生しました。晴れの日も、くもりの日も、雨の日も、ｔｅｋｕｔｅはいつも、暮らしのとなりにいます。おいしいもの、すてきなものがいっぱいのｔｅｋｕｔｅに、気軽にてくてく、足をはこんでみませんか。</p>
+												</div>
+										</div>
+								</section>
+								<section class="search">
+										<div class="searchArea">
+												<div class="acdn bginner">
+														<div class="acdnBlk">
+																<dl class="bar js_acdntrigger">
+																		<dt>
+																				<p class="ico"><span></span><span></span></p>
+																		</dt>
+																		<dd>
+																				<p class="ttl">What are you looking for? 何をお探しですか？条件で絞り込むことができます。</p>
+																		</dd>
+																</dl>
+														</div>
+														<div class="acdnPanel">
+																<div class="panelInner">
+																		<div class="searchBoxFrom">
+																				<form action="{{ route('sub-search', config('livit.static_tag_names.tekute')) }}" method="get" name="topSearch" id="topSearch">
+                                                                                  <div class="unit unit01 arrow">
+																					<dl class="row">
+																					  <dt>
+																						<p>何を探す？</p>
+																					  </dt>
+																					  <dd>
+																						<ul class="fList">
+                                                                                          @php $idx=1; @endphp
+                                                                                          @foreach ($object_tags as $tag)
+						                                                                    <li><input id="s{{ $idx }}" name="ot[]" type="checkbox" value="{{ $tag->id }}"><label for="s{{ $idx }}" class="area0{{ $idx }}">{{ $tag->name }}</label></li>
+                                                                                            @php $idx++; @endphp
+                                                                                          @endforeach
+																						</ul>
+																					  </dd>
+																					</dl>
+                                                                                  </div>
+                                                                                  <div class="unit unit02">
+																						<dl class="row keyword">
+																								<dt>
+																										<p>キーワード</p>
+																								</dt>
+																								<dd>
+																										<div class="keyBox">
+                                                                                                          <input type="text" placeholder="キーワードを入力してください。" name="keywords">
+                                                                                                          <p class="kome">※{!! keycaption() !!}</p>
+                                                                                                        </div>
+																								</dd>
+																						</dl>
+                                                                                  </div>
+																						<ul class="btnList">
+																								<li>
+																										<div class="rst" id="js_allclear">
+																												<p class="btn">検索条件のクリア</p>
+																										</div>
+																								</li>
+																								<li>
+																										<button class="smt" type='submit'>
+																										<p class="btn">この条件で検索する</p>
+																										</button>
+																								</li>
+																						</ul>
+																				</form>
+																		</div>
+																</div>
+														</div>
+												</div>
+										</div>
+								</section>
+                                @if (count($news_list))
+								<section class="news">
+										<div class="inner slickSlider">
+												<h2 class="tit">News event ニュース・イベント</h2>
+                                                <div class="LinkBox3col">
+												  <ul class="slider 3column-slider">
+                                                    @foreach ($news_list as $news)
+		                                              <li><a href="{{ route('detail', $news->content_id) }}">
+                                                          <div class="resizeRatioBox">
+                                                            <div class="resizeRatioBoxIn">
+                                                              <div class="resizeRatioImg">
+
+                                                                <img src="{{ $news->image_url }}" alt="">
+
+                                                              </div>
+                                                            </div>
+                                                          </div>
+			                                              <ul class="LBoxTagList">
+                                                            @foreach ($news->tags as $tag)
+                                                              <li class='{{ $tag['class'] }}'>{{ $tag['name'] }}</li>
+                                                            @endforeach
+			                                              </ul>
+			                                              <p class="day">{{ format_date($news->publication_date_time) }}</p>
+			                                              <dl>
+			                                                <dt>{!! to_plain($news->title) !!}</dt>
+			                                                <dd><p class="ellipsis">{!! to_plain($news->body) !!}</p></dd>
+			                                              </dl>
+                                                        </a>
+		                                              </li>
+                                                    @endforeach
+												  </ul>
+                                                </div>
+												<div class="btn_more"><a href="{{ route('sub-search', config('livit.static_tag_names.tekute')).'?tag_names='.urlencode('ニュース・イベント') }}"><img src="/serviceinfo/assets/img/tekute-nagamachi/btn_more.gif" alt="More"></a></div>
+										</div>
+								</section>
+                                @endif
+								<section class="event">
+										<div class="inner">
+												<h2 class="tit">Event calender イベント・カレンダー</h2>
+												<div class="calender">
+														<div class="responsive-iframe-container">
+																<iframe src="https://calendar.google.com/calendar/embed?src=tekutenagamachi%40gmail.com&ctz=Asia%2FTokyo&showTitle=0&showTabs=0" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+														</div>
+												</div>
+										</div>
+								</section>
+                                @if (count($yomu_tekute_list))
+								<section class="reading">
+										<div class="inner slickSlider">
+												<h2 class="tit">tekute news</h2>
+												<p class="lead">旬の季節限定商品や館内イベントなどをご紹介します！</p>
+												<ul class="slider 3column-slider">
+                                                  @foreach ($yomu_tekute_list as $yomu_tekute)
+														<li><a href="{{ route('detail', $yomu_tekute->content_id) }}">
+																<p class="thumb">
+
+                                                                  <img src="{{ $yomu_tekute->image_url }}"  width="100%" alt="">
+
+                                                                </p>
+																<ul class="LBoxTagList">
+                                                                  @foreach ($yomu_tekute->tags as $tag)
+																		<li class="{{ $tag['class'] }}">{{ $tag['name'] }}</li>
+                                                                  @endforeach
+																</ul>
+																<dl>
+																		<dt>{!! to_plain($yomu_tekute->title) !!}</dt>
+																		<dd><p class="ellipsis">{!! to_plain($yomu_tekute->body) !!}</p></dd>
+																</dl>
+                                                          </a>
+														</li>
+                                                  @endforeach
+												</ul>
+												<div class="btn_more"><a href="{{ route('sub-search', config('livit.static_tag_names.tekute')).'?tag_names='.urlencode(config('livit.static_tag_names.yomu_tekute')) }}"><img src="/serviceinfo/assets/img/tekute-nagamachi/btn_more.gif" alt="More"></a></div>
+										</div>
+								</section>
+                                @endif
+								<section class="floormap">
+										<div class="inner">
+												<h2 class="tit">Flore map フロアマップ</h2>
+												<div class="map">
+														<iframe src="{{ route('tekute-nagamachi-map') }}" width="100%" height="460" scrolling="no"></iframe>
+												</div>
+										</div>
+								</section>
+								<section class="storeinfo">
+										<div class="inner">
+												<h2 class="tit">Store information 施設情報</h2>
+												<div class="storedata">
+														<h3 class="name">tekuteながまち</h3>
+														<div class="photo"><img src="/serviceinfo/assets/img/tekute-nagamachi/store_img.jpg" width="100%" alt=""></div>
+														<table>
+																<tr class="time">
+																		<th>営業時間</th>
+																		<td>10:00～21:00　※一部店舗は営業時間が異なります。<br>
+																				TULLY'S COFFEE 平日7:30～21:00 ・土日祝9:00～21:00<br>
+																				牛たん炭焼 利久 11:00～23:00</td>
+																</tr>
+																<tr>
+																		<th>休館日</th>
+																		<td>１月１日</td>
+																</tr>
+																<tr>
+																		<th>電話番号</th>
+																		<td>022-796-8240</td>
+																</tr>
+																<tr>
+																		<th>住所</th>
+																		<td>〒982-0011 宮城県仙台市太白区長町五丁目1番30号
+																				<div class="btn_map"><a href="https://goo.gl/maps/AY9sDMnuY8T2" target="_blank">MAP</a></div></td>
+																</tr>
+																<tr>
+																		<th>アクセス</th>
+																		<td>JR長町駅（東北本線・仙台空港アクセス線）直結<br>
+																				仙台市地下鉄長町駅（南北線）より徒歩2分</td>
+																</tr>
+														</table>
+												</div>
+												<div class="storebox">
+														<div class="box" id="box01">
+																<h3 class="tit">ご利用いただける<br>
+																		電子マネー・クレジットカード</h3>
+																<dl>
+																		<dt>電子マネー</dt>
+																		<dd class="money">
+																				<div class="suica"><img src="/serviceinfo/assets/img/tekute-nagamachi/ico_suica.png" alt=""></div>
+																				<p>Suica・TOICA・SUGOCA・PASMO・manaka・nimoca・Kitaca・ICOCA・はやかけん</p>
+																		</dd>
+																		<dt>クレジットカード</dt>
+																		<dd>
+																				<div class="credit"><img src="/serviceinfo/assets/img/tekute-nagamachi/ico_credit.png" alt=""></div>
+																		</dd>
+																		<dt>QRコード</dt>
+																			<dd><p class="qr"><img src="/serviceinfo/assets/img/common/ico_qr@2x.png" alt="QRコード"></p><p class="small">※以下については、10/1（土）～ご利用いただけます</p><p class="qrcode"><img src="/serviceinfo/assets/img/common/ico_qrcode@2x.png" alt="QRコード"></p></dd>
+																		<dt>商品券</dt>
+																		<dd>びゅう商品券・VJA商品券・Nicos商品券・JCB商品券・UC商品券</dd>
+																</dl>
+														</div>
+														<div class="box" id="box02">
+																<h3 class="tit">施設サービス</h3>
+																<table>
+																		<tr>
+																				<th>多機能トイレ</th>
+																				<td>あり</td>
+																		</tr>
+																		<tr>
+																				<th>授乳・おむつ替え<br>
+																						スペース</th>
+																				<td>あり</td>
+																		</tr>
+																		<tr>
+																				<th>補助犬</th>
+																				<td>入館可</td>
+																		</tr>
+																		<tr>
+																				<th>その他</th>
+																				<td>ATM（七十七銀行、ゆうちょ銀行）</td>
+																		</tr>
+																		<tr>
+																				<th>ポイントカード</th>
+																				<td>JRE POINTカード<br class="pc">（原則税抜100円で1ポイント）</td>
+																		</tr>
+																		<tr>
+																				<th>駐車場</th>
+																				<td>有料駐車場あり<br class="pc">
+																						（店舗利用で無料サービスあり）</td>
+																		</tr>
+																</table>
+														</div>
+												</div>
+										</div>
+								</section>
+								<div class="jrebnr">
+										<div class="logo sp"><img src="/serviceinfo/assets/img/tekute-nagamachi/jrepoint.gif" alt="JRE POINT"></div>
+										<dl>
+												<dt>｢tekuteながまち｣での<br class="sp">
+														お買いものがJRE POINTカードで<br class="sp">
+														もっとおトク！</dt>
+												<dd>
+														<div class="logo pc"><img src="/serviceinfo/assets/img/tekute-nagamachi/jrepoint.gif" alt="JRE POINT"></div>
+														<ul class="point">
+																<li class="col">原則100円(税抜)ごとに<br>
+																		1ポイントが貯まります。</li>
+																<li>1ポイント1円として<br>
+																		お支払いの際に<br>
+																		ご利用いただけます。</li>
+																<li>ポイントは｢tekuteながまち｣<br>
+																		及びJR東日本グループの<br class="sp">
+																		駅ビル等でご利用いただけます。</li>
+														</ul>
+														<p class="kome">※ポイント付与・利用については一部ご利用いただけない店舗もございます。</p>
+														<div class="btn_detail"><a href="https://www.jrepoint.jp/" target="_blank">詳しくはこちら</a></div>
+												</dd>
+										</dl>
+								</div>
+								<section class="park">
+										<h2 class="tit">Parking & Bicycle parking 駐車場・駐輪場</h2>
+										<ul>
+												<li><img src="/serviceinfo/assets/img/tekute-nagamachi/park_pc.gif" class="pc" alt="お客様駐車場・駐輪場料金のご案内"><img src="/serviceinfo/assets/img/tekute-nagamachi/park_sp.gif" class="sp" width="100%" alt=""></li>
+												<li><img src="/serviceinfo/assets/img/tekute-nagamachi/access_pc.gif" class="pc" alt="アクセス"><img src="/serviceinfo/assets/img/tekute-nagamachi/access_sp.gif" class="sp" width="100%" alt=""></li>
+										</ul>
+								</section>
+						</div>
+				</main>
+@include('layouts.banner')
+@include('layouts.footer')
+				<!-- /.tpl_wrapper --></div>
+		<!-- /.serviceIndex -->
+</div>
+<!-- [start]script -->
+<script src="/serviceinfo/assets/js/common/jquery.js"></script>
+<script src="/serviceinfo/assets/js/common/base.js"></script>
+<script src="/serviceinfo/assets/js/common/common.js"></script>
+<script src="/serviceinfo/assets/js/common/matchheight.js"></script>
+<script src="/serviceinfo/assets/js/common/slick.js"></script>
+<script>
+$(function(){
+			$('#slide').slick({
+    autoplay:true,
+    dots: true,
+    speed: 1000,
+    fade: true,
+    cssEase: 'linear',
+	  controls:true,
+ });
+
+	$('.storebox .box').matchHeight();
+
+});
+</script>
+<!-- [end]script -->
+@include('layouts.body_close')
+</body>
+</html>

@@ -1,0 +1,2626 @@
+@charset "utf-8";
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* min-width:769px */
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* img{
+-webkit-backface-visibility: hidden;
+} */
+
+.serviceIndex{
+	overflow: hidden;
+}
+@media screen and (min-width: 769px) {
+	
+	/*-------------------
+	 
+		 pc
+			
+	-------------------*/
+	
+section{
+	min-width:1024px;
+	margin:0 auto;
+	position: relative;
+}
+section h2{
+	text-align:center;
+}
+section p.small {
+	font-size: 12px;
+	letter-spacing: 0;
+	margin: 10px 0 5px;
+}
+.headingTtl{
+	/* max-width: 1680px; */
+	margin:0 auto;
+	text-align:center;
+	padding:15px 0 34px;
+	position: relative;
+}
+
+.headingTtl .sns{
+	height:35px;
+	right:160px;
+	position: absolute;
+	top:0;
+	bottom:0;
+	margin:auto;
+	overflow: hidden;
+}
+.headingTtl .sns li{
+	width: 35px;
+	height:35px;
+	float: left;
+	margin-right:20px;
+}
+.headingTtl .sns li a{
+	transition:all 0.2s;
+}
+.headingTtl .sns li a:hover{
+	opacity:0.8;
+}
+.headingTtl .sns li:last-child{
+	margin-right:0;
+}
+.main{
+ background:url(/serviceinfo/assets/img/tekute/bg12_pc.gif) no-repeat center bottom;
+	padding-bottom:213px;
+}
+.tekute_top .main{
+	background: none;
+	padding-bottom: 0;
+}
+.tpl_btmBnr{
+	margin-top:78px;
+}
+.tekute_top .tpl_btmBnr {
+	margin-top: 225px;
+
+}
+.tekute_top .tpl_btmBnr .tpl_wrap {
+	position: relative;
+}
+.tekute_top .tpl_btmBnr .tpl_wrap:before {
+	content: '';
+	display: block;
+	width: 379px;
+	height: 423px;
+	background: url(/serviceinfo/assets/img/tekute/bg05.png) no-repeat;
+	position: absolute;
+	top: -200px;
+	left: -300px;
+	z-index: -1;
+}
+/* mainVisual
+--------------*/
+.mainVisual {
+	/* height: 600px; */
+	position: relative;
+	margin: 0 auto 45px;
+	text-align: center;
+}
+.nagamachi .mainVisual {
+	max-width: 1280px;
+}
+
+.video {
+    margin:0 10%;
+	padding-bottom: 45%; 
+	height: 0;
+	position: relative;
+	overflow: hidden;
+	/* padding-top: 38%; */
+}
+.nagamachi .video {
+	padding-bottom: 45%;
+}
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.nagamachi .video iframe {
+	pointer-events: none;
+}
+/* .video:after {
+    content: "";
+    display: block;
+    padding-bottom: 41.7%;
+} */
+.main-slider {
+   max-width: 1680px;
+   margin:0 auto 45px;
+}
+.tekute_top .mainVisual {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 30px;
+   margin-left: 90px;
+   max-width: 1860px;
+   margin:0 auto 45px;
+}
+.tekute_top .mainVisual .message{
+	width: 670px;
+	margin-left: 40px;
+}
+.tekute_top .mainVisual .message h2{
+	margin:40px 10px 55px 0;
+}
+.tekute_top .mainVisual .message p.txt{
+	text-align: center;
+	margin-bottom:67px;
+}
+.tekute_top .mainVisual .slider {
+	/* width: 1151px; */
+	width: calc(100% - 670px);
+	height: 501px;
+	margin-left: 40px;
+}
+.tekute_top .mainVisual .slider img {
+	height: 501px;
+	object-fit: cover;
+	font-family: 'object-fit: cover'; /*IE対策*/
+}
+.slider-thumbnail {
+	width: 660px;
+}
+.slider-thumbnail .swiper-slide{
+	width: 150px !important;
+	box-sizing: border-box;
+	border: 3px solid #fff;
+	transition: border-color 0.2s;
+}
+.slider-thumbnail .swiper-slide.swiper-slide-thumb-active{
+   border-color:#a4cd45;
+}
+/* .slider-thumbnail .swiper-slide:not(:last-child) {
+	margin-right:20px
+} */
+/* search
+--------------*/
+.search{
+	background:url(/serviceinfo/assets/img/tekute/bg03_pc.png) no-repeat center top;
+	background-size:contain;
+	width:100%;
+	padding-top:9%;
+}
+.search:after{
+	content:'';
+	display:inline-block;
+	background:url(/serviceinfo/assets/img/tekute/bg04_pc.png) no-repeat center top;
+	background-size:contain;
+	width:100%;
+	padding-bottom:1.3%;
+}
+.search .searchArea{
+	min-width:1024px;
+	margin:0 auto;
+	background:#b6d56a;
+	padding:0 0 80px;
+	padding:86px 0 80px;
+	position: relative;
+	margin-top:-1px;
+	margin-bottom:-1px;
+}
+.searchBoxFrom .unit{
+	border-top:none;
+}
+.search .unit01 {
+    border-bottom: 1px solid #000;
+}
+.search .searchBoxFrom .unit01 dl.row ul li{
+   width: 176px;
+   margin-right:16px;
+}
+.search .searchBoxFrom .unit01 dl.row ul li:last-child {
+	margin-right:0;
+}
+.search .searchBoxFrom .unit02 dl.row ul {
+    padding: 30px 0 0;
+}
+.searchBoxFrom .unit.arrow:before{
+	border-color:#4c5f76 transparent transparent transparent;
+}
+.searchBoxFrom .unit.arrow:after{
+	border-color:#fff transparent transparent transparent;
+}
+.search .acdn{
+	width:1024px;
+	margin:0 auto;
+	position: relative;
+}
+.search .ttl{
+	font-size:0;
+	background:url(/serviceinfo/assets/img/tekute/ttl_what_pc.png) no-repeat;
+	width: 526px;
+	height:83px;
+	position: absolute;
+	left:0;
+	right:0;
+	top:-121px;
+	margin:0 auto 38px;
+	cursor:pointer;
+}
+.search .bar >dt{
+	width:42px;
+	position: absolute;
+	top:-100px;
+	left:158px;
+	cursor:pointer;
+}
+.search .bar >dt .ico {
+	border-radius: 50%;
+	background: #fff;
+	width: 42px;
+	height: 42px;
+	position: relative;
+	display: inline-block;
+	transition: all 0.4s;
+}
+.search .bar .ico span {
+	display: inline-block;
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	margin: auto;
+	width: 24px;
+	height: 4px;
+	background: #b6d56a;
+	transition: all 0.4s;
+  }
+.search .bar .ico span:nth-of-type(1) {
+	top: 0;
+	bottom: 0;
+	-webkit-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+  }
+.search .bar .ico span:nth-of-type(2) {
+	top: 0;
+	bottom: 0;
+		opacity: 0;
+  }
+		.search .bar .ico span:nth-of-type(2) {
+	opacity: 1;
+  }
+.search .bar.acdnOn .ico span:nth-of-type(1) {
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+  }
+.search .bar.acdnOn .ico span:nth-of-type(2) {
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+  }
+.search .searchBoxFrom{
+	background:#fff;
+	width: 940px;
+	margin:0 auto;
+	padding:45px 50px;
+	border-radius:10px;
+}
+.search .searchBoxFrom dl{
+	width: 100%;
+	display:table;
+	table-layout:fixed;
+}
+.search .searchBoxFrom dl.keyword{
+	border-top:1px solid #4c5f76;
+	border-bottom:1px solid #4c5f76;
+}
+.search .searchBoxFrom dl dt{
+	width: 90px;
+	font-size:15px;
+	letter-spacing:0px;
+	font-weight:500;
+	color:#958e7c;
+	display:table-cell;
+	vertical-align:top;
+}
+.search .searchBoxFrom dl.row dt{
+	padding:0 0 25px 0;
+}
+.search .searchBoxFrom dl.keyword dt{
+	vertical-align:middle;
+	padding:0;
+}
+.search .searchBoxFrom dl.keyword dt p{
+	margin-bottom:15px;
+}
+.search .searchBoxFrom dl dd{
+	font-size:14px;
+	width: 750px;
+	display:table-cell;
+}
+.searchBoxFrom .keyBox{
+	padding:0;
+	margin:30px 0;
+}
+.searchBoxFrom .keyBox .kome{
+ font-size:11px;
+	letter-spacing:0.5px;
+	color:#4c5f76;
+	margin-top:5px;
+}
+.search .searchBoxFrom dl dd input[type="text"]{
+	width: 700px;
+	background:#ecf2f9;
+	padding:14px 17px;
+}
+.search .searchBoxFrom dl dd input::-webkit-input-placeholder {
+	color:#4c5f76;
+}
+.search .searchBoxFrom ul{
+	overflow: hidden;
+}
+.search .searchBoxFrom input[type="checkbox"]{
+	display:none;
+}
+.search .searchBoxFrom dl.row ul{
+	margin-bottom:15px;
+}
+.search .searchBoxFrom dl ul li{
+ width:145px;
+	float: left;
+	font-weight:500;
+	text-align:center;
+	font-size:14.5px;
+	letter-spacing:0px;
+	margin-right:6px;
+	margin-bottom:15px;
+}
+.search .searchBoxFrom dl ul li:nth-child(5n){
+ margin-right:0;
+}
+.search .searchBoxFrom dl ul li label{
+	color:#4c5f76;
+	display:block;
+	padding:10px 0;
+	transition:all 0.2s;
+	border:1px solid #4c5f76;
+	border-radius:35px;
+	letter-spacing:-0.5px;
+}
+.search .searchBoxFrom dl ul li label:hover,
+.search .searchBoxFrom input:checked +label{
+	color:#fff;
+	background:#4c5f76;
+	border-radius:35px;
+}
+.search .searchBoxFrom .btnList {
+	text-align:center;
+	font-size:0;
+}
+.search .searchBoxFrom .btnList li{
+	width: 220px;
+	font-size:16px;
+	letter-spacing:1px;
+	display:inline-block;
+	margin:28px 23px 0;
+	text-align:center;
+}
+.search .searchBoxFrom .btnList li .btn{
+	padding:14px 10px 14px 0;
+	display:block;
+	color:#fff;
+	transition:all 0.2s;
+	border-radius:23px;
+	position: relative;
+}
+.search .searchBoxFrom .btnList li .btn:after{
+	content: "";
+	position: absolute;
+	top: 1px;
+	bottom: 0;
+	right: 15px;
+	margin: auto;
+	vertical-align: middle;
+	width: 6px;
+	height: 6px;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+  }
+.search .searchBoxFrom .btnList li #js_allclear .btn{
+	background:#6c839f;
+}
+.search .searchBoxFrom .btnList li button{
+	font-size:16px;
+	letter-spacing:1px;
+	width:inherit;
+	background:none;
+}
+.search .searchBoxFrom .btnList li .smt .btn{
+	background:#4c5f76;
+}
+.search .searchBoxFrom .btnList li .btn:hover{
+	opacity:0.8;
+}
+
+/* news
+--------------*/
+
+.news .inner{
+	width: 1044px;
+	margin:0 auto 80px;
+	position: relative;
+}
+.news h2.tit{
+	margin:80px auto 60px;
+}
+.news .inner:before{
+	content:'';
+	display:block;
+	background:url(/serviceinfo/assets/img/tekute/bg05.png) no-repeat;
+	background-size:contain;
+	position: absolute;
+	width: 379px;
+	height:423px;
+	top:-90px;
+	left:-277px;
+	z-index:-1;
+}
+.news .inner:after{
+	content:'';
+ display:block;
+	background:url(/serviceinfo/assets/img/tekute/bg06.png) no-repeat;
+	background-size:contain;
+	width: 305px;
+	height:311px;
+	position: absolute;
+	bottom:-30px;
+	right:-267px;
+	z-index:-1;
+}
+/* slider
+--------------*/
+.slider{
+ margin:0 auto;
+	overflow: hidden;
+}
+
+.slider li.slick-slide{
+	width: 326px;
+	display:inline-block;
+	font-size:0;
+	margin:0 11px 70px;
+}
+.slider li .LBoxTagList li{
+	font-size:14px;
+	margin:0 10px 15px 0;
+	display:inline-block;
+	padding:3px 10px 5px;
+	text-align:center;
+	color:#fff;
+	background:#4c5f76;
+}
+.slider li .day{
+	font-size:15px;
+	margin-bottom:10px;
+}
+.slider li a:hover img,
+.slider li a:hover dl,
+.slider li a:hover p,
+.slider li a:hover ul{
+	opacity:0.8;
+}
+.slider li dl{
+	font-size:15px;
+}
+.slider li dt{
+ font-weight:bold;
+	line-height:1.2;
+	margin-bottom:8px;
+}
+.slider li dd{
+	overflow:hidden;
+	height:88px;
+	line-height:1.5;
+}
+.news .slider dd{
+	height:88px;
+	overflow:hidden;
+}
+.reading .slider dd .ellipsis,
+.news .slider dd .ellipsis{
+   overflow: hidden;
+   display: -webkit-box;
+   display: box;
+   display:-moz-box;
+   -webkit-box-orient: vertical;
+			-moz-box-orient: vertical;
+   box-orient: vertical;
+   -webkit-line-clamp: 4 !important;
+			-moz-line-clamp: 4 !important;
+   line-clamp: 4 !important;
+}
+.btn_more{
+	width: 82px;
+	margin:20px auto 0;
+}
+.btn_more:hover{
+	opacity:0.8;
+}
+
+/* event
+--------------*/
+.event{
+	text-align:center;
+	position: relative;
+}
+.event:before{
+	content:'';
+	display:block;
+	background:url(/serviceinfo/assets/img/tekute/bg07_pc.gif) no-repeat center bottom;
+	background-size:cover;
+	width: 100%;
+	padding-top:1.5%;
+}
+
+.event .inner{
+	background:#ecc4b2; 
+	padding:70px 0 120px;
+	margin-top:-1px;
+	margin-bottom:-1px;
+}
+.event h2.tit{
+	 margin:0 auto 50px;
+}
+.event .calender iframe{
+	border:none !important;
+}
+/* reading
+--------------*/
+.reading{
+	padding:95px 0 35px;
+}
+.reading .inner{
+	width: 1044px;
+	margin:0 auto;
+	position: relative;
+}
+.reading .inner:before{
+	content:'';
+	display:block;
+	background:url(/serviceinfo/assets/img/tekute/bg09.png) no-repeat;
+	background-size:contain;
+	width: 494px;
+	height:476px;
+	position: absolute;
+	top:-60px;
+	left:-287px;
+	z-index:-1;
+}
+.reading h2.tit{
+	margin:0 auto 50px;
+}
+.reading .lead{
+	font-size: 15px;
+	font-weight: 500;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin: 0 auto 40px;
+}
+
+/* tab  */
+.tab-list {
+  display: flex;
+  width: 680px;
+  margin:0 auto;
+  justify-content: space-between;
+}
+.tab-list >li {
+	width: 320px;
+	/* height: 70px; */
+	font-size: 20px;
+	font-weight: bold;
+	line-height:1;
+	text-align: center;
+}
+.tab-list >li >a,
+.tab-list >li .dropdown-btn{
+	display: block;
+	padding:25px 0;
+	color: #ababab;
+	background: #e5e5e5;
+	border-radius: 10px;
+	transition: all 0.2s;
+	width: 100%;
+	height: 70px;
+	cursor: pointer;
+
+}
+.tab-list >li:hover > a,
+.tab-list >li:hover > .dropdown-btn,
+.tab-list li.selected >a,
+.tab-list >li.selected .dropdown-btn{
+	background: #88bb09;
+	color: #fff;
+
+}
+.tab-list li.dropdown{
+	position: relative;
+}
+.tab-list > li.dropdown:before {
+	content: "";
+	position: absolute;
+	top: 27px;
+	right: 78px;
+	margin: auto;
+	vertical-align: middle;
+	width: 8px;
+	height: 8px;
+	border-top: 3px solid #ababab;
+	border-right: 3px solid #ababab;
+	transform: rotate(135deg);
+}
+.tab-list > li.dropdown:hover:before,
+.tab-list > li.dropdown.selected:before{
+   border-color: #fff;
+}
+.tab-list > li .dropdown-menu {
+    position: absolute;
+	/* bottom: -84px; */
+	width: 320px;
+	height: 70px;
+	background: #fff;
+	border:3px solid #eee;
+	border-radius: 10px;
+	display: flex;
+	opacity: 0;
+	top: 54px;
+	visibility: hidden;
+}
+.tab-list > li.dropdown:hover .dropdown-menu{
+	opacity: 1 !important;
+    visibility: visible;
+	top: 84px;
+	-webkit-transition: opacity 0.5s, top 0.3s;
+	transition: opacity 0.5s, top 0.3s;
+}
+.tab-list > li .dropdown-menu:before {
+	display: block;
+	content: '';
+	width: 18px;
+	height: 11px;
+	background:url(/serviceinfo/assets/img/tekute/dropdown_arrow.png) no-repeat;
+	position: absolute;
+	top: -11px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.tab-list > li .dropdown-list{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+	box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.11);
+}
+
+.tab-list > li .dropdown-list li{
+   width: 49.5%;
+   font-size: 20px;
+   height: 45px;
+   line-height: 45px;
+   box-sizing: border-box;
+}
+.tab-list > li .dropdown-list li a {
+	color: #88bb09;
+	display: block;
+	width: calc(100% -18px);
+	height: 100%;
+	box-sizing: border-box;
+	transition: all 0.2s;
+	margin:0 9px;
+	position: relative;
+}
+.tab-list > li .dropdown-list li.selected a {
+	background: none;
+	color: #88bb09;
+
+}
+
+.tab-list > li .dropdown-list a:hover:after,
+.tab-list > li .dropdown-list li.selected a:after {
+	content: '';
+	display: block;
+	width: 30px;
+	height: 3px;
+	background-color: #a6d530;
+	margin: 0 auto;
+	bottom: 5px;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+.tab-list > li .dropdown-list li:first-child {
+	border-right: 3px solid #eee;
+	width: 50.5%;
+}
+.tab-list > li .dropdown-list a:hover {
+	opacity: 1;
+}
+/* floormap
+--------------*/
+.floormap .inner{
+	background:#c1db80;
+	padding:75px 20px 85px;
+	margin-top:-1px;
+	margin-bottom:-1px;
+}
+.floormap .tab-list {
+	margin:0 auto 27px;
+}
+.floormap .tab-list li > a {
+	margin-bottom: 13px;
+}
+.floormap .map{
+	max-width:1024px;
+	margin:0 auto;
+	background:#fff;
+	padding:40px 24px;
+	border-radius:20px;
+	border-radius: 10px;
+}
+.floormap .map.hidden {
+	display: none;
+}
+.floormap iframe{
+	border:none;
+	outline:none;
+}
+.floormap h2.tit{
+	margin:0 auto 50px;
+}
+.floormap:before{
+	content:'';
+	display:block;
+	background:url(/serviceinfo/assets/img/tekute/bg10_pc.gif) no-repeat center bottom;
+	background-size:contain;
+	width: 100%;
+	padding-top:4.3%
+}
+
+.street {
+	text-align: center;
+	max-width: 1024px;
+	margin: 50px auto 0;
+	position: relative;
+}
+
+
+/* storeinfo
+--------------*/
+.storeinfo{
+	max-width: 1150px;
+	margin:100px auto 0;
+	padding:75px 0 0;
+	background: #f7f2bc;
+	border-radius: 30px;
+}
+
+.storeinfo h2.tit{
+	margin:0 auto 70px;
+}
+.storeinfo .tab-list {
+	margin-bottom: 55px;
+}
+.storeinfo .shopinfo.hidden {
+	display: none;
+}
+.storeinfo .shopinfo {
+	padding:0 58px 95px;
+}
+.storeinfo .storedata{
+	border-top: 3px solid #fff;
+	padding:70px 0 35px;
+	overflow: hidden;
+	position: relative;
+}
+.storeinfo .storedata .name{
+	max-width: 1024px;
+	margin:0 auto 40px;
+	font-size:22px;
+	letter-spacing:2px;
+	font-weight:bold;
+	text-align:center;
+	padding:20px 0;
+	border:1px solid #000;
+	position: relative;
+}
+.storeinfo .storedata .name:before,
+.storeinfo .storedata .name:after{
+	content:'';
+	display:block;
+	width: 15px;
+	height:15px; 
+	position: absolute;
+	bottom:-10px;
+	background:#f7f2bc;
+}
+.storeinfo .storedata .name:before{
+	left:0;
+}
+.storeinfo .storedata .name:after{
+	right:0;
+}
+.storeinfo .storedata .photo{
+	width: 230px;
+	height:230px;
+	float: left;
+	background:#ccc;
+}
+.storeinfo .storedata .photo img{
+	width: 230px;
+	height:230px;
+ object-fit: cover; 
+ font-family: 'object-fit: cover'; /*IE対策*/
+}
+.storeinfo .storedata table{
+	width:73.2%;
+	max-width: 750px;
+	table-layout:fixed;
+	float: right;
+	letter-spacing:1.5px;
+}
+.storeinfo table tr{
+	border-bottom:3px solid #fff;
+}
+.storeinfo table tr:last-child{
+	border-bottom:none;
+}
+.storeinfo .storedata table th{
+	font-size:18px;
+	font-weight:bold;
+	width: 150px;
+}
+.storeinfo .storedata table .time th,
+.storeinfo .storedata table .time td{
+	padding-top:0;
+}
+.storeinfo .storedata table th,
+.storeinfo .storedata table td{
+	vertical-align:top;
+	line-height:1.6;
+	padding:11px 0;
+}
+.storeinfo .storedata table td{
+	font-size:18px;
+}
+.storeinfo .storedata table .shoptbl {
+	width: 100%;
+	margin-top: 7px;
+}
+.storeinfo .storedata table .shoptbl tr {
+	border-top:3px solid #fff;
+	border-bottom: none;
+}
+.storeinfo .storedata table .shoptbl tr.no-border {
+	border: none;
+}
+.storeinfo .storedata table .shoptbl tr.no-border td {
+	padding-top: 0;
+	padding-bottom: 6px;
+}
+.storeinfo .storedata table .shoptbl th {
+	font-size: 18px;
+	width: 40%;
+	letter-spacing: 0.06em;
+	font-weight: normal;
+	line-height: 1.4;
+	padding: 8px 0 6px;
+}
+.storeinfo .storedata table .shoptbl td {
+	font-size: 18px;
+	width: 60%;
+	padding: 6px 0;
+	letter-spacing: 0;
+}
+.storeinfo .storebox{
+	display: flex;
+	justify-content: space-between;
+}
+.storeinfo .storebox .box{
+	width: 480px;
+	border:1px solid #000;
+	margin-top:24px;
+}
+.storeinfo .storebox .box .tit{
+	font-size:22px;
+	line-height:1.4;
+	font-weight:bold;
+	text-align:center;
+}
+.storeinfo .storebox .box dl{
+	width: 401px;
+	margin:0 auto;
+}
+.storeinfo .storebox .box dl dt{
+	font-size:16px;
+	letter-spacing:2px;
+	text-align:center;
+	font-weight:bold;
+	border-radius:14.5px;
+	background:#fff;
+	color:#000;
+	padding:6px 0 7px;
+	margin-bottom:10px;
+}
+.storeinfo .storebox .box dl dd{
+	font-size:16px;
+	letter-spacing:2px;
+	line-height:1.6;
+	margin-bottom:20px;
+	text-align: center;
+}
+.storeinfo .storebox .box .money{
+	display:table;
+	table-layout:fixed;
+}
+.storeinfo .storebox .box .suica{
+	width: 73px;
+	padding-right:13px;
+	display:table-cell;
+	vertical-align:middle;
+}
+.storeinfo .storebox .box .qrcode {
+	width: 316px;
+	margin: 0 auto;
+}
+.storeinfo .storebox .box .qr {
+    width: 316px;
+    margin: 0 auto;
+}
+.storeinfo .storebox .box .credit{
+	width: 316px;
+ margin:0 auto;
+}
+.storeinfo .storebox #box01 .tit{
+	padding:23px 0 18px;
+	position: relative;
+}
+.storeinfo .storebox #box01 .tit:before{
+	content:'';
+	display:block;
+	background:#f7f2bc url(/serviceinfo/assets/img/tekute/ico_card.png) no-repeat center;
+	width: 130px;
+	height:38px;
+	background-size:contain;
+	padding:0 10px;
+	margin:0 0 15px 28px;
+	position: absolute;
+	top:-24px;
+}
+.storeinfo .storebox #box02{
+	position: relative;
+}
+.storeinfo .storebox #box02 .tit:before{
+	content:'';
+	display:block;
+	background:#f7f2bc url(/serviceinfo/assets/img/tekute/ico_facility.png) no-repeat center;
+	width: 96px;
+	height:52px;
+	background-size:contain;
+	position: absolute;
+	padding:0 13px;
+	top:-24px;
+	left:32px;
+}
+.storeinfo .storebox.storedata-tekute2 #box02 .tit:before{
+	content:'';
+	display:block;
+	width: 53px;
+	background:#f7f2bc url(/serviceinfo/assets/img/tekute/ico_facility02.png) no-repeat center;
+}
+.storeinfo .storebox #box02 .tit{
+	padding:40px 0 10px;
+	line-height:1;
+}
+.storeinfo .storebox .box table{
+	width: 420px;
+	margin:0 auto;
+}
+.storeinfo .storebox #box02 table {
+	margin-bottom: 20px;
+}
+.storeinfo .storebox .box table th,
+.storeinfo .storebox .box table td{
+	padding:22px 0;
+}
+.storeinfo .storebox .box table th{
+	width: 165px;
+	font-size:16px;
+	line-height:1.4;
+	font-weight:bold;
+	padding:10px 10px;
+	box-sizing:border-box;
+}
+.storeinfo .storebox .box table td{
+	font-size:16px;
+	letter-spacing:0px;
+	line-height:1.4;
+	width: 260px;
+}
+.storeinfo .storebox .box table td.double-text {
+	padding: 11px 0 13px;
+}
+.storeinfo table td .btn_map{
+	font-size:15px;
+	background:#949494;
+	color:#fff;
+	display:inline-block;
+	border-radius:11px;
+	margin-left:5px;
+	vertical-align: 2px;
+}
+.storeinfo table td .btn_map a{
+	color:#fff;
+	line-height: 1;
+	display:block;
+	padding:4px 13px 5px;
+}
+.storeinfo table td .btn_map a:hover{
+	background:#a9a9a9;
+		border-radius:11px;
+	text-decoration:none;
+}
+
+.storedata .shoplist li .mr12 {
+	margin-left: 12em;
+	display: inline-block;
+}
+.storedata .shoplist li .mr15 {
+	margin-left: 14.5em;
+	display: inline-block;
+}
+.storedata .shoplist li .mr20 {
+	margin-left: 19.8em;
+	display: inline-block;
+}
+/* jrebnr
+--------------*/
+.jrebnr{
+	width: 1024px;
+	margin:100px auto 186px;
+	border:4px solid #018647;
+	padding:40px 55px 35px;
+	box-sizing:border-box;
+}
+.sendai .jrebnr {
+	margin-bottom: 0;
+}
+.jrebnr dt{
+	font-size:24px;
+	letter-spacing:2.5px;
+	font-weight:bold;
+	padding-bottom:30px;
+	margin-bottom:30px;
+	border-bottom:3px solid #018647;
+}
+.jrebnr .logo{
+	width: 164px;
+	float: left;
+	margin:0 0 0 8px;
+}
+.jrebnr .point{
+	width: 710px;
+	float: right;
+}
+.jrebnr .point li.col{
+	padding:24.5px 0;
+}
+.jrebnr .point li{
+	font-size:16px;
+	letter-spacing:0px;
+	text-align:center;
+	font-weight:500;
+	line-height:1.6;
+	width: 212px;
+	float: left;
+	padding:12px 0;
+	margin:0 20px 0 0;
+	background:#e0e6ea;
+	border-radius:15px;
+}
+.jrebnr .point li:last-child{
+	width: 246px;
+	padding:12px 13px;
+	margin-right:0;
+}
+.jrebnr .kome{
+	width: 710px;
+	float: right;
+	margin:15px 0 25px;
+}
+.jrebnr .btn_detail{
+	font-size:16px;
+	font-weight:500;
+	letter-spacing:1px;
+	width: 220px;
+	margin:0 auto;
+	clear:both;
+}
+.jrebnr .btn_detail a{
+	display:block;
+	color:#fff;
+	text-align:center;
+	background:#01874c;
+	padding:17px 0;
+	border-radius:24.5px;
+	transition:all 0.2s;
+}
+.jrebnr .btn_detail a:hover{
+	background:#349f70;
+}
+.jrebnr-band {
+	padding: 0;
+}
+.jrebnr-band .desc {
+	padding:40px 55px 0;
+}
+.jrebnr-band .band {
+	font-size: 16px;
+	letter-spacing: 0.05em;
+	font-weight: 500;
+	color: #fff;
+	text-align: right;
+	padding-right: 255px;
+	height: 60px;
+	line-height: 60px;
+	background:#01874c;
+	margin-top: 25px;
+	position: relative;
+}
+.jrebnr-band .band .image {
+	width: 188px;
+	height: 119px;
+	position: absolute;
+	right: 59px;
+	bottom: 21px;
+}
+/* park
+--------------*/
+.park{
+	width: 1024px;
+	margin:0 auto;
+	padding:80px 30px 50px 40px;
+	border:1px solid #000;
+	position: relative;
+}
+.park h2.tit{
+	font-size:0;
+ background:url(/serviceinfo/assets/img/tekute/ttl_park_pc.gif) no-repeat;
+	width: 587px;
+	height:100px;
+	position: absolute;
+	left:0;
+	right:0;
+	top:-74px;
+	margin:0 auto;
+	z-index:100;
+}
+.park ul{
+	overflow: hidden;
+}
+.park ul li{
+	float: left;
+}
+.park ul li:first-child{
+	margin-right:62px;
+}
+
+.shop .inner{
+  width: 1056px;
+  padding:50px 0 0;
+  margin:0 auto;
+  position: relative;
+}
+.shop .inner:before {
+	content: '';
+	display: block;
+	width: 1001px;
+	height: 260px;
+	background:url(/serviceinfo/assets/img/tekute/bg01_pc.png) no-repeat;
+	position: absolute;
+	top: -18px;
+	left: -838px;
+}
+.shop .inner:after {
+	content: '';
+	display: block;
+	width: 261px;
+	height: 267px;
+	background:url(/serviceinfo/assets/img/tekute/bg06.png) no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 0;
+	right: -368px;
+}
+.shop:before {
+	content:'';
+	display: block;
+	width: 100%;
+	height: 290px;
+	background:#b9d96c url(/serviceinfo/assets/img/tekute/bg_shop_pc.png) repeat-x center 0;
+	background-size: 2000px 50px;
+	position: absolute;
+	top: 260px;
+	left: 0;
+	right: 0;
+	margin:0 auto;
+}
+.shop .tit {
+	/* width: 103px;
+	 height: 77px;
+	 background: url(/serviceinfo/assets/img/tekute/ttl_shop.png) no-repeat;
+	 font-size: 0; */
+	 margin:0 auto 28px;
+}
+.shop .shoplist {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.shop .shoplist li {
+	width: 265px;	
+ }
+ .shop .shoplist li .thumb {
+	 width: 230px;
+	 height: 200px;
+ }
+ /* .shop .shoplist li:first-child .thumb img,.shop .shoplist li:nth-child(3) .thumb img {
+	 border: 1px solid #99a1ac;
+	 box-sizing: border-box;
+ } */
+ .shop .shoplist li .thumb img{
+	height: 200px;
+	 object-fit: cover;
+	 font-family: 'object-fit: cover'; /*IE対策*/
+ }
+ 
+.shop .shoplist li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding:30px 14px 28px;
+	border:2px solid transparent;
+	position: relative;
+}
+.shop .shoplist li a:before {
+	content:'';
+	display: block;
+	position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    z-index: 2;
+   border-top: 2px solid #5c7088;
+    border-bottom: 2px solid #5c7088;
+	transform: scale(0, 1);
+	transition: all .3s;
+}
+.shop .shoplist li a:after {
+	content:'';
+	display: block;
+	position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    z-index: 2;
+    border-right: 2px solid #5c7088;
+    border-left: 2px solid #5c7088;
+	transform: scale(1, 0);
+	transition: all .3s;
+}
+.shop .shoplist li a:hover:before,
+.shop .shoplist li a:hover:after {
+   transform: scale(1);
+}
+.shop .shoplist .data {
+   margin-top:15px;
+}
+.shop .shoplist .data dt {
+	font-size: 16px;
+	text-align: center;
+	margin-right: 13px;
+	position: relative;
+}
+.shop .shoplist .data dt:before {
+	content: '';
+	display:inline-block;
+	width: 12px;
+	height: 19px;
+	background: url(/serviceinfo/assets/img/tekute/ico_access.png) no-repeat;
+	background-size: contain;
+	margin-right: 6px;
+	margin-bottom: -2px;
+}
+.shop .shoplist .data dd {
+	font-size: 24px;
+	letter-spacing: 0.02em;
+	line-height: 1;
+	margin-top: 15px;
+	text-align: center;
+	font-weight: 500;
+}
+
+}
+/* @media screen and (min-width:1680px) {
+	.headingTtl .sns{
+		right: 0;
+	}
+} */
+@media screen and (min-width:769px) and ( max-width:1024px) {
+	/* slider
+--------------*/
+.slider{
+	width:1024px;
+}
+.slider li:first-child{
+	margin-left:0;
+}
+}
+
+/* @media screen and (min-width:769px) and ( max-width:1024px) {
+.video {
+	margin:0 42px;
+}
+.headingTtl .sns{
+	right: 42px;
+}
+.headingTtl .logo img {
+	margin-left: 0;
+}
+.mainVisual {
+	height: 497px;
+}
+.sendai .mainVisual {
+    height: 407px;
+}
+.sendai .video {
+	padding-top: 28%;
+}
+}
+
+@media screen and (min-width:1025px) and ( max-width:1125px) {
+	.video {
+		margin:0 42px;
+	}
+	.mainVisual {
+		height: 497px;
+	}
+	.headingTtl .sns {
+		right: 42px;
+	}
+	.sdendai .mainVisual {
+		height: 450px;
+	}
+	.sdendai .video {
+		padding-top: 25%;
+	}
+}
+@media screen and (min-width:1125px) and ( max-width:1280px) {
+	.video {
+		margin:0 42px;
+		padding-top: 23%;
+	}
+	.headingTtl .sns {
+		right: 42px;
+	}
+	.video iframe {
+		top: -18%;
+	}
+	.mainVisual {
+		height: 590px;
+	}
+	.sendai .mainVisual {
+		height: 508px;
+	}
+} */
+/* @media screen and (min-width:1281px) and ( max-width:1440px) {
+	.video {
+		margin:0 42px;
+		padding-top: 43%;
+	}
+	.sendai .video {
+		padding-top: 22%;
+	}
+	.headingTtl .sns {
+		right: 42px;
+	}
+	.video iframe {
+		top: -18%;
+	}
+	.mainVisual {
+		height: 762px;
+	}
+	.sendai .mainVisual {
+		height: 570px;
+	}
+}
+@media screen and (min-width:1518px) and ( max-width:1589px) {
+	.sendai .mainVisual {
+		height: 530px;
+	}
+	.sendai .video {
+		padding-top: 23%;
+	}
+} */
+/* @media screen and (min-width:1590px) and ( max-width:1700px) {
+	.video {
+		margin:0 100px;
+		padding-top: 20%;
+	}
+	.headingTtl .sns {
+		right: 100px;
+	}
+	.video iframe {
+		top: -20%;
+	}
+	.mainVisual {
+		height: 580px;
+	}
+	.sendai .mainVisual {
+		height: 590px;
+	}
+	.sendai .video {
+		padding-top: 26%;
+	}
+} */
+/* @media screen and (min-width:1701px) and ( max-width:1800px){
+	.video {
+		width: 1680px;
+		margin:0 auto;
+		padding-top: 22%;
+	}
+	.video iframe {
+		top: -22%;
+	}
+	.mainVisual {
+		height: 600px;
+	}
+	.sdendai .video {
+		padding-top: 33%;
+	}
+}
+@media screen and (min-width:1801px) and ( max-width:1900px){
+	.video {
+		width: 1680px;
+		margin:0 auto;
+		padding-top: 24%;
+	}
+	.video iframe {
+		top: -24%;
+	}
+	.mainVisual {
+		height: 700px;
+	}
+	.sendai .mainVisual {
+		height: 711px;
+	}
+}
+@media screen and (min-width:1901px){
+	.video {
+		width: 1680px;
+		margin:0 auto;
+		padding-top: 26%;
+	}
+	.video iframe {
+		top: -26%;
+	}
+	.mainVisual {
+		height: 700px;
+	}
+	.sendai .mainVisual {
+		height: 712px;
+	}
+	.sendai .video {
+		padding-top: 41%;
+	}
+} */
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* max-width:768px */
+/* //////////////////////////////////////////////////////////////////////////////// */
+@media screen and (max-width: 768px) {
+		/*-------------------
+	 
+		 sp
+			
+	-------------------*/
+	section p.small {
+		font-size: 2.8vw;
+		letter-spacing: 0;
+		margin: 2vw 0;
+	}
+.headingTtl{
+	text-align:center;
+	padding:5vw 0 5.34vw;
+	position: relative;
+}
+.headingTtl .logo{
+	width: 43vw;
+	margin: 0 auto;
+}
+.headingTtl .sns{
+	height:7.6vw;
+	position: absolute;
+	overflow: hidden;
+	top:0;
+	bottom:0;
+    left:3vw;
+	margin:auto;
+}
+.headingTtl .sns li{
+	width: 7.6vw;
+	margin-right:4vw;
+	float: left;
+}
+.slider {
+	margin: 0 4.8%;
+}
+.tekute_top .mainVisual .slider {
+   margin-left: 0;
+   margin-right: 0;
+}
+.main-slider {
+	margin-bottom: 10.4vw;
+}
+
+.main{
+	background:url(/serviceinfo/assets/img/tekute/bg12_sp.gif) no-repeat center bottom;
+	background-size:contain;
+	padding-bottom:29%;
+}
+.tekute_top .main {
+	background: none;
+	padding-bottom: 0;
+}
+.tpl_btmBnr{
+	margin-top:16%;
+}
+.mainVisual .message{
+	position: relative;
+}
+.mainVisual .message h2{
+	width:54.26vw;
+	margin:8vw auto;
+}
+.mainVisual .message .txt{
+	width: 71.86vw;
+	margin:0 auto 8vw;
+}
+.mainVisual .slider {
+	margin-bottom: 13.34vw;
+}
+.slider-thumbnail{
+	display: none;
+}
+.tekute_top .tpl_btmBnr{
+	margin-top: 22.6vw;
+}
+
+.video {
+	text-align: center;
+	margin-bottom: 10.67vw;
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
+	overflow: hidden;
+}
+
+.video iframe {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.mainVisual {
+	margin-bottom: 10.67vw;
+}
+/* search
+--------------*/
+.search{
+	background:url(/serviceinfo/assets/img/tekute/bg03_sp.png) no-repeat center top;
+	background-size:contain;
+	width:100%;
+	padding-top:9.7%;
+	position: relative;
+}
+.search:after{
+	content:'';
+	display:inline-block;
+	background:url(/serviceinfo/assets/img/tekute/bg04_sp.png) no-repeat center top;
+	background-size:contain;
+	width:100%;
+	padding-bottom:4%;
+}
+.search .searchArea{
+	background:#b6d56a;
+	padding:6.6% 0 14%;
+}
+.search .searchArea .acdnPanel{
+	padding-top: 8%;
+}
+.search .acdn{
+	padding:0;
+}
+.search .ttl{
+	font-size:0;
+	background:url(/serviceinfo/assets/img/tekute/ttl_what_sp.png) no-repeat bottom;
+	background-size:contain;
+	width: 90%;
+	padding:29.5% 0 0;
+	margin:0 auto;
+}
+.search .bar >dt{
+	position: absolute;
+	top:38vw;
+	left:7%;
+}
+.search .bar .ico {
+	border-radius: 50%;
+	background: #fff;
+	width: 1.658rem;
+	height: 1.658rem;
+	position: relative;
+	display: inline-block;
+	transition: all 0.4s;
+  }
+.search .bar .ico span {
+	display: inline-block;
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	margin: auto;
+	width: 0.995rem;
+	height: 0.199rem;
+	background: #b6d56a;
+	border-radius: 4px;
+	transition: all 0.4s;
+  }
+.search .bar .ico span:nth-of-type(1) {
+	top: 0;
+	bottom: 0;
+	-webkit-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+  }
+.search .bar .ico span:nth-of-type(2) {
+	top: 0;
+	bottom: 0;
+	opacity: 0;
+  }
+.search .bar.acdnOn .ico span:nth-of-type(1) {
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+  }
+.search .bar.acdnOn .ico span:nth-of-type(2) {
+	opacity:1;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+  }
+.search .searchBoxFrom{
+	background:#fff;
+	padding:7% 2% 8%;
+	margin:0 3.5%;
+	border-radius:10px;
+}
+.search .searchBoxFrom dl dt{
+	font-size:0.95rem;
+	font-weight:500;
+	color:#958e7c;
+	padding-left:5px;
+	margin-bottom:3%;
+}
+.searchBoxFrom .unit01,
+.searchBoxFrom .unit03{
+	padding-top:0;
+	border:none;
+}
+.searchBoxFrom .unit02 {
+	border-color: #4c5f76;
+}
+.searchBoxFrom .unit.arrow:before{
+	bottom:-26px;
+	border-color:#4c5f76 transparent transparent transparent;
+}
+.searchBoxFrom .unit.arrow:after{
+	bottom:-25px;
+	border-color:#fff transparent transparent transparent;
+}
+.search .searchBoxFrom dl ul{
+	overflow: hidden;
+	margin-bottom:3%;
+}
+.search .searchBoxFrom dl ul li{
+	font-size:0.8rem;
+	letter-spacing:-0.4px;
+	text-align:center;
+ width:32.666%;
+	margin-bottom:3%;
+	margin-right:1%;
+	float: left;
+}
+.search .searchBoxFrom dl ul li:nth-child(3n){
+	margin-right:0;
+}
+.search .searchBoxFrom input[type="checkbox"]{
+	display:none;
+}
+.search .searchBoxFrom dl ul li label{
+	color:#4c5f76;
+	display:block;
+	padding:8% 0;
+	border:1px solid #4c5f76;
+	border-radius:20px;
+}
+.search .searchBoxFrom input:checked +label{
+	color:#fff;
+	background:#4c5f76;
+	border-radius:20px;
+}
+.search .searchBoxFrom dl.keyword{
+	border-top:1px solid #4c5f76;
+	border-bottom:1px solid #4c5f76;
+	padding:5% 0 6%;
+}
+.searchBoxFrom .keyBox{
+	padding:0;
+}
+.searchBoxFrom .keyBox .kome{
+ font-size:0.7rem;
+	line-height:1.4;
+	color:#4c5f76;
+	margin-top:5px;
+	letter-spacing:0.5px;
+}
+.search .searchBoxFrom dl dd input[type="text"]{
+	font-size:0.9rem;
+	width: 100%;
+	background:#ecf2f9;
+	padding:4% 3%;
+}
+.search .searchBoxFrom dl dd input::-webkit-input-placeholder {
+	color:#4c5f76;
+	line-height:1.4;
+}
+.search .searchBoxFrom .btnList li .btn{
+	width: 70%;
+	text-align:center;
+	margin:0 auto;
+	padding:5% 2% 5% 0;
+	display:block;
+	color:#fff;
+	font-size:0.95rem;
+	border-radius:25px;
+	position: relative;
+}
+.search .searchBoxFrom .btnList li .smt{
+	font-size:0.95rem;
+	width: 100%;
+	background:none;
+}
+.search .searchBoxFrom .btnList{
+	margin-top:6%;
+}
+.search .searchBoxFrom .btnList li{
+	letter-spacing:1px;
+	margin-bottom:4%;
+}
+.search .searchBoxFrom .btnList li:last-child{
+	margin-bottom:0;
+}
+.search .searchBoxFrom .btnList li .btn:after{
+	content: "";
+	position: absolute;
+	top: 1px;
+	bottom: 0;
+	right: 0.95rem;
+	margin: auto;
+	vertical-align: middle;
+	width: 6px;
+	height: 6px;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+  }
+.search .searchBoxFrom .btnList li #js_allclear .btn{
+	background:#6c839f;
+}
+.search .searchBoxFrom .btnList li .smt .btn{
+	background:#4c5f76;
+}
+/* news
+--------------*/
+.news {
+	position: relative;
+	padding:10.8vw 0 13.34vw;
+}
+.news h2.tit{
+	width:49.86vw;
+	margin:0 auto 9.34vw;
+}
+.news:before{
+	content:'';
+	display:block;
+	background:url(/serviceinfo/assets/img/tekute/bg05.png) no-repeat;
+	background-size:contain;
+	width: 50%;
+	padding-top:56.4%;
+	position: absolute;
+	left:-13%;
+	top:0;
+	z-index:-1;
+}
+.news:after{
+	content:'';
+ display:block;
+	background:url(/serviceinfo/assets/img/tekute/bg06.png) no-repeat;
+	background-size:contain;
+	width: 40.6%;
+	padding-top:41.4%;
+	position: absolute;
+	bottom:0;
+	right:-9%;
+	z-index:-1;
+}
+
+/* slider
+--------------*/
+
+.slider li .LBoxTagList{
+	padding-top:0;
+}
+.slider li .LBoxTagList li{
+	font-size:0.9rem;
+	margin:4% 0 3%;
+	display:inline-block;
+	padding:1.5% 3%;
+	text-align:center;
+	color:#fff;
+	background:#4c5f76;
+}
+.slider li .day{
+	font-size:0.95rem;
+	margin-bottom:3%;
+}
+.slider li dt{
+ font-weight:bold;
+	font-size:1rem;
+	line-height:1.2;
+	margin-bottom:2%;
+}
+.slider li dd{
+	font-size:0.95rem;
+	line-height:1.5;
+	margin-bottom:13%;
+}
+.news .slider dd{
+	height:5.6rem;
+	overflow:hidden;
+}
+.reading .slider dd .ellipsis,
+.news .slider dd .ellipsis{
+   overflow: hidden;
+   display: -webkit-box;
+   display: box;
+   -webkit-box-orient: vertical;
+   box-orient: vertical;
+   -webkit-line-clamp: 4 !important;
+   line-clamp: 4 !important;
+}
+.btn_more{
+	width: 25%;
+	margin:6.5% auto 0;
+}
+.LinkBox3col .resizeRatioBox .resizeRatioImg{
+ height:15.3rem;
+}
+.LinkBox3col .resizeRatioBox .resizeRatioImg img{
+	max-height:15.3rem;
+}
+.tekute .slider .slick-dots{
+	display: none !important;
+}
+/* event
+--------------*/
+.event{
+	text-align:center;
+	position: relative;
+}
+.event:before{
+	content:'';
+	display:block;
+	background:url(/serviceinfo/assets/img/tekute/bg07_sp.gif) no-repeat;
+	background-size:contain;
+	width: 100%;
+	padding-top:4%;
+	margin-bottom:-1px;
+}
+
+.event .inner{
+	background:#ecc4b2;
+	padding:13.34vw 0 20vw;
+}
+.event h2.tit{
+	width: 63.86vw;
+	margin:0 auto 9.34vw;
+}
+.event .calender{
+	width: 92.4%;
+	margin:0 3.8%;
+ position: relative;
+	height:0;
+	padding-bottom: 100%;;
+}
+.event .calender iframe{
+  position: absolute;
+ top: 0;
+ left: 0;
+ width: 100% ;
+	width: 100% !important;
+height: 100% !important;
+	border:none !important;
+}
+
+
+/* reading
+--------------*/
+.reading {
+	position: relative;
+	padding:17.3vw 0 13%;
+}
+.reading h2.tit{
+	width: 50.8vw;
+	margin:0 auto 8vw;
+}
+.reading .lead{
+	font-size:3.47vw;
+    letter-spacing: 0.03em;
+	line-height:1.8;
+	margin:0 5% 7%;
+}
+.reading .inner:before{
+	content:'';
+	display:block;
+	background:url(/serviceinfo/assets/img/tekute/bg09.png) no-repeat;
+	background-size:contain;
+	width: 65.8%;
+	padding-top:63.4%;
+	position: absolute;
+	top:5vw;
+	right:-28%;
+	z-index:-1;
+}
+/* tab  */
+.tab-list {
+	display: flex;
+	width: 90.4vw;
+	margin:0 auto ;
+	justify-content: space-between;
+  }
+  .tab-list >li {
+	  width: 43.46vw;
+	  /* height: 70px; */
+	  font-size: 3.74vw;
+	  font-weight: bold;
+	  line-height:1;
+	  text-align: center;
+  }
+  .tab-list >li >a, .tab-list >li .dropdown-btn{
+	  display: block;
+	  padding:4vw 0;
+	  color: #ababab;
+	  background: #e5e5e5;
+	  border-radius: 1.6vw;
+	  transition: all 0.2s;
+	  width: 100%;
+	  height:12vw;
+  
+  }
+  .tab-list >li:hover > a,
+  .tab-list >li:hover > .dropdown-btn,
+  .tab-list li.selected >a,
+  .tab-list >li.selected .dropdown-btn {
+	  background: #88bb09;
+	  color: #fff;
+  }
+  .tab-list li.dropdown{
+	  position: relative;
+  }
+
+  .tab-list > li.dropdown:before {
+	  content: "";
+	  position: absolute;
+	  top: 5vw;
+	  right: 7vw;
+	  margin: auto;
+	  vertical-align: middle;
+	  width: 1.34vw;
+	  height: 1.34vw;
+	  border-top: 2px solid #ababab;
+	  border-right: 2px solid #ababab;
+	  transform: rotate(135deg);
+  }
+  .tab-list > li.dropdown:hover:before,
+  .tab-list > li.dropdown.selected:before{
+	 border-color: #fff;
+  }
+  .tab-list > li .dropdown-menu {
+	  position: absolute;
+	  width: 43.46vw;
+	  height:12vw;
+	  background: rgba(255,255,255,0.95);
+	  border:3px solid #eee;
+	  border-radius: 1.6vw;
+	  display: flex;
+	  top: 11vw;
+	  opacity: 0; 
+	  visibility: hidden;
+  }
+  .tab-list > li.dropdown:hover .dropdown-menu{
+	  opacity: 1;
+	  visibility: visible;
+	  top: 13vw;
+	  -webkit-transition: opacity 0.5s, top 0.3s;
+	  transition: opacity 0.5s, top 0.3s;
+  }
+  .tab-list > li .dropdown-menu:before {
+	  display: block;
+	  content: '';
+	  width: 2.8vw;
+	  height: 1.6vw;
+	  background:url(/serviceinfo/assets/img/tekute/dropdown_arrow.png) no-repeat;
+	  background-size: contain;
+	  position: absolute;
+	  top: -1.7vw;
+	  left: 0;
+	  right: 0;
+	  margin: 0 auto;
+  }
+  
+  .tab-list > li .dropdown-list{
+	  display: flex;
+	  width: 100%;
+	  align-items: center;
+	  height: 100%;
+	  box-shadow: 0px 2.4vw 2.14vw 0px rgba(0, 0, 0, 0.11);
+  }
+  
+  .tab-list > li .dropdown-list li{
+	 width: 49.5% ;
+	 font-size: 3.74vw;
+	 height: 9vw;
+	 line-height: 9vw;
+  }
+  .tab-list > li .dropdown-list li a {
+	  color: #88bb09;
+	  display: block;
+	  width: 92%;
+	  height: 94%;
+	  margin: 0 auto;
+  }
+  .tab-list > li .dropdown-list li.selected a {
+	  background: none;
+	  color: #88bb09;
+	  position: relative;
+  }
+  .tab-list > li .dropdown-list li.selected a:after {
+	  content: '';
+	  display: block;
+	  width: 6vw;
+	  height: 0.8vw;
+	  background-color: #a6d530;
+	  margin: 0 auto;
+	  bottom: 0.5vw;
+	  position: absolute;
+	  left: 0;
+	  right: 0;
+ }
+
+  .tab-list > li .dropdown-list li:first-child {
+	  border-right: 3px solid #eee;
+	  width: 50.5%;
+  }
+/* floormap
+--------------*/
+.floormap .inner{
+	background:#c1db80;
+	padding:9% 0 10.8vw;
+}
+.floormap .map{
+	background:#fff;
+	padding:4% 2%;
+	margin:0 2.6%;
+	border-radius:10px;
+}
+.floormap .tab-list {
+	margin-bottom: 5.47vw;
+}
+.floormap .tab-list li > a{
+	margin-bottom: 1.2vw;
+}
+.floormap iframe{
+	border:none;
+	outline:none;
+}
+.floormap h2.tit{
+	width: 46.13vw;
+	margin:0 auto 10vw;
+}
+.floormap h2.tit img {
+	width: 100%;
+}
+.floormap:before{
+	content:'';
+	display:block;
+	background:url(/serviceinfo/assets/img/tekute/bg10_sp.gif) no-repeat;
+	background-size:contain;
+	width: 100%;
+	padding-top:9.3%;
+	margin-bottom:-1px;
+}
+.floormap .map.hidden {
+	display: none;
+}
+
+.street {
+	text-align: center;
+	width: calc(100% -5.1vw);
+	height: 0;
+	padding-top: 50%;
+	margin: 7vw 2.6vw 0;
+	position: relative;
+}
+.street iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+/* storeinfo
+--------------*/
+.storeinfo{
+	padding:7.5% 2.6% 10.8vw;
+	width: 95vw;
+	margin:10.8vw auto 12vw;
+	border-radius: 4vw;
+	background: #f7f2bc;
+}
+.storeinfo .tab-list {
+	margin-bottom: 9.34vw;
+}
+
+.storeinfo h2.tit{
+	width: 78.4vw;
+	margin:0 auto 9.8vw;
+}
+.storeinfo .shopinfo.hidden {
+	display: none;
+}
+.storeinfo .storedata{
+	margin-bottom:12%;
+}
+.storeinfo .storedata .name{
+	font-size:1.1rem;
+	letter-spacing:1px;
+	text-align:center;
+	font-weight:bold;
+	padding:4% 0;
+	border:1px solid #000;
+	margin-bottom:5%;
+	position: relative;
+}
+.storeinfo .storedata .name:before,
+.storeinfo .storedata .name:after{
+	content:'';
+	display:block;
+	width: 8px;
+	height:8px;
+	position: absolute;
+	bottom:-5px;
+	background:#f7f2bc;
+}
+.storeinfo .storedata .name:before{
+	left:0;
+}
+.storeinfo .storedata .name:after{
+	right:0;
+}
+.storeinfo .storedata .photo{
+	margin:0 2.5% 0;
+}
+.storeinfo .storedata table .shoptbl {
+	width: 100%;
+	margin-top: 7px;
+}
+.storeinfo .storedata table .shoptbl tr {
+	border-top:2px solid #fff;
+	border-bottom: none;
+}
+.storeinfo .storedata table .shoptbl tr td {
+	padding-bottom: 0;
+}
+.storeinfo .storedata table .shoptbl tr.no-border td {
+	padding-top: 0;
+	padding-bottom: 6px;
+}
+.storeinfo .storedata table .shoptbl tr.no-border {
+	border: none;
+}
+.storeinfo .storedata table tr{
+	border-bottom:2px solid #fff;
+}
+.storeinfo .storedata table th{
+	width:20%;
+}
+.storeinfo .storedata table td{
+	width:80%;
+}
+.storeinfo .storedata table th,
+.storeinfo .storedata table td{
+	font-size:0.9rem;
+	vertical-align:top;
+	line-height:1.5;
+	padding:4.5% 0;
+}
+.storeinfo .storedata table .shoptbl {
+	width: 100%;
+}
+.storeinfo .storedata table .shoptbl th {
+	width: 46%;
+	line-height: 1.4;
+	padding: 2.5% 0;
+	/* padding-top: 7px; */
+	letter-spacing: 0.02em;
+	font-weight: normal;
+}
+
+.storeinfo .storedata table .shoptbl td {
+	width: 50%;
+	letter-spacing: 0.02em;
+	padding-top: 5px;
+}
+.storeinfo table td .btn_map{
+	width:25%;
+	text-align:center;
+	font-size:0.95rem;
+	letter-spacing:1px;
+	font-weight:bold;
+	background:#949494;
+	color:#fff;
+	display:inline-block;
+	border-radius:12px;
+	margin-left:5%;
+}
+.storeinfo table td .btn_map a{
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	line-height: 1;
+	padding:0.6vw 0;
+}
+.storeinfo .storebox #box01{
+	margin-bottom:10vw;
+	padding-bottom: 2vw;
+}
+.storeinfo .storebox #box02 .tit{
+	padding:8% 0 4%;
+}
+.storeinfo .storebox .box {
+	border:1px solid #000;
+	padding:0 3%;
+	position: relative;
+}
+.storeinfo .storebox .box .tit{
+	font-size:1.1rem;
+	line-height:1.4;
+	font-weight:bold;
+	padding:6% 0 4%;
+	text-align:center;
+}
+.storeinfo .storebox .box dl dt{
+	font-size:0.9rem;
+	letter-spacing:2px;
+	text-align:center;
+	font-weight:bold;
+	border-radius:7px;
+	background:#fff;
+	color:#000;
+	padding:2% 0;
+	margin-bottom:2.5%;
+}
+.storeinfo .storebox .box dl dd{
+	font-size:0.9rem;
+	line-height:1.5;
+	margin-bottom:4%;
+	text-align: center;
+}
+.storeinfo .storebox .box .money{
+	width:100%;
+	display:table;
+	table-layout:fixed;
+}
+.storeinfo .storebox .box .suica{
+	width: 20%;
+	padding-right:2%;
+	display:table-cell;
+	vertical-align:middle;
+}
+.storeinfo .storebox .box .credit{
+	width: 85%;
+ margin:0 auto;
+}
+.storeinfo .storebox .box .qrcode {
+	width: 85%;
+ margin:0 auto;
+}
+.storeinfo .storebox .box .qr {
+	width: 85%;
+ margin:0 auto;
+}
+.storeinfo .storebox .box table th,
+.storeinfo .storebox .box table td{
+	font-size:0.9rem;
+	line-height:1.5;
+	padding:3% 3% 3% 0;
+}
+.storeinfo .storebox .box table tr{
+	border-bottom:2px solid #fff;
+}
+.storeinfo table tr:last-child{
+	border-bottom:none !important;
+}
+.storeinfo .storebox .box table th{
+	width: 45%;
+}
+.storeinfo .storebox .box table td{
+	width: 55%;
+}
+.storeinfo .storebox #box01 .tit:before{
+	content:'';
+	display:block;
+	background:#f7f2bc url(/serviceinfo/assets/img/tekute/ico_card.png) no-repeat center;
+	width: 30vw;
+	height: 7.8vw;
+	background-size:28vw auto;
+	position: absolute;
+	top:-2%;
+}
+.storeinfo .storebox #box02 .tit:before{
+	content:'';
+	display:block;
+	background:#f7f2bc url(/serviceinfo/assets/img/tekute/ico_facility.png) no-repeat center;
+	width:21.2vw;
+	height: 12.8vw;
+	background-size:18.2vw auto;
+	position: absolute;
+	top:-6%;
+	left:5%;
+}
+.storeinfo .storebox.storedata-tekute2 #box02 .tit:before{
+	content:'';
+	display:block;
+	width: 16.2vw;
+	background:#f7f2bc url(/serviceinfo/assets/img/tekute/ico_facility02.png) no-repeat center;
+}
+/* jrebnr
+--------------*/
+.jrebnr{
+	border:2px solid #01874c;
+	margin:0 6.6%;
+	padding:6% 7% 8.5%;
+	margin-bottom:31%;
+}
+.sendai .jrebnr {
+	margin: 12vw  6.6%;
+}
+.jrebnr .logo{
+	width: 35%;
+	margin:0 auto;
+}
+.jrebnr dt{
+	font-size:1rem;
+	letter-spacing:1.5px;
+	line-height:1.5;
+ font-weight:bold;
+	text-align:center;
+	padding:4% 0 7%;
+	margin-bottom:8%;
+	border-bottom:2px solid #01874c;
+}
+.jrebnr .point li.col{
+	padding:8.88% 0;
+}
+.jrebnr .point li{
+	font-size:0.875rem;
+	text-align:center;
+	font-weight:500;
+	line-height:1.6;
+	padding:5% 0;
+	margin-bottom:4%;
+	background:#e0e6ea;
+	border-radius:10px;
+}
+.jrebnr .point li:last-child{
+	padding:5% 3%;
+}
+.jrebnr .kome{
+	font-size:0.8rem;
+	letter-spacing:1px;
+	line-height:1.4;
+	margin-bottom:4.4vw;
+}
+.jrebnr .btn_detail{
+	font-size:0.9rem;
+	font-weight:500;
+	letter-spacing:1px;
+	width: 45.73vw;
+	margin:0 auto;
+}
+.jrebnr .btn_detail a{
+	display:block;
+	color:#fff;
+	text-align:center;
+	background:#01874c;
+	padding:4vw 0;
+	border-radius:6.14vw;
+}
+.jrebnr-band {
+   padding:6% 0 0;
+}
+.jrebnr-band .desc {
+	padding:0 7%;
+}
+.jrebnr-band .band {
+	font-size: 3.74vw;
+	color: #fff;
+	background:#018647;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 6.67vw;
+	padding: 5vw;
+}
+.jrebnr-band .band .text {
+	font-size: 3.74vw;
+	font-weight: 500;
+	letter-spacing: 0px;
+	line-height: 1.357;
+}
+.jrebnr-band .band .image {
+   width: 32vw;
+}
+.jrebnr-band .band .image img {
+	width: 100%;
+}
+/* park
+--------------*/
+.park{
+	width: 90%;
+	margin:0 auto;
+	border:1px solid #000;
+	padding:18% 0 7%;
+	position: relative;
+}
+.park h2.tit{
+	font-size:0;
+	background:url(/serviceinfo/assets/img/tekute/ttl_park_sp.gif) no-repeat;
+	width: 78%;
+	padding-top:29%;
+	background-size:contain;
+	position: absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	top:-4.8%;
+}
+.park ul li{
+	padding:0 5%;
+}
+.park ul li:first-child{
+	margin-bottom:12%;
+}
+.shop {
+	position: relative;
+	overflow: hidden;
+}
+.shop .inner {
+	padding: 18.6vw 0 22.6vw;
+	position: relative;
+}
+.shop .inner:before {
+    content: '';
+    display: block;
+    width: 133.46vw;
+    height: 34.66vw;
+	background: url(/serviceinfo/assets/img/tekute/bg01_pc.png) no-repeat;
+	background-size: contain;
+    position: absolute;
+    top: -4vw;
+	left: -105vw;
+}
+.shop .inner:after {
+	content:'';
+	display: block;
+	background: url(/serviceinfo/assets/img/tekute/bg06.png) no-repeat;
+	background-size: contain;
+	width: 40.6vw;
+	height: 41.46vw;
+	position: absolute;
+	top: 2.8vw;
+	right: -14.6vw;
+}
+.shop:before {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: #b9d96c url(/serviceinfo/assets/img/tekute/bg_shop_sp.png) no-repeat center 0;
+	background-size: contain;
+	position: absolute;
+	top: 65.3vw;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.shop .tit {
+	width: 24.13vw;
+	margin:0 auto 13.34vw;
+}
+.shop .shoplist {
+	width: 67.6vw;
+	margin:0 auto;
+	position: relative;
+	z-index: 1;
+}
+.shop .shoplist li:not(:last-child) {
+	margin-bottom: 12vw;
+}
+.shop .shoplist .data {
+   margin-top: 4.67vw;
+}
+.shop .shoplist .data dt {
+   font-size: 4.4vw;
+   text-align: center;
+   margin-right: 5.4vw;
+   margin-bottom: 3vw;
+}
+.shop .shoplist .data dt:before {
+    content: '';
+    display: inline-block;
+    width: 3.47vw;
+    height: 5.07vw;
+	background: url(/serviceinfo/assets/img/tekute/ico_access.png) no-repeat;
+    background-size: contain;
+    margin-right: 2.6vw;
+	margin-bottom: -0.4vw;
+}
+.shop .shoplist .data dd {
+   font-size: 6.14vw;
+   text-align: center;
+   font-weight: 500;
+}
+.shop .shoplist li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+}
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* print */
+/* //////////////////////////////////////////////////////////////////////////////// */
+@media print {
+
+
+}

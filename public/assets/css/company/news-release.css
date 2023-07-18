@@ -1,0 +1,338 @@
+@charset "UTF-8";
+/* =========================================================
+	Company / News-Release
+========================================================= */
+/* Common */
+#conts p {
+	line-height: 1.9;
+}
+
+#conts > .standard-box {
+	overflow: hidden;
+}
+
+#conts .articleOuter .summaryBox .info {
+	margin-bottom: 6px;
+}
+
+#conts .articleOuter .articleBox .info {
+	margin-bottom: 15px;
+}
+
+#conts .info time {
+	display: inline-block;
+	padding: 3px 8px;
+	background: #87CB3D;
+	color: #FFF;
+}
+
+#conts .info .tag {
+	display: inline-block;
+}
+
+#conts .info .tag li {
+	display: inline-block;
+	margin-left: 8px;
+	padding: 4px 15px 3px;
+	background: #D6AC83;
+	color: #FFF;
+	font-size: 1.4rem;
+}
+
+/* Index */
+#conts .articleOuter {
+	float: left;
+	width: 690px;
+}
+
+#conts .articleOuter .summaryBox {
+	margin-bottom: 27px;
+	padding-bottom: 18px;
+	border-bottom: 1px solid #CCC;
+}
+
+#conts .articleOuter .summaryBox .summary a {
+	text-decoration: none;
+}
+
+#conts .articleOuter .summaryBox .summary a:hover {
+	text-decoration: underline;
+}
+
+#conts .pager {
+	padding-top: 68px;
+	text-align: center;
+}
+
+#conts .pager li {
+	display: inline-block;
+}
+
+#conts .pager li.prev a,
+#conts .pager li.next a {
+	display: inline-block;
+	width: 13px;
+	height: 24px;
+	text-indent: -9999px;
+}
+
+#conts .pager li.prev a {
+	background: url(../../img/company/news-release/arrow_prev.png) no-repeat;
+}
+
+#conts .pager li.next a {
+	background: url(../../img/company/news-release/arrow_next.png) no-repeat;
+}
+
+#conts .pager li ol {
+	display: inline-block;
+	padding: 0 25px;
+}
+
+#conts .pager li ol li {
+	margin: 0 2px;
+}
+
+#conts .pager li ol li a {
+	display: inline-block;
+	padding: 0 7px;
+	background: #D6AC83;
+	color: #FFF;
+	text-decoration: none;
+}
+
+#conts .pager li ol li span {
+	display: inline-block;
+	padding: 0 7px;
+	background: #a26b35;
+	color: #FFF;
+	text-decoration: none;
+}
+
+#conts .pager li a:hover {
+	opacity: 0.7;
+}
+
+/* Article */
+#conts .articleConts > h2 {
+	margin-bottom: -10px;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+#conts .articleConts h3 {
+	margin-top: 30px;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+#conts .articleConts img.image {
+	cursor: pointer;
+}
+
+#conts .articleConts h3 + p {
+	margin-top: 15px;
+}
+
+#conts .articleConts .imgBox {
+	margin-top: 25px;
+	text-align: center;
+}
+
+#conts .articleConts .imgBox + .imgBox {
+	margin-top: 60px;
+}
+
+#conts .articleConts .imgLeft,
+#conts .articleConts .imgRight {
+	padding-top: 60px;
+	overflow: hidden;
+}
+
+#conts .articleConts .imgLeft .imgBox,
+#conts .articleConts .imgRight .imgBox {
+	margin-top: 0;
+}
+
+#conts .articleConts .imgLeft .imgBox {
+	float: left;
+	margin: 0 20px 10px 0;
+}
+
+#conts .articleConts .imgRight .imgBox {
+	float: right;
+	margin: 0 0 10px 20px;
+}
+
+#conts .articleConts .imgLeft h3,
+#conts .articleConts .imgRight h3 {
+	margin-top: -2px;
+}
+
+#conts .back {
+	margin-top: 50px;
+	text-align: center;
+}
+
+#conts .back a {
+	text-decoration: none;
+}
+
+#conts .back a:hover {
+	text-decoration: underline;
+}
+
+/* Side Bar */
+#sideBar {
+	float: right;
+	width: 200px;
+}
+
+#sideBar .backNumber {
+	border: 1px solid #CCC;
+}
+
+#sideBar .backNumber h2 {
+	padding: 11px 0 9px;
+	background: #87CB3D;
+	color: #FFF;
+	font-weight: normal;
+	text-align: center;
+}
+
+#sideBar .backNumber .yearlyList li {
+	border-top: 1px solid #CCC;
+	text-align: center;
+}
+
+#sideBar .backNumber .yearlyList li a {
+	display: block;
+	padding: 11px 0 9px;
+	text-decoration: none;
+}
+
+#sideBar .backNumber .yearlyList li a:hover {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+	/* Common */
+	#conts .articleOuter .summaryBox .info {
+		margin-bottom: 5px;
+	}
+
+	#conts .info time {
+		padding: 1px 5px;
+	}
+
+	#conts .info .tag li {
+		margin-left: 4px;
+		padding: 1px 8px;
+		font-size: 1.2rem;
+	}
+
+	/* Index */
+	#conts .articleOuter {
+		float: none;
+		width: 100%;
+	}
+
+	#conts .articleOuter .summaryBox {
+		margin-bottom: 15px;
+		padding-bottom: 10px;
+	}
+
+	#conts .articleOuter .summaryBox .summary {
+		padding: 0 4px;
+	}
+
+	#conts .pager {
+		padding-top: 35px;
+	}
+
+	#conts .pager li.prev a,
+	#conts .pager li.next a {
+		width: 11px;
+		height: 19px;
+	}
+
+	#conts .pager li.prev a {
+		background-image: url(../../img/company/news-release/arrow_prev_sp.png);
+		-webkit-background-size: 11px 19px;
+		        background-size: 11px 19px;
+	}
+
+	#conts .pager li.next a {
+		background-image: url(../../img/company/news-release/arrow_next_sp.png);
+		-webkit-background-size: 11px 19px;
+		        background-size: 11px 19px;
+	}
+
+	#conts .pager li ol {
+		padding: 0 20px;
+	}
+
+	#conts .pager li ol li {
+		margin: 0 3px;
+	}
+
+	#conts .pager li ol li a {
+		padding: 2px 8px;
+	}
+
+	/* Article */
+	#conts .articleConts > h2 {
+		font-size: 1.4rem;
+	}
+
+	#conts .articleConts h3 {
+		font-size: 1.4rem;
+	}
+
+	#conts .articleConts .imgBox {
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	#conts .articleConts .imgBox + .imgBox {
+		margin-top: 30px;
+	}
+
+	#conts .articleConts .imgLeft,
+	#conts .articleConts .imgRight {
+		padding-top: 35px;
+	}
+
+	#conts .articleConts .imgLeft .imgBox,
+	#conts .articleConts .imgRight .imgBox {
+		float: none;
+		margin: 0 0 20px;
+	}
+
+	#conts .back {
+		margin-top: 30px;
+	}
+
+	/* Side Bar */
+	#sideBar {
+		float: none;
+		width: 100%;
+		margin-top: 40px;
+	}
+
+	#sideBar .backNumber h2 {
+		padding: 13px 0;
+	}
+
+	#sideBar .backNumber .yearlyList li a {
+		padding: 13px 0;
+	}
+}
+
+@-moz-document url-prefix() {
+	#conts > .standard-box:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}

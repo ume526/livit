@@ -1,0 +1,1417 @@
+@charset "utf-8";
+
+img {
+	-webkit-backface-visibility: hidden;
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* min-width:769px */
+/* //////////////////////////////////////////////////////////////////////////////// */
+.tag li{
+	color:#fff;
+}
+@media screen and (min-width: 769px) {
+
+.tpl_contents {
+	width: 100%;
+	background: url(/serviceinfo/assets/img/detail/bg01.gif) repeat-x;
+}
+
+.tpl_contents .headTtl {
+	font-size: 29px;
+	letter-spacing: 2px;
+	font-weight: 500;
+	text-align: center;
+}
+
+section,.headTtl{
+	min-width:1024px;
+	position: relative;
+}
+.sns{
+	max-width:1024px;
+	margin:0 auto 50px;
+	padding-right:20px;
+	height:20px;
+	line-height:20px;
+	z-index:1000;
+	text-align:right;
+	font-size:0;
+}
+
+.sns li{
+	display:inline-block;
+	margin-right:10px;
+}
+.sns li a{
+	transition:all 0.2s;
+}
+.sns li a:hover{
+	opacity:0.8;
+}
+.sns li:last-child{
+	margin-right:0;
+}
+/* shopinfo
+--------------*/
+
+.shopinfo {
+	max-width: 100%;
+}
+
+.shopinfo .headTtl {
+	height: 333px;
+	font-size: 40px;
+	letter-spacing: 4px;
+	line-height: 1.2;
+	text-align: center;
+	padding: 100px 0 0;
+	position: relative;
+	background: url(/serviceinfo/assets/img/detail/deco.gif) no-repeat center bottom;
+	background-size: 443px 38px;
+	z-index:100;
+}
+.shopinfo .headTtl .heading{
+	max-width:1024px;
+ margin:0 auto;
+}
+.shopinfo .heading:before {
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/bg_left_pc.png) no-repeat;
+	background-size: contain;
+	width: 585px;
+	height: 253px;
+	position: absolute;
+	top: 80px;
+	left: 0;
+	z-index:-1;
+}
+
+.shopinfo .heading:after {
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/bg_right_pc.png) no-repeat;
+	background-size: contain;
+	width: 440px;
+	height: 205px;
+	position: absolute;
+	top: 80px;
+	right: 0;
+	z-index:-1;
+}
+
+.shopinfo .shopdetail {
+	width: 1024px;
+	margin: 0 auto;
+	padding: 60px 0 180px;
+	overflow: hidden;
+	background: url(/serviceinfo/assets/img/detail/person01.png) no-repeat 96% bottom;
+	background-size: 71px auto;
+}
+.shopinfo .shopdetail .resizeRatioBox .resizeRatioBoxIn{
+	border-radius:25px;
+}
+.shopinfo .shopdetail .resizeRatioBox .resizeRatioImg{
+	height:320px;
+}
+.shopinfo .shopdetail .photo {
+	width: 430px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+	margin-right:84px;
+}
+
+.shopinfo .shopdetail .photo img {
+	max-width: 428px;
+	max-height: 321px;
+}
+
+.shopinfo .shopdetail .shopdata {
+	border-top: 1px solid #000;
+}
+
+.shopinfo .shopdetail .summary,
+.shopinfo .shopdetail .shopdata {
+	width: 510px;
+	float: left;
+}
+.shopinfo .shopdetail .summary a{
+ color:#EB5C02;
+}
+.shopinfo .shopdetail .summary a:hover{
+	text-decoration:underline;
+}
+.shopinfo .shopdetail .summary .tag li {
+	font-size: 18px;
+	display: inline-block;
+	margin-right: 14px;
+	padding: 5px 10px;
+	margin-bottom: 25px;
+}
+.shopinfo .shopdetail .summary p.date{
+	font-size: 15px;
+	font-weight:500;
+	margin-bottom: 5px;
+}
+.shopinfo .shopdetail .summary p.txt {
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+.shopinfo .shopdetail .shopdata {
+	font-size: 15px;
+	padding-top: 30px;
+	float: right;
+}
+
+.shopinfo .shopdetail .shopdata table th {
+	width: 120px;
+	font-size: 15px;
+	line-height: 1.4;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+.shopinfo .shopdetail .shopdata table td {
+	line-height: 1.4;
+	padding-bottom: 10px;
+}
+.shopinfo .shopdetail .shopdata table td .btn_map{
+	font-size:15px;
+	background:#949494;
+	color:#fff;
+	display:inline-block;
+	border-radius:11px;
+	margin-left:5px;
+}
+.shopinfo .shopdetail .shopdata table td .btn_map a{
+	color:#fff;
+	display:block;
+	padding:1px 13px;
+}
+.shopinfo .shopdetail .shopdata table td .btn_map a:hover{
+	text-decoration:none;
+}
+.shopinfo .shopdetail .shopdata table a:hover {
+	text-decoration: underline;
+}
+.shopinfo .articlebox {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.shopinfo .articlebox dl {
+	margin: 25px 0 140px;
+}
+
+.shopinfo .articlebox dl dt {
+	font-size: 19px;
+	line-height: 1.4;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+.shopinfo .articlebox dl dd {
+	font-size: 15px;
+	line-height: 1.6;
+}
+.shopinfo .concept{
+	margin-bottom:60px;
+}
+.shopinfo .concept .image{
+	margin:20px auto;
+	max-width:1024px;
+}
+.shopinfo .concept h2{
+ font-size: 29px;
+ letter-spacing: 2px;
+ text-align: center;
+ margin-bottom: 30px;
+}
+.shopinfo .concept p{
+ text-align:center;
+	line-height:1.5;
+	font-size:15px;
+}
+/* osusume
+--------------*/
+
+.osusume {
+	margin: 0 auto;
+	padding: 135px 0 0;
+	background: #eee49f url(/serviceinfo/assets/img/detail/bg02_head.gif) no-repeat center top;
+	background-size:contain;
+	position: relative;
+}
+
+.osusume:before {
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/person02.png) no-repeat;
+	width: 109px;
+	height: 152px;
+	background-size: 109px 152px;
+	position: absolute;
+	top: -90px;
+	left:16.9%;
+}
+
+.osusume:after {
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/bg02_btm.gif) no-repeat center bottom;
+	background-size:contain;
+	padding-bottom: 125px;
+}
+
+.osusume .headTtl {
+	max-width: 1024px;
+	line-height: 1;
+	margin: 0 auto 65px;
+	position: relative;
+}
+
+.osusume .headTtl:before {
+	position: absolute;
+	top: -25px;
+	left: 350px;
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/icon_osusume.png) no-repeat;
+	background-size:contain;
+	width: 56px;
+	height: 65px;
+	background-size: 56px 65px;
+}
+
+/*.osusume .itemList {
+	width: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.osusume .itemList >li {
+	width: 325px;
+	float: left;
+	margin: 0 24px 40px 0;
+}
+
+.osusume .itemList >li:nth-child(3n) {
+	margin-right: 0;
+}
+
+.osusume .itemList >li .photo img {
+	border-radius: 15px;
+}*/
+.osusume li .ttl{
+	margin-bottom:10px;
+	padding-top:0;
+	font-weight:bold;
+}
+.osusume li .tag {
+	overflow: hidden;
+}
+
+.osusume .tag li {
+	font-size: 14px;
+	display: inline-block;
+	padding: 3px 10px 5px;
+	float: left;
+ margin-right: 10px;
+}
+.osusume li p {
+	font-size: 15px;
+	line-height: 1.5;
+}
+.osusume li p a{
+	color:#EB5C02;
+}
+.osusume li p a:hover{
+	text-decoration:underline;
+}
+/* access
+--------------*/
+
+.access {
+	padding: 135px 0 0;
+}
+
+.access .headTtl {
+	padding: 0 0 60px;
+	max-width: 1024px;
+	position: relative;
+}
+
+.access .headTtl:before {
+	position: absolute;
+	top: -30px;
+	left: 302px;
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/icon_access.png) no-repeat;
+	width: 89px;
+	height: 72px;
+	background-size: 89px 72px;
+}
+
+.access .image {
+	width: 1025px;
+	margin: 0 auto 20px;
+	padding-top:15px;
+	border: 1px solid #ddd;
+}
+
+.access .image iframe {
+	border: none;
+	outline: none;
+}
+.access h3,
+.access dl dt {
+	font-size: 19px;
+	font-weight: bold;
+	margin: 20px 0 10px;
+}
+.access p,
+.access dl dd {
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+.access .floormap {
+	margin-bottom: 100px;
+}
+
+.btn_back {
+	width: 120px;
+	letter-spacing: 1px;
+	height: 26px;
+	line-height: 1.8;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 500;
+	color: #fff;
+	background: #000;
+	margin: 80px auto 105px;
+	border-radius: 13px;
+}
+
+.btn_back a {
+	color: #fff;
+	display: block;
+	width: 100%;
+	height: inherit;
+	position: relative;
+}
+
+.btn_back a:before {
+	content: '';
+	width: 5px;
+	height: 5px;
+	border: 0px;
+	border-bottom: solid 2px #fff;
+	border-left: solid 2px #fff;
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	margin-top: -3px;
+}
+
+/*.btn_back a:hover:before{
+		animation: arrow01 0.5s;
+}*/
+/*@keyframes arrow01 {
+	50% {
+		left:25px;
+	}
+	100% {
+		left:20px;
+	}
+}*/
+
+/* relate
+--------------*/
+
+.relate:before {
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/bg03_head.gif) no-repeat;
+	background-size:contain;
+	padding-top:2.2%;
+}
+
+.relate:after {
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/bg03_btm.gif) no-repeat center;
+	background-size:contain;
+	padding-top:1.86%;
+}
+
+.relate {
+	background: url(/serviceinfo/assets/img/detail/bg03_body.gif) repeat-y;
+	background-size:contain;
+}
+
+.relate .headTtl {
+	padding: 115px 0 70px;
+	max-width: 1024px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.relate .headTtl:before {
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/icon_relate.png) no-repeat;
+	width: 110px;
+	height: 63px;
+	background-size: 100px 63px;
+	position: absolute;
+	top: 91px;
+	left: 320px;
+}
+
+.relate .list {
+	width: 1024px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+	overflow: hidden;
+}
+
+.relate .list >li {
+	width: 240px;
+	float: left;
+	margin: 0 20px 40px 0;
+}
+
+/*.relate .list li img {
+	border-radius: 15px;
+}*/
+
+.relate .list >li:nth-child(4n) {
+	margin-right: 0;
+}
+.relate .list li p {
+	font-size: 15px;
+	line-height:1.4;
+	font-weight: bold;
+	margin: 20px 0 0;
+}
+.relate .resizeRatioBox .resizeRatioImg{
+	height:180px;
+}
+.relate .resizeRatioBox .resizeRatioImg img{
+	max-width:240px;
+	max-height:180px;
+}
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* max-width:768px */
+/* //////////////////////////////////////////////////////////////////////////////// */
+@media screen and (max-width: 768px) {
+
+.tpl_contents {
+	background: url(/serviceinfo/assets/img/detail/bg01.gif) repeat-x center top;
+	background-size: 123px 40px;
+	padding-bottom: 15%;
+}
+.headTtl .sns{
+	padding:0 3% 3%;
+	overflow:hidden;
+}
+.headTtl .sns li{
+/*	width: 25px;*/
+ height:20px;
+ line-height:20px;
+	margin:0 10px 10px 0;
+	float: left;
+}
+.tpl_contents .headTtl {
+	font-size: 1.6rem;
+	letter-spacing: 2px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 10.5%;
+	position: relative;
+}
+
+.shopinfo .headTtl {
+	font-size: 2rem;
+	letter-spacing: 4px;
+	line-height: 1.3;
+	text-align: center;
+	padding: 55px 0 15%;
+	background: url(/serviceinfo/assets/img/detail/deco.gif) no-repeat center bottom;
+	background-size: 90% auto;
+	margin: 0 auto 8%;
+	position: relative;
+		z-index:100;
+}
+.shopinfo .heading{
+ padding:0 2%;
+}
+.shopinfo .heading span {
+	display: block;
+}
+
+.shopinfo .heading:before {
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/bg_left_sp.png) no-repeat;
+	background-size: contain;
+	width: 37%;
+	height: 0;
+	padding-top: 25.5%;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	z-index:-1;
+}
+
+.shopinfo .heading:after {
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/bg_right_sp.png) no-repeat;
+	background-size: contain;
+	width: 31%;
+	height: 0;
+	position: absolute;
+	top: 40px;
+	padding-top: 26%;
+	right: 0;
+	z-index:-1;
+}
+
+.shopinfo .shopdetail {
+	padding: 0 4% 34%;
+	background: url(/serviceinfo/assets/img/detail/person01.png) no-repeat 92% bottom;
+	background-size: 14% auto;
+}
+.shopinfo .shopdetail .resizeRatioBox .resizeRatioImg{
+	height:17.1rem;
+}
+.shopinfo .shopdetail .resizeRatioBox .resizeRatioImg img{
+	max-height:17.1rem;
+}
+.shopinfo .shopdetail .photo {
+	margin-bottom: 6%;
+}
+/*.shopinfo .shopdetail .photo img {
+	border-radius: 15px;
+}*/
+.shopinfo .shopdetail .summary .tag li {
+	font-size: 1rem;
+	display: inline-block;
+	margin-right: 2%;
+	padding: 3px 10px 5px;
+	margin-bottom: 5%;
+}
+.shopinfo .shopdetail .summary p.date {
+	font-size: 0.95rem;
+	font-weight:500;
+	padding-bottom: 2%;
+}
+.shopinfo .shopdetail .summary p.txt {
+	font-size: 0.95rem;
+	line-height: 1.5;
+}
+
+.shopinfo .shopdetail .shopdata {
+	padding-top: 5%;
+}
+.shopinfo .shopdetail .summary a{
+ color:#EB5C02;
+	text-decoration:underline;
+}
+.shopinfo .shopdetail .shopdata table th,
+.shopinfo .shopdetail .shopdata table td {
+	vertical-align: top;
+	font-weight: normal;
+	font-size: 0.95rem;
+	line-height: 1.4;
+	padding-bottom: 1.5%;
+	letter-spacing:0px;
+}
+.shopinfo .shopdetail .shopdata table td .btn_map{
+	width:25%;
+	text-align:center;
+	font-size:0.95rem;
+	letter-spacing:1px;
+	font-weight:bold;
+	background:#949494;
+	color:#fff;
+	display:inline-block;
+	border-radius:12px;
+	margin-left:5%;
+}
+.shopinfo .shopdetail .shopdata table td .btn_map a{
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	padding:5% 0;
+}
+.shopinfo .shopdetail .shopdata table th {
+	width: 30%;
+}
+
+.shopinfo .shopdetail .shopdata table a {
+	text-decoration: underline;
+}
+
+.shopinfo .articlebox {
+	padding: 0 4%;
+	margin-bottom:10% !important;
+}
+
+.shopinfo .articlebox dl dt {
+	font-size: 1.1rem;
+	line-height: 1.5;
+	font-weight: bold;
+	margin-bottom: 2.5%;
+}
+
+.shopinfo .articlebox .photo {
+	margin-bottom: 4%;
+}
+
+.shopinfo .articlebox dd {
+	font-size: 0.95rem;
+	line-height: 1.5;
+	padding-bottom: 9%;
+}
+.shopinfo .concept{
+	margin:5% 4% 10%;
+}
+.shopinfo .concept .image{
+	margin:2.5% 0;
+}
+.shopinfo .concept h2{
+ font-size: 1.6rem;
+ letter-spacing: 2px;
+ font-weight: 500;
+ margin-bottom: 6%;
+	text-align:center;
+}
+.shopinfo .concept p{
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+/* osusume
+--------------*/
+
+.osusume {
+	background: #eee49f url(/serviceinfo/assets/img/detail/bg02_head_sp.png) no-repeat center top;
+	background-size: 100% auto;
+	padding-top: 43%;
+	margin-bottom:10%;
+	position: relative;
+	overflow:hidden;
+}
+
+.osusume:after {
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/bg02_btm_sp.gif) no-repeat center bottom;
+	background-size: contain;
+	width: 100%;
+	height: 5%;
+	position: absolute;
+	right: 0;
+	bottom: -0.5px;
+}
+.osusume li p a{
+	color:#EB5C02;
+	text-decoration:underline;
+}
+/*.osusume .itemList {
+	margin: 0 4%;
+}
+
+.osusume .itemList >li .photo img {
+	border-radius: 12.5px;
+}
+
+.osusume .itemList >li .photo {
+	margin-bottom: 5%;
+}
+
+.osusume .itemList >li:last-child {
+	padding-bottom: 15%;
+}
+
+.osusume .headTtl:before {
+	position: absolute;
+	top: -80%;
+	left: 19%;
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/icon_osusume.png) no-repeat;
+	width: 12%;
+	padding-top: 14%;
+	background-size: contain;
+}
+
+.osusume .itemList >li {
+	padding-bottom: 8%;
+}
+
+
+*/
+.osusume .itemList >li h3,
+.osusume .ttl {
+	font-size: 1.1rem;
+	line-height: 1.5;
+	font-weight: bold;
+	margin-bottom: 2.5%;
+}
+
+.osusume .tag li {
+	font-size: 1rem;
+	display: inline-block;
+	margin-right: 2%;
+	padding: 3px 10px 5px;
+	margin-bottom: 4%;
+}
+.osusume  li p {
+	font-size: 0.95rem;
+	line-height: 1.5;
+}
+.osusume .LinkBox3col .resizeRatioBox .resizeRatioImg{
+	 height:16rem;
+}
+.osusume .resizeRatioBox .resizeRatioImg img{
+	max-height:16rem;
+}
+
+/* access
+--------------*/
+
+.access {
+	padding: 11% 0 0;
+}
+.access .image iframe {
+	border: none;
+	outline: none;
+}
+.access .headTtl:before {
+	position: absolute;
+	top: -48%;
+	left: 11%;
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/icon_access.png) no-repeat;
+	width: 15%;
+	padding-top: 12%;
+	background-size: contain;
+}
+
+.access .image {
+	margin-bottom: 5%;
+	padding-top:4%;
+	border: 1px solid #ddd;
+}
+
+.access .floormap dl{
+	margin-top:5%;
+}
+.access .floormap h3,
+.access .floormap dl dt {
+	font-size: 1.1rem;
+	font-weight: bold;
+	margin-bottom: 2%;
+}
+.access .floormap p,
+.access .floormap dl dd {
+	font-size: 0.95rem;
+	line-height: 1.5;
+	margin-bottom: 10%;
+}
+
+.access .btn_app {
+	width: 43%;
+	font-size: 0.9rem;
+	font-weight: 500;
+	text-align: center;
+	border-bottom: 1px solid #000;
+	margin: 5% auto 18%;
+	position: relative;
+}
+
+.access .btn_app:before {
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/icon_map.jpg) no-repeat;
+	width: 11%;
+	padding-top: 15%;
+	background-size: contain;
+	position: absolute;
+	left: 0;
+	top: -12%;
+}
+
+.access .btn_app a {
+	display: inline-block;
+	padding: 0% 8% 8% 18%;
+}
+
+.btn_back {
+	width: 42%;
+	margin: 0 auto 18%;
+	letter-spacing: 1px;
+	font-size: 1rem;
+	text-align: center;
+	font-weight: 500;
+	color: #fff;
+	background: #000;
+	border-radius: 15px;
+	position: relative;
+}
+
+.btn_back a {
+	color: #fff;
+	display: block;
+	padding: 4% 0 6%;
+}
+
+.btn_back a:before {
+	content: '';
+	width: 5px;
+	height: 5px;
+	border: 0px;
+	border-bottom: solid 2px #fff;
+	border-left: solid 2px #fff;
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	margin-top: -3px;
+}
+
+/* relate 
+--------------*/
+
+.relate:before {
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/bg03_head_sp.gif) no-repeat;
+	padding-top: 5.8%;
+	background-size: contain;
+}
+
+.relate:after {
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/bg03_btm_sp.gif) no-repeat;
+	padding-bottom: 5.34%;
+	background-size: contain;
+}
+
+.relate {
+	background: url(/serviceinfo/assets/img/detail/bg03_body_sp.gif) repeat-y;
+	background-size: 100% auto;
+}
+
+.relate .headTtl {
+	position: relative;
+	padding-top: 14%;
+}
+
+.relate .headTtl:before {
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/icon_relate.png) no-repeat;
+	width: 22.6%;
+	padding-top: 13%;
+	background-size: contain;
+	position: absolute;
+	top: 45%;
+	left: 11.4%;
+}
+
+.relate .list {
+	overflow: hidden;
+	padding: 0 4%;
+}
+
+.relate .list li {
+	width: 47.5%;
+	float: left;
+}
+
+.relate .list li img {
+	border-radius: 0;
+}
+
+.relate .list li:nth-child(odd) {
+	margin-right: 5%;
+}
+
+.relate .resizeRatioBox .resizeRatioImg{
+	height:8rem;
+}
+.resizeRatioBox .resizeRatioImg img{
+	max-width:100%;
+	border-radius:0;
+	max-height:8.1rem;
+}
+.relate .list li p{
+	font-size: 0.9rem;
+	line-height: 1.4;
+	font-weight: bold;
+	margin: 4% 0 18%;
+}
+}
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* print */
+/* //////////////////////////////////////////////////////////////////////////////// */
+@media print {
+.wrap{
+	width:auto;
+	max-width:1024px;
+}
+.resizeRatioBox .resizeRatioBoxIn{
+	overflow: hidden;
+}
+.tpl_contents {
+	width: 100%;
+	background: url(/serviceinfo/assets/img/detail/bg01.gif) repeat-x;
+}
+
+.tpl_contents .headTtl {
+	font-size: 29px;
+	letter-spacing: 2px;
+	font-weight: 500;
+	text-align: center;
+}
+
+section,.headTtl{
+	min-width:1024px;
+	position: relative;
+}
+.sns{
+	max-width:1024px;
+	margin:0 auto 50px;
+	padding-right:20px;
+	height:20px;
+	line-height:20px;
+	z-index:1000;
+	text-align:right;
+	font-size:0;
+}
+
+.sns li{
+	display:inline-block;
+	margin-right:10px;
+}
+.sns li a{
+	transition:all 0.2s;
+}
+.sns li a:hover{
+	opacity:0.8;
+}
+.sns li:last-child{
+	margin-right:0;
+}
+/* shopinfo
+--------------*/
+
+.shopinfo {
+	max-width: 100%;
+}
+
+.shopinfo .headTtl {
+	height: 333px;
+	font-size: 40px;
+	letter-spacing: 4px;
+	line-height: 1.2;
+	text-align: center;
+	padding: 100px 0 0;
+	position: relative;
+	background: url(/serviceinfo/assets/img/detail/deco.gif) no-repeat center 237px;
+	background-size: 443px 38px;
+	z-index:100;
+}
+
+.shopinfo .heading:before {
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/bg_left_pc.png) no-repeat;
+	background-size: contain;
+	width: 585px;
+	height: 253px;
+	position: absolute;
+	top: 80px;
+	left: 0;
+	z-index:-1;
+}
+
+.shopinfo .heading:after {
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/bg_right_pc.png) no-repeat;
+	background-size: contain;
+	width: 440px;
+	height: 205px;
+	position: absolute;
+	top: 80px;
+	right: 0;
+	z-index:-1;
+}
+
+.shopinfo .shopdetail {
+	width: 1024px;
+	margin: 0 auto;
+	padding: 60px 0 180px;
+	overflow: hidden;
+	background: url(/serviceinfo/assets/img/detail/person01.png) no-repeat 96% bottom;
+	background-size: 71px auto;
+}
+.shopinfo .shopdetail .resizeRatioBox .resizeRatioBoxIn{
+	border-radius:25px;
+}
+.shopinfo .shopdetail .resizeRatioBox .resizeRatioImg{
+	height:340px;
+}
+.shopinfo .shopdetail .photo {
+	width: 430px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+
+.shopinfo .shopdetail .photo img {
+	max-width: 430px;
+	max-height: 340px;
+	border-radius: 25px;
+}
+
+.shopinfo .shopdetail .shopdata {
+	border-top: 1px solid #000;
+}
+
+.shopinfo .shopdetail .summary,
+.shopinfo .shopdetail .shopdata {
+	width: 510px;
+	float: right;
+}
+
+.shopinfo .shopdetail .summary .tag li {
+	font-size: 18px;
+	display: inline-block;
+	margin-right: 14px;
+	padding: 5px 10px;
+	margin-bottom: 25px;
+}
+.shopinfo .shopdetail .summary p.date{
+	font-size: 15px;
+	font-weight:500;
+	margin-bottom: 5px;
+}
+.shopinfo .shopdetail .summary p.txt {
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+.shopinfo .shopdetail .shopdata {
+	font-size: 15px;
+	padding-top: 30px;
+}
+
+.shopinfo .shopdetail .shopdata table th {
+	width: 120px;
+	font-size: 15px;
+	line-height: 1.4;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+.shopinfo .shopdetail .shopdata table td {
+	line-height: 1.4;
+	padding-bottom: 10px;
+}
+.shopinfo .shopdetail .shopdata table td .btn_map{
+	font-size:15px;
+	background:#949494;
+	color:#fff;
+	display:inline-block;
+	border-radius:11px;
+	margin-left:5px;
+}
+.shopinfo .shopdetail .shopdata table td .btn_map a{
+	color:#fff;
+	display:block;
+	padding:1px 13px;
+}
+.shopinfo .shopdetail .shopdata table td .btn_map a:hover{
+	text-decoration:none;
+}
+.shopinfo .shopdetail .shopdata table a:hover {
+	text-decoration: underline;
+}
+.shopinfo .articlebox {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.shopinfo .articlebox dl {
+	margin: 25px 0 140px;
+}
+
+.shopinfo .articlebox dl dt {
+	font-size: 19px;
+	line-height: 1.4;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+.shopinfo .articlebox dl dd {
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+/* osusume
+--------------*/
+
+.osusume {
+	max-width:1024px;
+	width:auto;
+	margin: 0 auto;
+	padding: 135px 0 0;
+	background: #eee49f url(/serviceinfo/assets/img/detail/bg02_head.gif) no-repeat center top;
+	background-size:contain;
+	position: relative;
+}
+
+.osusume:before {
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/person02.png) no-repeat;
+	width: 109px;
+	height: 152px;
+	background-size: 109px 152px;
+	position: absolute;
+	top: -90px;
+	left:16.9%;
+}
+
+.osusume:after {
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/bg02_btm.gif) no-repeat center bottom;
+	background-size:contain;
+	padding-bottom: 125px;
+}
+
+.osusume .headTtl {
+	max-width: 1024px;
+	line-height: 1;
+	margin: 0 auto 65px;
+	position: relative;
+}
+
+.osusume .headTtl:before {
+	position: absolute;
+	top: -25px;
+	left: 363px;
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/icon_osusume.png) no-repeat;
+	background-size:contain;
+	width: 56px;
+	height: 65px;
+	background-size: 56px 65px;
+}
+.osusume li .ttl{
+	margin-bottom:10px;
+	padding-top:0;
+}
+.osusume li .tag {
+	overflow: hidden;
+}
+
+.osusume .tag li {
+	font-size: 14px;
+	display: inline-block;
+	padding: 3px 10px 5px;
+	float: left;
+ margin-right: 10px;
+}
+.osusume li p {
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+/* access
+--------------*/
+
+.access {
+	padding: 135px 0 0;
+}
+
+.access .headTtl {
+	padding: 0 0 60px;
+	max-width: 1024px;
+	position: relative;
+}
+
+.access .headTtl:before {
+	position: absolute;
+	top: -30px;
+	left: 302px;
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/icon_access.png) no-repeat;
+	width: 89px;
+	height: 72px;
+	background-size: 89px 72px;
+}
+
+.access .image {
+	width: 1025px;
+	margin: 0 auto;
+	padding-top:15px;
+	border: 1px solid #ddd;
+}
+
+.access .image iframe {
+	border: none;
+	outline: none;
+}
+
+.access dl dt {
+	font-size: 19px;
+	font-weight: bold;
+	margin: 20px 0 10px;
+}
+
+.access dl dd {
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+.access .floormap {
+	margin-bottom: 100px;
+}
+
+.btn_back {
+	width: 120px;
+	letter-spacing: 1px;
+	height: 26px;
+	line-height: 1.8;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 500;
+	color: #fff;
+	background: #000;
+	margin: 80px auto 105px;
+	border-radius: 13px;
+}
+
+.btn_back a {
+	color: #fff;
+	display: block;
+	width: 100%;
+	height: inherit;
+	position: relative;
+}
+
+.btn_back a:before {
+	content: '';
+	width: 5px;
+	height: 5px;
+	border: 0px;
+	border-bottom: solid 2px #fff;
+	border-left: solid 2px #fff;
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	margin-top: -3px;
+}
+
+
+/* relate
+--------------*/
+
+.relate:before {
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/bg03_head.gif) no-repeat;
+	background-size:contain;
+	padding-top:2.2%;
+}
+
+.relate:after {
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/bg03_btm.gif) no-repeat;
+	background-size:contain;
+	padding-top:1.86%;
+}
+
+.relate {
+	background: url(/serviceinfo/assets/img/detail/bg03_body.gif) repeat-y;
+	background-size:contain;
+}
+
+.relate .headTtl {
+	padding: 115px 0 70px;
+	max-width: 1024px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.relate .headTtl:before {
+	content: '';
+	display: block;
+	background: url(/serviceinfo/assets/img/detail/icon_relate.png) no-repeat;
+	width: 110px;
+	height: 63px;
+	background-size: 100px 63px;
+	position: absolute;
+	top: 91px;
+	left: 320px;
+}
+
+.relate .list {
+	width: 1024px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+	overflow: hidden;
+}
+
+.relate .list >li {
+	width: 240px;
+	float: left;
+	margin: 0 20px 40px 0;
+}
+
+/*.relate .list li img {
+	border-radius: 15px;
+}*/
+
+.relate .list >li:nth-child(4n) {
+	margin-right: 0;
+}
+.relate .list li p {
+	font-size: 15px;
+	line-height:1.4;
+	font-weight: bold;
+	margin: 20px 0 0;
+}
+
+.relate .resizeRatioBox .resizeRatioImg img{
+	max-width:240px;
+}
+
+
+}

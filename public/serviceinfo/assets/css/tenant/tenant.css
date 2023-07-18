@@ -1,0 +1,1436 @@
+@charset "utf-8";
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* min-width:769px */
+/* //////////////////////////////////////////////////////////////////////////////// */
+img{
+-webkit-backface-visibility: hidden;
+}
+@media screen and (min-width: 769px) {
+	
+	/*-------------------
+	 
+		 pc
+			
+	-------------------*/
+	
+section{
+	min-width:1024px;
+	margin:0 auto;
+	position: relative;
+}
+
+.inner{
+	width: 1024px;
+	margin:0 auto;
+}
+/* mainVisual
+--------------*/
+.mainVisual{
+	/* margin:0 auto 120px; */
+	margin:0 auto;
+	/*margin:110px auto 90px;*/
+	position: relative;
+	max-width:1396px;
+}
+.mainVisual .heading{
+	font-size:0;
+	width: 381px;
+	height:166px;
+	position: absolute;
+	top:-110px;
+	left:0;
+	right:0;
+	margin:0 auto;
+ background:url(/serviceinfo/assets/img/tenant/ttl_kaigo_pc.png) no-repeat;
+}
+/* .mainVisual .main{
+	margin-bottom:100px;
+} */
+.mainVisual h3.tit{
+	font-size:0;
+	background:url(/serviceinfo/assets/img/tenant/tit_pc.gif) no-repeat;
+	width: 782px;
+	height:53px;
+	margin:0 auto 36px;
+}
+.mainVisual .lead{
+	text-align:center;
+	font-size:16px;
+	letter-spacing:2.5px;
+	line-height:2.5;
+}
+
+.tpl_contents h2.tit{
+	font-size:33px;
+	font-weight:bold;
+	letter-spacing:5px;
+	text-align:center;
+}
+/* merit
+--------------*/
+.merit{
+	background:#f7f69f;
+	padding:88px 0 115px;
+}
+.merit h2.tit{
+	margin:0 auto 84px;
+}
+.merit .point {
+	font-size:0;
+	text-align:center;
+}
+.merit .point li{
+	width: 310px;
+	vertical-align:top;
+	border:1px solid #000;
+	display:inline-block;
+	position: relative;
+}
+.merit .point li:nth-child(2){
+	margin:0 45px;
+}
+.merit .point li h3{
+	font-size:25px;
+	letter-spacing:2.5px;
+	line-height:1.6;
+	font-weight:bold;
+	padding:55px 0 25px;
+}
+.merit .point li p{
+	font-size:17px;
+	letter-spacing:2px;
+	line-height:1.7;
+	background:#fff;
+	padding:30px 0;
+}
+.merit .point li:before{
+	content:'';
+	display:block;
+	width: 174px;
+	height:29px;
+	position: absolute;
+	top:-21px;
+	left:0;
+	right:0;
+	margin:0 auto;
+}
+.merit .point li:first-child:before{
+	background:#f7f69f url(/serviceinfo/assets/img/tenant/ttl_merit01.gif) no-repeat center;
+	background-size:contain;
+}
+.merit .point li:nth-child(2):before{
+	background:#f7f69f url(/serviceinfo/assets/img/tenant/ttl_merit02.gif) no-repeat center;
+	background-size:contain;
+}
+.merit .point li:nth-child(3):before{
+	background:#f7f69f url(/serviceinfo/assets/img/tenant/ttl_merit03.gif) no-repeat center;
+	background-size:contain;
+}
+/* howto
+--------------*/
+.howto{
+	padding:116px 0 0;
+}
+.howto h2.tit{
+	margin-bottom:50px;
+}
+.howto .btn_anchor{
+	font-size:0;
+	text-align:center;
+	margin-bottom: 120px;
+	/* margin-bottom:140px; */
+}
+.howto .btn_anchor li{
+	width: 160px;
+	display:inline-block;
+	margin:0 29px;
+	position: relative;
+}
+.howto .btn_anchor li .arrow{
+ display: block;
+ overflow: hidden;
+	width: 7px;
+	height:50px;
+ position: absolute;
+	left:0;
+	right:0;
+	bottom:-28px;
+	margin:0 auto;
+}
+.howto .btn_anchor li .arrow:before{
+	content:'';
+	display:block;
+	background:url(/serviceinfo/assets/img/tenant/arrow_pc.png) no-repeat;
+	width: 7px;
+	height:50px;
+	background-size:contain;
+	position: absolute;
+	bottom:0;
+	margin:0 auto;
+	-webkit-animation: sdb2 2s infinite;
+	animation: sdb2 2s infinite;
+	z-index:1000;
+}
+@-webkit-keyframes sdb2 {
+	0% {
+		-webkit-transform: translate(0,-28px);
+		opacity:0;
+	}
+	50% {
+		opacity:1;
+	}
+	100% {
+		-webkit-transform: translate(0, 0);
+		opacity:1;
+	}
+}
+@keyframes sdb2 {
+	0% {
+		transform: translate(0,-28px);
+		opacity:0;
+	}
+	50% {
+		opacity:1;
+	}
+	100% {
+		transform: translate(0, 0);
+		opacity:1;
+	}
+}
+.tpl_contents .storeinfo{
+	max-width:1396px;
+	margin:0 auto 15px;
+ padding:70px 0 0;
+	padding-bottom:50px;
+	border:4px solid #edc10a;
+	border-bottom:none;
+}
+.tpl_contents .storeinfo h2.tit{
+	margin-bottom:50px;
+}
+.tpl_contents .storeinfo .photo{
+	width: 900px;
+	margin:0 auto 40px;
+}
+.tpl_contents .storeinfo .txt{
+	width: 800px;
+	margin:0 auto;
+	font-size:16px;
+	letter-spacing:1.4px;
+	line-height:1.8;
+}
+.tpl_contents .storeinfo .txt01{
+	margin-bottom:115px;
+}
+.tpl_contents .storeinfo .txt02{
+	margin-bottom:65px;
+}
+.tpl_contents .storeinfo .txt03{
+	margin-bottom:25px;
+}
+.tpl_contents .storeinfo .txt04{
+	margin-bottom:45px;
+}
+.tpl_contents .btnList{
+	max-width:1024px;
+	margin:0 auto;
+	text-align:center;
+	font-size:0;
+}
+.tpl_contents .btn {
+	width: 280px;
+	border:1px solid #000;
+	font-size:16px;
+	font-weight:500;
+	text-align:center;
+	position: relative;
+	letter-spacing:1px;
+	border-radius: 30px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.tpl_contents .btnList li{
+	width: 280px;
+	margin-bottom:50px;
+	border:1px solid #000;
+	display:inline-block;
+	font-size:16px;
+	font-weight:500;
+	text-align:center;
+	position: relative;
+	letter-spacing:1px;
+}
+.tpl_contents .btn a {
+	display:block;
+	padding:18px 0;
+	box-sizing:border-box;
+ transition:all 0.2s;
+}
+.tpl_contents .btnList li a{
+	display:block;
+	padding:18px 20px 18px 0;
+	box-sizing:border-box;
+ transition:all 0.2s;
+}
+.tpl_contents .btn a:hover,
+.tpl_contents .btnList li a:hover{
+	background:#000;
+	color:#fff;
+}
+.tpl_contents .btnList li:first-child{
+	margin-left:9px;
+}
+.tpl_contents .btnList li:nth-child(2){
+	margin:0 60px;
+}
+.tpl_contents .btnList li:nth-child(3){
+	margin-right:44px;
+}
+.tpl_contents .btnList li:nth-child(4){
+	margin-left:180px;
+}
+.tpl_contents .btnList li:nth-child(5){
+	margin:0 204px 0 70px;
+}
+.tpl_contents .btnList li .arrow{
+ display: block;
+ overflow: hidden;
+	width: 77px;
+	height:8px;
+ position: absolute;
+	left:0;
+	left:230px;
+	top:0;
+	bottom:0;
+	margin:auto 0;
+}
+.tpl_contents .btnList li .arrow:before{
+	content:'';
+	display:block;
+	background:url(/serviceinfo/assets/img/tenant/arrow_off.png) no-repeat;
+	width: 77px;
+	height:8px;
+	background-size:contain;
+	position: absolute;
+	top:0;
+	bottom:0;
+	margin:auto 0;
+	transition: all 0.2s;
+/*	-webkit-animation: sd 2s infinite;
+	animation: sdb 2s infinite;*/
+	z-index:1000;
+}
+.tpl_contents .btnList li a{
+	transition:all 0.2s;
+}
+.tpl_contents .btnList li a:hover .arrow:before{
+	background:url(/serviceinfo/assets/img/tenant/arrow_on.png) no-repeat;
+}
+.tpl_contents #anchor04 .btnList li{
+	width: 320px;
+	margin-bottom:30px;
+}
+.tpl_contents #anchor04 .btnList li .arrow{
+	left:270px;
+}
+/*@-webkit-keyframes sdb {
+	0% {
+		-webkit-transform: translate(-77px,0);
+		opacity:0;
+	}
+	50% {
+		opacity:1;
+	}
+	100% {
+		-webkit-transform: translate(0, 0);
+		opacity:1;
+	}
+}
+@keyframes sdb {
+	0% {
+		transform: translate(-77px,0);
+		opacity:0;
+	}
+	50% {
+		opacity:1;
+	}
+	100% {
+		transform: translate(0, 0);
+		opacity:1;
+	}
+}*/
+
+/* flow
+--------------*/
+.flow {
+	border-bottom:1px solid #000;
+	margin-bottom:170px;
+}
+.flow h2.tit{
+	margin-bottom:60px;
+}
+.flow ul{
+	font-size:0;
+	text-align:center;
+}
+.flow ul li{
+ width: 161px;
+	display:inline-block;
+	margin:0 10px 150px 0;
+}
+.flow ul li:last-child{
+	margin-right:0;
+}
+
+/* contact
+--------------*/
+.contact{
+	background:#f7f69f;
+	margin-bottom:120px;
+}
+.contact .btn {
+    display: block;
+    width: 312px;
+    margin: 0 auto;
+    font-size: 22px;
+    text-decoration: none;
+	border: none;
+}
+.contact .btn a {
+	background-color: #fff;
+	border-radius: 45px;
+	border: 3px solid #F89D52;
+	padding: 25px 0;
+	color: #F89D52;
+}
+.contact .btn a:hover {
+    background: #F89D52;
+    color: #FFF;
+}
+#contact03{
+	margin-bottom:90px;
+}
+.contact .inner{
+	width: 1024px;
+	margin:0 auto;
+	padding:80px 0 100px;
+	position: relative;
+}
+#contact_top .inner{
+	padding: 60px 0;
+}
+.contact h2.tit{
+	line-height:1.6;
+ margin:0 auto 25px;
+}
+.contact p.lead{
+	font-size:16px;
+	letter-spacing:2px;
+	margin-bottom:50px;
+	text-align:center;
+}
+.contact .btn + p.lead {
+	font-size:14px;
+	margin: 20px 0 0;
+}
+.contact .box{
+	background:#fff;
+	width:1024px;
+	margin:0 auto;
+	padding:45px 0 50px;
+	position: relative;
+}
+.contact .box h3.tit{
+	font-size:21px;
+	line-height:1.5;
+	letter-spacing:3.5px;
+	font-weight:bold;
+	text-align:center;
+	padding:0 0 25px;
+}
+.contact .box p{
+	font-size:16px;
+	letter-spacing:2px;
+	text-align:center;
+	margin-bottom:30px;
+}
+.contact .box .accept dt{
+	 width:454px;
+	 margin:0 auto 27px;
+	 font-size:21px;
+		letter-spacing:2px;
+		color:#fff;
+		font-weight:500;
+		text-align:center;
+		background:#e8bc0b;
+		padding:17px 0;
+		border-radius:27.5px;
+}
+.contact .box01 h3.tit{
+	margin-top:10px;
+}
+.contact .box01 .tel{
+	font-size:0;
+ background:url(/serviceinfo/assets/img/tenant/tel01_pc.gif) no-repeat;
+	width: 454px;
+	height:87px;
+	margin:0 auto;
+}
+.contact .box01 .mail{
+	width: 454px;
+	margin:20px auto 10px;
+	font-size:16px;
+	letter-spacing:2px;
+	text-align:left;
+}
+.contact .box01 .mail a:hover{
+	text-decoration:underline;
+}
+.contact .box01 .mail span{
+	display:inline-block;
+	font-size:16px;
+	font-weight:500;
+	line-height:1;
+	color:#fff;
+	background:#000;
+	width: 110px;
+	border-radius:16px;
+	padding:8px 0;
+	text-align:center;
+	margin-right:8px;
+}
+.contact .box02 h3{
+	font-size:16px;
+	text-align:center;
+	margin-bottom:15px;
+}
+.contact .box02 .tel01 .tel{
+	font-size:0;
+ background:url(/serviceinfo/assets/img/tenant/tel02_pc.gif) no-repeat;
+	width: 432px;
+	height:33px;
+	margin:0 auto 30px;
+}
+.contact .box02 .tel02 .tel{
+	font-size:0;
+	width: 437px;
+ background:url(/serviceinfo/assets/img/tenant/tel03_pc.gif) no-repeat;
+	height:33px;
+	margin:0 auto;
+}
+.contact .box03 .tel{
+	font-size:0;
+ background:url(/serviceinfo/assets/img/tenant/tel04_pc.gif) no-repeat;
+	width: 481px;
+	height:33px;
+	margin:0 auto 8px;
+}
+
+
+
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* max-width:768px */
+/* //////////////////////////////////////////////////////////////////////////////// */
+@media screen and (max-width: 768px) {
+		/*-------------------
+	 
+		 sp
+			
+	-------------------*/
+.mainVisual {
+/*	padding:15.2vw 0 0;*/
+	position: relative;
+}
+.mainVisual .heading{
+	font-size:0;
+	width: 54.1%;
+	height:27.2vw;
+	background:url(/serviceinfo/assets/img/tenant/ttl_kaigo_sp.png) no-repeat;
+	background-size:contain;
+	margin:0 auto;
+	position: absolute;
+	left:0;
+	right:0;
+	top:0;
+}
+.mainVisual .lead{
+	width: 88vw;
+	margin:12vw auto;
+	text-align:center;
+	font-size:0.9rem;
+	line-height:1.6;
+}
+.tpl_contents h2.tit{
+	font-size:1.6rem;
+	font-weight:bold;
+	letter-spacing:4px;
+	text-align:center;
+}
+/* merit
+--------------*/
+.merit{
+	background:#f7f69f;
+	padding:15vw 0 17vw;
+}
+.merit h2.tit{
+	margin:0 auto 13.7vw;
+}
+.merit .point {
+	font-size:0;
+	text-align:center;
+}
+.merit .point li{
+	width: 66.6vw;
+	vertical-align:top;
+	border:1px solid #000;
+	display:inline-block;
+	position: relative;
+	margin-bottom:15vw;
+}
+.merit .point li:last-child{
+	margin-bottom:0;
+}
+.merit .point li h3{
+	font-size:1.55rem;
+	letter-spacing:3px;
+	line-height:1.5;
+	font-weight:bold;
+	padding:8vw 0 7vw;
+}
+.merit .point li p{
+	font-size:0.9rem;
+	letter-spacing:1.5px;
+	line-height:1.6;
+	background:#fff;
+	padding:5vw 0;
+}
+.merit .point li:before{
+	content:'';
+	display:block;
+	width: 38.9vw;
+	height:6.5vw;
+	position: absolute;
+	top:-4.9vw;
+	left:0;
+	right:0;
+	margin:0 auto;
+}
+.merit .point li:first-child:before{
+	background:#f7f69f url(/serviceinfo/assets/img/tenant/ttl_merit01.gif) no-repeat center;
+	background-size:contain;
+}
+.merit .point li:nth-child(2):before{
+	background:#f7f69f url(/serviceinfo/assets/img/tenant/ttl_merit02.gif) no-repeat center;
+	background-size:contain;
+}
+.merit .point li:nth-child(3):before{
+	background:#f7f69f url(/serviceinfo/assets/img/tenant/ttl_merit03.gif) no-repeat center;
+	background-size:contain;
+}
+/* howto
+--------------*/
+.howto{
+	padding:17vw 0 0;
+}
+.howto h2.tit{
+	margin-bottom:8vw;
+}
+.howto .btn_anchor{
+	font-size:0;
+	text-align:center;
+	font-size:0;
+	margin-bottom:5vw;
+}
+.howto .btn_anchor li{
+	width: 33vw;
+	display:inline-block;
+	margin:0 5.3vw 10vw;
+	position: relative;
+}
+.howto .btn_anchor li .arrow{
+ display: block;
+ overflow: hidden;
+	width: 7px;
+	height:50px;
+ position: absolute;
+	left:0;
+	right:0;
+	bottom:-28px;
+	margin:0 auto;
+}
+.howto .btn_anchor li .arrow:before{
+	content:'';
+	display:block;
+	background:url(/serviceinfo/assets/img/tenant/arrow_pc.png) no-repeat;
+	width: 7px;
+	height:50px;
+	background-size:contain;
+	position: absolute;
+	bottom:0;
+	margin:0 auto;
+	-webkit-animation: sdb2 2s infinite;
+	animation: sdb2 2s infinite;
+	z-index:1000;
+}
+@-webkit-keyframes sdb2 {
+	0% {
+		-webkit-transform: translate(0,-28px);
+		opacity:0;
+	}
+	50% {
+		opacity:1;
+	}
+	100% {
+		-webkit-transform: translate(0, 0);
+		opacity:1;
+	}
+}
+@keyframes sdb2 {
+	0% {
+		transform: translate(0,-28px);
+		opacity:0;
+	}
+	50% {
+		opacity:1;
+	}
+	100% {
+		transform: translate(0, 0);
+		opacity:1;
+	}
+}
+
+.tpl_contents .storeinfo{
+	width:95vw;
+	margin:0 auto 15px;
+ padding:10vw 0 0;
+	padding-bottom:5vw;
+	border:3px solid #edc10a;
+	border-bottom:none;
+}
+.tpl_contents .storeinfo h2.tit{
+	margin-bottom:5vw;
+}
+.tpl_contents .storeinfo #anchor02{
+	line-height:1.4;
+}
+.tpl_contents .storeinfo .photo{
+	width:85vw;
+	margin:0 auto 4vw;
+}
+.tpl_contents .storeinfo .txt{
+	width:85vw;
+	margin:0 auto;
+	font-size:0.9rem;
+	letter-spacing:1.4px;
+	line-height:1.6;
+}
+.tpl_contents .storeinfo .txt01{
+	margin-bottom:12vw;
+}
+.tpl_contents .storeinfo .txt02{
+	margin-bottom:8vw;
+}
+.tpl_contents .storeinfo .txt04{
+	margin-bottom:7vw;
+}
+.tpl_contents .btnList{
+	text-align:center;
+	font-size:0;
+}
+.tpl_contents .btn{
+	width: 64vw;
+	border:1px solid #000;
+	font-size:0.975rem;
+	font-weight:500;
+	text-align:center;
+	position: relative;
+	letter-spacing:2px;
+	border-radius: 7vw;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.tpl_contents .btnList li{
+	width: 64vw;
+	margin-bottom:4vw;
+	border:1px solid #000;
+	display:inline-block;
+	font-size:0.875rem;
+	font-weight:500;
+	text-align:center;
+	position: relative;
+	letter-spacing:2px;
+}
+.tpl_contents .btn a{
+	display:block;
+	padding:5vw 0;
+	box-sizing:border-box;
+ transition:all 0.2s;
+}
+.tpl_contents .btnList li a{
+	display:block;
+	padding:5vw 5vw 5vw 0;
+	box-sizing:border-box;
+ transition:all 0.2s;
+}
+.tpl_contents .btn a:hover,
+.tpl_contents .btnList li a:hover{
+	background:#000;
+	color:#fff;
+}
+.tpl_contents .btnList li .arrow{
+ display: block;
+ overflow: hidden;
+	width: 67px;
+	height:8px;
+ position: absolute;
+	left:0;
+	left:85%;
+	top:0;
+	bottom:0;
+	margin:auto 0;
+}
+.tpl_contents .btnList li .arrow:before{
+	content:'';
+	display:block;
+	background:url(/serviceinfo/assets/img/tenant/arrow_off.png) no-repeat;
+	width: 67px;
+	height:8px;
+	background-size:contain;
+	position: absolute;
+	top:0;
+	bottom:0;
+	margin:auto 0;
+/*	-webkit-animation: sd 2s infinite;
+	animation: sdb 2s infinite;*/
+	z-index:1000;
+}
+.tpl_contents .btnList li a{
+	transition:all 0.2s;
+}
+.tpl_contents .btnList li a:hover .arrow:before{
+	background:url(/serviceinfo/assets/img/tenant/arrow_on.png) no-repeat;
+	width:35px;
+}
+.tpl_contents #anchor04 .btnList li{
+	width: 320px;
+	margin-bottom:30px;
+}
+.tpl_contents #anchor04 .btnList li .arrow{
+	left:270px;
+}
+
+/* contact
+--------------*/
+.contact{
+	background:#f7f69f;
+	padding:11vw 4.9vw 13vw;
+	margin-bottom:13vw;
+	position: relative;
+}
+.contact h2.tit{
+	font-size:1.6rem;
+	letter-spacing:1.7px;
+	text-align:center;
+	line-height:1.4;
+	font-weight:bold;
+	margin:0 auto 4.4vw;
+}
+.contact p.lead{
+	font-size:0.86rem;
+	text-align:center;
+	line-height:1.5;
+	letter-spacing:2px;
+	margin-bottom:4vw;
+}
+.contact .btn + p.lead {
+	margin: 4vw 0 0;
+}
+.contact .btn{
+	font-size: 1.2rem;
+	width: 250px;
+	margin: 0 auto;
+	border-width: 2px;
+	border: 2px solid #F89D52;
+    border-radius: 45px;
+}
+.contact .btn a {
+	background-color: #fff;
+	padding: 20px 0;
+    color: #F89D52;
+}
+.contact .btn a:hover {
+    background: #F89D52;
+    color: #FFF;
+}
+.contact .box{
+	background:#fff;
+	padding:7vw 0 8vw;
+	position: relative;
+}
+.contact .box h3.tit{
+	font-size:1rem;
+	line-height:1.5;
+	letter-spacing:2px;
+	font-weight:bold;
+	text-align:center;
+	padding:0 0 5vw;
+}
+.contact .box p{
+	font-size:0.9rem;
+	line-height:1.5;
+	text-align:center;
+	margin-bottom:5vw;
+}
+.contact .accept dt{
+	width:66.6vw;
+	font-size:1rem;
+	line-height:1;
+	font-weight:500;
+	color:#fff;
+	padding:10px 0 12px;
+	margin:0 auto 3.5vw;
+	text-align:center;
+	border-radius:18px;
+	background:#e8bc0b;
+}
+.contact .accept a{
+	display:block;
+}
+.contact .accept span{
+	width:100%;
+	height:inherit;
+	display:inline-block;
+}
+.contact .accept h3{
+	line-height:1.5;
+	text-align:center;
+	margin-bottom:2.5vw;
+}
+.contact .accept .tel01{
+	margin-bottom:5vw;
+}
+.contact .box01 .accept .tel{
+	text-indent:-9999px;
+ background:url(/serviceinfo/assets/img/tenant/tel01_sp.gif) no-repeat;
+	background-size:contain;
+	width: 64.2vw;
+	height:13.3vw;
+	margin:0 auto;
+}
+.contact .box02 .accept .tel01 .tel{
+	text-indent:-9999px;
+ background:url(/serviceinfo/assets/img/tenant/tel02_sp.gif) no-repeat;
+	background-size:contain;
+	width: 60vw;
+	height:5vw;
+	margin:0 auto;
+}
+.contact .box02 .accept .tel02 .tel{
+	text-indent:-9999px;
+ background:url(/serviceinfo/assets/img/tenant/tel03_sp.gif) no-repeat;
+	background-size:contain;
+	width: 62vw;
+	height:5vw;
+	margin:0 auto;
+}
+.contact .box01 .mail{
+	width:84vw;
+	margin:0 auto;
+	font-size:0.9rem;
+	letter-spacing:0px;
+	text-decoration:underline;
+	margin:3vw auto 2vw;
+}
+.contact .box01 .mail span{
+	display:inline-block;
+	font-size:0.8rem;
+	font-weight:500;
+	line-height:1;
+	color:#fff;
+	background:#000;
+	border-radius:10px;
+	padding:5px 10px;
+	text-align:center;
+	margin-right:8px;
+	width:auto;
+	float: left;
+}
+.contact .box03 .accept .tel{
+	text-indent:-9999px;
+ background:url(/serviceinfo/assets/img/tenant/tel04_sp.gif) no-repeat;
+	background-size:contain;
+	width: 68.6vw;
+	height:4.9vw;
+	margin:0 auto;
+}
+
+/* flow
+--------------*/
+.flow{
+	padding-bottom:6vw;
+	margin-bottom:18vw;
+	border-bottom:1px solid #000;
+}
+.flow h2.tit{
+	margin-bottom:9vw;
+}
+.flow ul{
+	width:90vw;
+	margin:0 auto;
+	overflow: hidden;
+}
+.flow ul li{
+	width: 28.8vw;
+	float: left;
+	margin:0 1.8vw 6vw 0;
+}
+.flow ul li:nth-child(3),
+.flow ul li:nth-child(6){
+	margin-right:0;
+}
+
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* print */
+/* //////////////////////////////////////////////////////////////////////////////// */
+@media print {
+		
+section{
+	min-width:1024px;
+	margin:0 auto;
+	position: relative;
+}
+
+.inner{
+	width: 1024px;
+	margin:0 auto;
+}
+/* mainVisual
+--------------*/
+.mainVisual{
+	margin:0 auto 120px;
+	/*margin:110px auto 90px;*/
+	position: relative;
+	max-width:1396px;
+}
+.mainVisual .heading{
+	font-size:0;
+	width: 381px;
+	height:166px;
+	position: absolute;
+	top:-110px;
+	left:0;
+	right:0;
+	margin:0 auto;
+ background:url(/serviceinfo/assets/img/tenant/ttl_kaigo_pc.png) no-repeat;
+}
+.mainVisual .main{
+	margin-bottom:100px;
+}
+.mainVisual h3.tit{
+	font-size:0;
+	background:url(/serviceinfo/assets/img/tenant/tit_pc.gif) no-repeat;
+	width: 782px;
+	height:53px;
+	margin:0 auto 36px;
+}
+.mainVisual .lead{
+	text-align:center;
+	font-size:16px;
+	letter-spacing:2px;
+	line-height:2.5;
+}
+
+.tpl_contents h2.tit{
+	font-size:33px;
+	font-weight:bold;
+	letter-spacing:5px;
+	text-align:center;
+}
+/* merit
+--------------*/
+.merit{
+	background:#f7f69f;
+	padding:88px 0 115px;
+}
+.merit h2.tit{
+	margin:0 auto 84px;
+}
+.merit .point {
+	font-size:0;
+	text-align:center;
+}
+.merit .point li{
+	width: 310px;
+	vertical-align:top;
+	border:1px solid #000;
+	display:inline-block;
+	position: relative;
+}
+.merit .point li:nth-child(2){
+	margin:0 20px;
+}
+.merit .point li h3{
+	font-size:25px;
+	letter-spacing:2.5px;
+	line-height:1.6;
+	font-weight:bold;
+	padding:55px 0 25px;
+}
+.merit .point li p{
+	font-size:17px;
+	letter-spacing:2px;
+	line-height:1.7;
+	background:#fff;
+	padding:30px 0;
+}
+.merit .point li:before{
+	content:'';
+	display:block;
+	width: 174px;
+	height:29px;
+	position: absolute;
+	top:-21px;
+	left:0;
+	right:0;
+	margin:0 auto;
+}
+.merit .point li:first-child:before{
+	background:#f7f69f url(/serviceinfo/assets/img/tenant/ttl_merit01.gif) no-repeat center;
+	background-size:contain;
+}
+.merit .point li:nth-child(2):before{
+	background:#f7f69f url(/serviceinfo/assets/img/tenant/ttl_merit02.gif) no-repeat center;
+	background-size:contain;
+}
+.merit .point li:nth-child(3):before{
+	background:#f7f69f url(/serviceinfo/assets/img/tenant/ttl_merit03.gif) no-repeat center;
+	background-size:contain;
+}
+/* howto
+--------------*/
+.howto{
+	padding:116px 0 0;
+}
+.howto h2.tit{
+	margin-bottom:50px;
+}
+.howto .btn_anchor{
+	font-size:0;
+	text-align:center;
+	margin-bottom:140px;
+}
+.howto .btn_anchor li{
+	width: 135px;
+	display:inline-block;
+	margin:0 29px;
+	position: relative;
+}
+.howto .btn_anchor li .arrow{
+ display: block;
+ overflow: hidden;
+	width: 7px;
+	height:50px;
+ position: absolute;
+	left:0;
+	right:0;
+	bottom:-28px;
+	margin:0 auto;
+}
+.howto .btn_anchor li .arrow:before{
+	content:'';
+	display:block;
+	background:url(/serviceinfo/assets/img/tenant/arrow_pc.png) no-repeat;
+	width: 7px;
+	height:50px;
+	background-size:contain;
+	position: absolute;
+	bottom:0;
+	margin:0 auto;
+	-webkit-animation: sdb2 2s infinite;
+	animation: sdb2 2s infinite;
+	z-index:1000;
+}
+@-webkit-keyframes sdb2 {
+	0% {
+		-webkit-transform: translate(0,-28px);
+		opacity:0;
+	}
+	50% {
+		opacity:1;
+	}
+	100% {
+		-webkit-transform: translate(0, 0);
+		opacity:1;
+	}
+}
+@keyframes sdb2 {
+	0% {
+		transform: translate(0,-28px);
+		opacity:0;
+	}
+	50% {
+		opacity:1;
+	}
+	100% {
+		transform: translate(0, 0);
+		opacity:1;
+	}
+}
+.tpl_contents .storeinfo{
+	max-width:1396px;
+	margin:0 auto 15px;
+ padding:70px 0 0;
+	padding-bottom:50px;
+	border:4px solid #edc10a;
+	border-bottom:none;
+}
+.tpl_contents .storeinfo h2.tit{
+	margin-bottom:50px;
+}
+.tpl_contents .storeinfo .photo{
+	width: 900px;
+	margin:0 auto 40px;
+}
+.tpl_contents .storeinfo .txt{
+	width: 800px;
+	margin:0 auto;
+	font-size:16px;
+	letter-spacing:1.4px;
+	line-height:1.8;
+}
+.tpl_contents .storeinfo .txt01{
+	margin-bottom:115px;
+}
+.tpl_contents .storeinfo .txt02{
+	margin-bottom:65px;
+}
+.tpl_contents .storeinfo .txt03{
+	margin-bottom:25px;
+}
+.tpl_contents .storeinfo .txt04{
+	margin-bottom:45px;
+}
+.tpl_contents .btnList{
+	max-width:1024px;
+	margin:0 auto;
+	text-align:center;
+	font-size:0;
+}
+.tpl_contents .btnList li{
+	width: 280px;
+	margin-bottom:50px;
+	border:1px solid #000;
+	display:inline-block;
+	font-size:16px;
+	font-weight:500;
+	text-align:center;
+	position: relative;
+	letter-spacing:1px;
+}
+.tpl_contents .btnList li a{
+	display:block;
+	padding:18px 20px 18px 0;
+	box-sizing:border-box;
+ transition:all 0.2s;
+}
+.tpl_contents .btnList li a:hover{
+	background:#000;
+	color:#fff;
+}
+.tpl_contents .btnList li:first-child{
+	margin-left:9px;
+}
+.tpl_contents .btnList li:nth-child(2){
+	margin:0 60px;
+}
+.tpl_contents .btnList li:nth-child(3){
+	margin-right:44px;
+}
+.tpl_contents .btnList li:nth-child(4){
+	margin-left:180px;
+}
+.tpl_contents .btnList li:nth-child(5){
+	margin:0 204px 0 70px;
+}
+.tpl_contents .btnList li .arrow{
+ display: block;
+ overflow: hidden;
+	width: 77px;
+	height:8px;
+ position: absolute;
+	left:0;
+	left:230px;
+	top:0;
+	bottom:0;
+	margin:auto 0;
+}
+.tpl_contents .btnList li .arrow:before{
+	content:'';
+	display:block;
+	background:url(/serviceinfo/assets/img/tenant/arrow_off.png) no-repeat;
+	width: 77px;
+	height:8px;
+	background-size:contain;
+	position: absolute;
+	top:0;
+	bottom:0;
+	margin:auto 0;
+	z-index:1000;
+}
+.tpl_contents .btnList li a{
+	transition:all 0.2s;
+}
+.tpl_contents .btnList li a:hover .arrow:before{
+	background:url(/serviceinfo/assets/img/tenant/arrow_on.png) no-repeat;
+}
+.tpl_contents #anchor04 .btnList li{
+	width: 320px;
+	margin-bottom:30px;
+}
+.tpl_contents #anchor04 .btnList li .arrow{
+	left:270px;
+}
+
+/* flow
+--------------*/
+.flow {
+	border-bottom:1px solid #000;
+	margin-bottom:170px;
+}
+.flow h2.tit{
+	margin-bottom:60px;
+}
+.flow ul{
+	font-size:0;
+	text-align:center;
+}
+.flow ul li{
+ width: 161px;
+	display:inline-block;
+	margin:0 10px 150px 0;
+}
+.flow ul li:last-child{
+	margin-right:0;
+}
+
+/* contact
+--------------*/
+.contact{
+	background:#f7f69f;
+	margin-bottom:120px;
+}
+#contact03{
+	margin-bottom:90px;
+}
+
+.contact .inner{
+	width: 1024px;
+	margin:0 auto;
+	padding:80px 0 100px;
+	position: relative;
+}
+
+.contact h2.tit{
+	line-height:1.6;
+ margin:0 auto 25px;
+}
+.contact p.lead{
+	font-size:16px;
+	letter-spacing:2px;
+	margin-bottom:50px;
+	text-align:center;
+}
+.contact .box{
+	background:#fff;
+	width:960px;
+	margin:0 auto;
+	padding:45px 0 50px;
+	position: relative;
+}
+.contact .box h3.tit{
+	font-size:21px;
+	line-height:1.5;
+	letter-spacing:3.5px;
+	font-weight:bold;
+	text-align:center;
+	padding:0 0 25px;
+}
+.contact .box p{
+	font-size:16px;
+	letter-spacing:2px;
+	text-align:center;
+	margin-bottom:30px;
+}
+.contact .box .accept dt{
+	 width:454px;
+	 margin:0 auto 27px;
+	 font-size:21px;
+		letter-spacing:2px;
+		color:#fff;
+		font-weight:500;
+		text-align:center;
+		background:#e8bc0b;
+		padding:17px 0;
+		border-radius:27.5px;
+}
+.contact .box01 h3.tit{
+	margin-top:10px;
+}
+.contact .box01 .tel{
+	font-size:48px;
+		text-align:center;
+	font-weight:500;
+	margin:0 auto;
+}
+.contact .box01 .mail{
+	width: 454px;
+	margin:20px auto 10px;
+	font-size:16px;
+	letter-spacing:2px;
+	text-align:left;
+}
+.contact .box01 .mail a:hover{
+	text-decoration:underline;
+}
+.contact .box01 .mail span{
+	display:inline-block;
+	font-size:16px;
+	font-weight:500;
+	line-height:1;
+	color:#fff;
+	background:#000;
+	width: 110px;
+	border-radius:16px;
+	padding:8px 0;
+	text-align:center;
+	margin-right:8px;
+}
+.contact .box02 h3{
+	font-size:16px;
+	text-align:center;
+	margin-bottom:15px;
+}
+.contact .box02 .tel01 .tel{
+	font-size:48px;
+	text-align:center;
+	font-weight:500;
+	margin:0 auto 30px;
+}
+.contact .box02 .tel02 .tel{
+	font-size:48px;
+	text-align:center;
+	font-weight:500;
+	margin:0 auto;
+}
+.contact .box03 .tel{
+	font-size:48px;
+	text-align:center;
+	font-weight:500;
+	margin:0 auto 8px;
+}
+
+}

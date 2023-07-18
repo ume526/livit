@@ -1,0 +1,287 @@
+@charset "UTF-8";
+/* =========================================================
+	Company / CSR / Community-Involvement
+========================================================= */
+#conts p {
+	line-height: 1.9;
+}
+
+#conts .btnList01 {
+	margin-bottom: 45px;
+}
+/*  */
+#conts .btnList01 {
+	overflow: hidden;
+	text-align: center;
+}
+#conts .btnList01 li {
+	float: left;
+	width: 220px;
+	margin-left: 12px;
+}
+/*width: 290px;
+margin-left: 31px;0409 健康経営4ボタン*/
+#conts .ttl01 {
+	margin-bottom: 25px;
+	font-size: 2.2rem;
+	font-weight: normal;
+	text-align: center;
+}
+
+#conts .ttl01 span {
+	font-size: 1.8rem;
+}
+
+#conts .ttl01 span:before {
+	content: "｜";
+	font-size: 2.2rem;
+}
+
+#conts .lead {
+	text-align: center;
+}
+
+#conts .anchorList {
+	display: -webkit-flex;
+	display: flex;
+	margin-top: 47px;
+}
+
+#conts .anchorList li {
+	width: 25%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-right: 1px solid #BBB;
+	text-align: center;
+}
+
+#conts .anchorList li:last-child {
+	border-right: none;
+}
+
+#conts .anchorList li a {
+	display: inline-block;
+	padding-bottom: 30px;
+	font-size: 1.8rem;
+	text-decoration: none;
+	position: relative;
+}
+
+#conts .anchorList li a:after {
+	content: "";
+	display: block;
+	width: 33px;
+	height: 19px;
+	margin-left: -16px;
+	background: url(../../../img/company/csr/arrow01.png) no-repeat;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transition: 0.5s ease-out;
+}
+
+#conts .anchorList li a:hover:after {
+	bottom: -9px;
+}
+
+#conts #intercourse,
+#conts #industrialization {
+	margin-top: 0;
+	padding-top: 60px;
+}
+
+#conts .introList {
+	width: 889px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#conts .introList li {
+	float: left;
+	width: 267px;
+	margin-left: 44px;
+	text-align: center;
+}
+
+#conts .introList li:first-child {
+	margin-left: 0;
+}
+
+#conts .introList li figcaption {
+	margin-top: 23px;
+	font-size: 1.8rem;
+}
+
+/* table  */
+#conts .dataTable {
+	width: 876px;
+	margin: 25px auto 0;
+	border-collapse: collapse;
+}
+
+#conts #energy .dataTable {
+	margin-top: 13px;
+}
+
+#conts .dataTable th,
+#conts .dataTable td {
+	padding: 24px 10px 21px;
+	border: 1px solid #999;
+	font-size: 1.8rem;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#conts .dataTable th {
+	background: #87CB3D;
+}
+#conts .dataTable td {
+	background: #ffffff;
+}
+/*寄付金*/
+
+
+@media screen and (max-width: 767px) {
+	#conts .lead {
+		text-align: left;
+	}
+
+	#conts .ttl01 {
+		margin-bottom: 15px;
+		font-size: 1.7rem;
+	}
+
+	#conts .ttl01 span {
+		display: block;
+		margin-top: 2px;
+		padding-top: 6px;
+		font-size: 1.3rem;
+		position: relative;
+	}
+
+
+	#conts .ttl01 span:before {
+		content: "";
+		display: block;
+		width: 212px;
+		height: 1px;
+		margin-left: -106px;
+		background: #333;
+		position: absolute;
+		top: 0;
+		left: 50%;
+	}
+
+	#conts .anchorList {
+		margin-top: 25px;
+	}
+
+	#conts .anchorList li {
+		padding-bottom: 15px;
+		position: relative;
+	}
+
+	#conts .anchorList li:after {
+		content: "";
+		display: block;
+		width: 16.5px;
+		height: 9.5px;
+		margin-left: -8px;
+		background: url(../../../img/company/csr/arrow01.png) no-repeat;
+		-webkit-background-size: 16.5px 9.5px;
+		        background-size: 16.5px 9.5px;
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+	}
+
+	#conts .anchorList li a {
+		padding: 3px 0 0;
+		font-size: 1.3rem;
+		line-height: 1.3;
+	}
+
+	#conts .anchorList li a:after {
+		content: none;
+	}
+
+	#conts #intercourse,
+	#conts #industrialization {
+		padding-top: 27px;
+	}
+
+	#conts .introList {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		        flex-wrap: wrap;
+		width: 100%;
+	}
+
+	#conts .introList li {
+		width: 48%;
+		margin: 0;
+	}
+
+	#conts .introList li:nth-child(odd) {
+		margin-right: 2%;
+	}
+
+	#conts .introList li:nth-child(even) {
+		margin-left: 2%;
+	}
+
+	#conts .introList li:nth-child(n+3) {
+		margin-top: 30px;
+	}
+
+	#conts .introList li .imgBox img {
+		width: 80%;
+	}
+
+	#conts .introList li figcaption {
+		margin-top: 10px;
+		font-size: 1.3rem;
+	}
+	/* 義援金　テーブル*/
+	#conts p.lead {
+		display: block;
+		width: 95%;
+		margin-left: 15px!important;
+	}
+
+	#conts .dataTable {
+		display: block;
+		width: 95%;
+		margin-top: 15px!important;
+		border-top: 1px solid #999;
+	}
+
+	#conts .dataTable tbody,
+	#conts .dataTable tr,
+	#conts .dataTable th,
+	#conts .dataTable td {
+		display: block;
+	}
+
+	#conts .dataTable tr {
+		overflow: hidden;
+	}
+
+	#conts .dataTable th,
+	#conts .dataTable td {
+		width: 100%;
+		padding: 12px 5px;
+		-webkit-box-sizing: border-box;
+						box-sizing: border-box;
+		border-top: none;
+		font-size: 1.3rem;
+	}
+
+	#conts .dataTable th.head {
+		float: none;
+		width: 100%;
+	}
+
+}
