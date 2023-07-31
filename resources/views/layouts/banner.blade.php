@@ -5,7 +5,7 @@
 				<ul class="tpl_linkList">
 					<li><a href="https://www.jrepoint.jp/" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/bnr_foot_related_01.jpg" alt="JRE POINT" height="81" width="321"></a></li>
 					<li><a href="https://www.jreastmall.com/shop/c/c13/" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/bnr_foot_related_02.jpg" alt="トライ・ワン" height="81" width="321"></a></li>
-					<li><a href="https://tokubai.co.jp/offices/1250/redirect?for=office_shops_link" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/bnr_foot_related_03.jpg" alt="トクバイ" height="81" width="321"></a></li>
+					<li><a href="https://www.jreastmall.com/shop/furusato/top.aspx?utm_source=livit.jregroup.ne.jp&utm_medium=referral&utm_campaign=jgrf_202307_livit_furusato" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/bnr_foot_related_03.jpg" alt="JRE MALL ふるさと納税" height="81" width="321"></a></li>
 					<li><a href="https://yorimichi-sendai.jp/" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/bnr_foot_related_05.jpg" alt="ヨリ未知 SENDAI" height="81" width="321"></a></li>
 					<li><a href="http://www.jreast.co.jp/suicamoney/index.html/" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/bnr_foot_related_06.png" alt="Suica" height="81" width="321"></a></li>
 					<li><a href="https://www.jreast.co.jp/card/" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/bnr_foot_related_07.jpg" alt="VIEW CARD" height="81" width="321"></a></li>
