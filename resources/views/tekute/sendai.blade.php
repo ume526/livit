@@ -41,9 +41,10 @@
                                         </ul>
 								</div>
 								<section class="mainVisual">
-									<div class="video">
+								   <img src="/serviceinfo/assets/img/tekute/sendai_main.jpg">
+									<!-- <div class="video">
 										<div id="player"></div>
-									</div>
+									</div> -->
 									<!-- <div class="movie pc"><iframe width="980" height="550" src=https://www.youtube.com/embed/ocpz0f7SUYU?autoplay=1&mute=1&loop=1" frameborder="0" allowfullscreen></iframe></div> -->
 									<!-- <ul id="slide" class="main-slider">
 	                                                			<li><img src="/serviceinfo/assets/img/tekute/sendai_slide01_pc.jpg" alt="" class="pc"><img src="/serviceinfo/assets/img/tekute/sendai_slide01_sp.jpg" alt="" class="sp"></li>
