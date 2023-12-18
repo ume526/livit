@@ -184,11 +184,16 @@
 									</dt>
 									<dd>
 										<div class="tpl_translation">
-<div id="google_translate_element"></div><script type="text/javascript">
-function googleTranslateElementInit(){
-new google.translate.TranslateElement({pageLanguage: 'ja', includedLanguages:"ja,en,zh-CN,zh-TW,ko", layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false, gaTrack: true, gaId: 'UA-18299667-1'}, 'google_translate_element');
-}
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+											<div id="msta_langArea">
+												<select>
+												<option id="msta_lang_ja">日本語</option>
+												<option id="msta_lang_en">English</option>
+												<option id="msta_lang_zh">简体中文</option>
+												<option id="msta_lang_tw">繁體中文</option>
+												<option id="msta_lang_ko">한국어</option>
+												<option id="msta_lang_th">ภาษาไทย</option>
+											    </select>
+										    </div>
 										</div>
 										<ul class="tpl_gNavSubList">
 											<li><a class="tpl_btn" href="/company/contact/">お問合せ</a></li>

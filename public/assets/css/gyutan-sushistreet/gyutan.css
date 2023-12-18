@@ -21,7 +21,9 @@ body{
 	font-family: "Noto Sans JP", dnp-shuei-mincho-pr6n, sans-serif;
 	font-feature-settings: "palt";
 }
-
+#msta_langArea {
+	text-align: center;
+}
 .fadein.appear {
   opacity: 1;
   transform: translate(0, 0);
@@ -560,6 +562,24 @@ transition: all 0.2s;
 	text-align: center;
 	padding-right: 10px;
 }
+html:lang(en) .concept .leadTxt,
+html:lang(en) .article p.txt,
+html:lang(en) .street_shoplist .shoplist li{
+	letter-spacing: 0;
+}
+html:lang(en) .heading_subtit,
+html:lang(zh-cn) .heading_subtit,
+html:lang(zh-tw) .heading_subtit,
+html:lang(ko) .heading_subtit{
+	display: none;
+}
+html:lang(en) #gyutan .link_detail{
+	text-align: left;
+	margin-left: 93px;
+}
+html:lang(en) #sushi .link_detail {
+    margin: 0 0 30px 20px;
+}
 #gyutan .link_detail a{
 	color:#aa0a1a;
 }
@@ -639,7 +659,7 @@ margin:0 0 30px 160px;
 }
 #zunda .link_detail{
 	font-weight: 500;
-	margin:0 0 25px 173px;
+	margin:0 425px 25px 173px;
 }
 #zunda .link_detail a:after{
 	border-color:#818909;
@@ -649,6 +669,7 @@ margin:0 0 30px 160px;
 	font-size:14px;
 	letter-spacing: 0.1em;
 	line-height: 1.85;
+	width: 520px;
 }
 /* information
 --------------*/
@@ -1189,7 +1210,33 @@ trnasition:all 0.2s;
 .header .sns li img{
 	height:5.74vw;
 }
+html:lang(en) .information .leadTxt,
+html:lang(en) #zunda .subtit,
+html:lang(en) #zunda .txt,
+html:lang(en) .concept .leadTxt,
+html:lang(en) .article p.txt,
+html:lang(en) .street_shoplist .shoplist li{
+	letter-spacing: 0;
+}
 
+html:lang(en) #zunda .link_detail,
+html:lang(en) .heading_subtit,
+html:lang(zh-cn) .heading_subtit,
+html:lang(zh-tw) .heading_subtit,
+html:lang(ko) .heading_subtit{
+	padding: 0;
+}
+html:lang(en) .heading_subtit{
+	display: none;
+}
+html:lang(en) #zunda .txt br,
+html:lang(en) .information .leadTxt br,
+html:lang(en) .information .card .txt br {
+	display: none;
+}
+html:lang(en) .information .leadTxt {
+	padding: 0 4vw;
+}
 /* section
 --------------*/
 .tpl_wrapper{
@@ -1839,6 +1886,9 @@ margin:0 0 4.8vw 13vw;
 }
 /* footer
 --------------*/
+#msta_footerArea {
+	overflow: hidden;
+}
 .footer{
 	background: #601a85;
 	height: 17.3vw;

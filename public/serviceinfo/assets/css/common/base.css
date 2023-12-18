@@ -132,8 +132,8 @@ sub {
     padding-right: 30px;
   }
   .tpl_header .tpl_gNav .tpl_nav_row >dd {
-    width: 145px;
-    margin-right: 21px;
+    width: 155px;
+    margin-right: 11px;
   }
   .tpl_header .tpl_gNav .tpl_gNavList >li {
     float: left;
@@ -246,12 +246,12 @@ sub {
     /* width: 95px; */
   }
   .tpl_header .tpl_gNav .tpl_gNavSubList >li {
-    width: 65px;
+    width: 72px;
     float: left;
-    padding-top: 4px;
+    padding-top: 7px;
   }
   .tpl_header .tpl_gNav .tpl_gNavSubList >li:first-child {
-    margin-right: 15px;
+    margin-right: 11px;
   }
   .tpl_header .tpl_gNav .tpl_gNavSubList >li:nth-child(3) {
     padding-top: 7px;

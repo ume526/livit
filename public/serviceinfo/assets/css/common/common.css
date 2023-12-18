@@ -339,8 +339,8 @@
   }
   html:lang(en) .searchBoxFrom .unit02 .btn, html:lang(en) .searchBoxFrom .unit03 .btn {
     letter-spacing: 0;
-    font-size: 14px;
-    padding: 4px 0 7px;
+    font-size: 13px;
+    padding: 7px 0 7px;
   }
   html:lang(en) .searchBoxFrom .cateBox .cate02 {
     width: 136px;
@@ -350,6 +350,8 @@
   }
   html:lang(en) .searchBoxFrom .cateBox .cate02 .cateitem .acList >li {
     width: 120px;
+    margin: 0;
+    padding: 0;
   }
   html:lang(en) .searchBoxFrom .cateBox .cateitem .acList .acnews {
     width: 136px;
