@@ -339,7 +339,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="//www.jreastmall.com/shop/c/c13/" target="_blank" class="btn">
+							<a href="https://www.jreastmall.com/shop/c/c13/?utm_source=livithp_n&utm_medium=shoptop_banner" target="_blank" class="btn">
 								<p class="img"><img src="/serviceinfo/assets/img/top/img_shop_08.jpg" alt="東北MONO WEB SHOP" height="224" width="400"></p>
 								<p class="ttl">東北MONO WEB SHOP（旧 GIFT SHOP トライ・ワン）</p>
 								<p class="desc">東北の隠れた名品や生産者のこだわり商品等取り揃えております。</p>
