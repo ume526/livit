@@ -29,6 +29,10 @@
                                                 <li><a href="{{ route('pivot-top') }}">Pivot</a></li>
 												<li>【JR会津若松駅隣接】会津若松駅食品館Pivot</li>
 										</ul>
+										<ul class="sns">
+											<li class="insta"><a href="https://www.instagram.com/livitaizu/" target="_blank"><img src="/serviceinfo/assets/img/common/btn_insta.png" width="100%" alt=""></a></li>
+											<li class="line"><a href="https://page.line.me/wkp1838s" target="_blank"><img src="/serviceinfo/assets/img/common/btn_line.png" width="100%" alt=""></a></li>
+										</ul>
 								</div>
 						</div>
 						<div class="tpl_contents">

@@ -29,6 +29,9 @@
                                                 <li><a href="{{ route('pivot-top') }}">Pivot</a></li>
 												<li>【JR郡山駅直結】郡山駅食品館Pivot</li>
 										</ul>
+										<ul class="sns">
+										<li class="line"><a href="https://page.line.me/pdl9008s" target="_blank"><img src="/serviceinfo/assets/img/common/btn_line.png" width="100%" alt=""></a></li>
+										</ul>
 								</div>
 						</div>
 						<div class="tpl_contents">

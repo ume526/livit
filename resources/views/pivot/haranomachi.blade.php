@@ -29,6 +29,10 @@
                                                 <li><a href="{{ route('pivot-top') }}">Pivot</a></li>
 												<li>【JR陸前原ノ町駅隣接】クォリティフードストア　仙台原ノ町Pivot</li>
 										</ul>
+										<ul class="sns">
+										  <li class="insta"><a href="https://www.instagram.com/haranomachipv/" target="_blank"><img src="/serviceinfo/assets/img/common/btn_insta.png" width="100%" alt=""></a></li>
+                                          <li class="line"><a href="https://page.line.me/wym3071g" target="_blank"><img src="/serviceinfo/assets/img/common/btn_line.png" width="100%" alt=""></a></li>
+                                        </ul>
 								</div>
 						</div>
 						<div class="tpl_contents">

@@ -29,6 +29,9 @@
                                                 <li><a href="{{ route('pivot-top') }}">Pivot</a></li>
 												<li>【JR福島駅直結】福島駅西口パワーシティPivot</li>
 										</ul>
+										<ul class="sns">
+											<li class="line"><a href="https://page.line.me/aet3556i" target="_blank"><img src="/serviceinfo/assets/img/common/btn_line.png" width="100%" alt=""></a></li>
+										</ul>
 								</div>
 						</div>
 						<div class="tpl_contents">
