@@ -41,10 +41,10 @@
                                         </ul>
 								</div>
 								<section class="mainVisual">
-								   <img src="/serviceinfo/assets/img/tekute/sendai_main.jpg">
-									<!-- <div class="video">
-										<div id="player"></div>
-									</div> -->
+								   <!-- <img src="/serviceinfo/assets/img/tekute/sendai_main.jpg"> -->
+									<div class="video">
+										<div id="player"><iframe width="560" height="315" src="https://www.youtube.com/embed/pDTPREv1hC8?si=YY9yXsXts9ehgIqR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+									</div>
 									<!-- <div class="movie pc"><iframe width="980" height="550" src=https://www.youtube.com/embed/ocpz0f7SUYU?autoplay=1&mute=1&loop=1" frameborder="0" allowfullscreen></iframe></div> -->
 									<!-- <ul id="slide" class="main-slider">
 	                                                			<li><img src="/serviceinfo/assets/img/tekute/sendai_slide01_pc.jpg" alt="" class="pc"><img src="/serviceinfo/assets/img/tekute/sendai_slide01_sp.jpg" alt="" class="sp"></li>
@@ -56,9 +56,19 @@
 								<section class="floormap">
 										<div class="inner tab">
 												<h2 class="tit"><img src="/serviceinfo/assets/img/tekute/ttl_floormap.png" alt="Flore map フロアマップ"></h2>
-												<div class="map">
+												<ul class="tab-list">
+													<li class="selected"><a href="javascript:void(0)" data-tabid="1">tekuteせんだい</a></li>
+													<li><a href="javascript:void(0)" data-tabid="2">tekute dining</a></li>
+												</ul>
+
+												<div class="tab-panel">
+												<div class="map" data-contentid="1">
 														<iframe src="{{ route('tekute-sendai-map') }}" width="100%" height="460" scrolling="no"></iframe>
 												</div>
+												<div class="map hidden" data-contentid="2">
+														<iframe src="{{ route('tekute-sendai2-map') }}" width="100%" height="460" scrolling="no"></iframe>
+												</div>
+									</div>
 <div class="street"><iframe src="https://www.google.com/maps/embed?pb=!4v1623142608099!6m8!1m7!1sCAoSLEFGMVFpcE9jaXg2OTcwWm1PQW42MUhGZTJTVTNUck5QQWw4MlpsajRQSFZ4!2m2!1d38.260226675781!2d140.88202593251!3f156.45919578098943!4f-8.69083535296987!5f0.7820865974627469" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
 										</div>
 
