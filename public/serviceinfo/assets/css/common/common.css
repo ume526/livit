@@ -919,6 +919,16 @@ html:lang(en) .tekute .storeinfo .storedata table td {
     border: solid 1px #beb6a4;
     color: #fff;
   }
+  .searchBoxFrom .acBox input[type="checkbox"][disabled] + label,
+  .searchBoxFrom .acBox input[type="checkbox"][disabled] + .btn ,
+  .searchBoxFrom .acBox input[type="checkbox"][disabled] + label:hover,
+  .searchBoxFrom .acBox input[type="checkbox"][disabled] + .btn:hover{
+    background: #cccccc !important;
+    cursor: default !important;
+    color: #a2977d;
+    border: solid 1px #a2977d;
+  }
+
   .searchBoxFrom .btnBox .rst .btn:hover {
     opacity: 0.7;
   }
@@ -1512,6 +1522,12 @@ html:lang(en) .tekute .storeinfo .storedata table td {
     border: solid 1px #a2977d;
     color: #fff;
   }
+  .searchBoxFrom .acBox input[type="checkbox"][disabled] + label,
+  .searchBoxFrom .acBox input[type="checkbox"][disabled] + .btn {
+    background: #cccccc !important;
+    cursor: default !important;
+  }
+
   /* resizeRatioBox */
   .resizeRatioBox {
     position: relative;

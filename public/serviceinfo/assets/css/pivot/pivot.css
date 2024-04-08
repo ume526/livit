@@ -878,6 +878,7 @@ section h2.tit{
 .search .searchBoxFrom .btnList {
 	text-align:center;
 	font-size:0;
+	border-top: 1px solid #000;
 }
 .search .searchBoxFrom .btnList li{
 	width: 220px;
@@ -2281,7 +2282,8 @@ text-justify: inter-ideograph;*/
 	background:none;
 }
 .search .searchBoxFrom .btnList{
-	margin-top:9%;
+	padding-top:8%;
+	border-top: 1px solid #000;
 }
 .search .searchBoxFrom .btnList li{
 	letter-spacing:1px;

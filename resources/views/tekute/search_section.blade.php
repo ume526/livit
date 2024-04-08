@@ -46,7 +46,7 @@
 				  </dd>
 				</dl>
 			  </div>
-			  <dl class="row keyword">
+			  <!-- <dl class="row keyword">
 				<dt>
 				  <p>キーワード</p>
 				</dt>
@@ -56,7 +56,7 @@
                     <p class="kome">※{!! keycaption() !!}</p>
                   </div>
 				</dd>
-			  </dl>
+			  </dl> -->
 			  <ul class="btnList">
 				<li>
 				  <div class="rst" id="js_allclear">

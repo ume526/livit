@@ -96,7 +96,7 @@
                                       </dd>
                                   </div>
                                 @endif
-                                <div class="unit unit03">
+                                <!-- <div class="unit unit03">
                                   <dl class="row">
   	                                <dt><p>キーワード</p></dt>
   	                                <dd>
@@ -106,7 +106,7 @@
   	                                  </div>
   	                                </dd>
                                   </dl>
-                                </div>
+                                </div> -->
 
                                 <div class="unit unit04">
                                   <div class="btnBox">

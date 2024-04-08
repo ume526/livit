@@ -108,7 +108,7 @@
     </dl>
   </div>
 
-  <div class="unit unit04">
+  <!-- <div class="unit unit04">
     <dl class="row">
   	<dt><p>キーワード</p></dt>
   	<dd>
@@ -118,7 +118,7 @@
   	  </div>
   	</dd>
     </dl>
-  </div>
+  </div> -->
 
   <div class="unit unit05">
     <div class="btnBox">
