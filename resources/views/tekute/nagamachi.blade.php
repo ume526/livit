@@ -237,16 +237,16 @@
 																						<td>月火木金 9:00～12:00、13:30～17:00<br>土 9:00～13:30<br>休診日 水日祝</td>
 																					</tr>
 																					<tr>
-																						<th>ほけんの窓口<br >tekuteながまち店</th>
-																						<td>平日 10:00～19:00<br>土日祝 10:00～18:00<br>定休日 第一水曜日</td>
-																					</tr>
-																					<tr>
 																						<th>ヘアメイク <br class="sp">ビーハイブ</th>
 																						<td>10:00~19:30<br>定休日 不定休</td>
 																					</tr>
 																					<tr>
 																						<th>てくて長町歯科</th>
 																						<td>月～土 8:00～13:00、14:30～19:00<br>日 8:00～13:30<br>休診日 祝日</td>
+																					</tr>
+																					<tr>
+																						<th>Polarisこころのクリニック仙台長町駅前</th>
+																						<td>月～金 9:00～12:00、13:30～18:00<br>土 9:00～12:30<br>休診日 日曜・祝日</td>
 																					</tr>
 																				</table>
 																			
@@ -347,8 +347,8 @@
 								<section class="park">
 										<h2 class="tit">Parking & Bicycle parking 駐車場・駐輪場</h2>
 										<ul>
-												<li><img src="/serviceinfo/assets/img/tekute/park_pc.gif" class="pc" alt="お客様駐車場・駐輪場料金のご案内"><img src="/serviceinfo/assets/img/tekute/park_sp.gif" class="sp" width="100%" alt=""></li>
-												<li><img src="/serviceinfo/assets/img/tekute/access_pc.gif" class="pc" alt="アクセス"><img src="/serviceinfo/assets/img/tekute/access_sp.gif" class="sp" width="100%" alt=""></li>
+												<li><img src="/serviceinfo/assets/img/tekute/park.png" alt="お客様駐車場・駐輪場料金のご案内"></li>
+												<li><img src="/serviceinfo/assets/img/tekute/access.png" alt="アクセス"></li>
 										</ul>
 								</section>
 						</div>
