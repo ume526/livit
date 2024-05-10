@@ -30,6 +30,7 @@
 												<li>【JR福島駅直結】福島駅西口パワーシティPivot</li>
 										</ul>
 										<ul class="sns">
+											<li class="insta"><a href="https://www.instagram.com/pvfukushima_ekinaka/" target="_blank"><img src="/serviceinfo/assets/img/common/btn_insta.png" width="100%" alt=""></a></li>
 											<li class="line"><a href="https://page.line.me/aet3556i" target="_blank"><img src="/serviceinfo/assets/img/common/btn_line.png" width="100%" alt=""></a></li>
 										</ul>
 								</div>
@@ -64,7 +65,7 @@
 										</div>
 								</section>
                                 @include('pivot.search_section', ['selected_tag' => $selected_tag_name])
-                                <section class="recommend">
+                                <!-- <section class="recommend">
                                   <h2 class="tit">イチオシ商品 HIGHLY RECOMMENDED</h2>
                                   <div class="osusume pc"><iframe width="600" height="250" title="ピボット 福島店のチラシ・特売情報" src="https://widgets.tokubai.co.jp/21944/widget?height=250&width=600" frameborder="0"><a href="https://widgets.tokubai.co.jp/21944/widget?height=250&width=600">ピボット 福島店のチラシ・特売情報</a></iframe>
                                   </div>
@@ -72,7 +73,7 @@
                                   <ul class="bgItem">
                                     <li class="item07"></li>
                                   </ul>
-                                </section>
+                                </section> -->
                                 @include('pivot.news_section')
 								<section class="event">
 										<div class="inner">
