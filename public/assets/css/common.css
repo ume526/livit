@@ -1609,11 +1609,13 @@ footer .box01 .copy {
 .btnList01 {
 	overflow: hidden;
 	text-align: center;
+	display: flex;
+	justify-content: space-between;
 }
 .btnList01 li {
-	float: left;
-	width: 290px;
-	margin-left: 31px;
+	width: 24%;
+	/* width: 290px; */
+	/* margin-left: 31px; */
 }
 .btnList01.twoBtn li {
 	float: none;
@@ -1632,7 +1634,7 @@ footer .box01 .copy {
 	-webkit-border-radius: 6px;
 	        border-radius: 6px;
 	color: #FFF;
-	font-size: 1.8rem;
+	font-size: 1.7rem;
 	text-decoration: none;
 	cursor: pointer;
 }
