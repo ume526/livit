@@ -36,7 +36,9 @@
 	margin-bottom: 0;
 	padding-left: 18px;
 }
-
+#conts .standard-box > .policySec .head {
+	padding-left: 18px;
+}
 #conts .policyList {
 	line-height: 2.0;
 }
