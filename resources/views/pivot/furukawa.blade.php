@@ -60,7 +60,7 @@
 										</div>
 								</section>
                                 @include('pivot.search_section', ['selected_tag' => $selected_tag_name])
-                                <section class="recommend">
+                                <!-- <section class="recommend">
                                   <h2 class="tit">イチオシ商品 HIGHLY RECOMMENDED</h2>
                                   <div class="osusume pc">
                                     <iframe width="600" height="250" title="ピボット 古川店のチラシ・特売情報" src="https://widgets.tokubai.co.jp/21947/widget?height=250&width=600" frameborder="0"><a href="https://widgets.tokubai.co.jp/21947/widget?height=250&width=600">ピボット 古川店のチラシ・特売情報</a></iframe>
@@ -69,7 +69,7 @@
                                   <ul class="bgItem">
                                     <li class="item07"></li>
                                   </ul>
-                                </section>
+                                </section> -->
                                 @include('pivot.news_section')
 								<section class="event">
 										<div class="inner">
