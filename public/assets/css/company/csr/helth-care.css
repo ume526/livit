@@ -255,7 +255,26 @@ margin-left: 31px;0409 健康経営4ボタン*/
 	font-size: 1.8rem;
 	font-weight: bold;
 }
-
+#conts .welfareSec.initiatives > ul {
+	float: left;
+}
+#conts .welfareSec.initiatives > ul > li {
+	margin-bottom: 15px;
+}
+#conts .welfareSec.initiatives ol  {
+	margin-left: 1.4em;
+}
+#conts .welfareSec.initiatives ol  li{
+	text-indent: -1.4em;
+    margin-left: 1.4em;
+}
+#conts .welfareSec.initiatives > .image {
+    width: 330px;
+    float: right;
+	cursor: pointer;
+	transition: all 0.3s;
+	margin-top: 60px;
+}
 
 /****************きいろ*/
 
@@ -579,6 +598,11 @@ margin-left: 31px;0409 健康経営4ボタン*/
 	}
 	#conts .welfareSec.health {
 		margin-bottom: 30px;
+	}
+	#conts .welfareSec.initiatives > .image {
+		width: 100%;
+		float: none;
+		margin-bottom: 10px;
 	}
 	#conts .welfareSec h2 {
 		margin-bottom: 10px;
