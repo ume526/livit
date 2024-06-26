@@ -69,7 +69,9 @@
 														<iframe src="{{ route('tekute-sendai2-map') }}" width="100%" height="460" scrolling="no"></iframe>
 												</div>
 									</div>
-<div class="street"><iframe src="https://www.google.com/maps/embed?pb=!4v1623142608099!6m8!1m7!1sCAoSLEFGMVFpcE9jaXg2OTcwWm1PQW42MUhGZTJTVTNUck5QQWw4MlpsajRQSFZ4!2m2!1d38.260226675781!2d140.88202593251!3f156.45919578098943!4f-8.69083535296987!5f0.7820865974627469" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+<div class="street"><iframe src="
+https://www.google.com/maps/embed?pb=
+!4v1718095775854!6m8!1m7!1sCAoSLEFGMVFpcE84RGJiaHNNTENfdjBYZGN2VmJzdzlsbnpRX21feGVsZUhHX0pv!2m2!1d38.262025562302!2d140.88194149356!3f106.89559339053264!4f-3.764626275889981!5f0.7820865974627469" width="1000" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 										</div>
 
 
