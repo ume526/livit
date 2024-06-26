@@ -1610,10 +1610,12 @@ footer .box01 .copy {
 	overflow: hidden;
 	text-align: center;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	/* justify-content: space-between; */
 }
 .btnList01 li {
 	width: 24%;
+	margin: 0 5px;
 	/* width: 290px; */
 	/* margin-left: 31px; */
 }
