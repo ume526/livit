@@ -43,7 +43,7 @@
 								<section class="mainVisual">
 								   <!-- <img src="/serviceinfo/assets/img/tekute/sendai_main.jpg"> -->
 									<div class="video">
-										<div id="player"><iframe width="560" height="315" src="https://www.youtube.com/embed/pDTPREv1hC8?si=YY9yXsXts9ehgIqR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+										<div id="player"></div>
 									</div>
 									<!-- <div class="movie pc"><iframe width="980" height="550" src=https://www.youtube.com/embed/ocpz0f7SUYU?autoplay=1&mute=1&loop=1" frameborder="0" allowfullscreen></iframe></div> -->
 									<!-- <ul id="slide" class="main-slider">

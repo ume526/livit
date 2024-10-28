@@ -8,7 +8,7 @@
 		new YT.Player("player", {
 			width: '100%',
 			height: '100%',
-			videoId: "pDTPREv1hC8",
+			videoId: "_s0tD3yJcSQ",
 			playerVars: {
 				mute: 0,
 				// controls: 0,
@@ -29,7 +29,9 @@
 	function onPlayerReady(evt) {
 		evt.target.mute();
 		if($(window).innerWidth() > 769) {
-		   evt.target.playVideo();
+		   setTimeout(() => {
+			evt.target.playVideo();
+		   }, 100)
 		}
 	}
 	function onPlayerStateChange(evt) {
