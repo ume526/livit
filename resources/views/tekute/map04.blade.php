@@ -26,7 +26,7 @@
       crs: L.CRS.Simple
   }).setView([1828,0], -2);
   map.setMaxBounds(new L.LatLngBounds([0,3900], [1828,0]));
-  var imageUrl = '/serviceinfo/assets/img/tekute/map03.jpg';
+  var imageUrl = '/serviceinfo/assets/img/tekute/map03.png';
   var imageBounds = [[1828,0], [0,3900]];
   L.imageOverlay(imageUrl, imageBounds, {attribution:''}).addTo(map);
 </script>
