@@ -176,7 +176,7 @@
 																		</tr>
 																		<tr>
 																				<th>駐車場</th>
-																				<td>無料</td>
+																				<td>有料<br>（店舗利用で無料サービスあり）</td>
 																		</tr>
 																</table>
 														</div>
@@ -216,7 +216,7 @@ JR東日本グループの<br>
 								<section class="park">
 										<div class="inner">
 													<h2 class="tit">PARKING | 駐車場</h2>
-												<div class="place"> <img src="/serviceinfo/assets/img/pivot/haranomachi_park_pc.gif" class="pc" alt="駐車場"><img src="/serviceinfo/assets/img/pivot/haranomachi_park_sp.gif" class="sp" alt="駐車場"> </div>
+												<div class="place"> <img src="/serviceinfo/assets/img/pivot/haranomachi_park_pc.png" class="pc" alt="駐車場"><img src="/serviceinfo/assets/img/pivot/haranomachi_park_sp.png" class="sp" alt="駐車場"> </div>
 												<ul class="bgItem">
 														<li class="item15 sp"></li>
 												</ul>
