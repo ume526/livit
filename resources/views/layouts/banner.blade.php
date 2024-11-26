@@ -12,7 +12,7 @@
 					<li><a href="https://www.jreast.co.jp/card/" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/bnr_foot_related_07.jpg" alt="VIEW CARD" height="81" width="321"></a></li>
 					<li><a href="https://familio-folkloro.com/takahata/" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/bnr_foot_related_08.jpg" alt="フォルクローロ" height="81" width="321"></a></li>
 					<li><a href="https://btimes.jp/?utm_source=livit&utm_medium=referral" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/bnr_foot_related_09.jpg" alt="B-Times" height="81" width="321"></a></li>
-					<li><a href="https://www.jreast.co.jp/card/campaign/adm/jrecard.html" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/bnr_foot_related_10.jpg" alt="JRE CARD" height="81" width="321"></a></li>
+					<li><a href="https://www.jreast.co.jp/card/campaign/adm/jrecard.html" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/bnr_foot_related_10.png" alt="JRE CARD" height="81" width="321"></a></li>
 				</ul>
 			</div>
 		</div>
