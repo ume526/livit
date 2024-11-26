@@ -173,14 +173,15 @@
 	/* margin-left: 44px; */
 }
 .banners01.standard-box .list {
-	margin-bottom: 40px;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-between;
+	max-width: 800px;
+	margin: 0 auto 40px;
 }
 .banners01.standard-box .list li{
     margin-left: 0px;
 	width: 380px;
-	margin: 0 20px;
+	margin: 0 10px;
 }
 .banners01.standard-box .list li:nth-child(3),.banners01.standard-box .list li:nth-child(4) {
 	margin-top: 25px;
