@@ -110,7 +110,7 @@
 														<table>
 																<tr class="time">
 																		<th>営業時間</th>
-																		<td>10:00～20:00<br class="sp">（一部店舗を除く）</td>
+																		<td>各店舗の営業時間による</td>
 																</tr>
 																<tr>
 																		<th>休館日</th>

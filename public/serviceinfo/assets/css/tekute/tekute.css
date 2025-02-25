@@ -1211,6 +1211,7 @@ section p.small {
 	float: left;
 }
 .park ul li:first-child{
+	width: 443px;
 	margin-right:62px;
 }
 
