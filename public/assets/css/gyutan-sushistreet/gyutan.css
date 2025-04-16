@@ -698,6 +698,14 @@ margin:0 0 30px 160px;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+.information .service .colgroup01 {
+	justify-content: center;
+}
+.information .service .colgroup01 .col{
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
 .information .colgroup .col{
 	margin-bottom: 55px;
 }
@@ -760,7 +768,7 @@ margin:0 0 30px 160px;
 		margin:0 0 2px 10px;
 }
 .information .size_ss{
-  width:214px;
+  width:30%;
 }
 .information .size_sm{
   width:282px;
