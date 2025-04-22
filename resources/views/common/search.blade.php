@@ -106,33 +106,9 @@ if (!$meta_description) {
 					<div class="setObj setObj03"><p class="obj"><img src="/serviceinfo/assets/img/search/index/obj_search_03.png" alt="" height="183" width="63"></p></div>
 					<div class="setObj setObj04"><p class="obj"><img src="/serviceinfo/assets/img/search/index/obj_search_04.png" alt="" height="162" width="147"></p></div>
 
-                    <div class="searchArea">
-                      <div class="acdn bginner">
-	                    <div class="acdnBlk">
-	                      <div class="ttlsub"><p><img src="/serviceinfo/assets/img/search/index/ttl_sub_search.png" alt="What are you looking for?" height="13" width="183"></p></div>
-	                      <dl class="bar js_acdntrigger">
-		                    <dt><p class="ico"><span></span><span></span></p></dt>
-		                    <dd><p class="ttl fontM">何をお探しですか？</p></dd>
-	                      </dl>
-	                      <div class="lead"><p>条件で絞り込むことができます。</p></div>
-	                    </div>
-	                    <div class="acdnPanel">
-	                      <div class="panelInner">
-
-		                    <div class="searchBoxFrom">
-
-                              @include($search_form)
-
-		                    </div>
-
-	                      </div>
-	                    </div>
-                      </div>
-                    </div>
 				  </div>
 			    </div>
 		      </div>
-		      <div class="bgBottom"></div>
 	        </section>
 
 	        <section class="result">

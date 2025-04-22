@@ -34,10 +34,21 @@
 						<div class="tpl_contents">
 								<div class="headingTtl">
 										<p class="logo"><img src="/serviceinfo/assets/img/tekute/ttl.png" alt="tekuteながまち"></p>
-										<ul class="sns">
-										　　<li class="insta"><a href="https://www.instagram.com/tekutenagamachi/" target="_blank"><img src="/serviceinfo/assets/img/common/btn_insta.png" width="100%" alt=""></a></li>
-                                            <li class="line"><a href="https://page.line.me/tekutenagamachi" target="_blank"><img src="/serviceinfo/assets/img/common/btn_line.png" width="100%" alt=""></a></li>
-                                        </ul>
+										<div class="js-fixed-nav">
+					<button class="js-fixed-close">
+						<svg xmlns="http://www.w3.org/2000/svg" width="8.707" height="8.707" viewBox="0 0 8.707 8.707">
+						  <g id="" data-name="" transform="translate(0.268 0.268)">
+							<line id="" data-name="" x2="8" y2="8" transform="translate(0.086 0.086)" fill="none" stroke="#fff" stroke-width="1"></line>
+							<line id="" data-name="" x1="8" y2="8" transform="translate(0.086 0.086)" fill="none" stroke="#fff" stroke-width="1"></line>
+						  </g>
+						</svg>    
+					  </button>
+					<ul class="sns">
+						<li class="insta"><a href="https://www.instagram.com/tekutenagamachi/" target="_blank"><img src="/serviceinfo/assets/img/common/btn_insta.png" width="100%" alt=""><span class="text">tekute<br class="sp">公式インスタグラム<br>お得な情報配信中！</span></a></li>
+						<li class="line"><a href="https://page.line.me/tekutenagamachi" target="_blank"><img src="/serviceinfo/assets/img/common/btn_line.png" width="100%" alt=""><span class="text">tekute<br class="sp">公式LINE<br>お得な情報配信中！</span></a></li>
+					  </ul>
+
+				</div>
 								</div>
 								<section class="mainVisual"><img src="/serviceinfo/assets/img/tekute/keyvisual.jpg">
 									<!-- <div class="video">
@@ -47,10 +58,15 @@
 										<li><img src="/serviceinfo/assets/img/tekute/keyvisual.jpg" width="100%" alt="" class=""></li>
 									</ul> -->
 								</section>
+								<ul class="anchor">
+									<li><a href="https://www.livit.jregroup.ne.jp/tekute/search?pt%5B%5D=52&ot%5B%5D=82&keywords=">ショップ一覧</a></li>
+									<li><a href="#floormap">フロアマップ</a></li>
+									<li><a href="#information">インフォメーション</a></li>
+								</ul>
                                 @include('tekute.search_section', ['selected_tag' => $selected_tag_name])
                                 @include('tekute.news_section')
 
-								<section class="event">
+								<!-- <section class="event">
 										<div class="inner">
 												<h2 class="tit"><img src="/serviceinfo/assets/img/tekute/ttl_event.png" alt="Event calender イベント・カレンダー"></h2>
 												<div class="calender">
@@ -59,7 +75,7 @@
 														</div>
 												</div>
 										</div>
-								</section>
+								</section> -->
 
 								@if (count($yomu_tekute_list))
                 	<section class="reading">
@@ -91,8 +107,8 @@
                   	</div>
                 	</section>
 								@endif
-
-								<section class="floormap">
+								<div class="insta-bnr"><a href="https://www.instagram.com/tekutenagamachi/" target="_blank"><img src="/serviceinfo/assets/img/tekute/bnr_tekute_pc.png" class="pc" alt=""><img src="/serviceinfo/assets/img/tekute/bnr_tekute_sp.png" class="sp" alt=""></a></div>
+								<section class="floormap" id="floormap">
 										<div class="inner tab">
 												<h2 class="tit"><img src="/serviceinfo/assets/img/tekute/ttl_floormap.png" alt="Flore map フロアマップ"></h2>
 												<ul class="tab-list">
@@ -116,7 +132,7 @@
 											   </div>
 										</div>
 								</section>
-								<section class="storeinfo tab">
+								<section class="storeinfo tab" id="information">
 									<h2 class="tit"><img src="/serviceinfo/assets/img/tekute/ttl_storeinfo.png" alt="Store information 施設情報"></h2>
 									<ul class="tab-list">
 										<li class="selected"><a href="javascript:void(0)" data-tabid="1">本館</a></li>
@@ -135,7 +151,8 @@
 														魚々むすび 平日8:00～20:00・土日祝 9:00～20:00<br>
 														TULLY'S COFFEE 平日7:30～21:00 ・土日祝9:00～21:00<br>
 														松屋マイカリー食堂　7:00～23:00<br>
-														サンエトワール 7:00～20:00<br>だし廊-Retro- 平日 11:00～22:00・日11:00～21:00</td>
+														サンエトワール 7:00～20:00<br>博多屋台 豚骨ラーメン たちばな 11:00～22:00(L.O.21:30)
+														</td>
 													</tr>
 													<tr>
 														<th>休館日</th>
@@ -201,6 +218,10 @@
 															<td class="double-text">有料駐車場あり<br class="pc">（店舗利用で無料サービスあり）</td>
 														</tr>
 													</table>
+													<ul class="sns">
+																	<li class="insta"><a href="https://www.instagram.com/tekutenagamachi/" target="_blank"><img src="/serviceinfo/assets/img/common/btn_insta.png" width="35" alt=""></a></li>
+																	<li class="line"><a href="https://page.line.me/tekutenagamachi" target="_blank"><img src="/serviceinfo/assets/img/common/btn_line.png" width="35" alt=""></a></li>
+																  </ul>
 												</div>
 											</div>
 										</div>
@@ -322,6 +343,10 @@
 															<td class="double-text">有料駐車場あり<br class="pc">	（店舗利用で無料サービスあり）</td>
 														</tr>
 													</table>
+													<ul class="sns">
+																	<li class="insta"><a href="https://www.instagram.com/tekutenagamachi/" target="_blank"><img src="/serviceinfo/assets/img/common/btn_insta.png" width="35" alt=""></a></li>
+																	<li class="line"><a href="https://page.line.me/tekutenagamachi" target="_blank"><img src="/serviceinfo/assets/img/common/btn_line.png" width="35" alt=""></a></li>
+																  </ul>
 												</div>
 											</div>
 										</div>
@@ -347,7 +372,7 @@
 														<div class="btn_detail"><a href="https://www.jrepoint.jp/" target="_blank">詳しくはこちら</a></div>
 												</dd>
 										</dl>
-										<div class="band"><p class="text">入会費・年会費 無料！<br class="sp">即日発行！<br class="sp">「本館」生鮮レジにて<br class="sp">入会受付しております。</p><p class="image"><img src="/serviceinfo/assets/img/tekute/jrebnr_img.png" alt=""></p></div>
+										<div class="band"><p class="text">入会費・年会費 無料！<br class="sp">即日発行！<br class="sp">「本館」生鮮レジにて<br class="sp">入会受付しております。</p><p class="image"><img src="/serviceinfo/assets/img/common/jrebnr_img.png" alt=""></p></div>
 								</div>
 								<section class="park">
 										<h2 class="tit">Parking & Bicycle parking 駐車場・駐輪場</h2>
@@ -360,6 +385,7 @@
 				</main>
 				@include('layouts.banner')
  				@include('layouts.footer')
+				 
 				<!-- /.tpl_wrapper --></div>
 		<!-- /.serviceIndex -->
 </div>

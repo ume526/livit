@@ -52,8 +52,7 @@
 							<div class="tpl_bg_sp">
 								<div class="tpl_sns">
 									<ul class="tpl_list">
-										<li><a href="https://twitter.com/LiViT_jregroup" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/ico_footer_tw.png" alt="twitter" height="50" width="50"></a></li>
-										<!-- <li><a href="https://facebook.com/LiViT_jregroup" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/ico_footer_fb.png" alt="facebook" height="50" width="50"></a></li> -->
+										<li><a href="https://twitter.com/LiViT_jregroup" target="_blank" class="tpl_btn"><img src="/serviceinfo/assets/img/common/ico_footer_x.svg" alt="twitter" height="30" width="30"></a></li>
 									</ul>
 								</div>
 							</div>
@@ -69,7 +68,6 @@
 											</div>
 											<div class="tpl_acdnPanel">
 												<ul class="tpl_fatList">
-													<li><a href="/#giftgourmet" class="js_tpl_ac">駅からお店を探す</a></li>
 													<li><a href="{{ route('detail', 435) }}">牛たん通り</a></li>
 													<li><a href="{{ route('detail', 436) }}">すし通り</a></li>
 													<li><a href="{{ route('detail', 437) }}">ずんだ小径</a></li>
@@ -114,18 +112,6 @@
 									</li>
 
 									<li class="tpl_list03">
-										<div class="tpl_acdn">
-											<div class="tpl_acdnBlk js_tpl_trigger">
-												<div class="tpl_bar">
-													<p class="tpl_ttl">その他サービス</p><div class="tpl_ico"><p></p></div>
-												</div>
-											</div>
-											<div class="tpl_acdnPanel">
-												<ul class="tpl_fatList">
-													<li><a href="{{ route('parking') }}"><span>月極駐車場を探す</span></a></li>
-												</ul>
-											</div>
-										</div>
 										<div class="tpl_acdn">
 											<div class="tpl_acdnBlk js_tpl_trigger">
 												<div class="tpl_bar">

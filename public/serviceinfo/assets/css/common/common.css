@@ -47,6 +47,12 @@
     white-space: normal;
   }
   /* breadcrumbs */
+  .breadcrumbs {
+    position: relative;
+  }
+  .breadcrumbs .js-fixed-nav {
+    top: 5px;
+  }
   .breadcrumbs .breadcrumbsList {
     padding: 6px 0 5px 0;
   }
@@ -94,28 +100,7 @@
     margin: 0 auto;
     position: relative;
   }
-  .breadcrumbs .sns{
-    display: flex;
-    justify-content: flex-end;
-    position: absolute;
-    top: 20px;
-    right: 0;
-  }
-  .breadcrumbs .sns li{
-    width: 35px;
-    height:35px;
-    float: left;
-    margin-right:20px;
-  }
-  .breadcrumbs .sns li a{
-    transition:all 0.2s;
-  }
-  .breadcrumbs .sns li a:hover{
-    opacity:0.8;
-  }
-  .breadcrumbs .sns li:last-child{
-    margin-right:0;
-  }
+
   /* searchBoxFrom */
   .searchBoxFrom {
     padding: 0 30px 60px;
@@ -1033,18 +1018,7 @@ html:lang(en) .tekute .storeinfo .storedata table td {
   .breadcrumbs .breadcrumbsList{
     display: none;
   }
-  body.pivot .breadcrumbs .sns{
-    height:7.6vw;
-    position: absolute;
-    overflow: hidden;
-    top: -33vw;
-    right: 0;
-  }
-  body.pivot .breadcrumbs .sns li{
-    width: 7.6vw;
-    margin-right:4vw;
-    float: left;
-  }
+
   /* searchBoxFrom */
   .searchBoxFrom {
     padding-bottom: 1.492rem;
@@ -1760,6 +1734,7 @@ html:lang(en) .tekute .storeinfo .storedata table td {
     white-space: normal;
   }
   /* breadcrumbs */
+
   .breadcrumbs .breadcrumbsList {
     padding: 6px 0 5px 0;
   }

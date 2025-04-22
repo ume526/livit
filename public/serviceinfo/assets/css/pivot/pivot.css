@@ -266,6 +266,45 @@ iframe{
 }
 
 @media screen and (min-width: 769px) {
+	.anchor {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 120px;
+	}
+	.anchor li {
+		font-size: 20px;
+		font-weight: 500;
+		width: 320px;
+		height: 70px;
+		line-height: 70px;
+		border-radius: 10px;
+		text-align: center;
+		margin: 0 18px;
+		border-radius: 10px;
+		overflow: hidden;
+		position: relative;
+	}
+	.anchor li a {
+		color: #fff;
+		background-color: #88bb09;
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	.anchor li a::before {
+		content: "";
+		position: absolute;
+		top: 28px;
+		right: 30px;
+		margin: auto;
+		vertical-align: middle;
+		width: 6px;
+		height: 6px;
+		border-top: 2px solid #fff;
+		border-right: 2px solid #fff;
+		transform: rotate(135deg);
+	}
 	section p.small {
 		font-size: 12px;
 		letter-spacing: 0;
@@ -346,7 +385,7 @@ section h2.tit{
 	letter-spacing:2px;
 	line-height:2.6;
 	text-align:center;
-	margin:60px 0 145px;
+	margin:60px 0 50px;
 	position: relative;
 }
 .mainVisual .headTtl{
@@ -471,7 +510,7 @@ section h2.tit{
 	top:-44px;
 	right:-157px;
 	position: absolute;
-	z-index:100;
+	z-index:98;
 }
 #pivot .mainVisual .slide01:before{
  background:url(../../img/pivot/pick01.png) no-repeat;
@@ -613,7 +652,7 @@ section h2.tit{
 }
 #pivot .shoplist li a{
 	display:block;
-	padding:20px 0 40px;
+	padding:20px 0;
   position: relative;
   border: 3px solid transparent;
   text-align: center;
@@ -670,7 +709,7 @@ section h2.tit{
 	height:210px;
 	top:-107px;
 	left:-192px;
-	z-index:100;
+	z-index:98;
 }
 #pivot .shop .bgItem .item08{
 	background: url(../../img/pivot/item08_pc.png) no-repeat;
@@ -691,7 +730,7 @@ section h2.tit{
 --------------*/
 .search .searchArea{
 	width: 960px;
-	margin:0 auto 150px;
+	margin:0 auto 100px;
 	padding:55px 0 50px;
 	position: relative;
 	border:3px solid #000;
@@ -953,7 +992,7 @@ section h2.tit{
 	position: absolute;
 	top:1350px;
 	left:-162px;
-	z-index:100;
+	z-index:98;
 }
 @media screen and (max-width: 1537px) and (min-width: 769px){
 	.acdnPanel:after{
@@ -974,9 +1013,9 @@ section h2.tit{
 	background: url(../../img/pivot/item09_pc.png) no-repeat;
 	width:113px;
 	height:189px;
-	top:980px;
+	top:900px;
 	left:160px;
-	z-index:100;
+	z-index:98;
 }
 
 /* slider
@@ -996,7 +1035,7 @@ section h2.tit{
 .slider li .thumb a:before {
  content: "";
  position: absolute;
- z-index: 100;
+ z-index:98;
  left: 0;
  right: 0;
  top: 0;
@@ -1089,7 +1128,7 @@ section h2.tit{
 /* recommend
 --------------*/
 .recommend {
-	margin:0 0 230px;
+	margin:0 0 130px;
 }
 .recommend h2.tit{
 	background:url(../../img/pivot/ttl_recommend_pc.png) no-repeat;
@@ -1100,6 +1139,21 @@ section h2.tit{
 }
 .recommend .osusume{
  text-align:center;
+}
+.bnr {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 90px;
+}
+.recommend .bnr {
+	margin-top: 90px;
+	margin-bottom: 0px;
+}
+.bnr a {
+	transition: all 0.2s;
+}
+.bnr a:hover {
+	opacity: 0.7;
 }
 
 /* news
@@ -1215,6 +1269,9 @@ section h2.tit{
 /* floormap
    park
 --------------*/
+.floormap {
+	margin-top: 200px;
+}
 .floormap,
 .park{
 	padding:0 20px 65px;
@@ -1255,7 +1312,7 @@ section h2.tit{
 	width: 331px;
 	height:25px;
 	margin: 100px 0 110px 0;
-	z-index:100;
+	z-index:98;
 }
 .floormap .bgItem .item12{
 	background: url(../../img/pivot/item12_pc.png) no-repeat;
@@ -1268,7 +1325,7 @@ section h2.tit{
 	background: url(../../img/pivot/item13_pc.png) no-repeat;
 	width:122px;
 	height:166px;
-	top:746px;
+	top:686px;
 	left:-232px;
 }
 .floormap .map{
@@ -1279,7 +1336,7 @@ section h2.tit{
 /* shopinfo
 --------------*/
 .shopinfo{
-	margin:260px 0 0;
+	margin:200px 0 0;
 	padding-right:20px;
 	padding-left:20px;
 	padding-bottom:100px;
@@ -1536,6 +1593,15 @@ section h2.tit{
 .shopinfo table td .btn_map a:hover{
 	text-decoration:none;
 }
+.shopinfo .sns {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+.shopinfo .sns li {
+	margin: 0 10px;
+}
 /* jrebnr
 --------------*/
 .jrebnr{
@@ -1644,7 +1710,7 @@ text-justify: inter-ideograph;
 	height:213px;
 	top:1276px;
 	right:-237px;
-	z-index:100;
+	z-index:98;
 }
 }
 @media screen and (min-width:769px) and ( max-width:1537px) {
@@ -1891,7 +1957,7 @@ section h2.tit:before{
 text-align-last: justify;
 text-justify: inter-ideograph;*/
 	line-height:1.7;
-	margin:6vw 0 34vw;
+	margin:6vw 0 14vw;
 	position: relative;
 }
 .mainVisual .bg li{
@@ -1934,7 +2000,7 @@ text-justify: inter-ideograph;*/
 	height: 27.3vw;
 	top:-23.8vw;
 	right:-9.6vw;
-	z-index:100;
+	z-index:99;
 }
 #pivot .mainVisual .mainItem .item01{
 	top:-19.6vw;
@@ -1947,7 +2013,7 @@ text-justify: inter-ideograph;*/
 	height: 19.4vw;
 	top:31.2vw;
 	left:-12.2vw;
-	z-index:100;
+	z-index:99;
 }
 #pivot .mainVisual .mainItem .item02{
 	top:35.3vw;
@@ -1960,7 +2026,7 @@ text-justify: inter-ideograph;*/
 	height: 21.4vw;
 	top:95vw;
 	right:-6.5vw;
-	z-index:100;
+	z-index:98;
 }
 #pivot .mainVisual .mainItem .item03{
 	top:110vw;
@@ -2098,7 +2164,7 @@ text-justify: inter-ideograph;*/
 	height: 40.6vw;
 	bottom:-31.3vw;
 	right:10.2vw;
-	z-index:100;
+	z-index:98;
 }
 /* search
 --------------*/
@@ -2300,7 +2366,7 @@ text-justify: inter-ideograph;*/
 	height: 26.4vw;
 	top:-14.4vw;
 	left:0;
-	z-index:100;
+	z-index:98;
 }
 .acdnPanel .panelInner{
 	position: relative;
@@ -2315,7 +2381,7 @@ text-justify: inter-ideograph;*/
 	top:-13vw;
 	position: absolute;
 	right:-4.9vw;
-	z-index:100;
+	z-index:98;
 }
 .acdnPanel .panelInner:after{
 	content:'';
@@ -2327,7 +2393,7 @@ text-justify: inter-ideograph;*/
 		position: absolute;
 	bottom:-19.4vw;
 	left:-5.4vw;
-	z-index:100;
+	z-index:98;
 }
 #pivot .search .bgItem .item07{
 	background: url(../../img/pivot/item07_sp.png) no-repeat;
@@ -2336,7 +2402,7 @@ text-justify: inter-ideograph;*/
 	height: 18.5vw;
 	bottom:-28.5vw;
 	right:0;
-	z-index:100;
+	z-index:98;
 }
 
 
@@ -2347,7 +2413,7 @@ text-justify: inter-ideograph;*/
 	height: 34.5vw;
 	bottom:-69.8vw;
 	left:2vw;
-	z-index:100;
+	z-index:98;
 }
 /* recommend
 --------------*/
@@ -2383,11 +2449,18 @@ text-justify: inter-ideograph;*/
 	background-size:contain;
 	width:27.3vw;
 	height: 20.2vw;
-	top:400px;
+	top:550px;
 	right:8.9vw;
-	z-index:100;
+	z-index:98;
 }
-
+.recommend .bnr {
+	margin:12vw auto 0;
+}
+.bnr {
+	width: 90%;
+	text-align: center;
+	margin:0 auto 12vw;
+}
 /* news
 --------------*/
 .LinkBox3col .resizeRatioBox .resizeRatioImg{
@@ -2443,16 +2516,16 @@ text-justify: inter-ideograph;*/
  height: 36.5vw;
 	bottom:-37vw;
 	right:10.1vw;
-	z-index:100;
+	z-index:98;
 }
 .news .bgItem .item10{
 	background: url(../../img/pivot/item10_sp.png) no-repeat;
 	background-size:contain;
 	width:19.2vw;
 	height: 32.6vw;
-	top:179.5vw;
+	top:189.5vw;
 	right:9.3vw;
-	z-index:100;
+	z-index:98;
 }
 .magazine .slider dd .ellipsis,
 .news .slider dd .ellipsis{
@@ -2482,7 +2555,7 @@ text-justify: inter-ideograph;*/
 .slider li .thumb a:before {
  content: "";
  position: absolute;
- z-index: 100;
+ z-index:98;
  left: 0;
  right: 0;
  top: 0;
@@ -2593,7 +2666,7 @@ height: 100% !important;
 	height:31vw;
 	bottom:-25vw;
 	left:16.6vw;
-	z-index:100;
+	z-index:98;
 }
 
 
@@ -2647,7 +2720,7 @@ height: 100% !important;
 	height: 27.3vw;
 	bottom:-31.2vw;
 left:-3.2vw;
-	z-index:100;
+z-index:98;
 }
 /* shopinfo
 --------------*/
@@ -2871,7 +2944,7 @@ left:-3.2vw;
 	height: 27.1vw;
 	top:192vw;
  right:12vw;
-	z-index:100;
+ z-index:98;
 }
 #area02 .bgItem .item12{
 	top:180vw;
@@ -2884,7 +2957,16 @@ left:-3.2vw;
 	height: 15.3vw;
 	bottom:-10.8vw;
  right:4.9vw;
-	z-index:100;
+ z-index:98;
+}
+.shopinfo .sns {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5vw;
+}
+.shopinfo .sns li {
+	margin: 0 10px;
 }
 /* jrebnr
 --------------*/
@@ -2951,7 +3033,7 @@ left:-3.2vw;
 	height: 28.2vw;
 	top:166vw;
  left:0;
-	z-index:100;
+ z-index:98;
 }
 
 /* park
@@ -3001,9 +3083,65 @@ left:-3.2vw;
 	height: 38vw;
 	bottom:-44.2vw;
  right:10vw;
-	z-index:100;
+ z-index:98;
 }
-
+.anchor {
+	display: flex;
+	flex-wrap: wrap;
+	width: 90.4vw;
+	margin:0 auto ;
+	justify-content: space-between;
+  }
+  .anchor {
+	margin-bottom: 14vw;
+}
+  .anchor li{
+	  width: 43.46vw;
+	  /* height: 70px; */
+	  font-size: 3.74vw;
+	  font-weight: bold;
+	  line-height:1;
+	  text-align: center;
+  }
+  .anchor li {
+	width: 44.46vw;
+	letter-spacing: 0;
+	margin-bottom: 1vw;
+	position: relative;
+  }
+  .anchor li a::before {
+	content: "";
+	position: absolute;
+	top: 5vw;
+	right: 3vw;
+	margin: auto;
+	vertical-align: middle;
+	width: 4px;
+	height: 4px;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	transform: rotate(135deg);
+}
+  .anchor li a{
+	  display: block;
+	  padding:4vw 0;
+	  color: #ababab;
+	  background: #e5e5e5;
+	  border-radius: 1.6vw;
+	  transition: all 0.2s;
+	  width: 100%;
+	  height:12vw;
+  }
+  .anchor li a {
+	padding-right: 3vw;
+  }
+  .anchor li a {
+	  background: #88bb09;
+	  color: #fff;
+  }
+  .tpl_pageTop {
+	bottom: 4.658rem;
+  }
 }
 /* //////////////////////////////////////////////////////////////////////////////// */
 /* print */
@@ -3167,7 +3305,7 @@ section h2.tit{
 	top:-44px;
 	right:0;
 	position: absolute;
-	z-index:100;
+	z-index:98;
 }
 #pivot .mainVisual .slide01:before{
  background:url(../../img/pivot/pick01.png) no-repeat;
@@ -3364,7 +3502,7 @@ section h2.tit{
 	height:210px;
 	top:-107px;
 	left:-192px;
-	z-index:100;
+	z-index:98;
 }
 #pivot .shop .bgItem .item08{
 	background: url(../../img/pivot/item08_pc.png) no-repeat;
@@ -3623,7 +3761,7 @@ section h2.tit{
 	position: absolute;
 	top:854px;
 	left:-162px;
-	z-index:100;
+	z-index:98;
 }
 	.acdnPanel:after{
 		left:0;
@@ -3644,7 +3782,7 @@ section h2.tit{
 	height:189px;
 	top:880px;
 	left:160px;
-	z-index:100;
+	z-index:98;
 }
 
 /* slider
@@ -3658,7 +3796,7 @@ section h2.tit{
 .slider li a:before {
  content: "";
  position: absolute;
- z-index: 100;
+ z-index: 98;
  left: 0;
  right: 0;
  top: 0;
@@ -3898,7 +4036,7 @@ section h2.tit{
 	width: 331px;
 	height:25px;
 	margin: 0 0 110px 0;
-	z-index:100;
+	z-index:98;
 }
 .floormap .bgItem .item12{
 	background: url(../../img/pivot/item12_pc.png) no-repeat;
@@ -4276,7 +4414,7 @@ text-justify: inter-ideograph;
 	height:213px;
 	top:1276px;
 	right:-237px;
-	z-index:100;
+	z-index:98;
 }
 #pivot .mainVisual .inner{
  margin-top:115px;

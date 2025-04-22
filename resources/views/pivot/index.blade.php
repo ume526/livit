@@ -66,7 +66,7 @@
 			  </ul>
 			</div>
 		  </section>
-          @include('pivot.search_section')
+          
 		  <section class="shop">
 			<div class="inner">
 			  <h2 class="tit">SHOP | 店舗一覧</h2>

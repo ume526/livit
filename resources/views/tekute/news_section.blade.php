@@ -28,6 +28,7 @@
 				</ul>
 			</div>	
 			<div class="btn_more"><a href="{{ route('tekute-search') }}?tag_names={{ urlencode($selected_tag_name.',ニュース・イベント') }}"><img src="/serviceinfo/assets/img/tekute/btn_more.gif" alt="More"></a></div>
+
 		</div>
 	</section>
 @endif

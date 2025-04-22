@@ -172,6 +172,27 @@ $(function(){
 			 }
 		}]
 	});
+	$('#main_slider').slick({
+		autoplay: true,
+		autoplaySpeed: 5000,
+		dots: true,
+		arrows: true,
+		draggable: true,
+		touchThreshold: 40,
+		touchMove: true,
+		slidesToShow: 3,
+		// slidesToScroll: 1,
+		centerMode: true,
+		centerPadding: 80,
+		responsive: [{
+			breakpoint: 769,
+			settings:{
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows: false
+			 }
+		}]
+	});
 	$('.news .slidArea .desc >p').addClass('ellipsis');
 
 

@@ -19,67 +19,22 @@
 								<ul class="tpl_gMenuList_sp">
 									<li>
 										<div class="tpl_unit tpl_unit01">
-											<a class="tpl_btn tpl_navBtn" href="/#giftgourmet"><dl><dt><img src="/serviceinfo/assets/img/common/ico_gnav_01_sp.png" alt="お店"></dt><dd>駅からお店を探す</dd></dl></a>
+											<a class="tpl_btn tpl_navBtn" href="/gyutan-sushistreet/" class="tpl_btn">牛たん通り・すし通り</a>
 										</div>
 									</li>
 									<li>
 										<div class="tpl_unit tpl_unit02">
-											<div class="tpl_acdn">
-												<div class="tpl_acdnBlk">
-													<div class="tpl_bar js_tpl_trigger">
-														<div class="tpl_navBtn"><dl><dt><img src="/serviceinfo/assets/img/common/ico_gnav_02_sp.png" alt="お買いもの"></dt><dd>日常のお買いもの</dd></dl></div>
-														<div class="tpl_ico"><p><span></span><span></span></p></div>
-													</div>
-												</div>
-												<div class="tpl_acdnPanel">
-													<div class="tpl_panelInner">
-														<ul class="tpl_subList_sp">
-															<li><a href="{{ route('tekute-top') }}" class="tpl_btn">tekute</a></li>
-															<li class="tpl_subLink"><a href="{{ route('tekute-sendai') }}" class="tpl_btn"><span>tekuteせんだい</span></a></li>
-															<li class="tpl_subLink"><a href="{{ route('tekute-nagamachi') }}" class="tpl_btn"><span>tekuteながまち</span></a></li>
-															<li class="tpl_subLink"><a href="{{ route('sub-search', config('livit.static_tag_names.tekute_tagajo')) }}" class="tpl_btn"><span>tekuteたがじょう</span></a></li>
-															<li class="tpl_subLink"><a href="{{ route('sub-search', config('livit.static_tag_names.tekute_honshiogama')) }}" class="tpl_btn"><span>tekuteほんしおがま</span></a></li>
-															<li><a href="{{ route('pivot-top') }}" class="tpl_btn">Pivot</a></li>
-															<li class="tpl_subLink"><a href="{{ route('pivot-haranomachi') }}" class="tpl_btn"><span>クオリティフードストア <br>仙台原ノ町ピボット</span></a></li>
-															<li class="tpl_subLink"><a href="{{ route('pivot-koriyama') }}" class="tpl_btn"><span>郡山駅食品館ピボット</span></a></li>
-															<li class="tpl_subLink"><a href="{{ route('pivot-aizuwakamatsu') }}" class="tpl_btn"><span>会津若松駅食品館ピボット</span></a></li>
-															<li class="tpl_subLink"><a href="{{ route('pivot-fukushima') }}" class="tpl_btn"><span>福島駅西口パワーシティピボット</span></a></li>
-															<li><a href="{{ route('sub-search', config('livit.static_tag_names.seagull')) }}" class="tpl_btn">シーガルタウン本八戸</a></li>
-															<li><a href="{{ route('sub-search', config('livit.static_tag_names.market')) }}" class="tpl_btn">秋田生鮮市場保戸野店</a></li>
-															<li><a href="//www.jreastmall.com/shop/c/c13/" target="_blank" class="tpl_btn">東北MONO WEB SHOP</a></li>
-														</ul>
-													</div>
-												</div>
-											</div>
+											<a class="tpl_btn tpl_navBtn" href="/search?pt[]=24&pt[]=110&keywords=" class="tpl_btn">仙台エキナカ</a>
 										</div>
 									</li>
 									<li>
 										<div class="tpl_unit tpl_unit03">
-											<div class="tpl_acdn">
-												<div class="tpl_acdnBlk">
-													<div class="tpl_bar js_tpl_trigger">
-														<div class="tpl_navBtn"><dl><dt><img src="/serviceinfo/assets/img/common/ico_gnav_03_sp.png" alt="駐車場"></dt><dd>月極駐車場を探す</dd></dl></div>
-														<div class="tpl_ico"><p><span></span><span></span></p></div>
-													</div>
-												</div>
-												<div class="tpl_acdnPanel">
-													<div class="tpl_panelInner">
-														<ul class="tpl_subList_sp">
-															<li><a href="{{ route('parking') }}?aomori" class="tpl_btn">青森県</a></li>
-															<li><a href="{{ route('parking') }}?iwate" class="tpl_btn">岩手県</a></li>
-															<li><a href="{{ route('parking') }}?akita" class="tpl_btn">秋田県</a></li>
-															<li><a href="{{ route('parking') }}?miyagi" class="tpl_btn">宮城県</a></li>
-															<li><a href="{{ route('parking') }}?yamagata" class="tpl_btn">山形県</a></li>
-															<li><a href="{{ route('parking') }}?fukushima" class="tpl_btn">福島県</a></li>
-														</ul>
-													</div>
-												</div>
-											</div>
+											<a class="tpl_btn tpl_navBtn" href="{{ route('tekute-top') }}" class="tpl_btn">tekute</a>
 										</div>
 									</li>
 									<li>
 										<div class="tpl_unit tpl_unit04">
-											<a class="tpl_btn tpl_navBtn" href="{{ route('search') }}?tag_names={{ urlencode('ニュース・イベント') }}"><dl><dt><img src="/serviceinfo/assets/img/common/ico_gnav_04_sp.png" alt="ニュース"></dt><dd>ニュース&イベント</dd></dl></a>
+											<a class="tpl_btn tpl_navBtn" href="{{ route('pivot-top') }}" class="tpl_btn">ピボット</a>
 										</div>
 									</li>
 									<li>
@@ -87,21 +42,67 @@
 											<div class="tpl_acdn">
 												<div class="tpl_acdnBlk">
 													<div class="tpl_bar js_tpl_trigger">
-														<div class="tpl_navBtn"><dl><dt><img src="/serviceinfo/assets/img/common/ico_gnav_05_sp.png" alt="広告"></dt><dd>広告・出店・商品募集</dd></dl></div>
+														<div class="tpl_navBtn">駅からお店を探す</div>
 														<div class="tpl_ico"><p><span></span><span></span></p></div>
 													</div>
 												</div>
 												<div class="tpl_acdnPanel">
 													<div class="tpl_panelInner">
-														<ul class="tpl_subList_sp">
-															<li><a href="{{ route('transit-advertising') }}" class="tpl_btn">JR東日本交通広告</a></li>
-															<li><a href="{{ route('tenant') }}" class="tpl_btn">出店・商品の募集</a></li>
-														</ul>
+													<ul class="tpl_subList_sp pref">
+																<li><a href="{{ route('search') }}?tag_names={{ urlencode('青森県') }}" class="tpl_btn"><span>青森県</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('新青森駅') }}" class="tpl_btn"><span>新青森駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('八戸駅') }}" class="tpl_btn"><span>八戸駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('本八戸駅') }}" class="tpl_btn"><span>本八戸駅</span></a></li>
+																<li><a href="{{ route('search') }}?tag_names={{ urlencode('岩手県') }}" class="tpl_btn"><span>岩手県</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('盛岡駅') }}" class="tpl_btn"><span>盛岡駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('花巻駅') }}" class="tpl_btn"><span>花巻駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('新花巻駅') }}" class="tpl_btn"><span>新花巻駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('北上駅') }}" class="tpl_btn"><span>北上駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('水沢駅') }}" class="tpl_btn"><span>水沢駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('水沢江刺駅') }}" class="tpl_btn"><span>水沢江刺駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('一ノ関駅') }}" class="tpl_btn"><span>一ノ関駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('釜石駅') }}" class="tpl_btn"><span>釜石駅</span></a></li>
+																<li><a href="{{ route('search') }}?tag_names={{ urlencode('秋田県') }}" class="tpl_btn"><span>秋田県</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('秋田駅') }}" class="tpl_btn"><span>秋田駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('土崎駅') }}" class="tpl_btn"><span>土崎駅</span></a></li>
+																<li class="tpl_subLink"><a href="/search/sub/生鮮市場" class="tpl_btn"><span>秋田市保戸野</span></a></li>
+																<li><a href="{{ route('search') }}?tag_names={{ urlencode('宮城県') }}" class="tpl_btn"><span>宮城県</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('仙台駅') }}" class="tpl_btn"><span>仙台駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('くりこま高原駅') }}" class="tpl_btn"><span>くりこま高原駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('古川駅') }}" class="tpl_btn"><span>古川駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('石巻駅') }}" class="tpl_btn"><span>石巻駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('松島海岸駅') }}" class="tpl_btn"><span>松島海岸駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('多賀城駅') }}" class="tpl_btn"><span>多賀城駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('陸前原ノ町駅') }}" class="tpl_btn"><span>陸前原ノ町駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('北仙台駅') }}" class="tpl_btn"><span>北仙台駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('長町駅') }}" class="tpl_btn"><span>長町駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('本塩釜駅') }}" class="tpl_btn"><span>本塩釜駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('南仙台駅') }}" class="tpl_btn"><span>南仙台駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('岩沼駅') }}" class="tpl_btn"><span>岩沼駅</span></a></li>
+																<li><a href="{{ route('search') }}?tag_names={{ urlencode('山形県') }}" class="tpl_btn"><span>山形県</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('山形駅') }}" class="tpl_btn"><span>山形駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('新庄駅') }}" class="tpl_btn"><span>新庄駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('さくらんぼ東根駅') }}" class="tpl_btn"><span>さくらんぼ東根駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('天童駅') }}" class="tpl_btn"><span>天童駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('米沢駅') }}" class="tpl_btn"><span>米沢駅</span></a></li>
+																<li><a href="{{ route('search') }}?tag_names={{ urlencode('福島県') }}" class="tpl_btn"><span>福島県</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('福島駅') }}" class="tpl_btn"><span>福島駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('郡山駅') }}" class="tpl_btn"><span>郡山駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('新白河駅') }}" class="tpl_btn"><span>新白河駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('会津若松駅') }}" class="tpl_btn"><span>会津若松駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('七日町駅') }}" class="tpl_btn"><span>七日町駅</span></a></li>
+															</ul>
 													</div>
 												</div>
 											</div>
 										</div>
 									</li>
+									<li>
+										<div class="tpl_unit tpl_unit06">
+											<a class="tpl_btn tpl_navBtn" href="https://shopping.jreast.co.jp/shop/detail/s013" target="_blank">オンラインショップ</a>
+										</div>
+									</li>
+									
 								</ul>
 
 								<ul class="tpl_gMenuSubList_sp">
@@ -116,68 +117,82 @@
 								<dl class="tpl_nav_row tpl_clr">
 									<dt>
 										<ul class="tpl_gNavList tpl_clr">
-											<li>
+										    <li>
 												<div class="tpl_dropdown gn1">
-													<a class="tpl_btn tpl_navBtn" href="/#giftgourmet"><dl><dt><p></p></dt><dd>駅からお店を探す</dd></dl></a>
+													<a href="/gyutan-sushistreet/" class="tpl_btn">牛たん通り・すし通り</a>
 												</div>
 											</li>
 											<li>
 												<div class="tpl_dropdown gn2">
-													<div class="tpl_btn tpl_navBtn tpl_nolink"><dl><dt><p></p></dt><dd>日常のお買いもの</dd></dl></div>
-													<div class="tpl_down">
-														<div class="tpl_downBox">
-															<ul class="tpl_downList">
-																<li><a href="{{ route('tekute-top') }}" class="tpl_btn">tekute</a></li>
-																<li class="tpl_subLink"><a href="{{ route('tekute-sendai') }}" class="tpl_btn"><span>tekuteせんだい</span></a></li>
-																<li class="tpl_subLink"><a href="{{ route('tekute-nagamachi') }}" class="tpl_btn"><span>tekuteながまち</span></a></li>
-																<li class="tpl_subLink"><a href="{{ route('sub-search', config('livit.static_tag_names.tekute_tagajo')) }}" class="tpl_btn"><span>tekuteたがじょう</span></a></li>
-																<li class="tpl_subLink"><a href="{{ route('sub-search', config('livit.static_tag_names.tekute_honshiogama')) }}" class="tpl_btn"><span>tekuteほんしおがま</span></a></li>
-																<li><a href="{{ route('pivot-top') }}" class="tpl_btn">Pivot</a></li>
-																<li class="tpl_subLink"><a href="{{ route('pivot-haranomachi') }}" class="tpl_btn"><span>クオリティフードストア <br>仙台原ノ町ピボット</span></a></li>
-																<li class="tpl_subLink"><a href="{{ route('pivot-koriyama') }}" class="tpl_btn"><span>郡山駅食品館ピボット</span></a></li>
-																<li class="tpl_subLink"><a href="{{ route('pivot-aizuwakamatsu') }}" class="tpl_btn"><span>会津若松駅食品館ピボット</span></a></li>
-																<li class="tpl_subLink"><a href="{{ route('pivot-fukushima') }}" class="tpl_btn"><span>福島駅西口パワーシティピボット</span></a></li>
-																<li><a href="{{ route('sub-search', config('livit.static_tag_names.seagull')) }}" class="tpl_btn">シーガルタウン本八戸</a></li>
-																<li><a href="{{ route('sub-search', config('livit.static_tag_names.market')) }}" class="tpl_btn">秋田生鮮市場保戸野店</a></li>
-																<li><a href="//www.jreastmall.com/shop/c/c13/" target="_blank" class="tpl_btn">東北MONO WEB SHOP</a></li>
-															</ul>
-														</div>
-													</div>
+												    <a href="/search?pt[]=24&pt[]=110&keywords=" class="tpl_btn">仙台エキナカ</a>
 												</div>
 											</li>
 											<li>
 												<div class="tpl_dropdown gn3">
-													<a class="tpl_btn tpl_navBtn" href="{{ route('parking') }}"><dl><dt><p></p></dt><dd>月極駐車場を探す</dd></dl></a>
-													<div class="tpl_down">
-														<div class="tpl_downBox">
-															<ul class="tpl_downList">
-																<li><a href="{{ route('parking') }}?aomori" class="tpl_btn">青森県</a></li>
-																<li><a href="{{ route('parking') }}?iwate" class="tpl_btn">岩手県</a></li>
-																<li><a href="{{ route('parking') }}?akita" class="tpl_btn">秋田県</a></li>
-																<li><a href="{{ route('parking') }}?miyagi" class="tpl_btn">宮城県</a></li>
-																<li><a href="{{ route('parking') }}?yamagata" class="tpl_btn">山形県</a></li>
-																<li><a href="{{ route('parking') }}?fukushima" class="tpl_btn">福島県</a></li>
-															</ul>
-														</div>
-													</div>
+													<a href="{{ route('tekute-top') }}" class="tpl_btn">tekute</a>
 												</div>
 											</li>
 											<li>
 												<div class="tpl_dropdown gn4">
-													<a class="tpl_btn tpl_navBtn" href="{{ route('search') }}?tag_names={{ urlencode('ニュース・イベント') }}"><dl><dt><p></p></dt><dd>ニュース&イベント</dd></dl></a>
+													<a href="{{ route('pivot-top') }}" class="tpl_btn">ピボット</a>
 												</div>
 											</li>
 											<li>
 												<div class="tpl_dropdown gn5">
-													<div class="tpl_btn tpl_navBtn tpl_nolink"><dl><dt><p></p></dt><dd>広告・出店・商品募集</dd></dl></div>
+													<div class="tpl_btn tpl_navBtn tpl_nolink"><a class="tpl_btn" href="#">駅からお店を探す</a></div>
 													<div class="tpl_down">
 														<div class="tpl_downBox">
 															<ul class="tpl_downList">
-																<li><a href="{{ route('transit-advertising') }}" class="tpl_btn">JR東日本交通広告</a></li>
-																<li><a href="{{ route('tenant') }}" class="tpl_btn">出店・商品の募集</a></li>
+																<li><a href="{{ route('search') }}?tag_names={{ urlencode('青森県') }}"><span>青森県</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('新青森駅') }}" class="tpl_btn"><span>新青森駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('八戸駅') }}" class="tpl_btn"><span>八戸駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('本八戸駅') }}" class="tpl_btn"><span>本八戸駅</span></a></li>
+																<li><a href="{{ route('search') }}?tag_names={{ urlencode('岩手県') }}"><span>岩手県</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('盛岡駅') }}" class="tpl_btn"><span>盛岡駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('花巻駅') }}" class="tpl_btn"><span>花巻駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('新花巻駅') }}" class="tpl_btn"><span>新花巻駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('北上駅') }}" class="tpl_btn"><span>北上駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('水沢駅') }}" class="tpl_btn"><span>水沢駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('水沢江刺駅') }}" class="tpl_btn"><span>水沢江刺駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('一ノ関駅') }}" class="tpl_btn"><span>一ノ関駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('釜石駅') }}" class="tpl_btn"><span>釜石駅</span></a></li>
+																<li><a href="{{ route('search') }}?tag_names={{ urlencode('秋田県') }}"><span>秋田県</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('秋田駅') }}" class="tpl_btn"><span>秋田駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('土崎駅') }}" class="tpl_btn"><span>土崎駅</span></a></li>
+																<li class="tpl_subLink"><a href="/search/sub/生鮮市場" class="tpl_btn"><span>秋田市保戸野</span></a></li>
+																<li><a href="{{ route('search') }}?tag_names={{ urlencode('宮城県') }}"><span>宮城県</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('仙台駅') }}" class="tpl_btn"><span>仙台駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('くりこま高原駅') }}" class="tpl_btn"><span>くりこま高原駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('古川駅') }}" class="tpl_btn"><span>古川駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('石巻駅') }}" class="tpl_btn"><span>石巻駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('松島海岸駅') }}" class="tpl_btn"><span>松島海岸駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('多賀城駅') }}" class="tpl_btn"><span>多賀城駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('陸前原ノ町駅') }}" class="tpl_btn"><span>陸前原ノ町駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('北仙台駅') }}" class="tpl_btn"><span>北仙台駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('長町駅') }}" class="tpl_btn"><span>長町駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('本塩釜駅') }}" class="tpl_btn"><span>本塩釜駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('南仙台駅') }}" class="tpl_btn"><span>南仙台駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('岩沼駅') }}" class="tpl_btn"><span>岩沼駅</span></a></li>
+																<li><a href="{{ route('search') }}?tag_names={{ urlencode('山形県') }}"><span>山形県</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('山形駅') }}" class="tpl_btn"><span>山形駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('新庄駅') }}" class="tpl_btn"><span>新庄駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('さくらんぼ東根駅') }}" class="tpl_btn"><span>さくらんぼ東根駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('天童駅') }}" class="tpl_btn"><span>天童駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('米沢駅') }}" class="tpl_btn"><span>米沢駅</span></a></li>
+																<li><a href="{{ route('search') }}?tag_names={{ urlencode('福島県') }}"><span>福島県</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('福島駅') }}" class="tpl_btn"><span>福島駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('郡山駅') }}" class="tpl_btn"><span>郡山駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('新白河駅') }}" class="tpl_btn"><span>新白河駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('会津若松駅') }}" class="tpl_btn"><span>会津若松駅</span></a></li>
+																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('七日町駅') }}" class="tpl_btn"><span>七日町駅</span></a></li>
 															</ul>
 														</div>
 													</div>
+												</div>
+											</li>
+											<li>
+												<div class="tpl_dropdown gn6">
+													<a class="tpl_btn tpl_navBtn" href="https://shopping.jreast.co.jp/shop/detail/s013" target="_blank">オンラインショップ</a>
 												</div>
 											</li>
 										</ul>

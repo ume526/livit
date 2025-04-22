@@ -78,12 +78,29 @@ $(function(){
 
 
 //スムーズスクロール
-  $('a[href^="#"]').click(function(){
-    var speed = 500;
-    var href= $(this).attr("href");
-    var target = $(href == "#" || href == "" ? 'html' : href);
-    var position = target.offset().top;
-    $("html, body").animate({scrollTop:position}, speed, "swing");
-    return false;
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+	anchor.addEventListener("click", function (e) {
+	  e.preventDefault();
+	  const targetId = this.getAttribute("href").substring(1);
+	  const targetElement = document.getElementById(targetId);
+  
+	  if (targetElement) {
+		const headerHeight = document.querySelector("header").offsetHeight;
+		const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY - headerHeight;
+  
+		window.scrollTo({
+		  top: targetPosition,
+		  behavior: "smooth"
+		});
+	  }
+	});
   });
+//   $('a[href^="#"]').click(function(){
+//     var speed = 500;
+//     var href= $(this).attr("href");
+//     var target = $(href == "#" || href == "" ? 'html' : href);
+//     var position = target.offset().top;
+//     $("html, body").animate({scrollTop:position}, speed, "swing");
+//     return false;
+//   });
 });

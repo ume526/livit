@@ -19,16 +19,20 @@ img {
 /* min-width:769px */
 /* //////////////////////////////////////////////////////////////////////////////// */
 @media screen and (min-width: 769px) {
+  .serviceIndex {
+    /* background: url("/serviceinfo/assets/img/pc.png") no-repeat center top; */
+
+  }
   /* etc */
   .ttlh2 {
     font-size: 37px;
     letter-spacing: 0.19em;
     text-align: center;
-    padding: 80px 0 25px;
+    padding: 75px 0px 18px;
   }
   .ttlh2sub {
     text-align: center;
-    padding-bottom: 45px;
+    padding-bottom: 35px;
   }
   .linkBox2colHorizon {
     padding: 0 50px;
@@ -58,6 +62,9 @@ img {
     display: inline-block;
     vertical-align: top;
     padding: 15px 15px;
+  }
+  .linkBox2colHorizon .linkList >li img {
+    border-radius: 15px;
   }
 .pickup .linkList>li.coming .img {
     position: relative;
@@ -165,6 +172,9 @@ img {
   .keyvisual .bg {
     background: url("/serviceinfo/assets/img/top/bg_keyvisual_pc.png") no-repeat center top;
   }
+  .keyvisual .slidArea {
+    margin: 0 -70%;
+  }
   #svg_map {
     display: block;
     position: absolute;
@@ -179,8 +189,52 @@ img {
     stroke: none;
     stroke-miterlimit: 10;
   }
-  .keyvisual .changeBox {
-    height: 780px;
+  #main_slider{
+    margin: 196px 0;
+  }
+  #main_slider .slick-slide img {
+    transform: scale(0.7);
+    border-radius: 20px;
+  }
+  #main_slider .slick-center img {
+    transform: scale(1);
+  }
+  #main_slider .slick-prev {
+    width: 41px;
+    height: 41px;
+    background: url("/serviceinfo/assets/img/top/btn_prev.png") no-repeat center top;
+    position: absolute;
+    top: 0;
+    left: 29.6%;
+
+  }
+  #main_slider .slick-next {
+    width: 41px;
+    height: 41px;
+    background: url("/serviceinfo/assets/img/top/btn_next.png") no-repeat center top;
+    position: absolute;
+    top: 0;
+    right: 30.3%;
+
+  }
+  #main_slider .slick-dots {
+    bottom: -58px;
+  }
+  #main_slider .slick-dots li button{
+    width: 25px;
+    height: 5px;
+    border: none;
+    background: #bfbfbf;
+    border-radius: 3px;
+  }
+  #main_slider .slick-dots li {
+    padding: 0 8px !important;
+  }
+  #main_slider .slick-dots li.slick-active button{
+    background: #eb5c02;
+  }
+  .keyvisual #giftgourmet {
+    height: 810px;
   }
   .keyvisual .changeBox .map_changeMap {
     visibility: hidden;
@@ -873,21 +927,21 @@ img {
     left: -4px;
   }
   /* search */
-  .search {
+  .news {
     margin-top: -50px;
     position: relative;
     z-index: 10;
   }
-  .search .bgHead {
-    background: url("/serviceinfo/assets/img/top/bg_search_head_pc.png") no-repeat center top;
+  .news .bgHead {
+    background: url("/serviceinfo/assets/img/top/bg_head_pc.png") no-repeat center top;
     height: 47px;
   }
-  .search .bgMian {
-    background: url("/serviceinfo/assets/img/top/bg_search_main_pc.png") repeat center top;
+  .news .bgMian {
+    background: url("/serviceinfo/assets/img/top/bg_main_pc.png") repeat center top;
     margin-top: -1px;
   }
-  .search .bgBottom {
-    background: url("/serviceinfo/assets/img/top/bg_search_bottom_pc.png") no-repeat center top;
+  .news .bgBottom {
+    background: url("/serviceinfo/assets/img/top/bg_bottom_pc.png") no-repeat center top;
     height: 68px;
     margin-top: -1px;
   }
@@ -1170,7 +1224,7 @@ img {
   /* business */
   .business .heading {
     text-align: center;
-    padding: 105px 0 30px;
+    padding: 85px 0 30px;
   }
   .business .heading .ttl {
     border-radius: 26px;
@@ -1192,7 +1246,7 @@ img {
     padding-bottom: 10px;
   }
   .business .linkBox {
-    padding-bottom: 120px;
+    padding-bottom: 90px;
   }
   .business .linkBox2colHorizon .linkList .btn >dl >dd {
     border-top: solid 1px #e2e8ea;
@@ -1246,13 +1300,14 @@ img {
   }
   .keyvisual .setObj .objTtl01 {
     background-image: url("/serviceinfo/assets/img/top/obj_mv_ttl_pc.png");
-    width: 746px;
-    height: 59px;
+    width: 888px;
+    height: 69px;
+    margin: 41px 0px 0 -57px;
   }
   .keyvisual .setObj01 {
-    top: 55px;
-    left: -120px;
-    z-index: 3;
+    top: 31px;
+    left: -419px;
+    z-index: 100;
   }
   .keyvisual .setObj .obj01 {
     background-image: url("/serviceinfo/assets/img/top/obj_mv_01.png");
@@ -1260,8 +1315,8 @@ img {
     height: 101px;
   }
   .keyvisual .setObj02 {
-    top: 363px;
-    left: -180px;
+    top:100px;
+    left: -244px;
     z-index: 3;
   }
   .keyvisual .setObj .obj02 {
@@ -1280,8 +1335,8 @@ img {
     height: 118px;
   }
   .keyvisual .setObj04 {
-    top: 100px;
-    left: 300px;
+    top: 33px;
+    left: -60px;
     z-index: 3;
   }
   .keyvisual .setObj .obj04 {
@@ -1290,8 +1345,8 @@ img {
     height: 150px;
   }
   .keyvisual .setObj05 {
-    top: 260px;
-    left: 350px;
+    top: 567px;
+    right: -80px;
     z-index: 3;
   }
   .keyvisual .setObj .obj05 {
@@ -1300,9 +1355,9 @@ img {
     height: 56px;
   }
   .keyvisual .setObj06 {
-    top: 311px;
-    left: 223px;
-    z-index: 3;
+    top: 671px;
+    left: 242px;
+    z-index: 13;
   }
   .keyvisual .setObj .obj06 {
     background-image: url("/serviceinfo/assets/img/top/obj_mv_06.png");
@@ -1310,8 +1365,8 @@ img {
     height: 160px;
   }
   .keyvisual .setObj07 {
-    top: 480px;
-    left: 320px;
+    top: 629px;
+    left: 113px;
     z-index: 3;
   }
   .keyvisual .setObj .obj07 {
@@ -1320,8 +1375,8 @@ img {
     height: 75px;
   }
   .keyvisual .setObj08 {
-    top: 580px;
-    left: 190px;
+    top: 543px;
+    left: -394px;
     z-index: 3;
   }
   .keyvisual .setObj .obj08 {
@@ -1330,18 +1385,18 @@ img {
     height: 175px;
   }
   .keyvisual .setObj09 {
-    top: 85px;
-    right: 400px;
+    top: 22px;
+    right: 10px;
     z-index: 3;
   }
   .keyvisual .setObj .obj09 {
     background-image: url("/serviceinfo/assets/img/top/obj_mv_09.png");
-    width: 194px;
-    height: 145px;
+    width: 297px;
+    height: 189px;
   }
   .keyvisual .setObj10 {
-    top: 320px;
-    right: 390px;
+    top: 618px;
+    right: 378px;
     z-index: 3;
   }
   .keyvisual .setObj .obj10 {
@@ -1361,7 +1416,7 @@ img {
   }
   .keyvisual .setObj12 {
     top: 38px;
-    right: 30px;
+    right: -304px;
     z-index: 3;
   }
   .keyvisual .setObj .obj12 {
@@ -1370,9 +1425,9 @@ img {
     height: 98px;
   }
   .keyvisual .setObj13 {
-    top: 306px;
-    right: -20px;
-    z-index: 3;
+    top: 660px;
+    right: 114px;
+    z-index: 13;
   }
   .keyvisual .setObj .obj13 {
     background-image: url("/serviceinfo/assets/img/top/obj_mv_13.png");
@@ -1380,8 +1435,8 @@ img {
     height: 165px;
   }
   .keyvisual .setObj14 {
-    top: 610px;
-    right: 2px;
+    top: 617px;
+    right: -230px;
     z-index: 3;
   }
   .keyvisual .setObj .obj14 {
@@ -1390,17 +1445,17 @@ img {
     height: 115px;
   }
   .search .setObj01 {
-    bottom: 170px;
-    right: -10px;
+    top: 82px !important;
+    right: 48px !important;
   }
   .search .setObj .obj01 {
-    background-image: url("/serviceinfo/assets/img/top/obj_search_01.png");
-    width: 155px;
-    height: 175px;
+    background: url("/serviceinfo/assets/img/top/obj_search_01.png") !important;
+    width: 155px !important;
+    height: 175px !important;
   }
   .search .setObj02 {
-    bottom: 10px;
-    left: -50px;
+    top: 384px;
+    left: -150px;
   }
   .search .setObj .obj02 {
     background-image: url("/serviceinfo/assets/img/top/obj_search_02.png");
@@ -1408,44 +1463,60 @@ img {
     height: 175px;
   }
   .news .setObj01 {
-    top: 126px;
-    right: 37px;
+    top: 385px;
+    right: -155px;
   }
-  .news .setObj .obj01 {
+  .news .setObj01 .obj01 {
     background-image: url("/serviceinfo/assets/img/top/obj_news_01.png");
     width: 73px;
     height: 190px;
   }
+  .resizeRatioBox .resizeRatioImg {
+    height: 225px;
+  }
+  .resizeRatioBox .resizeRatioImg img {
+    max-height: 225px;
+
+  }
   .pickup .setObj01 {
-    top: -183px;
-    left: -272px;
+    top: -147px;
+    left: -247px;
   }
   .pickup .setObj .obj01 {
     background-image: url("/serviceinfo/assets/img/top/obj_illust_01.png");
-    width: 399px;
-    height: 442px;
+    width: 324px;
+    height: 356px;
   }
   .pickup .setObj02 {
-    top: -91px;
-    right: 66px;
+    top: 590px;
+    right: 174px;
   }
   .pickup .setObj .obj02 {
     background-image: url("/serviceinfo/assets/img/top/obj_illust_02.png");
-    width: 418px;
-    height: 455px;
+    width: 342px;
+    height: 370px;
   }
   .pickup .setObj03 {
-    bottom: 110px;
-    right: -70px;
+    bottom: -207px;
+    right: 53px;
   }
   .pickup .setObj .obj03 {
     background-image: url("/serviceinfo/assets/img/top/obj_pic_01.png");
     width: 72px;
     height: 162px;
   }
+  .shop {
+    margin: -38px 0 30px;
+  }
+  .shop .ttlh2 {
+    padding: 90px 0 24px;
+  }
+  .shop .ttlh2sub {
+    padding-bottom: 44px;
+  }
   .shop .setObj01 {
-    top: -83px;
-    left: -208px;
+    top: 14px;
+    left: -181px;
   }
   .shop .setObj .obj01 {
     background-image: url("/serviceinfo/assets/img/top/obj_illust_03.png");
@@ -1453,8 +1524,8 @@ img {
     height: 406px;
   }
   .shop .setObj02 {
-    top: 294px;
-    left: -70px;
+    top: 582px;
+    left: -95px;
   }
   .shop .setObj .obj02 {
     background-image: url("/serviceinfo/assets/img/top/obj_shop_01.png");
@@ -1462,17 +1533,17 @@ img {
     height: 168px;
   }
   .shop .setObj03 {
-    top: 830px;
-    left: -401px;
+    top: 902px;
+    left: -123px;
   }
   .shop .setObj .obj03 {
     background-image: url("/serviceinfo/assets/img/top/obj_illust_04.png");
-    width: 608px;
-    height: 415px;
+    width: 471px;
+    height: 317px;
   }
   .shop .setObj04 {
-    top: 247px;
-    right: 64px;
+    top: 360px;
+    right: 37px;
   }
   .shop .setObj .obj04 {
     background-image: url("/serviceinfo/assets/img/top/obj_illust_05.png");
@@ -1480,8 +1551,8 @@ img {
     height: 402px;
   }
   .shop .setObj05 {
-    top: 816px;
-    right: 37px;
+    top: 836px;
+    right: -6px;
   }
   .shop .setObj .obj05 {
     background-image: url("/serviceinfo/assets/img/top/obj_shop_02.png");
@@ -1489,8 +1560,8 @@ img {
     height: 200px;
   }
   .shop .setObj06 {
-    bottom: 90px;
-    right: 208px;
+    top: 880px;
+    right: 298px;
   }
   .shop .setObj .obj06 {
     background-image: url("/serviceinfo/assets/img/top/obj_shop_03.png");
@@ -1500,9 +1571,12 @@ img {
   .shop .setObj07 {
     display: none;
   }
+  .other .ttlh2 {
+    padding: 20px 0 19px;
+  }
   .other .setObj01 {
-    top: 117px;
-    left: -402px;
+    top: 56px;
+    left: -427px;
   }
   .other .setObj .obj01 {
     background-image: url("/serviceinfo/assets/img/top/obj_other_01.png");
@@ -1528,8 +1602,8 @@ img {
     height: 190px;
   }
   .other .setObj04 {
-    bottom: -251px;
-    right: 31px;
+    bottom: -312px;
+    right: 1px;
   }
   .other .setObj .obj04 {
     background-image: url("/serviceinfo/assets/img/top/obj_other_04.png");
@@ -2001,8 +2075,9 @@ img {
   }
   /* pattern02 */
   .bgpattern02 .search .setLeaf01 {
-    bottom: -60px;
-    left: -150px;
+    top: 63px !important;
+    left: 210px !important;
+    transform: rotate(13deg);
   }
   .bgpattern02 .search .setObj .objLeaf01 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_05.png");
@@ -2032,18 +2107,18 @@ img {
     left: -104px;
   }
   .bgpattern02 .news .setObj .objLeaf01 {
-    background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_03.png");
-    width: 30px;
-    height: 42px;
+    background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_05.png");
+    width: 18px;
+    height: 20px;
   }
   .bgpattern02 .news .setLeaf02 {
-    top: 220px;
-    left: -220px;
+    top: 320px;
+    left: -96px;
   }
   .bgpattern02 .news .setObj .objLeaf02 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_04.png");
-    width: 40px;
-    height: 42px;
+    width: 26px;
+    height: 34px;
   }
   .bgpattern02 .news .setLeaf03 {
     top: 344px;
@@ -2055,8 +2130,8 @@ img {
     height: 45px;
   }
   .bgpattern02 .news .setLeaf04 {
-    top: 380px;
-    left: -280px;
+    top: 588px;
+    left: -267px;
   }
   .bgpattern02 .news .setObj .objLeaf04 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_02.png");
@@ -2064,7 +2139,7 @@ img {
     height: 40px;
   }
   .bgpattern02 .news .setLeaf05 {
-    top: 614px;
+    top: 682px;
     left: -147px;
   }
   .bgpattern02 .news .setObj .objLeaf05 {
@@ -2073,12 +2148,12 @@ img {
     height: 40px;
   }
   .bgpattern02 .news .setLeaf06 {
-    bottom: -20px;
-    left: -307px;
+    top: 736px;
+    left: 83px;
   }
   .bgpattern02 .news .setObj .objLeaf06 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_01.png");
-    width: 32px;
+    width: 30px;
     height: 45px;
   }
   .bgpattern02 .news .setLeaf07 {
@@ -2094,8 +2169,8 @@ img {
     display: none;
    }
   .bgpattern02 .news .setLeaf09 {
-    top: 186px;
-    right: 310px;
+    top: 154px;
+    right: 240px;
   }
   .bgpattern02 .news .setObj .objLeaf09 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_03.png");
@@ -2103,7 +2178,7 @@ img {
     height: 40px;
   }
   .bgpattern02 .news .setLeaf10 {
-    top: 49px;
+    top: 145px;
     right: -245px;
   }
   .bgpattern02 .news .setObj .objLeaf10 {
@@ -2121,8 +2196,8 @@ img {
     height: 35px;
   }
   .bgpattern02 .news .setLeaf12 {
-    top: 230px;
-    right: -170px;
+    top: 284px;
+    right: -190px;
   }
   .bgpattern02 .news .setObj .objLeaf12 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_03.png");
@@ -2130,39 +2205,39 @@ img {
     height: 45px;
   }
   .bgpattern02 .news .setLeaf13 {
-    top: 400px;
-    right: 9px;
+    top: 330px;
+    right: -40px;
   }
   .bgpattern02 .news .setObj .objLeaf13 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_04.png");
-    width: 40px;
+    width: 33px;
     height: 45px;
   }
   .bgpattern02 .news .setLeaf14 {
-    top: 580px;
-    right: -100px;
+    top: 37px;
+    right: 150px;
   }
   .bgpattern02 .news .setObj .objLeaf14 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_01.png");
-    width: 42px;
+    width: 30px;
     height: 40px;
   }
   .bgpattern02 .news .setLeaf15 {
-    bottom: 60px;
-    right: 290px;
+    top: 174px;
+    left: -300px;
   }
   .bgpattern02 .news .setObj .objLeaf15 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_03.png");
-    width: 38px;
+    width: 34px;
     height: 45px;
   }
   .bgpattern02 .news .setLeaf16 {
-    bottom: 10px;
-    right: 200px;
+    top: 680px;
+    right: -218px;
   }
   .bgpattern02 .news .setObj .objLeaf16 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_02.png");
-    width: 36px;
+    width: 30px;
     height: 45px;
   }
   .bgpattern02 .pickup .setLeaf01 {
@@ -2229,8 +2304,8 @@ img {
     height: 35px;
   }
   .bgpattern02 .shop .setLeaf01 {
-    top: 98px;
-    left: 96px;
+    top: 88px;
+    left: 233px;
   }
   .bgpattern02 .shop .setObj .objLeaf01 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_04.png");
@@ -2238,8 +2313,8 @@ img {
     height: 44px;
   }
   .bgpattern02 .shop .setLeaf02 {
-    top: 188px;
-    left: -326px;
+    top: 478px;
+    left: -24px;
   }
   .bgpattern02 .shop .setObj .objLeaf02 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_03.png");
@@ -2256,8 +2331,8 @@ img {
     height: 35px;
   }
   .bgpattern02 .shop .setLeaf04 {
-    top: 457px;
-    left: -248px;
+    top: 190px;
+    right: -79px;
   }
   .bgpattern02 .shop .setObj .objLeaf04 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_04.png");
@@ -2265,26 +2340,26 @@ img {
     height: 40px;
   }
   .bgpattern02 .shop .setLeaf05 {
-    top: 577px;
-    left: -8px;
+    top: 178px;
+    left: -269px;
   }
   .bgpattern02 .shop .setObj .objLeaf05 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_01.png");
-    width: 35px;
+    width: 32px;
     height: 40px;
   }
   .bgpattern02 .shop .setLeaf06 {
-    top: 647px;
-    left: -178px;
+    top: 480px;
+    left: -195px;
   }
   .bgpattern02 .shop .setObj .objLeaf06 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_05.png");
-    width: 33px;
+    width: 18px;
     height: 40px;
   }
   .bgpattern02 .shop .setLeaf07 {
-    top: 763px;
-    left: -40px;
+    top: 921px;
+    right: -293px;
   }
   .bgpattern02 .shop .setObj .objLeaf07 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_02.png");
@@ -2292,8 +2367,8 @@ img {
     height: 38px;
   }
   .bgpattern02 .shop .setLeaf08 {
-    top: 843px;
-    left: -260px;
+    top: 780px;
+    right: -307px;
   }
   .bgpattern02 .shop .setObj .objLeaf08 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_03.png");
@@ -2301,8 +2376,8 @@ img {
     height: 40px;
   }
   .bgpattern02 .shop .setLeaf09 {
-    top: 880px;
-    left: -30px;
+    top: 776px;
+    right: -181px;
   }
   .bgpattern02 .shop .setObj .objLeaf09 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_04.png");
@@ -2310,8 +2385,8 @@ img {
     height: 38px;
   }
   .bgpattern02 .shop .setLeaf10 {
-    bottom: 100px;
-    left: -40px;
+    top: 808px;
+    left: -135px;
   }
   .bgpattern02 .shop .setObj .objLeaf10 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_04.png");
@@ -2319,8 +2394,8 @@ img {
     height: 38px;
   }
   .bgpattern02 .shop .setLeaf11 {
-    bottom: 20px;
-    left: -200px;
+    top: 917px;
+    left: 620px;
   }
   .bgpattern02 .shop .setObj .objLeaf11 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_03.png");
@@ -2328,8 +2403,8 @@ img {
     height: 38px;
   }
   .bgpattern02 .shop .setLeaf12 {
-    top: 10px;
-    right: 175px;
+    top: 36px;
+    left: 644px;
   }
   .bgpattern02 .shop .setObj .objLeaf12 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_05.png");
@@ -2355,8 +2430,8 @@ img {
     height: 40px;
   }
   .bgpattern02 .shop .setLeaf15 {
-    top: 180px;
-    right: 50px;
+    top: 356px;
+    right: -216px;
   }
   .bgpattern02 .shop .setObj .objLeaf15 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_02.png");
@@ -2364,8 +2439,8 @@ img {
     height: 40px;
   }
   .bgpattern02 .shop .setLeaf16 {
-    top: 708px;
-    right: -80px;
+    top: 471px;
+    right: 65px;
   }
   .bgpattern02 .shop .setObj .objLeaf16 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_04.png");
@@ -2373,8 +2448,8 @@ img {
     height: 45px;
   }
   .bgpattern02 .shop .setLeaf17 {
-    top: 862px;
-    right: -310px;
+    top: 672px;
+    left: -320px;
   }
   .bgpattern02 .shop .setObj .objLeaf17 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_01.png");
@@ -2382,8 +2457,8 @@ img {
     height: 35px;
   }
   .bgpattern02 .shop .setLeaf18 {
-    top: 1032px;
-    right: -150px;
+    bottom: 0;
+    right: 44px;
   }
   .bgpattern02 .shop .setObj .objLeaf18 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_05.png");
@@ -2391,8 +2466,9 @@ img {
     height: 45px;
   }
   .bgpattern02 .shop .setLeaf19 {
-    top: 1092px;
-    right: 100px;
+    bottom: -324px;
+    right: -173px;
+    z-index: 10;
   }
   .bgpattern02 .shop .setObj .objLeaf19 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_01.png");
@@ -2400,8 +2476,8 @@ img {
     height: 40px;
   }
   .bgpattern02 .shop .setLeaf20 {
-    top: 1122px;
-    right: -250px;
+    bottom: -215px;
+    right: 115px;
   }
   .bgpattern02 .shop .setObj .objLeaf20 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_03.png");
@@ -2409,8 +2485,8 @@ img {
     height: 40px;
   }
   .bgpattern02 .shop .setLeaf21 {
-    bottom: -10px;
-    right: 310px;
+    top: 895px;
+    left: -259px;
   }
   .bgpattern02 .shop .setObj .objLeaf21 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_02.png");
@@ -2427,26 +2503,26 @@ img {
     height: 35px;
   }
   .bgpattern02 .shop .setLeaf23 {
-    bottom: -30px;
-    right: -50px;
+    top: 896px;
+    left: -44px;
   }
   .bgpattern02 .shop .setObj .objLeaf23 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_05.png");
-    width: 30px;
+    width: 18px;
     height: 40px;
   }
   .bgpattern02 .shop .setLeaf24 {
-    bottom: 50px;
-    right: 20px;
+    top: 961px;
+    left: 434px;
   }
   .bgpattern02 .shop .setObj .objLeaf24 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_01.png");
-    width: 36px;
+    width: 26px;
     height: 40px;
   }
   .bgpattern02 .shop .setLeaf25 {
-    top: 1392px;
-    right: -170px;
+    bottom: -168px;
+    left: 270px;
   }
   .bgpattern02 .shop .setObj .objLeaf25 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_04.png");
@@ -2454,8 +2530,8 @@ img {
     height: 35px;
   }
   .bgpattern02 .other .setLeaf01 {
-    top: 162px;
-    right: 182px;
+    top: 58px;
+    left: -260px;
   }
   .bgpattern02 .other .setObj .objLeaf01 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_01.png");
@@ -2583,6 +2659,10 @@ img {
 /* max-width:768px */
 /* //////////////////////////////////////////////////////////////////////////////// */
 @media screen and (max-width: 768px) {
+  /* .serviceIndex {
+    background: url("/serviceinfo/assets/img/sp.png") no-repeat center top;
+    background-size: 100% auto;
+  } */
   /* etc */
   .ttlh2 {
     font-size: 1.658rem;
@@ -2594,9 +2674,33 @@ img {
     text-align: center;
     padding-bottom: 2.155rem;
   }
+  .news .ttlh2sub {
+    padding-bottom: 1.5rem;
+  }
+  .news .ttlh2 {
+    padding-bottom: 1.155rem;
+  }
+  .news .ttlh2sub img{
+    height: 2.4vw;
+    width: auto;
+    margin-left: 3vw;
+    letter-spacing: 0;
+  }
+  .news .LBoxTagList {
+    padding-top: 1rem;
+}
+  .news .resizeRatioBox .resizeRatioImg {
+    height: 50.666vw;
+  }
+  .news .resizeRatioBox .resizeRatioImg img {
+    height: 50.666vw;
+  }
   .linkBox2colHorizon .linkList >li {
     padding: 0 0.497rem;
     padding-bottom: 1.492rem;
+  }
+  .linkBox2colHorizon .linkList >li img{
+    border-radius: 0.829rem;
   }
   .linkBox2colHorizon .linkList .btn >dl {
     display: table;
@@ -2678,6 +2782,16 @@ img {
   .keyvisual .wrap {
     padding: 0;
   }
+  .keyvisual #main_slider{
+    margin: 40.5vw 0;
+  }
+  .keyvisual .slidArea .slick-slide {
+    height: 60vw;
+  }
+  .keyvisual .slidArea .slick-slide img {
+    object-fit: cover;
+    height: 60vw;
+  }
   #svg_map {
     display: block;
     position: absolute;
@@ -2696,7 +2810,7 @@ img {
     cursor: pointer;
   }
   .keyvisual .changeBox {
-    height: 51rem;
+    height: 33.5rem;
   }
   .keyvisual .changeBox .map_changeMap {
     opacity: 0;
@@ -2734,6 +2848,24 @@ img {
     -moz-transform: opacity 1.5s, right 0.6s;
     transition: opacity 1.5s, right 0.6s;
   }
+  #main_slider .slick-dots {
+    bottom: -6.2vw;
+  }
+  .slider .slick-dots li {
+    padding: 0 2vw !important;
+  }
+  #main_slider .slick-dots li button{
+    /* bottom: -58px; */
+    width: 6.666vw;
+    height: 1.333vw;
+    border: none;
+    background: #bfbfbf;
+    border-radius: 2px;
+  }
+  #main_slider .slick-dots li.slick-active button{
+    background: #eb5c02;
+  }
+
   .map_changeMain {
     padding: 0 0.663rem;
   }
@@ -3225,27 +3357,27 @@ img {
     top: 23.48rem;
     left: 2.316rem;
   }
-  /* search */
-  .search {
+  /* news */
+  .news {
     margin-top: -3.316rem;
     position: relative;
     z-index: 10;
   }
-  .search .bgHead {
-    background: url("/serviceinfo/assets/img/top/bg_search_head_sp.png") no-repeat center top;
+  .news .bgHead {
+    background: url("/serviceinfo/assets/img/top/bg_head_sp.png") no-repeat center top;
     background-size: cover;
     height: 3.351rem;
   }
-  .search .bgMian {
-    background: url("/serviceinfo/assets/img/top/bg_search_main_sp.png") repeat-y center top;
+  .news .bgMian {
+    background: url("/serviceinfo/assets/img/top/bg_main_sp.png") repeat-y center top;
     background-size: 100% auto;
     margin-top: -1px;
   }
-  .search .bgBottom {
-    background: url("/serviceinfo/assets/img/top/bg_search_bottom_sp.png") no-repeat center top;
+  .news .bgBottom {
+    background: url("/serviceinfo/assets/img/top/bg_bottom_sp.png") no-repeat center top;
     background-size: cover;
     height: 3.848rem;
-    margin-top: -1px;
+    margin-top: -4vw;
   }
   .search .ttlh2sub {
     padding-bottom: 0;
@@ -3315,12 +3447,19 @@ img {
   .searchArea .acdn .acdnBlk .bar.acdnOn .ico span:nth-of-type(2) {
     opacity: 0;
   }
+  .search .setObj .obj01 {
+    background: url(/serviceinfo/assets/img/top/obj_search_01.png) !important;
+    background-size: contain !important;
+    width: 24.933vw !important;
+    height: 27.2vw !important;
+}
   /* news */
   .news .wrap {
     padding: 0;
   }
   .news .ttlh2 {
-    padding-top: 3.648rem;
+    padding-top: 0;
+    padding-left: 3vw;
   }
   .news .slidArea .blk {
     overflow: hidden;
@@ -3337,23 +3476,23 @@ img {
   .news .slidArea .slick-next {
     width: 0.663rem;
     height: 1.492rem;
-    bottom: -3.051rem;
+    bottom: 2.4rem;
   }
   .news .slidArea .slick-prev {
-    left: 6.632rem;
+    left: 7.1rem;
   }
   .news .slidArea .slick-next {
-    right: 6.632rem;
+    right: 7.1rem;
   }
   .news .slidArea .slick-dotted.slick-slider {
-    margin-bottom: 3.979rem;
+    /* margin-bottom: 3.979rem; */
   }
   .news .slidArea .slick-dots {
-    bottom: -2.553rem;
+    bottom: 2.86rem;
   }
   .news .slidArea .sl {
     width: 100%;
-    padding: 0 1.161rem;
+    padding: 0 1.161rem 20vw;
   }
   .news .slidArea .btn {
     text-align: left;
@@ -3362,7 +3501,7 @@ img {
     font-size: 1.094rem;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-top: 0.332rem;
+    padding-top: 0.6rem;
   }
   .news .slidArea .ttl {
     font-size: 1.094rem;
@@ -3381,7 +3520,8 @@ img {
     height:6.654rem;
   }
   .news .btnMoreLink {
-    padding: 0.332rem 0 3.316rem;
+    padding: 0;
+    margin: -6vw 0 0;
   }
   /* pickup */
   .pickup .bgHead {
@@ -3480,18 +3620,28 @@ img {
   }
   /* shop */
   .shop .ttlh2 {
-    padding-top: 7.627rem;
+    padding-top: 2.21rem;
+    line-height: 1.35;
+    padding-bottom: 3vw;
+  }
+  .shop .ttlh2sub img{
+    height: 3.3vw;
+    width: auto;
+    margin-left: -2vw;
+    letter-spacing: 0;
   }
   .shop .lead {
     text-align: center;
     font-size: 0.928rem;
     line-height: 1.92;
     letter-spacing: 0.23em;
-    padding-bottom: 1.326rem;
+    padding-bottom: 4.3vw;
+    padding-left: 2vw;
+    padding-top: 0.5vw;
   }
   .shop .linkList >li {
     width: 100%;
-    padding: 0 0.497rem 1.658rem 0.497rem;
+    padding: 0 0.497rem 1.958rem 0.497rem;
   }
   .shop .linkBox {
     padding-bottom: 2.984rem;
@@ -3504,7 +3654,7 @@ img {
     font-size: 1.061rem;
     font-weight: 700;
     line-height: 1.4;
-    padding-top: 0.497rem;
+    padding-top: 2vw;
   }
   .shop .linkBox .btn .desc {
     text-align: left;
@@ -3533,7 +3683,7 @@ img {
     padding-top: 3.648rem;
   }
   .other .ttlh2sub {
-    padding-bottom: 2.321rem;
+    padding-bottom: 1.7rem;
   }
   .other .linkBox {
     padding-bottom: 0.995rem;
@@ -3541,7 +3691,7 @@ img {
   /* business */
   .business .heading {
     text-align: center;
-    padding: 4.311rem 0 1.658rem;
+    padding: 2.311rem 0 1.158rem;
   }
   .business .heading .ttl {
     border-radius: 1.326rem;
@@ -3560,10 +3710,10 @@ img {
     font-size: 0.928rem;
     line-height: 1.64;
     letter-spacing: 0.08em;
-    padding-bottom: 1.492rem;
+    padding-bottom: 1.192rem;
   }
   .business .linkBox {
-    padding-bottom: 5.637rem;
+    padding-bottom: 3.437rem;
   }
   .business .linkBox2colHorizon .linkList .btn >dl >dd {
     border-top: solid 1px #e2e8ea;
@@ -3604,14 +3754,15 @@ img {
     right: 10.943rem;
   }
   .keyvisual .setObjTtl01 {
-    top: 0.995rem;
-    left: 0.829rem;
+    top: 4.5vw;
+    left: 19vw;
     z-index: 4;
   }
   .keyvisual .setObj .objTtl01 {
     background-image: url("/serviceinfo/assets/img/top/obj_mv_ttl_sp.png");
-    width: 22.416rem;
-    height: 5.471rem;
+    background-size: contain;
+    width: 60vw;
+    height: 31.06667vw;
   }
   .keyvisual .setObj01 {
     display: none;
@@ -3623,29 +3774,32 @@ img {
     display: none;
   }
   .keyvisual .setObj04 {
-    top: 6.798rem;
-    left: 0.829rem;
+    top: 2vw;
+    left: 13vw;
     z-index: 3;
   }
   .keyvisual .setObj .obj04 {
     background-image: url("/serviceinfo/assets/img/top/obj_mv_04.png");
-    width: 5.239rem;
-    height: 7.627rem;
+    background-size: contain;
+    width: 11.7333vw;
+    height: 16.4vw;
   }
   .keyvisual .setObj05 {
-    top: 5.637rem;
-    left: 7.129rem;
+    top: 14vw;
+    left: 3vw;
     z-index: 3;
   }
   .keyvisual .setObj .obj05 {
     background-image: url("/serviceinfo/assets/img/top/obj_mv_05.png");
-    width: 1.99rem;
-    height: 1.99rem;
+    background-size: contain;
+    width: 5.2vw;
+    height: 47.333vw;
   }
   .keyvisual .setObj06 {
     top: 14.922rem;
     left: 1.824rem;
     z-index: 3;
+    display: none;
   }
   .keyvisual .setObj .obj06 {
     background-image: url("/serviceinfo/assets/img/top/obj_mv_06.png");
@@ -3656,6 +3810,7 @@ img {
     top: 25.699rem;
     left: 2.487rem;
     z-index: 3;
+    display: none;
   }
   .keyvisual .setObj .obj07 {
     background-image: url("/serviceinfo/assets/img/top/obj_mv_07.png");
@@ -3663,27 +3818,27 @@ img {
     height: 2.819rem;
   }
   .keyvisual .setObj08 {
-    top: 28.352rem;
-    left: 0.497rem;
+    top: 24vw;
+    left: 3vw;
     z-index: 3;
   }
   .keyvisual .setObj .obj08 {
     background-image: url("/serviceinfo/assets/img/top/obj_mv_08.png");
-    width: 5.571rem;
-    height: 5.571rem;
+    width: 12.4vw;
+    height: 12.32vw;
   }
   .keyvisual .setObj09 {
     display: none;
   }
   .keyvisual .setObj10 {
-    top: 7.793rem;
-    right: 6.466rem;
-    z-index: 3;
+    bottom: 29.8vw;
+    left: 39.5vw;
+    z-index: 11;
   }
   .keyvisual .setObj .obj10 {
     background-image: url("/serviceinfo/assets/img/top/obj_mv_10.png");
-    width: 6.964rem;
-    height: 5.969rem;
+    width:25.33vw;
+    height: 18.4vw;
   }
   .keyvisual .setObj11 {
     top: 24.041rem;
@@ -3696,72 +3851,76 @@ img {
     height: 13.596rem;
   }
   .keyvisual .setObj12 {
-    top: 19.565rem;
-    right: 5.306rem;
+    top: 8vw;
+    right: 24vw;
     z-index: 3;
   }
   .keyvisual .setObj .obj12 {
     background-image: url("/serviceinfo/assets/img/top/obj_mv_12.png");
-    width: 5.969rem;
-    height: 5.637rem;
+    width: 20.5333vw;
+    height: 11.24vw;
   }
   .keyvisual .setObj13 {
-    top: 19.896rem;
-    left: 0.316rem;
-    z-index: 3;
+    bottom: 29vw;
+    left: 75vw;
+    z-index: 11;
   }
   .keyvisual .setObj .obj13 {
     background-image: url("/serviceinfo/assets/img/top/obj_mv_13.png");
-    width: 5.239rem;
-    height: 5.239rem;
+    width: 21.7333vw;
+    height: 19.2vw;
   }
   .keyvisual .setObj14 {
-    top: 15.751rem;
-    right: 3.813rem;
+    top: 22vw;
+    left: 84vw;
     z-index: 3;
   }
   .keyvisual .setObj .obj14 {
     background-image: url("/serviceinfo/assets/img/top/obj_mv_14.png");
-    width: 3.25rem;
-    height: 3.482rem;
+    width: 13.333vw;
+    height: 13.3vw;
   }
   .search .setObj01 {
-    display: none;
+    display: block !important;
+    left: 73vw;
+    top: 1vw;
   }
   .search .setObj02 {
-    bottom: 0.986rem;
-    left: -0.3296rem;
+    bottom: 17vw;
+    left: 5vw;
   }
   .search .setObj .obj02 {
     background-image: url("/serviceinfo/assets/img/top/obj_search_02.png");
-    width: 6.798rem;
-    height: 8.622rem;
+    width: 23.333vw;
+    height: 27.333vw;
   }
   .news .setObj01 {
     display: none;
   }
   .pickup .setObj01 {
-    top: -4.611rem;
-    left: -6.964rem;
+    top: -25vw;
+    left: -12.5vw;
+    display: block;
   }
   .pickup .setObj .obj01 {
     background-image: url("/serviceinfo/assets/img/top/obj_illust_01.png");
-    width: 11.606rem;
-    height: 12.933rem;
+    width: 40.8vw;
+    height: 45.0667vw;
   }
   .pickup .setObj02 {
-    top: -7.011rem;
-    right: 5.964rem;
+    bottom: 21vw;
+    right: 4.964rem;
   }
   .pickup .setObj .obj02 {
     background-image: url("/serviceinfo/assets/img/top/obj_illust_02.png");
-    width: 11.606rem;
-    height: 14.259rem;
+    width: 37.2vw;
+    height: 40.1333vw;
   }
   .pickup .setObj03 {
     /* top: 17.575rem; */
     top:31.575rem;
     right: 3.974rem;
+    display: none !important;
   }
   .pickup .setObj .obj03 {
     background-image: url("/serviceinfo/assets/img/top/obj_pic_01.png");
@@ -3772,8 +3931,14 @@ img {
     display: none;
   }
   .shop .setObj02 {
-    display: none;
-  }
+    left: 72vw;
+    bottom: 9vw;
+}
+  .shop .setObj .obj02 {
+    background-image: url(/serviceinfo/assets/img/top/obj_shop_01.png);
+    width: 16.4vw;
+    height:22vw;
+}
   .shop .setObj03 {
     display: none;
   }
@@ -3781,31 +3946,31 @@ img {
     display: none;
   }
   .shop .setObj05 {
-    top: -4.724rem;
-    right: 2.825rem;
+    top: 10vw;
+    right: 23vw;
   }
   .shop .setObj .obj05 {
     background-image: url("/serviceinfo/assets/img/top/obj_shop_02.png");
-    width: 3.316rem;
-    height: 9.285rem;
+    width: 10.4vw;
+    height: 29.2vw;
   }
   .shop .setObj06 {
     bottom: 3.316rem;
-    left: 3.15rem;
+    left: 12vw;
   }
   .shop .setObj .obj06 {
     background-image: url("/serviceinfo/assets/img/top/obj_shop_03.png");
-    width: 5.306rem;
-    height: 7.627rem;
+    width: 22.533vw;
+    height: 29.6vw;
   }
   .shop .setObj07 {
-    top: -5.578rem;
-    left: -7.578rem;
+    top: 2vw;
+    left: -31vw;
   }
   .shop .setObj .obj07 {
     background-image: url("/serviceinfo/assets/img/top/obj_illust_06.png");
-    width: 17.907rem;
-    height: 13.264rem;
+    width: 55.7333vw;
+    height: 41.866vw;
   }
   .other .setObj01 {
     display: none;
@@ -3817,13 +3982,13 @@ img {
     display: none;
   }
   .other .setObj04 {
-    bottom: 0.857rem;
-    right: 4.077rem;
+    bottom: 8.5vw;
+    right: 10vw;
   }
   .other .setObj .obj04 {
     background-image: url("/serviceinfo/assets/img/top/obj_other_04.png");
-    width: 3.316rem;
-    height: 9.617rem;
+    width: 12.93vw;
+    height: 36.266vw;
   }
   /* pattern01 */
   .bgpattern01 .search .setLeaf01 {
@@ -4171,6 +4336,7 @@ img {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_03.png");
     width: 1.7rem;
     height: 2.1rem;
+    display: none;
   }
   .bgpattern02 .news .setLeaf05 {
     display: none;
@@ -4272,8 +4438,9 @@ img {
     height: 2.2rem;
   }
   .bgpattern02 .shop .setLeaf01 {
-    top: -1.5rem;
-    right: 7rem;
+    top: 3.5rem;
+    right: 2rem;
+    z-index: 10;
   }
   .bgpattern02 .shop .setObj .objLeaf01 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_04.png");
@@ -4281,8 +4448,9 @@ img {
     height: 2.2rem;
   }
   .bgpattern02 .shop .setLeaf02 {
-    top: 3rem;
-    right: 5rem;
+    top: 0rem;
+    left: 7rem;
+    z-index: 10;
   }
   .bgpattern02 .shop .setObj .objLeaf02 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_01.png");
@@ -4299,8 +4467,8 @@ img {
     height: 2.0rem;
   }
   .bgpattern02 .shop .setLeaf04 {
-    top: 10rem;
-    right: 3rem;
+    top: 0.5rem;
+    right: 9rem;
   }
   .bgpattern02 .shop .setObj .objLeaf04 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_03.png");
@@ -4308,8 +4476,8 @@ img {
     height: 2.0rem;
   }
   .bgpattern02 .shop .setLeaf05 {
-    top: 35.5rem;
-    right: 2.9rem;
+    top: 33rem;
+    right: 7.9rem;
   }
   .bgpattern02 .shop .setObj .objLeaf05 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_02.png");
@@ -4324,9 +4492,10 @@ img {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_01.png");
     width: 1.5rem;
     height: 2.0rem;
+    display: none;
   }
   .bgpattern02 .shop .setLeaf07 {
-    top: 52rem;
+    top: 49rem;
     right: 5rem;
   }
   .bgpattern02 .shop .setObj .objLeaf07 {
@@ -4336,7 +4505,7 @@ img {
   }
   .bgpattern02 .shop .setLeaf08 {
     top: 96.5rem;
-    right: 1rem;
+    right: 2rem;
   }
   .bgpattern02 .shop .setObj .objLeaf08 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_01.png");
@@ -4363,7 +4532,7 @@ img {
   }
   .bgpattern02 .shop .setLeaf11 {
     bottom: 4rem;
-    left: 0rem;
+    left: 1rem;
   }
   .bgpattern02 .shop .setObj .objLeaf11 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_02.png");
@@ -4419,8 +4588,8 @@ img {
     display: none;
   }
   .bgpattern02 .other .setLeaf01 {
-    top: 7rem;
-    right: 1.1rem;
+    top: 7.5rem;
+    right: 3.6rem;
   }
   .bgpattern02 .other .setObj .objLeaf01 {
     background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_01.png");
@@ -5775,6 +5944,7 @@ img {
     width: 145px;
     height: 175px;
   }
+ 
   .news .setObj01 {
     top: 126px;
     right: 37px;
@@ -6400,7 +6570,7 @@ img {
     left: -104px;
   }
   .bgpattern02 .news .setObj .objLeaf01 {
-    background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_03.png");
+    background-image: url("/serviceinfo/assets/img/common/obj_pattern_02_05.png");
     width: 30px;
     height: 42px;
   }

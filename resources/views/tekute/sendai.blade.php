@@ -33,12 +33,21 @@
 						</div>
 						<div class="tpl_contents">
 								<div class="headingTtl">
-										<p class="logo"><img src="/serviceinfo/assets/img/tekute/ttl_sendai.png" alt="tekuteせんだい"></p>
-										<ul class="sns">
-                                          <!-- <li class="fb"><a href="https://www.facebook.com/%E3%81%A6%E3%81%8F%E3%81%A6-%E3%81%AA%E3%81%8C%E3%81%BE%E3%81%A1-546544438851521" target="_blank"><img src="/serviceinfo/assets/img/common/btn_fb.png" width="100%" alt="faebook"></a></li> -->
-                                          <li class="insta"><a href="https://www.instagram.com/sendai_ekinaka/" target="_blank"><img src="/serviceinfo/assets/img/common/btn_insta.png" width="100%" alt=""></a></li>
-                                          <li class="line"><a href="https://page.line.me/shb5649n" target="_blank"><img src="/serviceinfo/assets/img/common/btn_line.png" width="100%" alt=""></a></li>
-                                        </ul>
+										<p class="logo"><img src="/serviceinfo/assets/img/tekute/ttl_sendai.png" class="tekute_sendai" alt="tekuteせんだい"><img src="/serviceinfo/assets/img/tekute/tekute_dining_logo.png" class="tekute_dining" alt="tekuteせんだい"></p>
+						<div class="js-fixed-nav">
+						<button class="js-fixed-close">
+						<svg xmlns="http://www.w3.org/2000/svg" width="8.707" height="8.707" viewBox="0 0 8.707 8.707">
+						  <g id="" data-name="" transform="translate(0.268 0.268)">
+							<line id="" data-name="" x2="8" y2="8" transform="translate(0.086 0.086)" fill="none" stroke="#fff" stroke-width="1"></line>
+							<line id="" data-name="" x1="8" y2="8" transform="translate(0.086 0.086)" fill="none" stroke="#fff" stroke-width="1"></line>
+						  </g>
+						</svg>    
+					  </button>
+					  <ul class="sns">
+						<li class="insta"><a href="https://www.instagram.com/sendai_ekinaka/" target="_blank"><img src="/serviceinfo/assets/img/common/btn_insta.png" width="100%" alt=""><span class="text">tekute<br class="sp">公式インスタグラム<br>お得な情報配信中！</span></a></li>
+						<li class="line"><a href="https://page.line.me/shb5649n" target="_blank"><img src="/serviceinfo/assets/img/common/btn_line.png" width="100%" alt=""><span class="text">tekute<br class="sp">公式LINE<br>お得な情報配信中！</span></a></li>
+					  </ul>
+					  </div>
 								</div>
 								<section class="mainVisual">
 								   <!-- <img src="/serviceinfo/assets/img/tekute/sendai_main.jpg"> -->
@@ -50,15 +59,20 @@
 	                                                			<li><img src="/serviceinfo/assets/img/tekute/sendai_slide01_pc.jpg" alt="" class="pc"><img src="/serviceinfo/assets/img/tekute/sendai_slide01_sp.jpg" alt="" class="sp"></li>
 									</ul>-->
 								</section>
+								<ul class="anchor">
+									<li><a href="https://www.livit.jregroup.ne.jp/tekute/search?pt%5B%5D=91&ot%5B%5D=82&keywords=">ショップ一覧</a></li>
+									<li><a href="#floormap">フロアマップ</a></li>
+								</ul>
                                 @include('tekute.search_section', ['selected_tag' => $selected_tag_name])
                                 @include('tekute.news_section')
+								<div class="insta-bnr"><a href="https://www.instagram.com/sendai_ekinaka/" target="_blank"><img src="/serviceinfo/assets/img/tekute/bnr_tekute_pc.png" class="pc" alt=""><img src="/serviceinfo/assets/img/tekute/bnr_tekute_sp.png" class="sp" alt=""></a></div>
 
-								<section class="floormap">
+								<section class="floormap" id="floormap">
 										<div class="inner tab">
 												<h2 class="tit"><img src="/serviceinfo/assets/img/tekute/ttl_floormap.png" alt="Flore map フロアマップ"></h2>
 												<ul class="tab-list">
 													<li class="selected"><a href="javascript:void(0)" data-tabid="1">tekuteせんだい</a></li>
-													<li><a href="javascript:void(0)" data-tabid="2">tekute dining</a></li>
+													<li><a href="javascript:void(0)" data-tabid="2">みちのくうまいもん通り<br>tekute dining</a></li>
 												</ul>
 
 												<div class="tab-panel">
@@ -77,6 +91,7 @@ https://www.google.com/maps/embed?pb=
 
 
 								</section>
+								
 
 								<div class="jrebnr">
 										<div class="logo sp"><img src="/serviceinfo/assets/img/tekute/jrepoint.gif" alt="JRE POINT"></div>
@@ -99,11 +114,18 @@ https://www.google.com/maps/embed?pb=
 												</dd>
 										</dl>
 								</div>
-
+								<div class="shopinfo">
+								<ul class="sns">
+						<li class="insta"><a href="https://www.instagram.com/sendai_ekinaka/" target="_blank"><img src="/serviceinfo/assets/img/common/btn_insta.png" width="35" alt=""></a></li>
+						<li class="line"><a href="https://page.line.me/shb5649n" target="_blank"><img src="/serviceinfo/assets/img/common/btn_line.png" width="35" alt=""></a></li>
+					  </ul>
+								</div>
 						</div>
 				</main>
                 @include('layouts.banner')
                 @include('layouts.footer')
+
+				
 				<!-- /.tpl_wrapper --></div>
 		<!-- /.serviceIndex -->
 </div>

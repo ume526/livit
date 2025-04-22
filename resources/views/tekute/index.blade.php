@@ -56,7 +56,6 @@
 									</div>					
 								</section>
 
-          @include('tekute.search_section')
 <section class="shop">
 									<div class="inner">
 										<h2 class="tit"><img src="/serviceinfo/assets/img/tekute/ttl_shop.png" alt="Shop 店舗一覧"></h2>

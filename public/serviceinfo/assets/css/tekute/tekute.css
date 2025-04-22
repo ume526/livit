@@ -37,30 +37,24 @@ section p.small {
 	padding:15px 0 34px;
 	position: relative;
 }
-
-.headingTtl .sns{
-	height:35px;
-	right:160px;
-	position: absolute;
-	top:0;
-	bottom:0;
-	margin:auto;
-	overflow: hidden;
+body.sendai .headingTtl {
+	text-align: center;
 }
-.headingTtl .sns li{
-	width: 35px;
-	height:35px;
-	float: left;
-	margin-right:20px;
+body.sendai .headingTtl .logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.headingTtl .sns li a{
-	transition:all 0.2s;
+.headingTtl .logo {
+	max-width: 1030px;
+    margin: 0 auto;
 }
-.headingTtl .sns li a:hover{
-	opacity:0.8;
+.headingTtl .logo img.tekute_sendai {
+	width: 243px;
 }
-.headingTtl .sns li:last-child{
-	margin-right:0;
+.headingTtl .logo img.tekute_dining {
+	width: 287px;
+	margin: 0 40px;
 }
 .main{
  background:url(/serviceinfo/assets/img/tekute/bg12_pc.gif) no-repeat center bottom;
@@ -98,6 +92,45 @@ section p.small {
 	position: relative;
 	margin: 0 auto 45px;
 	text-align: center;
+}
+.anchor {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 90px;
+}
+.anchor li {
+	font-size: 20px;
+	font-weight: 500;
+	width: 320px;
+	height: 70px;
+	line-height: 70px;
+	border-radius: 10px;
+	text-align: center;
+	margin: 0 18px;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+}
+.anchor li a {
+	color: #fff;
+	background-color: #88bb09;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.anchor li a::before {
+	content: "";
+	position: absolute;
+	top: 28px;
+	right: 30px;
+	margin: auto;
+	vertical-align: middle;
+	width: 6px;
+	height: 6px;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	transform: rotate(135deg);
 }
 .nagamachi .mainVisual {
 	max-width: 1280px;
@@ -390,7 +423,7 @@ section p.small {
 .search .searchBoxFrom .btnList {
 	text-align:center;
 	font-size:0;
-	/* border-top: 1px solid #000; */
+	border-top: 1px solid #000;
 }
 .search .searchBoxFrom .btnList li{
 	width: 220px;
@@ -444,7 +477,7 @@ section p.small {
 
 .news .inner{
 	width: 1044px;
-	margin:0 auto 80px;
+	margin:0 auto 60px;
 	position: relative;
 }
 .news h2.tit{
@@ -543,6 +576,16 @@ section p.small {
 .btn_more:hover{
 	opacity:0.8;
 }
+.insta-bnr {
+	text-align: center;
+	margin: 60px auto 80px;
+}
+.insta-bnr a {
+	transition: all 0.2s;
+}
+.insta-bnr a:hover {
+	opacity: 0.7;
+}
 
 /* event
 --------------*/
@@ -630,7 +673,9 @@ section p.small {
 	width: 100%;
 	height: 70px;
 	cursor: pointer;
-
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .tab-list >li:hover > a,
 .tab-list >li:hover > .dropdown-btn,
@@ -712,6 +757,7 @@ section p.small {
 	color: #88bb09;
 	display: block;
 	width: calc(100% -18px);
+	line-height: 45px;
 	height: 100%;
 	box-sizing: border-box;
 	transition: all 0.2s;
@@ -757,6 +803,10 @@ section p.small {
 }
 .floormap .tab-list li > a {
 	margin-bottom: 13px;
+}
+.floormap .tab-list li:nth-child(2) {
+	font-size: 19px;
+	line-height: 1.2;
 }
 .floormap .map{
 	max-width:1024px;
@@ -1081,6 +1131,15 @@ section p.small {
 .storedata .shoplist li .mr20 {
 	margin-left: 19.8em;
 	display: inline-block;
+}
+.shopinfo .sns {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+.shopinfo .sns li {
+	margin: 0 10px;
 }
 /* jrebnr
 --------------*/
@@ -1543,26 +1602,30 @@ section p.small {
 	}
 .headingTtl{
 	text-align:center;
-	padding:5vw 0 5.34vw;
+	padding:5vw 0;
 	position: relative;
 }
 .headingTtl .logo{
 	width: 43vw;
 	margin: 0 auto;
 }
-.headingTtl .sns{
-	height:7.6vw;
-	position: absolute;
-	overflow: hidden;
-	top:0;
-	bottom:0;
-    left:3vw;
-	margin:auto;
+body.sendai .headingTtl .logo {
+	width: 90vw;
+	margin: 0 auto;
+	/* display: flex;
+	align-items: center;
+	justify-content: space-between; */
 }
-.headingTtl .sns li{
-	width: 7.6vw;
-	margin-right:4vw;
-	float: left;
+.headingTtl .logo img {
+	display: block;
+	margin: 0 auto;
+}
+.headingTtl .logo img.tekute_sendai{
+	width: 37.733vw;
+}
+.headingTtl .logo img.tekute_dining{
+	width: 43.6vw;
+	margin-top: 6.666vw;
 }
 .slider {
 	margin: 0 4.8%;
@@ -1628,6 +1691,7 @@ section p.small {
 .mainVisual {
 	margin-bottom: 10.67vw;
 }
+
 /* search
 --------------*/
 .search{
@@ -1876,6 +1940,11 @@ section p.small {
 	right:-9%;
 	z-index:-1;
 }
+.insta-bnr {
+	width: 90%;
+	text-align: center;
+	margin: 0 auto 12vw;
+}
 
 /* slider
 --------------*/
@@ -2005,31 +2074,66 @@ height: 100% !important;
 	z-index:-1;
 }
 /* tab  */
+
+.anchor,
 .tab-list {
 	display: flex;
-	width: 90.4vw;
+	flex-wrap: wrap;
+	width: 94%;
 	margin:0 auto ;
 	justify-content: space-between;
   }
+  .anchor {
+	margin-bottom: 10vw;
+}
+  .anchor li,
   .tab-list >li {
-	  width: 43.46vw;
+	  width: 48%;
 	  /* height: 70px; */
 	  font-size: 3.74vw;
 	  font-weight: bold;
 	  line-height:1;
 	  text-align: center;
+	  letter-spacing: 0;
+	 
   }
+  .anchor li {
+	width: 45vw;
+	letter-spacing: 0;
+	margin-bottom: 1vw;
+	position: relative;
+  }
+  .anchor li a::before {
+	content: "";
+	position: absolute;
+	top: 5vw;
+	right: 3vw;
+	margin: auto;
+	vertical-align: middle;
+	width: 4px;
+	height: 4px;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	transform: rotate(135deg);
+}
+  .anchor li a,
   .tab-list >li >a, .tab-list >li .dropdown-btn{
 	  display: block;
-	  padding:4vw 0;
+	  /* padding:4vw 0; */
 	  color: #ababab;
 	  background: #e5e5e5;
 	  border-radius: 1.6vw;
 	  transition: all 0.2s;
 	  width: 100%;
 	  height:12vw;
-  
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
   }
+  .anchor li a {
+	padding-right: 3vw;
+  }
+  .anchor li a,
   .tab-list >li:hover > a,
   .tab-list >li:hover > .dropdown-btn,
   .tab-list li.selected >a,
@@ -2103,7 +2207,7 @@ height: 100% !important;
 	 width: 49.5% ;
 	 font-size: 3.74vw;
 	 height: 9vw;
-	 line-height: 9vw;
+	 line-height: 9vw !important;
   }
   .tab-list > li .dropdown-list li a {
 	  color: #88bb09;
@@ -2151,6 +2255,10 @@ height: 100% !important;
 }
 .floormap .tab-list li > a{
 	margin-bottom: 1.2vw;
+}
+.floormap .tab-list li:nth-child(2) {
+    font-size: 3.34vw;
+    line-height: 1.2;
 }
 .floormap iframe{
 	border:none;
@@ -2417,6 +2525,15 @@ height: 100% !important;
 	width: 16.2vw;
 	background:#f7f2bc url(/serviceinfo/assets/img/tekute/ico_facility02.png) no-repeat center;
 }
+.shopinfo .sns {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5vw;
+}
+.shopinfo .sns li {
+	margin: 0 10px;
+}
 /* jrebnr
 --------------*/
 .jrebnr{
@@ -2619,6 +2736,9 @@ height: 100% !important;
 	height: 100%;
 }
 
+  .tpl_pageTop {
+	bottom: 4.658rem;
+  }
 }
 
 /* //////////////////////////////////////////////////////////////////////////////// */

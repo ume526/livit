@@ -508,5 +508,48 @@ $(function(){
 		})();
 	})();
 
+    const $navContents = $('.js-fixed-nav');
+    const $closeButton = $('.js-fixed-close');
+    const $closeButtonSmall = $('.js-fixed-close--small');
+
+    function handleScroll() {
+        const windowHeight = window.innerHeight;
+        const documentHeight = $(document).height();
+        const scrollTop = $(window).scrollTop();
+
+        if(scrollTop > windowHeight * 0.5) {
+            $navContents.addClass('is-fixed is-show');
+            // if(scrollTop > documentHeight - windowHeight - 10) {
+            //     $navContents.removeClass('is-fixed');
+            // }
+        } else {
+            $navContents.removeClass('is-fixed is-show');
+        }
+    }
+
+    function handleInisitalDisplay() {
+        if($(window).scrollTop() > window.innerHeight) {
+            $navContents.addClass('is-show');
+        } else {
+            $navContents.removeClass('is-show');
+        }
+    }
+
+    function closeNav() {
+        $navContents.toggleClass('is-move');
+        $closeButtonSmall.toggleClass('is-show')
+    }
+
+    function resetNavPosition() {
+        $navContents.removeClass('is-move');
+    }
+
+    $navContents.removeClass('is-hide');
+
+    $(window).on('scroll', handleScroll)
+    $(window).on('load scroll', handleInisitalDisplay);
+    $closeButton.on('click', closeNav);
+    $closeButtonSmall.on('click', resetNavPosition);
+
 
 });

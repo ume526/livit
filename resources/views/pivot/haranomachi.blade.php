@@ -29,11 +29,22 @@
                                                 <li><a href="{{ route('pivot-top') }}">Pivot</a></li>
 												<li>【JR陸前原ノ町駅隣接】クォリティフードストア　仙台原ノ町Pivot</li>
 										</ul>
-										<ul class="sns">
-										  <li class="insta"><a href="https://www.instagram.com/haranomachipv/" target="_blank"><img src="/serviceinfo/assets/img/common/btn_insta.png" width="100%" alt=""></a></li>
-                                          <li class="line"><a href="https://page.line.me/wym3071g" target="_blank"><img src="/serviceinfo/assets/img/common/btn_line.png" width="100%" alt=""></a></li>
-                                        </ul>
+										
 								</div>
+								<div class="js-fixed-nav">
+											<button class="js-fixed-close">
+												<svg xmlns="http://www.w3.org/2000/svg" width="8.707" height="8.707" viewBox="0 0 8.707 8.707">
+												  <g id="" data-name="" transform="translate(0.268 0.268)">
+													<line id="" data-name="" x2="8" y2="8" transform="translate(0.086 0.086)" fill="none" stroke="#fff" stroke-width="1"></line>
+													<line id="" data-name="" x1="8" y2="8" transform="translate(0.086 0.086)" fill="none" stroke="#fff" stroke-width="1"></line>
+												  </g>
+												</svg>    
+											  </button>
+											  <ul class="sns">
+												<li class="insta"><a href="https://www.instagram.com/haranomachipv/" target="_blank"><img src="/serviceinfo/assets/img/common/btn_insta.png" width="100%" alt=""><span class="text">pivot<br class="sp">公式インスタグラム<br>お得な情報配信中！</span></a></li>
+												<li class="line"><a href="https://page.line.me/wym3071g" target="_blank"><img src="/serviceinfo/assets/img/common/btn_line.png" width="100%" alt=""><span class="text">pivot<br class="sp">公式LINE<br>お得な情報配信中！</span></a></li>
+										  </ul>
+										</div>
 						</div>
 						<div class="tpl_contents">
 								<section class="mainVisual">
@@ -63,8 +74,14 @@
 														<li class="item02"></li>
 														<li class="item03 sp"></li>
 												</ul>
+												
 										</div>
 								</section>
+								<ul class="anchor">
+									<li><a href="https://www.livit.jregroup.ne.jp/pivot/search?pt%5B%5D=53&ot%5B%5D=82&keywords=">ショップ一覧</a></li>
+									<li><a href="#floormap">フロアマップ</a></li>
+									<li><a href="#information">インフォメーション</a></li>
+								</ul>
                                 @include('pivot.search_section', ['selected_tag' => $selected_tag_name])
                                 <section class="recommend">
                                   <h2 class="tit">イチオシ商品 HIGHLY RECOMMENDED</h2>
@@ -74,9 +91,10 @@
                                   <ul class="bgItem">
                                     <li class="item07"></li>
                                   </ul>
+								  <div class="bnr"><a href="https://www.instagram.com/haranomachipv/" target="_blank"><img src="/serviceinfo/assets/img/pivot/bnr_pivot_pc_01.png" class="pc" alt=""><img src="/serviceinfo/assets/img/pivot/bnr_pivot_sp_01.png" class="sp" alt=""></a></div>
                                 </section>
                                 @include('pivot.news_section')
-								<section class="event">
+								<!-- <section class="event">
 										<div class="inner">
 												<h2 class="tit">Event calender イベント・カレンダー</h2>
 												<div class="calender">
@@ -88,8 +106,8 @@
 														<li class="item08 sp"></li>
 												</ul>
 										</div>
-								</section>
-								<section class="floormap">
+								</section> -->
+								<section class="floormap" id="floormap">
 										<div class="inner">
 												<h2 class="tit">FLOOR MAP | フロアマップ</h2>
 												<div class="map">
@@ -102,7 +120,7 @@
 												</ul>
 										</div>
 								</section>
-								<section class="shopinfo">
+								<section class="shopinfo" id="information">
 										<div class="inner">
 												<h2 class="tit">SHOP INFO | 店舗情報</h2>
 												<div class="shopdata">
@@ -179,6 +197,10 @@
 																				<td>有料<br>（店舗利用で無料サービスあり）</td>
 																		</tr>
 																</table>
+																<ul class="sns">
+																	<li class="insta"><a href="https://www.instagram.com/haranomachipv/" target="_blank"><img src="/serviceinfo/assets/img/common/btn_insta.png" width="35" alt=""></a></li>
+																	<li class="line"><a href="https://page.line.me/wym3071g" target="_blank"><img src="/serviceinfo/assets/img/common/btn_line.png" width="35" alt=""></a></li>
+																  </ul>
 														</div>
 												</div>
 												<ul class="bgItem">
@@ -227,6 +249,7 @@ JR東日本グループの<br>
 				</main>
                 @include('layouts.banner')
                 @include('layouts.footer')
+	
 				<!-- /.tpl_wrapper --></div>
 		<!-- /.serviceIndex -->
 </div>

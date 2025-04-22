@@ -85,6 +85,8 @@
                                 <ul id="main-slider" class="main-slider">
 								        <li><a href="/company/livit35th/"><img src="/assets/img/company/index/keyvisual_img11.jpg" alt="35th Anniversary"></a></li>
                                         <li><a href="/company/recruit/guideline/"><img src="/assets/img/company/index/keyvisual_img09.png" alt="LiViT 社員募集"></a></li>
+                                        <li><a href="/transit-advertising/"><img src="/assets/img/company/index/keyvisual_img12.jpg" alt="交通広告"></a></li>
+                                        <li><a href="/gyutan-sushistreet/"><img src="/assets/img/company/index/keyvisual_img10.jpg" alt="牛たん通りす
 し通り"></a></li>
                                         <li><a href="https://www.livit.jregroup.ne.jp/search?keywords=%E3%81%84%E3%82%8D%E3%81%A8%E3%81%84%E3%82%8D"><img src="/assets/img/company/index/keyvisual_img01.jpg" alt="いろといろ"></a></li>
 
@@ -94,6 +96,7 @@
                                 <ul id="thumbnail-slider" class="thumbnail-slider">
 								<li><a href="/company/livit35th/"><img src="/assets/img/company/index/keyvisual_img11.jpg" alt="35th Anniversary"></a></li>
 					<li><a href="/company/recruit/guideline/"><img src="/assets/img/company/index/keyvisual_img09.png" alt="LiViT 社員募集"></a></li>
+					<li><a href="/transit-advertising/"><img src="/assets/img/company/index/keyvisual_img12.jpg" alt="交通広告"></a></li>
 					<li><a href="https://www.livit.jregroup.ne.jp/gyutan-sushistreet/"><img src="/assets/img/company/index/keyvisual_img10.jpg" alt="牛たん通りす
 し通り"></a></li>
 					<li><a href="https://www.livit.jregroup.ne.jp/search?keywords=%E3%81%84%E3%82%8D%E3%81%A8%E3%81%84%E3%82%8D"><img src="/assets/img/company/index/keyvisual_img01.jpg" alt="いろといろ"></a></li>
