@@ -72,7 +72,7 @@
 												<h2 class="tit"><img src="/serviceinfo/assets/img/tekute/ttl_floormap.png" alt="Flore map フロアマップ"></h2>
 												<ul class="tab-list">
 													<li class="selected"><a href="javascript:void(0)" data-tabid="1">tekuteせんだい</a></li>
-													<li><a href="javascript:void(0)" data-tabid="2">みちのくうまいもん通り<br>tekute dining</a></li>
+													<li><a href="javascript:void(0)" data-tabid="2"><span class="small">みちのくうまいもん通り</span>tekute dining</a></li>
 												</ul>
 
 												<div class="tab-panel">

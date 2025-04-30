@@ -689,9 +689,7 @@ margin:0 0 30px 160px;
 	text-align: center;
 	margin-bottom: 75px;
 }
-.information .service{
-	margin-bottom: 50px;
-}
+
 .information .service .colgroup{
   width:100%;
 	display: flex;
@@ -705,6 +703,9 @@ margin:0 0 30px 160px;
 	margin-left: 30px;
 	margin-right: 30px;
 
+}
+.information .service .colgroup03 .col{
+	margin-bottom: 0;
 }
 .information .colgroup .col{
 	margin-bottom: 55px;
@@ -752,6 +753,12 @@ margin:0 0 30px 160px;
 }
 .information .card .red {
 	color: red;
+}
+.service .red {
+	font-size: 13px;
+	color: red;
+	line-height: 1.4;
+	margin-top: 15px;
 }
 .information .card .link:hover{
 	opacity: 0.6;
@@ -1383,7 +1390,7 @@ padding:0 6vw;
 /* movie
 ------------ */
 .movie .inner{
- padding:14vw 0 16.6vw;
+ padding:14vw 0 0;
  /* padding:14vw 0 24.6vw; */
  position: relative;
 }
@@ -1747,6 +1754,12 @@ margin:0 0 4.8vw 13vw;
 	color: red;
 	letter-spacing: 0.01em;
 }
+.service .red {
+	font-size:3.07vw;
+	color: red;
+	line-height: 1.4;
+	margin-top: 5vw;
+}
 .information .card .link{
 	font-size:3.74vw;
 	letter-spacing: 0.1em;
@@ -1814,7 +1827,7 @@ margin:0 0 4.8vw 13vw;
   margin-bottom:8vw;
 }
 .information .card_gift .txt{
-	margin:6.67vw 0 14.6vw;
+	margin:6.67vw 0;
 }
 /* community
 --------------- */

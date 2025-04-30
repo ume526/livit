@@ -662,10 +662,11 @@ body.sendai .headingTtl .logo{
 	line-height:1;
 	text-align: center;
 }
+
 .tab-list >li >a,
 .tab-list >li .dropdown-btn{
 	display: block;
-	padding:25px 0;
+	padding:12px 0;
 	color: #ababab;
 	background: #e5e5e5;
 	border-radius: 10px;
@@ -676,6 +677,7 @@ body.sendai .headingTtl .logo{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 .tab-list >li:hover > a,
 .tab-list >li:hover > .dropdown-btn,
@@ -807,6 +809,11 @@ body.sendai .headingTtl .logo{
 .floormap .tab-list li:nth-child(2) {
 	font-size: 19px;
 	line-height: 1.2;
+}
+.floormap .tab-list li:nth-child(2) .small {
+	font-size: 18px;
+	display: block;
+	width: 100%;
 }
 .floormap .map{
 	max-width:1024px;
@@ -974,6 +981,16 @@ body.sendai .headingTtl .logo{
 .storeinfo .storebox{
 	display: flex;
 	justify-content: space-between;
+}
+.storeinfo .storebox .red {
+	width: 401px;
+	margin: 0 auto;
+	font-size: 13px;
+	color: red;
+	line-height: 1.3;
+	margin-bottom: 30px;
+	text-indent: -1em;
+	margin-left: 4em;
 }
 .storeinfo .storebox .box{
 	width: 480px;
@@ -2129,6 +2146,7 @@ height: 100% !important;
 	  display: flex;
 	  align-items: center;
 	  justify-content: center;
+	  flex-wrap: wrap;
   }
   .anchor li a {
 	padding-right: 3vw;
@@ -2254,11 +2272,15 @@ height: 100% !important;
 	margin-bottom: 5.47vw;
 }
 .floormap .tab-list li > a{
+	padding: 2vw 0;
 	margin-bottom: 1.2vw;
 }
 .floormap .tab-list li:nth-child(2) {
     font-size: 3.34vw;
     line-height: 1.2;
+}
+.floormap .tab-list li:nth-child(2) .small{
+    font-size: 3;
 }
 .floormap iframe{
 	border:none;
@@ -2421,6 +2443,14 @@ height: 100% !important;
 	line-height: 1;
 	padding:0.6vw 0;
 }
+.storeinfo .storebox .red {
+	font-size: 0.8rem;
+	color: red;
+	line-height: 1.3;
+	text-indent: -1em;
+	margin-left: 2em;
+	margin-bottom: 4vw;
+}
 .storeinfo .storebox #box01{
 	margin-bottom:10vw;
 	padding-bottom: 2vw;
@@ -2529,7 +2559,7 @@ height: 100% !important;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 5vw;
+	margin: 5vw 0;
 }
 .shopinfo .sns li {
 	margin: 0 10px;

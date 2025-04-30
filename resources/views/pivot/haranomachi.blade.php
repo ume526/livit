@@ -161,12 +161,13 @@
 																			<dt>クレジットカード</dt>
 																			<dd><p class="credit"><img src="/serviceinfo/assets/img/common/ico_credit@2x.png" alt="クレジットカード"></p>
 																			</dd>
-																			<dt>QRコード</dt>
-																			<dd><p class="qrcode"><img src="/serviceinfo/assets/img/common/ico_qrcode@2x.png" alt="QRコード"></p></dd>
+																			<dt>バーコード決済</dt>
+																			<dd><p class="qrcode"><img src="/serviceinfo/assets/img/common/ico_qrcode@2x.png" alt="バーコード決済"></p></dd>
 
 																		<dt>商品券</dt>
-																		<dd class="center">びゅう商品券・VJA商品券・Nicos商品券・<br class="pc">JCB商品券・UC商品券</dd>
+																		<dd class="center">びゅう商品券・VJA商品券・NICOS商品券・<br class="pc">JCB商品券・UC商品券</dd>
 																</dl>
+																<p class="red">※一部ご利用いただけない店舗がございます。<br>詳しくは店頭でご確認ください。</p>
 														</div>
 														<div class="box" id="box02">
 																<h3 class="tit">施設サービス</h3>
