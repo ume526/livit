@@ -75,7 +75,7 @@
 													<li class="tpl_subLink"><a href="{{ route('detail', 315) }}"><span>仙台店</span></a></li>
 													<li class="tpl_subLink"><a href="{{ route('detail', 187) }}"><span>秋田店</span></a></li>
 													<li class="tpl_subLink"><a href="{{ route('detail', 140) }}"><span>盛岡店</span></a></li>
-													<li><a href="{{ route('search') }}?tag_names={{ urlencode('地域コラボ商品') }}">地域コラボ商品（商品開発）</a></li>
+													<li><a href="https://www.livit.jregroup.ne.jp/search?ot[]=51&keywords=">地域コラボ商品（商品開発）</a></li>
 													<li><a href="{{ route('search') }}?tag_names={{ urlencode('五橋横丁') }}">五橋横丁</a></li>
 												</ul>
 											</div>
