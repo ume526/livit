@@ -142,7 +142,9 @@
 #conts .contactBox {
 	margin-top: 40px;
 }
-
+#conts .announceList {
+    line-height: 2;
+}
 @media screen and (max-width: 767px) {
 	#conts .privacySec,
 	#conts .infoSec {

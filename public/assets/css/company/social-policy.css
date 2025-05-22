@@ -66,6 +66,7 @@
 
 #conts .announceList {
 	line-height: 2.0;
+	margin-bottom: 20px;
 }
 
 #conts .termSec .announceList {
@@ -89,7 +90,11 @@
 #conts .att {
 	margin: 15px 0 -5px;
 }
-
+@media screen and (min-width: 768px) {
+	br.sp {
+		display: none;
+	}
+}
 @media screen and (max-width: 767px) {
 	#conts .mediaSec {
 		padding-bottom: 25px;
