@@ -34,7 +34,7 @@
 							<div class="blk clr">
 								<div id="main_slider" class="slider">
 									<div class="sl">
-										<a href="/gyutan-sushistreet/" class="btn"><img src="/serviceinfo/assets/img/top/slide_gyuusushi_pc.jpg" class="pc" alt=""><img src="/serviceinfo/assets/img/top/slide_gyuusushi_sp.jpg" class="sp" alt=""></a>
+										<a href="https://www.livit.jregroup.ne.jp/detail/2085" class="btn"><img src="/serviceinfo/assets/img/top/slide_morioka_pc.png" class="pc" alt=""><img src="/serviceinfo/assets/img/top/slide_morioka_sp.png" class="sp" alt=""></a>
 									</div>
 									<div class="sl">
 										<a href="/search?pt[]=24&pt[]=110&keywords=" class="btn"><img src="/serviceinfo/assets/img/top/slide_omiyage_pc.jpg" class="pc" alt=""><img src="/serviceinfo/assets/img/top/slide_omiyage_sp.jpg" class="sp" alt=""></a>

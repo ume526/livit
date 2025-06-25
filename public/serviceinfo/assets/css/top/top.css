@@ -63,9 +63,9 @@ img {
     vertical-align: top;
     padding: 15px 15px;
   }
-  .linkBox2colHorizon .linkList >li img {
+  /* .linkBox2colHorizon .linkList >li img {
     border-radius: 15px;
-  }
+  } */
 .pickup .linkList>li.coming .img {
     position: relative;
   }
@@ -2699,9 +2699,9 @@ img {
     padding: 0 0.497rem;
     padding-bottom: 1.492rem;
   }
-  .linkBox2colHorizon .linkList >li img{
+  /* .linkBox2colHorizon .linkList >li img{
     border-radius: 0.829rem;
-  }
+  } */
   .linkBox2colHorizon .linkList .btn >dl {
     display: table;
     width: 100%;
