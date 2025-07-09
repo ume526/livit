@@ -86,7 +86,7 @@
 	border-left: 1px solid #CCC;
 }
 #conts .businessBox .colbox {
-	width: 740px;
+	width: 460px;
 }
 #conts .businessBox .colbox .cmnList01 li:first-child {
 	margin-top: 10px;
@@ -94,28 +94,51 @@
 /* #conts .businessBox .colbox .imgBox img {
 	width: 376px;
 } */
-#conts .businessBox .colbox .border-box {
+#conts .border-box {
     border: 1px solid #6fc187;
     padding: 10px;
-    margin: 0 -10px -10px;
+		margin:20px 40px 0;
 }
 #conts .businessBox .colbox .flex {
     display: flex;
     flex-wrap: wrap;
 }
-#conts .businessBox .colbox .flex li{
-	width: 30%;
+#conts .businessBox .colbox .flex li:nth-of-type(odd){
+    width: 42%;
 }
-#conts .businessBox .colbox .flex li:nth-child(3n - 1){
-	width: 33%;
+#conts .businessBox .colbox .flex li:nth-of-type(even){
+    width: 50%;
+}
+#conts .businessBox .colbox .flex li.single {
+	margin: 10px auto 0;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	background: none;
+	padding: 0;
+}
+#conts .businessBox .colbox .flex li.single:before {
+	content: '';
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+  background: url(../../../img/common/icon02.png) no-repeat;
+  background-size: contain;
+  padding-left: 8px;
 }
 @media screen and (max-width: 767px) {
-	#conts .businessBox .colbox .flex li,#conts .businessBox .colbox .flex li:nth-child(3n - 1){
-		width: 45%;
+	#conts .businessBox .colbox .flex li:nth-of-type(odd){
+		width: 43% !important;
+	}
+	#conts .businessBox .colbox .flex li:nth-of-type(even){
+		width: 47% !important;
 	}
 	#conts .businessBox .colbox .flex li br.pc {
 		display: none;
 	}
+	#conts .border-box {
+		margin:20px 0 0;
+ }
 }
 #conts .businessBox .cmnList01 + .border-box{
 	margin-top: 20px;
@@ -141,7 +164,10 @@
 	margin-top: 20px;
 	text-align: center;
 }
-
+ #conts .businessBox .colbox .imgBox {
+		width: 88%;
+		margin: 20px auto 0;
+}
 #conts .businessBox section .cmnList01 {
 	margin-top: 12px;
 }
@@ -159,7 +185,7 @@
 	margin-top: -115px;
 	padding-left: 198px;
 }
-#conts .businessBox .colbox .border-box h4 {
+#conts .border-box h4 {
 	text-align: center;
 }
 /* #conts .businessBox .colbox .border-box .flex li:last-child {
@@ -253,7 +279,11 @@
 		padding: 0 0 0 7px;
 		border-left: 1px solid #CCC;
 	}
-
+	#conts .businessBox .colbox:nth-child(even) {
+		border-left: none;
+		margin-top: 20px;
+	}
+ 
 	#conts .businessBox section:nth-child(n+3) {
 		margin-top: 20px;
 	}
@@ -303,7 +333,7 @@
 	/* #conts .businessBox .colbox .border-box .flex li:last-child {
 		margin-top: 0;
 	} */
-	#conts .businessBox .colbox .border-box h4 {
+	#conts .border-box h4 {
 		text-align: center;
 	}
 }
