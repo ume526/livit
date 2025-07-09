@@ -37,15 +37,17 @@
 										<a href="https://www.livit.jregroup.ne.jp/detail/2085" class="btn"><img src="/serviceinfo/assets/img/top/slide_morioka_pc.png" class="pc" alt=""><img src="/serviceinfo/assets/img/top/slide_morioka_sp.png" class="sp" alt=""></a>
 									</div>
 									<div class="sl">
+										<a href="/gyutan-sushistreet/" class="btn"><img src="/serviceinfo/assets/img/top/slide_gyuusushi_pc.jpg" class="pc" alt=""><img src="/serviceinfo/assets/img/top/slide_gyuusushi_sp.jpg" class="sp" alt=""></a>
+									</div>
+									<div class="sl">
 										<a href="/search?pt[]=24&pt[]=110&keywords=" class="btn"><img src="/serviceinfo/assets/img/top/slide_omiyage_pc.jpg" class="pc" alt=""><img src="/serviceinfo/assets/img/top/slide_omiyage_sp.jpg" class="sp" alt=""></a>
 									</div>
 									<div class="sl">
-										<a href="/tekute/sendai" class="btn"><img src="/serviceinfo/assets/img/top/slide_tekute_pc.jpg" class="pc" alt=""><img src="/serviceinfo/assets/img/top/slide_tekute_sp.jpg" class="sp" alt=""></a>
+										<a href="/tekute/sendai" class="btn"><img src="/serviceinfo/assets/img/top/slide_tekute_pc.jpg" class="pc" alt="牛たんすし通り"><img src="/serviceinfo/assets/img/top/slide_tekute_sp.jpg" class="sp" alt=""></a>
 									</div>
 									<div class="sl">
-										<a href="https://shopping.jreast.co.jp/shop/detail/s013?utm_source=livithp&utm_medium=shoptop_banner" target="_blank" class="btn"><img src="/serviceinfo/assets/img/top/slide_jremall_pc.png" class="pc" alt=""><img src="/serviceinfo/assets/img/top/slide_jremall_sp.png" class="sp" alt=""></a>
+										<a href="https://shopping.jreast.co.jp/shop/detail/s013?utm_source=livithp&utm_medium=shoptop_banner" target="_blank" class="btn"><img src="/serviceinfo/assets/img/top/slide_jremall_pc.png" class="pc" alt="東北MONO　WEB SHOP"><img src="/serviceinfo/assets/img/top/slide_jremall_sp.png" class="sp" alt=""></a>
 									</div>
-									
 								</div>
 							</div>
 						</div>
