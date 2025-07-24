@@ -577,8 +577,9 @@ body.sendai .headingTtl .logo{
 	opacity:0.8;
 }
 .insta-bnr {
+	max-width: 600px;
 	text-align: center;
-	margin: 60px auto 80px;
+	margin: 60px auto;
 }
 .insta-bnr a {
 	transition: all 0.2s;

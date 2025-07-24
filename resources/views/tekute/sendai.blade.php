@@ -66,7 +66,7 @@
                                 @include('tekute.search_section', ['selected_tag' => $selected_tag_name])
                                 @include('tekute.news_section')
 								<div class="insta-bnr"><a href="https://www.instagram.com/sendai_ekinaka/" target="_blank"><img src="/serviceinfo/assets/img/tekute/bnr_tekute_pc.png" class="pc" alt=""><img src="/serviceinfo/assets/img/tekute/bnr_tekute_sp.png" class="sp" alt=""></a></div>
-
+								<div class="insta-bnr"><a href="https://tabiiro.jp/kankou/landmark/sendai_ekinaka/" target="_blank"><img src="/serviceinfo/assets/img/tekute/bnr_tabiiro.png" alt="旅色"></a></div>
 								<section class="floormap" id="floormap">
 										<div class="inner tab">
 												<h2 class="tit"><img src="/serviceinfo/assets/img/tekute/ttl_floormap.png" alt="Flore map フロアマップ"></h2>
