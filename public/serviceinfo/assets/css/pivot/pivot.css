@@ -1314,6 +1314,14 @@ section h2.tit{
 	margin: 100px 0 110px 0;
 	z-index:98;
 }
+.park .note {
+	font-size: 16px;
+	line-height: 1.6;
+	margin-top: 20px;
+}
+.park .note strong {
+	display: block;
+}
 .floormap .bgItem .item12{
 	background: url(../../img/pivot/item12_pc.png) no-repeat;
 	width:151px;
@@ -3100,6 +3108,12 @@ z-index:98;
  right:10vw;
  z-index:98;
 }
+.park .note {
+        font-size: 0.978rem;
+        line-height: 1.6;
+        margin: 3vw 7vw 0;
+}
+
 .anchor {
 	display: flex;
 	flex-wrap: wrap;

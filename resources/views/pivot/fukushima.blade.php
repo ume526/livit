@@ -238,6 +238,7 @@
 													<h2 class="tit">PARKING | 駐車場</h2>
 												<div class="place"> <img src="/serviceinfo/assets/img/pivot/fukushima_park_pc.gif" class="pc" alt="駐車場"><img src="/serviceinfo/assets/img/pivot/fukushima_park_sp.gif" class="sp" alt="駐車場"> </div>
 												<ul class="bgItem">
+													<p class="note"><strong>※駐車場内一部リニューアル工事を行うため、2025年9月上旬～9月30日まで駐車できない場所がございます。</strong>ご不便をおかけいたしますが、ご協力のほどよろしくお願いいたします。</p>
 														<li class="item15 sp"></li>
 												</ul>
 										</div>
