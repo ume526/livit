@@ -23,12 +23,15 @@
 	<link rel="stylesheet" href="/assets/js/slick/slick.css">
 	<link rel="stylesheet" href="/assets/js/slick/slick-theme.css">
 	<script src="/assets/js/slick/slick.min.js"></script>
+	<script src="/assets/js/remodal.js"></script>
+	<script src="/assets/js/movie.js"></script>
 
 	<!-- jScrollPnae -->
 	<link rel="stylesheet" href="/assets/js/jscrollpane/jquery.jscrollpane.css">
 	<script src="/assets/js/jscrollpane/jquery.jscrollpane.min.js"></script>
 
 	<link rel="stylesheet" href="/assets/css/company/index.css">
+	<link rel="stylesheet" href="/assets/css/remodal.css" />
 </head>
 <body>
 	<div id="wrap" class="company">
@@ -95,7 +98,7 @@
                                 <ul id="thumbnail-slider" class="thumbnail-slider">
 					<li><a href="/company/recruit/guideline/"><img src="/assets/img/company/index/keyvisual_img09.png" alt="LiViT 社員募集"></a></li>
 					<li><a href="/transit-advertising/"><img src="/assets/img/company/index/keyvisual_img12.jpg" alt="交通広告"></a></li>
-					<li><a href="https://www.livit.jregroup.ne.jp/gyutan-sushistreet/"><img src="/assets/img/company/index/keyvisual_img10.jpg" alt="牛たん通りす
+					<li><a href="/gyutan-sushistreet/"><img src="/assets/img/company/index/keyvisual_img10.jpg" alt="牛たん通りす
 し通り"></a></li>
 					<li><a href="https://www.livit.jregroup.ne.jp/search?keywords=%E3%81%84%E3%82%8D%E3%81%A8%E3%81%84%E3%82%8D"><img src="/assets/img/company/index/keyvisual_img01.jpg" alt="いろといろ"></a></li>
 					<li><img src="/assets/img/company/index/keyvisual_img05.jpg" alt="暮らすしあわせと、訪れるよろこびを。家族"></li>
@@ -256,6 +259,7 @@
 				<li><a href="/company/privacy-policy/">個人情報保護方針</a></li>
 				<li><a href="/company/site-policy/">ウェブサイトご利用にあたって</a></li>
 				<li><a href="/company/social-policy/">ソーシャルメディアポリシー</a></li>
+				<!-- <li><a href="/cookie-policy/">クッキーポリシー</a></li> -->
 				<li><a href="/company/sitemap/">サイトマップ</a></li>
 			</ul>
 		</nav>
@@ -281,5 +285,53 @@
 </script>
 
 	</div>
+	<div class="main-modal show">
+	<div class="modalContent modalBorderColor modalSession">
+		<div class="movie">
+					<div id="player"></div>
+				</div>
+				<div class="movie-body">
+					<h3 class="movie-ttl">LiViT_仙台エキナカ紹介ムービー</h3>
+					<p class="movie-txt">♪Windline　作曲・ピアノ演奏／秩父英里<br class="sp">（LiViT35周年記念コーポレートミュージック）</p>
+					<button id="movie-sound">音声をONにする</button>
+				</div>
+  </div>
+	<div class="modalCloseTop">
+			  <a class="modalCloseBgColor" data-remodal-action="cancel">
+				  <img src="/assets/img/company/index/button-close.svg" alt="閉じる">
+			  </a>
+		  </div>
+	  
+  </div>
+  <div class="modal-overlay"></div>  
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+        
+        const mainModal = document.querySelector('.main-modal');
+        const mainModalOverlay = document.querySelector('.modal-overlay');
+        const modalCloseTop = document.querySelector('.modalCloseTop');
+        const mainBnrLink = document.querySelector('.main-modal a');
+
+        // mainModal.classList.add('show');
+        mainModalOverlay.classList.add('show');
+
+        mainModalOverlay.addEventListener('click', function() {
+            removeModal();
+        })
+        modalCloseTop.addEventListener('click', function() {
+            removeModal();
+        });
+
+        mainBnrLink.addEventListener('click', function(){
+            removeModal();
+        })
+
+        function removeModal() {
+            mainModal.classList.remove('show');
+            mainModalOverlay.classList.remove('show');
+        }
+    // }
+})
+	</script>       
 </body>
 </html>
