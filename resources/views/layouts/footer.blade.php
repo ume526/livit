@@ -105,7 +105,7 @@
 												<ul class="tpl_fatList">
 													<li><a href="{{ route('sub-search', config('livit.static_tag_names.seagull')) }}">シーガルタウン本八戸</a></li>
 													<li><a href="{{ route('sub-search', config('livit.static_tag_names.market')) }}">秋田生鮮市場保戸野店</a></li>
-													<li><a href="//www.jreastmall.com/shop/c/c13/" target="_blank">東北MONO WEB SHOP</a></li>
+													<li><a href="https://shopping.jreast.co.jp/shop/detail/s013?utm_source=livithp_footer&utm_medium=shoptop_banner" target="_blank">東北MONO WEB SHOP</a></li>
 												</ul>
 											</div>
 										</div>
