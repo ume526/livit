@@ -34,9 +34,6 @@
 							<div class="blk clr">
 								<div id="main_slider" class="slider">
 									<div class="sl">
-										<a href="https://www.livit.jregroup.ne.jp/detail/2224" class="btn"><img src="/serviceinfo/assets/img/top/slide_campaign_pc.png" class="pc" alt="どんと返すぜキャンペーン第2弾"><img src="/serviceinfo/assets/img/top/slide_campaign_sp.png" class="sp" alt="どんと返すぜキャンペーン第2弾"></a>
-									</div>
-									<div class="sl">
 										<a href="https://www.livit.jregroup.ne.jp/detail/2085" class="btn"><img src="/serviceinfo/assets/img/top/slide_morioka_pc.png" class="pc" alt="盛岡駅2階 美味し楽し懐かし岩手"><img src="/serviceinfo/assets/img/top/slide_morioka_sp.png" class="sp" alt="盛岡駅2階 美味し楽し懐かし岩手"></a>
 									</div>
 									<div class="sl">
