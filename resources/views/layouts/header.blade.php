@@ -1,3 +1,15 @@
+<script type="text/javascript" src="https://www.google.com/cse/brand?form=cse-search-box&lang=ja"></script>
+<script>
+  (function() {
+    var cx = '018186300925055370683:szx4_pcrwsc';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
 <!-- [s]header -->
 <header id="tpl_header" class="tpl_header" role="banner">
 	<div class="tpl_head">
@@ -65,7 +77,7 @@
 																<li><a href="{{ route('search') }}?tag_names={{ urlencode('秋田県') }}" class="tpl_btn"><span>秋田県</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('秋田駅') }}" class="tpl_btn"><span>秋田駅</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('土崎駅') }}" class="tpl_btn"><span>土崎駅</span></a></li>
-																<li class="tpl_subLink"><a href="/search/sub/生鮮市場" class="tpl_btn"><span>秋田市保戸野</span></a></li>
+																<!-- <li class="tpl_subLink"><a href="/search/sub/生鮮市場" class="tpl_btn"><span>秋田市保戸野</span></a></li> -->
 																<li><a href="{{ route('search') }}?tag_names={{ urlencode('宮城県') }}" class="tpl_btn"><span>宮城県</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('仙台駅') }}" class="tpl_btn"><span>仙台駅</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('くりこま高原駅') }}" class="tpl_btn"><span>くりこま高原駅</span></a></li>
@@ -106,6 +118,7 @@
 								</ul>
 
 								<ul class="tpl_gMenuSubList_sp">
+									<li class="sp search"><gcse:searchbox-only></gcse:searchbox-only></li>
 									<li><a class="tpl_btn" href="/company/contact/">お問合せ</a></li>
 									<li><a class="tpl_btn" href="/company/">企業情報</a></li>
 									<li><a class="tpl_btn" href="/company/recruit/">採用情報</a></li>
@@ -216,6 +229,11 @@
 											<li><a class="tpl_btn" href="/company/">企業情報</a></li>
 										</ul>
 									</dd>
+									<!-- <dd>
+										<div id="search_btn" class="pc search pc-flex-layout">
+										<gcse:searchbox-only></gcse:searchbox-only>
+									</div>
+								  </dd> -->
 								</dl>
 							</div>
 						</nav>

@@ -37,6 +37,9 @@
 										<a href="https://www.livit.jregroup.ne.jp/detail/2085" class="btn"><img src="/serviceinfo/assets/img/top/slide_morioka_pc.png" class="pc" alt="盛岡駅2階 美味し楽し懐かし岩手"><img src="/serviceinfo/assets/img/top/slide_morioka_sp.png" class="sp" alt="盛岡駅2階 美味し楽し懐かし岩手"></a>
 									</div>
 									<div class="sl">
+										<a href="https://www.livit.jregroup.ne.jp/detail/2260" class="btn"><img src="/serviceinfo/assets/img/top/slide_pivot_pc.jpg" class="pc" alt="pivotリニューアルオープン"><img src="/serviceinfo/assets/img/top/slide_pivot_sp.jpg" class="sp" alt="pivotリニューアルオープン"></a>
+									</div>
+									<div class="sl">
 										<a href="/gyutan-sushistreet/" class="btn"><img src="/serviceinfo/assets/img/top/slide_gyuusushi_pc.jpg" class="pc" alt="すし通り牛たん通り"><img src="/serviceinfo/assets/img/top/slide_gyuusushi_sp.jpg" class="sp" alt="すし通り牛たん通り"></a>
 									</div>
 									<div class="sl">
@@ -185,11 +188,18 @@
 								<p class="desc">JR本八戸駅直結の便利なショッピングセンター</p>
 							</a>
 						</li> -->
-						<li>
+						<!-- <li>
 							<a href="{{ route('sub-search', config('livit.static_tag_names.market')) }}" class="btn">
 								<p class="img"><img src="/serviceinfo/assets/img/top/img_shop_05.jpg" alt="秋田生鮮市場保戸野店" height="224" width="400"></p>
 								<p class="ttl">秋田生鮮市場保戸野店</p>
 								<p class="desc">秋田の新鮮な食品を取り揃えたスーパーマーケット</p>
+							</a>
+						</li> -->
+						<li>
+							<a href="/tekute/sendai" class="btn">
+								<p class="img"><img src="/serviceinfo/assets/img/top/img_shop_09.jpg" alt="tekueteせんだい・みちのくうまいもん通りtekute dining" height="224" width="400"></p>
+								<p class="ttl">tekueteせんだい・みちのくうまいもん通りtekute dining</p>
+								<p class="desc">仙台駅西口１階のショッピング＆レストランゾーン</p>
 							</a>
 						</li>
 						<li>
