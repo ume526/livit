@@ -40,6 +40,9 @@
 										<a href="https://www.livit.jregroup.ne.jp/detail/2260" class="btn"><img src="/serviceinfo/assets/img/top/slide_pivot_pc.jpg" class="pc" alt="pivotリニューアルオープン"><img src="/serviceinfo/assets/img/top/slide_pivot_sp.jpg" class="sp" alt="pivotリニューアルオープン"></a>
 									</div>
 									<div class="sl">
+										<a href="https://www.livit.jregroup.ne.jp/detail/2262" class="btn"><img src="/serviceinfo/assets/img/top/slide_sendai_pc.png" class="pc" alt="せんだい"><img src="/serviceinfo/assets/img/top/slide_sendai_sp.png" class="sp" alt="せんだい"></a>
+									</div>
+									<div class="sl">
 										<a href="/gyutan-sushistreet/" class="btn"><img src="/serviceinfo/assets/img/top/slide_gyuusushi_pc.jpg" class="pc" alt="すし通り牛たん通り"><img src="/serviceinfo/assets/img/top/slide_gyuusushi_sp.jpg" class="sp" alt="すし通り牛たん通り"></a>
 									</div>
 									<div class="sl">
