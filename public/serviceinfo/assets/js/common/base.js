@@ -551,5 +551,30 @@ $(function(){
     $closeButton.on('click', closeNav);
     $closeButtonSmall.on('click', resetNavPosition);
 
+		// header google custom search
+			// Common param
+		const	open = 'is-open';
+		const transition = 'is-transition';
 
+		const	search_btn = $('#search_btn');
+		search_btn.on('click',function(e){
+			e.preventDefault();
+
+			if($(this).hasClass(transition)) return;
+
+			if($(this).hasClass(open)){
+				$(this).removeClass(open).addClass(transition);
+			} else {
+				$(this).addClass(`${open} ${transition}`).find('input.gsc-input').focus();
+			}
+		});
+
+		search_btn.find('input.gsc-input').on('blur', function(){
+			if(! $(this).val().length)
+				$(this).closest('#search_btn').removeClass(open).addClass(transition);
+		});
+		
+		search_btn.on('transitionend',function(){
+			$(this).removeClass(transition);
+		});
 });

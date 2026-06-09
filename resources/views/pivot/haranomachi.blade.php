@@ -82,7 +82,6 @@
 									<li><a href="#floormap">フロアマップ</a></li>
 									<li><a href="#information">インフォメーション</a></li>
 								</ul>
-                                @include('pivot.search_section', ['selected_tag' => $selected_tag_name])
                                 <section class="recommend">
                                   <h2 class="tit">イチオシ商品 HIGHLY RECOMMENDED</h2>
                                   <div class="osusume pc"><iframe width="600" height="250" title="ピボット 仙台原ノ町店のチラシ・特売情報" src="https://widgets.tokubai.co.jp/21946/widget?height=250&width=600" frameborder="0"><a href="https://widgets.tokubai.co.jp/21946/widget?height=250&width=600">ピボット 仙台原ノ町店のチラシ・特売情報</a></iframe>
@@ -111,8 +110,15 @@
 										<div class="inner">
 												<h2 class="tit">FLOOR MAP | フロアマップ</h2>
 												<div class="map">
-														<iframe src="{{ route('pivot-haranomachi-map') }}" width="100%" height="455" scrolling="no"></iframe>
+													<img class="zoom-map" src="/serviceinfo/assets/img/pivot/haranomachi_map.png" alt="">
 												</div>
+												<div class="zoom-control">
+														<div class="zoom-in">
+                                <label></label>
+                            </div>
+                            <div class="zoom-out">
+                                <label></label>
+                            </div></div>
 												<ul class="bgItem">
 												  <li class="item11 sp"></li>
 														<li class="item12"></li>
@@ -260,6 +266,7 @@ JR東日本グループの<br>
 <script src="/serviceinfo/assets/js/common/common.js"></script>
 <script src="/serviceinfo/assets/js/common/matchheight.js"></script>
 <script src="/serviceinfo/assets/js/common/slick.js"></script>
+<script src="https://unpkg.com/@panzoom/panzoom/dist/panzoom.min.js"></script>
 <script src="/serviceinfo/assets/js/pivot/script.js"></script>
 <script>
 $(function(){

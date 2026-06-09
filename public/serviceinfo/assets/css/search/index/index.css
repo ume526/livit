@@ -1118,10 +1118,13 @@ img {
     letter-spacing: 0.2em;
     padding-top: 0.497rem;
   }
-  /* search */
-  .search {
-    padding-top: 8.29rem;
+  .searchIndex main {
+    padding-top: 50vw;
   }
+  /* search */
+  /* .search {
+    padding-top: 8.29rem;
+  } */
   .search .bgHead {
     background: url("/serviceinfo/assets/img/search/index/bg_search_head_sp.png") no-repeat center top;
     background-size: cover;

@@ -63,7 +63,6 @@
 									<li><a href="#floormap">フロアマップ</a></li>
 									<li><a href="#information">インフォメーション</a></li>
 								</ul>
-                                @include('tekute.search_section', ['selected_tag' => $selected_tag_name])
                                 @include('tekute.news_section')
 
 								<!-- <section class="event">
@@ -121,15 +120,25 @@
 												</ul>
 											  <div class="tab-panel">
 												<div class="map" data-contentid="1">
-														<iframe src="{{ route('tekute-nagamachi-map') }}" width="100%" height="460" scrolling="no"></iframe>
+														<img class="zoom-map" src="/serviceinfo/assets/img/tekute/map01.jpg" alt="" >
 												</div>
 												<div class="map hidden" data-contentid="2">
-													<iframe src="{{ route('tekute-nagamachi-tekute1-map') }}" width="100%" height="460" scrolling="no"></iframe>
+													<img class="zoom-map" src="/serviceinfo/assets/img/tekute/map02.jpg" alt="" >
 											    </div>
 												<div class="map hidden" data-contentid="3">
-													<iframe src="{{ route('tekute-nagamachi-tekute2-map') }}" width="100%" height="460" scrolling="no"></iframe>
+												<img class="zoom-map" src="/serviceinfo/assets/img/tekute/map03.jpg" alt="" >
+												
+											</div>
+											<div class="zoom-control">
+														<div class="zoom-in">
+                                <label></label>
+                            </div>
+                            <div class="zoom-out">
+                                <label></label>
 											    </div>
 											   </div>
+										</div>
+											  
 										</div>
 								</section>
 								<section class="storeinfo tab" id="information">
@@ -145,18 +154,18 @@
 												<table>
 													<tr class="time">
 														<th>本館<br>営業時間</th>
-														<td>10:00～20:00　<br>※一部店舗は営業時間が異なります。<br>
+														<td>10:00～20:00<br>※一部店舗は営業時間が異なります。<br>
 														HACHI'S Cafe&Dining 11:00～21:30<br>
 														牛たん炭焼 利久 11:00～22:00<br>
 														魚々むすび 平日8:00～20:00・土日祝 9:00～20:00<br>
-														TULLY'S COFFEE 平日7:30～21:00 ・土日祝9:00～21:00<br>
-														松屋マイカリー食堂　7:00～23:00<br>
-														サンエトワール 7:00～20:00<br>博多屋台 豚骨ラーメン たちばな 11:00～22:00(L.O.21:30)
+														TULLY'S COFFEE 平日7:00～21:00・土日祝8:30～21:00<br>
+														松屋マイカリー食堂 7:00～23:00<br>
+														サンエトワール 7:00～20:00<br>博多屋台 豚骨ラーメン たちばな 11:00～22:00（L.O.21:30）
 														</td>
 													</tr>
 													<tr>
 														<th>休館日</th>
-														<td>１月１日、9月第二水曜日</td>
+														<td>1月1日、9月第二水曜日</td>
 													</tr>
 													<tr>
 														<th>電話番号</th>
@@ -393,6 +402,7 @@
 <script src="/serviceinfo/assets/js/common/common.js"></script>
 <script src="/serviceinfo/assets/js/common/matchheight.js"></script>
 <script src="/serviceinfo/assets/js/common/slick.js"></script>
+<script src="https://unpkg.com/@panzoom/panzoom/dist/panzoom.min.js"></script>
 <script src="/serviceinfo/assets/js/tekute/script.js"></script>
 <script src="/serviceinfo/assets/js/tekute/movie.js"></script>
 <!-- [end]script -->

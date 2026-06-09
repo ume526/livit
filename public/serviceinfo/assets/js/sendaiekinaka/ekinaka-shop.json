@@ -1,0 +1,1252 @@
+[
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "878エルベ仙台駅店",
+    "category": "omiyage",
+    "time": "平日10:00～20:00、土日祝9:00～20:00",
+    "new": "",
+    "image": "img_shop01.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/115"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "むとう屋仙台店",
+    "category": "omiyage",
+    "time": "10:00～20:00",
+    "new": "",
+    "image": "img_shop02.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1169"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "Fortune Moon Cake",
+    "category": "omiyage",
+    "time": "11:00～20:00",
+    "new": "",
+    "image": "img_shop03.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1882"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "伊達の牛たん本舗tekuteせんだい",
+    "category": "omiyage",
+    "time": "物販10:00～22:00、飲食11:00～22:00",
+    "new": "",
+    "image": "img_shop04.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1198"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "喜久水庵　ずんだスタンド ",
+    "category": "omiyage",
+    "time": "8:00～21:00",
+    "new": "",
+    "image": "img_shop05.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1621"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（西側）",
+    "name": "阿部蒲鉾店",
+    "category": "omiyage",
+    "time": "月～木8:00～20:00、金～日・祝8:00～21:00",
+    "new": "",
+    "image": "img_shop06.png",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/194"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（西側）",
+    "name": "白謙かまぼこ店",
+    "category": "omiyage",
+    "time": "月～木8:00～20:00、金～日・祝8:00～21:00",
+    "new": "",
+    "image": "img_shop07.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/317"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（西側）",
+    "name": "おみやげ処せんだい3号（駅2F西側）",
+    "category": "omiyage",
+    "time": "7:00～21:00",
+    "new": "",
+    "image": "img_shop08.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/128"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（西側）",
+    "name": "ずんだシェイクエクスプレス",
+    "category": "omiyage",
+    "time": "9:00～19:30",
+    "new": "",
+    "image": "img_shop09.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/161"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（西側）",
+    "name": "菓匠三全",
+    "category": "omiyage",
+    "time": "7:00～20:00",
+    "new": "",
+    "image": "img_shop10.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/265"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（北側）",
+    "name": "おみやげ処せんだい1号（駅2F北側）",
+    "category": "omiyage",
+    "time": "8:00～21:00（一部店舗を除く）",
+    "new": "",
+    "image": "img_shop11.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/797"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（北側）",
+    "name": "青葉亭",
+    "category": "omiyage",
+    "time": "8:00～21:00",
+    "new": "",
+    "image": "img_shop12.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/298"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（北側）",
+    "name": "牛たん炭焼き 利久",
+    "category": "omiyage",
+    "time": "8:00～21:00",
+    "new": "",
+    "image": "img_shop13.png",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/334"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（北側）",
+    "name": "笹かまぼこの佐々直",
+    "category": "omiyage",
+    "time": "8:00～21:00",
+    "new": "",
+    "image": "img_shop14.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/282"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（北側）",
+    "name": "粟野蒲鉾店",
+    "category": "omiyage",
+    "time": "8:00～21:00",
+    "new": "",
+    "image": "img_shop15.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/197"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（北側）",
+    "name": "末永海産",
+    "category": "omiyage",
+    "time": "8:00～21:00",
+    "new": "",
+    "image": "img_shop16.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/324"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（北側）",
+    "name": "フカヒレイシワタ",
+    "category": "omiyage",
+    "time": "8:00～21:00",
+    "new": "",
+    "image": "img_shop17.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/312"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（北側）",
+    "name": "かまぼこの鐘崎",
+    "category": "omiyage",
+    "time": "8:00～21:00",
+    "new": "",
+    "image": "img_shop18.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/145"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（北側）",
+    "name": "玉澤総本店",
+    "category": "omiyage",
+    "time": "8:00～21:00",
+    "new": "",
+    "image": "img_shop19.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/279"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（北側）",
+    "name": "たんや善治郎",
+    "category": "omiyage",
+    "time": "8:00～21:00",
+    "new": "",
+    "image": "img_shop20.png",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/166"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（北側）",
+    "name": "白松がモナカ",
+    "category": "omiyage",
+    "time": "8:00～21:00",
+    "new": "",
+    "image": "img_shop21.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/319"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（北側）",
+    "name": "蒲鉾本舗　髙政",
+    "category": "omiyage",
+    "time": "8:00～21:00",
+    "new": "",
+    "image": "img_shop22.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/774"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（北側）",
+    "name": "伊達の牛たん本舗",
+    "category": "omiyage",
+    "time": "8:00～21:00",
+    "new": "",
+    "image": "img_shop23.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/198"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（北側）",
+    "name": "陣中",
+    "category": "omiyage",
+    "time": "8:00～21:00",
+    "new": "",
+    "image": "img_shop24.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/293"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（北側）",
+    "name": "喜久水庵",
+    "category": "omiyage",
+    "time": "8:00～21:00",
+    "new": "",
+    "image": "img_shop25.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/275"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（北側）",
+    "name": "松島蒲鉾本舗",
+    "category": "omiyage",
+    "time": "8:00～21:00",
+    "new": "",
+    "image": "img_shop26.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/290"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（北側）",
+    "name": "菓匠三全",
+    "category": "omiyage",
+    "time": "8:00～21:00",
+    "new": "",
+    "image": "img_shop27.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/272"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（北側）",
+    "name": "味の牛たん喜助",
+    "category": "omiyage",
+    "time": "8:00～21:00",
+    "new": "",
+    "image": "img_shop28.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/326"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（北側）",
+    "name": "ずんだ茶寮",
+    "category": "omiyage",
+    "time": "8:00～21:00",
+    "new": "",
+    "image": "img_shop29.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/162"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（南側）",
+    "name": "おみやげ処せんだい2号（駅2F南側）",
+    "category": "omiyage",
+    "time": "8:15～20:45（一部店舗を除く）",
+    "new": "",
+    "image": "img_shop30.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/799"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（南側）",
+    "name": "及善蒲鉾店",
+    "category": "omiyage",
+    "time": "8:15～20:45",
+    "new": "",
+    "image": "img_shop31.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/775"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（南側）",
+    "name": "仙台ひとくちずんだ餅本舗（仙台駅2F南側）",
+    "category": "omiyage",
+    "time": "8:15～20:45",
+    "new": "",
+    "image": "img_shop32.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/776"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（南側）",
+    "name": "白松がモナカ",
+    "category": "omiyage",
+    "time": "8:15～20:45",
+    "new": "",
+    "image": "img_shop33.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/318"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（南側）",
+    "name": "伊達の牛たん本舗",
+    "category": "omiyage",
+    "time": "8:15～20:45",
+    "new": "",
+    "image": "img_shop34.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/200"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（南側）",
+    "name": "陣中",
+    "category": "omiyage",
+    "time": "8:15～20:45",
+    "new": "",
+    "image": "img_shop35.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/295"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（南側）",
+    "name": "かまぼこの鐘崎",
+    "category": "omiyage",
+    "time": "8:15～20:45",
+    "new": "",
+    "image": "img_shop36.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/146"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（南側）",
+    "name": "牛たん炭焼き 利久",
+    "category": "omiyage",
+    "time": "8:15～20:45",
+    "new": "",
+    "image": "img_shop37.png",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/337"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（南側）",
+    "name": "阿部蒲鉾店",
+    "category": "omiyage",
+    "time": "8:15～20:45",
+    "new": "",
+    "image": "img_shop38.png",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/195"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（南側）",
+    "name": "松島蒲鉾本舗",
+    "category": "omiyage",
+    "time": "8:15～20:45",
+    "new": "",
+    "image": "img_shop39.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/289"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（南側）",
+    "name": "ちゅんちゅん堂",
+    "category": "omiyage",
+    "time": "8:15～20:45",
+    "new": "",
+    "image": "img_shop40.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/2280"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（南側）",
+    "name": "喜久福本舗 ",
+    "category": "omiyage",
+    "time": "8:15～20:45",
+    "new": "",
+    "image": "img_shop41.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1541"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（南側）",
+    "name": "奥州牛たん本舗",
+    "category": "omiyage",
+    "time": "8:15～20:45",
+    "new": "",
+    "image": "img_shop42.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/203"
+  },
+  {
+    "area": "仙台駅2F　おみやげ処せんだい（南側）",
+    "name": "菓匠三全（仙台駅2F南側）",
+    "category": "omiyage",
+    "time": "8:15～20:45",
+    "new": "",
+    "image": "img_shop51.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/267"
+  },
+  {
+    "area": "仙台駅2F",
+    "name": "東北めぐり いろといろ仙台店（エスパル仙台東館）",
+    "category": "omiyage",
+    "time": "祝日＆日～木10:00～20:00、金・土・祝前日10:00～21:00",
+    "new": "",
+    "image": "img_shop43.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/315"
+  },
+  {
+    "area": "仙台駅3F",
+    "name": "おみやげ処せんだい4号（新幹線中央口改札隣）",
+    "category": "omiyage",
+    "time": "7:00～22:00",
+    "new": "",
+    "image": "img_shop44.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/131"
+  },
+  {
+    "area": "仙台駅3F　ずんだ小径",
+    "name": "ずんだ茶寮",
+    "category": "omiyage",
+    "time": "物販9:00～21:00、喫茶10:00～18:30",
+    "new": "",
+    "image": "img_shop45.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/163"
+  },
+  {
+    "area": "仙台駅3F　ずんだ小径",
+    "name": "喜久水庵 ずんだ茶屋",
+    "category": "omiyage",
+    "time": "9:00～21:00",
+    "new": "",
+    "image": "img_shop46.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/274"
+  },
+  {
+    "area": "仙台駅3F　新幹線中央口改札内",
+    "name": "おみやげ処せんだい6号（新幹線中央口改札内）",
+    "category": "omiyage",
+    "time": "6:30～21:50",
+    "new": "",
+    "image": "img_shop47.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/138"
+  },
+  {
+    "area": "仙台駅3F　新幹線中央口改札内",
+    "name": "青葉亭（新幹線中央口改札内）",
+    "category": "omiyage",
+    "time": "9:00～20:00",
+    "new": "",
+    "image": "img_shop48.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/301"
+  },
+  {
+    "area": "仙台駅3F　新幹線中央口改札内",
+    "name": "喜久水庵 けやきの森",
+    "category": "omiyage",
+    "time": "7:00～21:00",
+    "new": "",
+    "image": "img_shop49.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/273"
+  },
+  {
+    "area": "仙台駅3F　新幹線南口改札内・外",
+    "name": "おみやげ処せんだい9号（新幹線南口改札隣）",
+    "category": "omiyage",
+    "time": "7:00～21:30",
+    "new": "",
+    "image": "img_shop50.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/139"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "QBハウス",
+    "category": "service",
+    "time": "平日10:00～20:00、土日祝　9:00～19:00",
+    "new": "",
+    "image": "img_shop01.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/124"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "仙台駅内郵便局 ",
+    "category": "service",
+    "time": "郵便：平日9:00～17:00、土日祝10:00～18:00、貯金・保険：平日9:00～16:00、ATM：平日7:00～23:00、土9:00～21:00、日9:00～19:00",
+    "new": "",
+    "image": "img_shop02.png",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1191"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "プチラフィネ　仙台駅店",
+    "category": "service",
+    "time": "10:00～21:00",
+    "new": "",
+    "image": "img_shop03.png",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/178"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "カジカワ歯科クリニック",
+    "category": "service",
+    "time": "火～金9:00～18:30、土9:00～16:00",
+    "new": "",
+    "image": "img_shop04.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/142"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "理髪室 Sendai Station ",
+    "category": "service",
+    "time": "9:00～19:00",
+    "new": "",
+    "image": "img_shop05.png",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/156"
+  },
+  {
+    "area": "仙台駅2F",
+    "name": "クロネコヤマト",
+    "category": "service",
+    "time": "10:00～21:00",
+    "new": "",
+    "image": "img_shop06.png",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/154"
+  },
+  {
+    "area": "仙台駅2F　在来線改札内",
+    "name": "エスシー調剤薬局",
+    "category": "service",
+    "time": "月～金9:00～20:00、土9:00～18:00、日・祝9:00～15:00",
+    "new": "",
+    "image": "img_shop07.png",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1921"
+  },
+  {
+    "area": "仙台駅2F　在来線改札内",
+    "name": "仙台駅スマートクリニック",
+    "category": "service",
+    "time": "対面診療：月～金9:00～13:00＆14:00～18:00、土9:00～13:00、オンライン診療：月～金18:00～20:00、土13:00～18:00、日・祝9:00～15:00",
+    "new": "",
+    "image": "img_shop08.png",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1920"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "38mitsubachi",
+    "category": "food",
+    "time": "10:00～20:00",
+    "new": "",
+    "image": "img_shop01.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/2075"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "Fortune Moon Cake",
+    "category": "food",
+    "time": "11:00～20:00",
+    "new": "",
+    "image": "img_shop02.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1882"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "パンセ仙台駅店",
+    "category": "food",
+    "time": "8:00～20:00",
+    "new": "",
+    "image": "img_shop03.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1177"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "ＮＥＷＤＡＹＳミニ仙台5号店",
+    "category": "food",
+    "time": "6:30～22:00",
+    "new": "",
+    "image": "img_shop04.png",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1192"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "PALM WAGON",
+    "category": "food",
+    "time": "8:00～21:00（L.O.20:30）",
+    "new": "TRUE",
+    "image": "img_shop25.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/2287"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "ジュピターtekuteせんだい店 ",
+    "category": "food",
+    "time": "8:00～20:00",
+    "new": "",
+    "image": "img_shop05.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1176"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "元祖仙台ひとくち餃子あずま 仙台駅店 ",
+    "category": "food",
+    "time": "10:00～20:00",
+    "new": "",
+    "image": "img_shop06.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1776"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "かたい信用やわらかい肉 肉のいとう 仙台駅１階店",
+    "category": "food",
+    "time": "8:00～20:00",
+    "new": "",
+    "image": "img_shop07.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1172"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "3007",
+    "category": "food",
+    "time": "8:00～20:00",
+    "new": "",
+    "image": "img_shop08.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1175"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "マツモトキヨシ",
+    "category": "food",
+    "time": "8:00～21:00",
+    "new": "",
+    "image": "img_shop09.jpg",
+    "taxfree": "blue",
+    "url": "https://www.livit.jregroup.ne.jp/detail/183"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "中嘉屋食堂麺飯甜",
+    "category": "food",
+    "time": "飲食11:00～22:30（L.O.22:00）物販10:30～22:30",
+    "new": "",
+    "image": "img_shop10.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/313"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "MonaMona 仙台駅店 ",
+    "category": "food",
+    "time": "8:00～20:00",
+    "new": "",
+    "image": "img_shop11.png",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1617"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "おにぎりのありんこ ",
+    "category": "food",
+    "time": "7:30～20:00（L.O.19:45）",
+    "new": "",
+    "image": "img_shop12.png",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1619"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "3007 cafe ",
+    "category": "food",
+    "time": "8:00～20:00（L.O.19:30）",
+    "new": "",
+    "image": "img_shop13.png",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1616"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "HONOKA COFFEE",
+    "category": "food",
+    "time": "7:00～20:00（L.O.19:30）",
+    "new": "",
+    "image": "img_shop14.png",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1620"
+  },
+  {
+    "area": "仙台駅1F　みちのくうまいもん通り tekute dining",
+    "name": "SENDAI STATION BREWERY Fermenteria ",
+    "category": "food",
+    "time": "10:30～20:30",
+    "new": "",
+    "image": "img_shop15.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1868"
+  },
+  {
+    "area": "仙台駅2F",
+    "name": "シャトレーゼ JR仙台駅店（東西自由通路）",
+    "category": "food",
+    "time": "10:00～21:00",
+    "new": "",
+    "image": "img_shop16.png",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1923"
+  },
+  {
+    "area": "仙台駅2F",
+    "name": "DaTe cafe O'rder",
+    "category": "food",
+    "time": "月～木7:15～20:45、金～日7:15～22:00",
+    "new": "",
+    "image": "img_shop17.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/117"
+  },
+  {
+    "area": "仙台駅2F",
+    "name": "FLO仙台駅店",
+    "category": "food",
+    "time": "9:00～22:00",
+    "new": "",
+    "image": "img_shop18.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/119"
+  },
+  {
+    "area": "仙台駅2F",
+    "name": "ビアードパパ JR仙台駅店",
+    "category": "food",
+    "time": "10:00～21:00",
+    "new": "",
+    "image": "img_shop19.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/175"
+  },
+  {
+    "area": "仙台駅2F",
+    "name": "もちべえ仙台駅店",
+    "category": "food",
+    "time": "9:00～20:00",
+    "new": "",
+    "image": "img_shop20.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1188"
+  },
+  {
+    "area": "仙台駅2F",
+    "name": "RINGO仙台駅店",
+    "category": "food",
+    "time": "10:00～21:00",
+    "new": "",
+    "image": "img_shop21.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/708"
+  },
+  {
+    "area": "仙台駅2F　在来線改札内",
+    "name": "ドンクエディテ JR仙台駅店（在来線改札内）",
+    "category": "food",
+    "time": "平日7:00～21:00、土日祝 9:00～21:00",
+    "new": "",
+    "image": "img_shop22.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/173"
+  },
+  {
+    "area": "仙台駅2F　在来線改札内",
+    "name": "BAKE CHEESE TART 仙台店（在来線改札内）",
+    "category": "food",
+    "time": "10:00～21:00",
+    "new": "",
+    "image": "img_shop23.jpg",
+    "taxfree": "red",
+    "url": "https://www.livit.jregroup.ne.jp/detail/116"
+  },
+  {
+    "area": "仙台駅3F　新幹線中央口改札内",
+    "name": "喜久水庵 けやきの森（新幹線中央口改札内）",
+    "category": "food",
+    "time": "7:00～21:00",
+    "new": "",
+    "image": "img_shop24.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/273"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "元祖仙台ひとくち餃子あずま 仙台駅店 ",
+    "category": "restaurant",
+    "time": "10:00～20:00",
+    "new": "",
+    "image": "img_shop01.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1776"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "かたい信用やわらかい肉 肉のいとう 仙台駅１階店",
+    "category": "restaurant",
+    "time": "8:00～20:00",
+    "new": "",
+    "image": "img_shop02.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1172"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "仙令鮨 仙台駅店",
+    "category": "restaurant",
+    "time": "11:00～21:00",
+    "new": "",
+    "image": "img_shop03.png",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/323"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "中嘉屋食堂麺飯甜",
+    "category": "restaurant",
+    "time": "飲食11:00～22:30（L.O.22:00）物販10:30～22:30",
+    "new": "",
+    "image": "img_shop04.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/313"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "越後秘蔵麺 無尽蔵",
+    "category": "restaurant",
+    "time": "11:00～22:30",
+    "new": "",
+    "image": "img_shop05.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/320"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "PALM WAGON",
+    "category": "restaurant",
+    "time": "8:00～21:00（L.O.20:30）",
+    "new": "TRUE",
+    "image": "img_shop41.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/2287"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "伊達の牛たん本舗tekuteせんだい",
+    "category": "restaurant",
+    "time": "物販10:00～22:00、飲食11:00～22:00",
+    "new": "",
+    "image": "img_shop06.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1198"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "おにぎりのありんこ ",
+    "category": "restaurant",
+    "time": "7:30～20:00（L.O.19:45）",
+    "new": "",
+    "image": "img_shop07.png",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1619"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "フレッシュネスバーガー 仙台駅店 ",
+    "category": "restaurant",
+    "time": "7:30～21:00",
+    "new": "",
+    "image": "img_shop08.png",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1618"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "3007 cafe ",
+    "category": "restaurant",
+    "time": "8:00～20:00（L.O.19:30）",
+    "new": "",
+    "image": "img_shop09.png",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1616"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "HONOKA COFFEE",
+    "category": "restaurant",
+    "time": "7:00～20:00（L.O.19:30）",
+    "new": "",
+    "image": "img_shop10.png",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1620"
+  },
+  {
+    "area": "仙台駅1F　tekuteせんだい",
+    "name": "喜久水庵　ずんだスタンド ",
+    "category": "restaurant",
+    "time": "8:00～21:00",
+    "new": "",
+    "image": "img_shop11.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1621"
+  },
+  {
+    "area": "仙台駅1F　みちのくうまいもん通り tekute dining",
+    "name": "炭火焼鳥 肉のいとう 仙台駅1階店 ",
+    "category": "restaurant",
+    "time": "11:00～23:00",
+    "new": "",
+    "image": "img_shop12.png",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1859"
+  },
+  {
+    "area": "仙台駅1F　みちのくうまいもん通り tekute dining",
+    "name": "すし八松 ",
+    "category": "restaurant",
+    "time": "11:00～23:00",
+    "new": "",
+    "image": "img_shop13.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1860"
+  },
+  {
+    "area": "仙台駅1F　みちのくうまいもん通り tekute dining",
+    "name": "青森屋がほんず",
+    "category": "restaurant",
+    "time": "11:00～23:00（L.O.22:30）\\n平日のみ 16:00～17:00 close\\n※土日祝日は通し営業いたします",
+    "new": "",
+    "image": "img_shop14.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1861"
+  },
+  {
+    "area": "仙台駅1F　みちのくうまいもん通り tekute dining",
+    "name": "とんかつと豚肉料理 平田牧場 tekuteせんだい店",
+    "category": "restaurant",
+    "time": "11:00～21:30（L.O.20:30）",
+    "new": "",
+    "image": "img_shop15.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1862"
+  },
+  {
+    "area": "仙台駅1F　みちのくうまいもん通り tekute dining",
+    "name": "鉄板じんぎすかん 遠野食肉センター 仙台駅１階店",
+    "category": "restaurant",
+    "time": "11:00〜22:00（L.O.21:00）",
+    "new": "",
+    "image": "img_shop16.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1863"
+  },
+  {
+    "area": "仙台駅1F　みちのくうまいもん通り tekute dining",
+    "name": "伊達な居酒屋 山の猿",
+    "category": "restaurant",
+    "time": "11:00～23:00（L.O.フード 22:15、ドリンク 22:30）",
+    "new": "",
+    "image": "img_shop17.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1864"
+  },
+  {
+    "area": "仙台駅1F　みちのくうまいもん通り tekute dining",
+    "name": "WARAYAKI　bistro　W ",
+    "category": "restaurant",
+    "time": "11:00～23:00（L.O.22:15）",
+    "new": "",
+    "image": "img_shop18.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1865"
+  },
+  {
+    "area": "仙台駅1F　みちのくうまいもん通り tekute dining",
+    "name": "スパゲッティ トレンタ 仙台駅店",
+    "category": "restaurant",
+    "time": "11:00～21:30（L.O.21:00）",
+    "new": "",
+    "image": "img_shop19.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1866"
+  },
+  {
+    "area": "仙台駅1F　みちのくうまいもん通り tekute dining",
+    "name": "ミヤギノ純米酒センター シマウマ酒店",
+    "category": "restaurant",
+    "time": "11:00〜23:00（L.O.フード22:00 / ドリンク22:30）",
+    "new": "",
+    "image": "img_shop20.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1867"
+  },
+  {
+    "area": "仙台駅2F",
+    "name": "立ちそば処杜",
+    "category": "restaurant",
+    "time": "平日6:30～22:00、土日祝6:30～20:00",
+    "new": "",
+    "image": "img_shop21.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/339"
+  },
+  {
+    "area": "仙台駅2F",
+    "name": "DaTe cafe O'rder",
+    "category": "restaurant",
+    "time": "月～木7:15～20:45、金～日7:15～22:00",
+    "new": "",
+    "image": "img_shop22.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/117"
+  },
+  {
+    "area": "仙台駅2F",
+    "name": "ドトールコーヒーショップ仙台駅店",
+    "category": "restaurant",
+    "time": "月～土6:45～22:00、日・祝7:00～21:00",
+    "new": "",
+    "image": "img_shop23.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/169"
+  },
+  {
+    "area": "仙台駅3F",
+    "name": "レストランHACHI",
+    "category": "restaurant",
+    "time": "10:00～21:30（L.O.21:00）",
+    "new": "",
+    "image": "img_shop24.png",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/186"
+  },
+  {
+    "area": "仙台駅3F",
+    "name": "キリンシティプラス JR仙台駅店",
+    "category": "restaurant",
+    "time": "月～土11:00～22:30、日・祝11:00～22:00",
+    "new": "",
+    "image": "img_shop25.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/153"
+  },
+  {
+    "area": "仙台駅3F",
+    "name": "カフェ杜の香り 仙台駅店",
+    "category": "restaurant",
+    "time": "7:30～20:30",
+    "new": "",
+    "image": "img_shop26.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/144"
+  },
+  {
+    "area": "仙台駅3F　牛たん通り",
+    "name": "伊達の牛たん本舗 牛たん通り店",
+    "category": "restaurant",
+    "time": "10:00～21:30（L.O.21:00）",
+    "new": "",
+    "image": "img_shop27.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/202"
+  },
+  {
+    "area": "仙台駅3F　牛たん通り",
+    "name": "たんや善治郎",
+    "category": "restaurant",
+    "time": "10:00～21:30（L.O.21:00）",
+    "new": "",
+    "image": "img_shop28.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/168"
+  },
+  {
+    "area": "仙台駅3F　牛たん通り",
+    "name": "牛たん炭焼 利久 牛たん通り店",
+    "category": "restaurant",
+    "time": "10:00～21:30（L.O.21:00）",
+    "new": "",
+    "image": "img_shop29.png",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/278"
+  },
+  {
+    "area": "仙台駅3F　牛たん通り",
+    "name": "味の牛たん喜助 JR仙台駅店",
+    "category": "restaurant",
+    "time": "10:00～21:30（L.O.21:00）",
+    "new": "",
+    "image": "img_shop30.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/328"
+  },
+  {
+    "area": "仙台駅3F　牛たん通り",
+    "name": "牛たん焼助",
+    "category": "restaurant",
+    "time": "10:00～21:30（L.O.21:00）",
+    "new": "",
+    "image": "img_shop31.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/907"
+  },
+  {
+    "area": "仙台駅3F　牛たん通り",
+    "name": "牛たん仙台牛 伊勢屋 牛たん通り店",
+    "category": "restaurant",
+    "time": "11:00～21:00（L.O.20:30）",
+    "new": "",
+    "image": "img_shop32.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/908"
+  },
+  {
+    "area": "仙台駅3F　すし通り",
+    "name": "気仙沼あさひ鮨",
+    "category": "restaurant",
+    "time": "平日・祝日11:00～21:30（L.O.21:00）、金・土・日11:00～22:00（L.O.21:30）",
+    "new": "",
+    "image": "img_shop33.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/277"
+  },
+  {
+    "area": "仙台駅3F　すし通り",
+    "name": "仙令鮨　仙台駅3階店",
+    "category": "restaurant",
+    "time": "11:00～21:30（L.O.21:00）",
+    "new": "",
+    "image": "img_shop34.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/322"
+  },
+  {
+    "area": "仙台駅3F　すし通り",
+    "name": "すし三陸前",
+    "category": "restaurant",
+    "time": "11:00～21:30（L.O.21:20）",
+    "new": "",
+    "image": "img_shop35.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/159"
+  },
+  {
+    "area": "仙台駅3F　すし通り",
+    "name": "寿司処こうや",
+    "category": "restaurant",
+    "time": "11:00～21:30（L.O.21:00）",
+    "new": "",
+    "image": "img_shop36.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/285"
+  },
+  {
+    "area": "仙台駅3F　ずんだ小径",
+    "name": "ずんだ茶寮",
+    "category": "restaurant",
+    "time": "物販9:00～21:00、喫茶10:00～18:30",
+    "new": "",
+    "image": "img_shop37.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/163"
+  },
+  {
+    "area": "仙台駅3F　ずんだ小径",
+    "name": "喜久水庵 ずんだ茶屋",
+    "category": "restaurant",
+    "time": "9:00～21:00",
+    "new": "",
+    "image": "img_shop38.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/274"
+  },
+  {
+    "area": "仙台駅3F　新幹線中央口改札内",
+    "name": "THE MOST COFFEE satellite（新幹線中央改札内）",
+    "category": "restaurant",
+    "time": "7:00～19:00",
+    "new": "",
+    "image": "img_shop39.png",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1713"
+  },
+  {
+    "area": "仙台駅前",
+    "name": "たんや善治郎 杜の都 五橋横丁（仙台駅前）",
+    "category": "restaurant",
+    "time": "11:00～23:00（L.O.22:30）",
+    "new": "",
+    "image": "img_shop40.jpg",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/56"
+  }
+]

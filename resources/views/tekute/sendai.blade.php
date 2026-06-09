@@ -63,7 +63,6 @@
 									<li><a href="https://www.livit.jregroup.ne.jp/tekute/search?pt%5B%5D=91&ot%5B%5D=82&keywords=">ショップ一覧</a></li>
 									<li><a href="#floormap">フロアマップ</a></li>
 								</ul>
-                                @include('tekute.search_section', ['selected_tag' => $selected_tag_name])
                                 @include('tekute.news_section')
 								<div class="insta-bnr"><a href="https://www.instagram.com/sendai_ekinaka/" target="_blank"><img src="/serviceinfo/assets/img/tekute/bnr_tekute_pc.png" class="pc" alt=""><img src="/serviceinfo/assets/img/tekute/bnr_tekute_sp.png" class="sp" alt=""></a></div>
 								<div class="insta-bnr"><a href="https://tabiiro.jp/kankou/landmark/sendai_ekinaka/" target="_blank"><img src="/serviceinfo/assets/img/tekute/bnr_tabiiro.png" alt="旅色"></a></div>
@@ -77,18 +76,24 @@
 
 												<div class="tab-panel">
 												<div class="map" data-contentid="1">
-														<iframe src="{{ route('tekute-sendai-map') }}" width="100%" height="460" scrolling="no"></iframe>
+														<img class="zoom-map" src="/serviceinfo/assets/img/tekute/map_sendai.png" alt="" >
 												</div>
 												<div class="map hidden" data-contentid="2">
-														<iframe src="{{ route('tekute-sendai2-map') }}" width="100%" height="460" scrolling="no"></iframe>
+														<img class="zoom-map" src="/serviceinfo/assets/img/tekute/map_sendai02.png" alt="" >
 												</div>
+											<div class="zoom-control">
+														<div class="zoom-in">
+                                <label></label>
+                            </div>
+                            <div class="zoom-out">
+                                <label></label>
+                            </div></div>
+												
+										
 									</div>
 <div class="street"><iframe src="
 https://www.google.com/maps/embed?pb=
 !4v1718095775854!6m8!1m7!1sCAoSLEFGMVFpcE84RGJiaHNNTENfdjBYZGN2VmJzdzlsbnpRX21feGVsZUhHX0pv!2m2!1d38.262025562302!2d140.88194149356!3f106.89559339053264!4f-3.764626275889981!5f0.7820865974627469" width="1000" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-										</div>
-
-
 
 								</section>
 								
@@ -133,11 +138,11 @@ https://www.google.com/maps/embed?pb=
 <script src="/serviceinfo/assets/js/common/jquery.js"></script>
 <script src="/serviceinfo/assets/js/common/base.js"></script>
 <script src="/serviceinfo/assets/js/common/common.js"></script>
-<script src="/serviceinfo/assets/js/common/matchheight.js"></script>
+<!-- <script src="/serviceinfo/assets/js/common/matchheight.js"></script> -->
 <script src="/serviceinfo/assets/js/common/slick.js"></script>
+<script src="https://unpkg.com/@panzoom/panzoom/dist/panzoom.min.js"></script>
 <script src="/serviceinfo/assets/js/tekute/script.js"></script>
 <script src="/serviceinfo/assets/js/tekute/movie_sendai.js"></script>
-<script src="/serviceinfo/assets/js/common/ofi.min.js"></script>
 <script>
 $(function(){
 	 $('.slider dd').matchHeight();
