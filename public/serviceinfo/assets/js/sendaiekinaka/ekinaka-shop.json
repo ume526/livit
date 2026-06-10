@@ -513,7 +513,7 @@
     "area": "仙台駅1F　tekuteせんだい",
     "name": "QBハウス",
     "category": "service",
-    "time": "平日10:00～20:00、土日祝　9:00～19:00",
+    "time": "平日10:00～20:00、土日祝9:00～19:00",
     "new": "",
     "image": "img_shop01.jpg",
     "taxfree": "none",
@@ -588,6 +588,16 @@
     "image": "img_shop08.png",
     "taxfree": "none",
     "url": "https://www.livit.jregroup.ne.jp/detail/1920"
+  },
+  {
+    "area": "あおば通駅",
+    "name": "ドライヘッドスパ専門店 そら ～宙～",
+    "category": "service",
+    "time": "月～土 10:00～22:30（最終受付：21:00）、日祝 10:00～21:00（最終受付：19:30）",
+    "new": "",
+    "image": "img_shop09.png",
+    "taxfree": "none",
+    "url": "https://www.livit.jregroup.ne.jp/detail/1223"
   },
   {
     "area": "仙台駅1F　tekuteせんだい",
