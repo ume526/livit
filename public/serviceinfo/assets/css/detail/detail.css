@@ -360,6 +360,7 @@ section,.headTtl{
 	margin: 0 auto 20px;
 	padding-top:15px;
 	border: 1px solid #ddd;
+	position:relative;
 }
 
 .access .image iframe {
@@ -380,6 +381,47 @@ section,.headTtl{
 
 .access .floormap {
 	margin-bottom: 100px;
+}
+.zoom-control {
+	bottom: 15px;
+        height: 70px;
+        position: absolute;
+        right: 15px;
+        width: 30px;
+}
+.zoom-control .zoom-in {
+	        aspect-ratio: 1 / 1;
+					top: 0;
+        left: 0;
+        position: absolute;
+        width: 30px;
+}
+.zoom-control .zoom-in label{
+	        cursor: default;
+        display: block;
+        height: 100%;
+        opacity: .8;
+        width: 100%;
+        background: url(/serviceinfo/assets/img/common/btn_zoomin.svg) no-repeat;
+        background-size: contain;
+				cursor: pointer;
+}
+.zoom-control .zoom-out {
+aspect-ratio: 1 / 1;
+bottom: 0;
+        left: 0;
+        position: absolute;
+        width: 30px;
+}
+.zoom-control .zoom-out label{
+	        cursor: default;
+        display: block;
+        height: 100%;
+        opacity: .8;
+        width: 100%;
+        background: url(/serviceinfo/assets/img/common/btn_zoomout.svg) no-repeat;
+        background-size: contain;
+				cursor: pointer;
 }
 
 .btn_back {

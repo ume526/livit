@@ -1315,9 +1315,10 @@ section h2.tit{
 	z-index:98;
 }
 .park .note {
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 1.6;
-	margin-top: 20px;
+	letter-spacing:0.04em;
+	margin-top: 10px;
 }
 .park .note strong {
 	display: block;
@@ -1339,7 +1340,47 @@ section h2.tit{
 .floormap .map{
 		border:4px solid #efefef;
 }
-
+.zoom-control {
+	bottom: 15px;
+        height: 70px;
+        position: absolute;
+        right: 15px;
+        width: 30px;
+}
+.zoom-control .zoom-in {
+	        aspect-ratio: 1 / 1;
+					top: 0;
+        left: 0;
+        position: absolute;
+        width: 30px;
+}
+.zoom-control .zoom-in label{
+	        cursor: default;
+        display: block;
+        height: 100%;
+        opacity: .8;
+        width: 100%;
+        background: url(/serviceinfo/assets/img/common/btn_zoomin.svg) no-repeat;
+        background-size: contain;
+				cursor: pointer;
+}
+.zoom-control .zoom-out {
+aspect-ratio: 1 / 1;
+bottom: 0;
+        left: 0;
+        position: absolute;
+        width: 30px;
+}
+.zoom-control .zoom-out label{
+	        cursor: default;
+        display: block;
+        height: 100%;
+        opacity: .8;
+        width: 100%;
+        background: url(/serviceinfo/assets/img/common/btn_zoomout.svg) no-repeat;
+        background-size: contain;
+				cursor: pointer;
+}
 
 /* shopinfo
 --------------*/
@@ -2139,7 +2180,7 @@ text-justify: inter-ideograph;*/
 	padding-bottom:20%;
 }
 #pivot .search{
-	margin-bottom:40vw !important;
+	margin-bottom:0 !important;
 }
 #pivot .mainVisual .bg .box01{
 	width: 3.6vw;
@@ -2184,11 +2225,11 @@ text-justify: inter-ideograph;*/
 }
 /* search
 --------------*/
-.search{
+/* .search{
 	width:100%;
 	position: relative;
 	margin-bottom:26.5vw;
-}
+} */
 .search .searchArea{
 	position: relative;
 }
@@ -2691,7 +2732,7 @@ height: 100% !important;
 .floormap {
 	width: 90vw;
 	margin:29vw auto 28.4vw;
-	padding-bottom:10.6vw;
+	padding-bottom:8.6vw;
 	position: relative;
 	background:#d3f2a0;
 }
@@ -2709,7 +2750,7 @@ height: 100% !important;
 	position: relative;
 }
 .floormap .map{
-	width: 77vw;
+	width: 90vw;
 	margin:0 auto;
 	background:#fff;
 	border:4px solid #efefef;
@@ -2737,6 +2778,44 @@ height: 100% !important;
 	bottom:-31.2vw;
 left:-3.2vw;
 z-index:98;
+}
+	.zoom-control {
+        bottom: -7vw;
+        height: 6vw;
+        position: absolute;
+        right: 2vw;
+        width: 14vw;
+        display: flex;
+}
+.zoom-control .zoom-in {
+	        aspect-ratio: 1 / 1;
+        width: 6vw;
+				        margin: 0 1vw;
+}
+.zoom-control .zoom-in label{
+	        cursor: default;
+        display: block;
+        height: 100%;
+        opacity: .8;
+        width: 100%;
+        background: url(/serviceinfo/assets/img/tekute/btn_zoomin.svg) no-repeat;
+        background-size: contain;
+				cursor: pointer;
+}
+.zoom-control .zoom-out {
+aspect-ratio: 1 / 1;
+        width: 6vw;
+				        margin: 0 1vw;
+}
+.zoom-control .zoom-out label{
+	        cursor: default;
+        display: block;
+        height: 100%;
+        opacity: .8;
+        width: 100%;
+        background: url(/serviceinfo/assets/img/tekute/btn_zoomout.svg) no-repeat;
+        background-size: contain;
+				cursor: pointer;
 }
 /* shopinfo
 --------------*/
@@ -3109,7 +3188,7 @@ z-index:98;
  z-index:98;
 }
 .park .note {
-        font-size: 0.978rem;
+        font-size: 0.87rem;
         line-height: 1.6;
         margin: 3vw 7vw 0;
 }

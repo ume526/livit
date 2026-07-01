@@ -213,7 +213,7 @@ body.sendai .headingTtl .logo{
 } */
 /* search
 --------------*/
-.search{
+/* .search{
 	background:url(/serviceinfo/assets/img/tekute/bg03_pc.png) no-repeat center top;
 	background-size:contain;
 	width:100%;
@@ -226,7 +226,7 @@ body.sendai .headingTtl .logo{
 	background-size:contain;
 	width:100%;
 	padding-bottom:1.3%;
-}
+} */
 .search .searchArea{
 	min-width:1024px;
 	margin:0 auto;
@@ -649,6 +649,11 @@ body.sendai .headingTtl .logo{
 }
 
 /* tab  */
+.tab-panel {
+	width: 1024px;
+	margin: 0 auto;
+	position: relative;
+}
 .tab-list {
   display: flex;
   width: 680px;
@@ -727,6 +732,7 @@ body.sendai .headingTtl .logo{
 	top: 84px;
 	-webkit-transition: opacity 0.5s, top 0.3s;
 	transition: opacity 0.5s, top 0.3s;
+	z-index: 10;
 }
 .tab-list > li .dropdown-menu:before {
 	display: block;
@@ -793,6 +799,47 @@ body.sendai .headingTtl .logo{
 .tab-list > li .dropdown-list a:hover {
 	opacity: 1;
 }
+.zoom-control {
+	bottom: 15px;
+        height: 70px;
+        position: absolute;
+        right: 15px;
+        width: 30px;
+}
+.zoom-control .zoom-in {
+	        aspect-ratio: 1 / 1;
+					top: 0;
+        left: 0;
+        position: absolute;
+        width: 30px;
+}
+.zoom-control .zoom-in label{
+	        cursor: default;
+        display: block;
+        height: 100%;
+        opacity: .8;
+        width: 100%;
+        background: url(/serviceinfo/assets/img/common/btn_zoomin.svg) no-repeat;
+        background-size: contain;
+				cursor: pointer;
+}
+.zoom-control .zoom-out {
+aspect-ratio: 1 / 1;
+bottom: 0;
+        left: 0;
+        position: absolute;
+        width: 30px;
+}
+.zoom-control .zoom-out label{
+	        cursor: default;
+        display: block;
+        height: 100%;
+        opacity: .8;
+        width: 100%;
+        background: url(/serviceinfo/assets/img/common/btn_zoomout.svg) no-repeat;
+        background-size: contain;
+				cursor: pointer;
+}
 /* floormap
 --------------*/
 .floormap .inner{
@@ -823,6 +870,7 @@ body.sendai .headingTtl .logo{
 	padding:40px 24px;
 	border-radius:20px;
 	border-radius: 10px;
+	position: relative;
 }
 .floormap .map.hidden {
 	display: none;
@@ -1712,7 +1760,7 @@ body.sendai .headingTtl .logo {
 
 /* search
 --------------*/
-.search{
+/* .search{
 	background:url(/serviceinfo/assets/img/tekute/bg03_sp.png) no-repeat center top;
 	background-size:contain;
 	width:100%;
@@ -1726,7 +1774,7 @@ body.sendai .headingTtl .logo {
 	background-size:contain;
 	width:100%;
 	padding-bottom:4%;
-}
+} */
 .search .searchArea{
 	background:#b6d56a;
 	padding:6.6% 0 14%;
@@ -2257,6 +2305,50 @@ height: 100% !important;
 	  border-right: 3px solid #eee;
 	  width: 50.5%;
   }
+	.tab-panel {
+		position: relative;
+	}
+	.zoom-control {
+        bottom: 1vw;
+        height: 13.5vw;
+        position: absolute;
+        right: 4vw;
+        width: 6vw;
+}
+.zoom-control .zoom-in {
+	        aspect-ratio: 1 / 1;
+					top: 0;
+        left: 0;
+        position: absolute;
+        width: 6vw;
+}
+.zoom-control .zoom-in label{
+	        cursor: default;
+        display: block;
+        height: 100%;
+        opacity: .8;
+        width: 100%;
+        background: url(/serviceinfo/assets/img/tekute/btn_zoomin.svg) no-repeat;
+        background-size: contain;
+				cursor: pointer;
+}
+.zoom-control .zoom-out {
+aspect-ratio: 1 / 1;
+bottom: 0;
+        left: 0;
+        position: absolute;
+        width: 6vw;
+}
+.zoom-control .zoom-out label{
+	        cursor: default;
+        display: block;
+        height: 100%;
+        opacity: .8;
+        width: 100%;
+        background: url(/serviceinfo/assets/img/tekute/btn_zoomout.svg) no-repeat;
+        background-size: contain;
+				cursor: pointer;
+}
 /* floormap
 --------------*/
 .floormap .inner{

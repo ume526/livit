@@ -80,7 +80,6 @@
 									<li><a href="#floormap">フロアマップ</a></li>
 									<li><a href="#information">インフォメーション</a></li>
 								</ul>
-                                @include('pivot.search_section', ['selected_tag' => $selected_tag_name])
                                 <section class="recommend">
                                   <h2 class="tit">イチオシ商品 HIGHLY RECOMMENDED</h2>
                                   <div class="osusume pc"><iframe width="600" height="250" title="ピボット 郡山店のチラシ・特売情報" src="https://widgets.tokubai.co.jp/21943/widget?height=250&width=600" frameborder="0"><a href="https://widgets.tokubai.co.jp/21943/widget?height=250&width=600">ピボット 郡山店のチラシ・特売情報</a></iframe></div>
@@ -108,8 +107,15 @@
 										<div class="inner">
 												<h2 class="tit">FLOOR MAP | フロアマップ</h2>
 												<div class="map">
-														<iframe src="{{ route('pivot-koriyama-map') }}" width="100%" height="800" scrolling="no"></iframe>
+													<img class="zoom-map" src="/serviceinfo/assets/img/pivot/koriyama_map.png" alt="">
 												</div>
+												<div class="zoom-control">
+														<div class="zoom-in">
+                                <label></label>
+                            </div>
+                            <div class="zoom-out">
+                                <label></label>
+                            </div></div>
 												<ul class="bgItem">
 												  <li class="item11 sp"></li>
 														<li class="item12"></li>
@@ -236,7 +242,8 @@ JR東日本グループの<br>
 								<section class="park">
 										<div class="inner">
 													<h2 class="tit">PARKING | 駐車場</h2>
-												<div class="place"> <img src="/serviceinfo/assets/img/pivot/koriyama_park_pc.gif" class="pc" alt="駐車場"><img src="/serviceinfo/assets/img/pivot/koriyama_park_sp.gif" class="sp" alt="駐車場"> </div>
+												<div class="place"> <img src="/serviceinfo/assets/img/pivot/koriyama_park_pc.png" class="pc" alt="駐車場"><img src="/serviceinfo/assets/img/pivot/koriyama_park_sp.png" class="sp" alt="駐車場"> </div>
+												<!-- <p class="note">2026年7月1日より、駐車場の最大料金が変更となります。詳しくはNEWS・EVENTページをご確認いただきますようお願いいたします。</p> -->
 												<ul class="bgItem">
 														<li class="item15 sp"></li>
 												</ul>
@@ -257,6 +264,7 @@ JR東日本グループの<br>
 <script src="/serviceinfo/assets/js/common/common.js"></script>
 <script src="/serviceinfo/assets/js/common/matchheight.js"></script>
 <script src="/serviceinfo/assets/js/common/slick.js"></script>
+<script src="https://unpkg.com/@panzoom/panzoom/dist/panzoom.min.js"></script>
 <script src="/serviceinfo/assets/js/pivot/script.js"></script>
 <script>
 $(function(){

@@ -1,0 +1,1707 @@
+@charset "utf-8";
+
+main {
+  position: relative;
+}
+
+.breadcrumbs,
+.tpl_btmBnr,
+.tpl_contents article {
+  position: relative;
+  z-index: 1;
+}
+
+.tpl_contents .illust_bg li {
+  position: absolute;
+}
+
+.tpl_contents .illust_bg li:first-child {
+  top: 80px;
+  left: -243px;
+}
+
+.tpl_contents .illust_bg li:nth-child(2) {
+  top: 535px;
+  right: -305px;
+}
+
+.tpl_contents .illust_bg li:nth-child(3) {
+  bottom: -100px;
+  left: -243px;
+}
+
+.tpl_contents .illust_bg li:nth-child(4) {
+  bottom: -80px;
+  right: 38px;
+}
+
+.introduction .keyvisual,
+.introduction .slidArea {
+  width: 100%;
+}
+
+.introduction .keyvisual .sl,
+.introduction .slidArea .sl {
+  width: 100%;
+}
+
+.introduction .keyvisual .sl img,
+.introduction .slidArea .sl img {
+  width: 100%;
+}
+
+.introduction .slidArea .blk {
+  overflow: hidden;
+}
+
+.introduction .slidArea .slider {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.introduction .slidArea .sl {
+  overflow: hidden;
+  outline: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.introduction .slidArea .slick-list {
+  transform: none;
+}
+
+.introduction .keyvisual .slidArea .sl .imgpc {
+  display: block;
+}
+
+.introduction .keyvisual .slidArea .sl .imgsp {
+  display: none;
+}
+
+img {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.LinkBox3col .linkList .btn .desc {
+  overflow: hidden;
+}
+
+.LinkBox3col .linkList .btn .desc p {
+  overflow: hidden;
+  display: -webkit-box;
+  display: box;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-line-clamp: 4 !important;
+  line-clamp: 4 !important;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* min-width:769px */
+/* //////////////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 769px) {
+  	.wrap {
+		max-width: 1024px;
+    width: 100%;
+    position: relative;
+	}
+  section {
+    padding:0 20px;
+
+  }
+  main {
+    position: relative;
+  }
+
+  main:before {
+    content: '';
+    display: block;
+    background: url(/serviceinfo/assets/img/sendaiekinaka/shoplist/bg_right_01_pc.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 932px;
+    height: 255px;
+    top: 633px;
+    right: -100px;
+  }
+
+  main:after {
+    content: '';
+    display: block;
+    width: 764px;
+    height: 419px;
+    top: 80px;
+    left: -43px;
+
+    background: url(/serviceinfo/assets/img/sendaiekinaka/shoplist/bg_left_01_pc.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+  }
+
+  .introduction .summary .title {
+    text-align: center;
+    padding-top: 82px;
+  }
+
+  .introduction .summary .title .row {
+    position: relative;
+  }
+
+  .introduction .summary .title .ttl {
+    font-size: 29px;
+    line-height: 1.62;
+    letter-spacing: 0.19em;
+  }
+
+  .introduction .summary .lead {
+    text-align: center;
+    font-size: 15px;
+    line-height: 2.13;
+    letter-spacing: 0.2em;
+    padding-top: 40px;
+  }
+
+  .headingTtl {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: 8px;
+    text-align: center;
+    position: relative;
+    margin-top: 60px;
+    padding-top: 70px;
+  }
+
+  .headingTtl.omiyage:before {
+    content: '';
+    display: block;
+    width: 59px;
+    height: 59px;
+    background: url('/serviceinfo/assets/img/sendaiekinaka/shoplist/icon_omiyage.svg') no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+  }
+
+  .headingTtl.restaurant:before {
+    content: '';
+    display: block;
+    width: 68px;
+    height: 49px;
+    background: url('/serviceinfo/assets/img/sendaiekinaka/shoplist/icon_restaurant.svg') no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+  }
+
+  .headingTtl.food:before {
+    content: '';
+    display: block;
+    width: 67px;
+    height: 44px;
+    background: url('/serviceinfo/assets/img/sendaiekinaka/shoplist/icon_food.svg') no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+  }
+
+  .headingTtl.service:before {
+    content: '';
+    display: block;
+    width: 83px;
+    height: 56px;
+    background: url('/serviceinfo/assets/img/sendaiekinaka/shoplist/icon_service.svg') no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+  }
+
+  /* shop */
+  .shopLinkArea {
+    position: relative;
+  }
+
+  .shop:before {
+    content: '';
+    display: block;
+    width: 797px;
+    height: 302px;
+    top: 1371px;
+    left: -43px;
+    background: url(/serviceinfo/assets/img/sendaiekinaka/shoplist/bg_left_02_pc.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+  }
+
+  body.restaurant .shop:before {
+    top: 1230px;
+  }
+
+  .shop:after {
+    content: '';
+    display: block;
+    width: 549px;
+    height: 150px;
+    top: 1817px;
+    right: -100px;
+
+    background: url(/serviceinfo/assets/img/sendaiekinaka/shoplist/bg_right_02_pc.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+  }
+
+  .shop #shopContainer {
+    margin-top: 90px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .shop .areaBlock, .shop .areaTitle, .shop .shoplist {
+    width: 100%;
+  }
+
+  .shop .areaTitle {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 8px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+
+  .shop .areaTitle span {
+    display: inline-block;
+    background: #fff;
+    z-index: 1;
+    position: relative;
+  }
+
+  .shop .areaTitle:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: inherit;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .shop .areaTitle.omiyage {
+    color: #C17EBE;
+  }
+
+  .shop .areaTitle.omiyage:after {
+    background: #C17EBE;
+
+  }
+
+  .shop .areaTitle.restaurant {
+    color: #E5793A;
+  }
+
+  .shop .areaTitle.restaurant:after {
+    background: #E5793A;
+  }
+
+  .shop .areaTitle.food {
+    color: #85CA86;
+  }
+
+  .shop .areaTitle.food:after {
+    background: #85CA86;
+  }
+
+  .shop .areaTitle.service {
+    color: #88C0E1;
+
+  }
+
+  .shop .areaTitle.service:after {
+    background: #88C0E1;
+
+  }
+
+  .shop .shopBtnArea {
+    padding: 64px 0 0;
+  }
+
+  .shop .categoryTabs {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .shop .categoryTabs button {
+    max-width: 245px;
+    width: 23.93%;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.12em;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+  }
+
+
+  .shop .categoryTabs button[data-category="omiyage"] {
+    background: #C17EBE;
+  }
+
+  .shop .categoryTabs button[data-category="restaurant"] {
+    background: #E5793A;
+  }
+
+  .shop .categoryTabs button[data-category="food"] {
+    background: #85CA86;
+  }
+
+  .shop .categoryTabs button[data-category="service"] {
+    background: #88C0E1;
+
+  }
+
+  .shop .shopBtnArea .ttl {
+    text-align: center;
+    /* padding-bottom: 30px; */
+    font-family: "Sawarabi Mincho", serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.5;
+    letter-spacing: 8px;
+    text-align: center;
+
+  }
+
+  .shop .shopBtnArea .row {
+    display: table;
+    margin: 0 auto;
+    min-width: 400px;
+  }
+
+  .shop .shopBtnArea .row>dt,
+  .shop .shopBtnArea .row>dd {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .shop .shopBtnArea .row>dt {
+    width: 95px;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    padding-top: 8px;
+    white-space: nowrap;
+  }
+
+  .shop .shopBtnArea .tagList {
+    display: flex;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    flex-wrap: wrap;
+    max-width: 925px;
+  }
+
+  .shop .shopBtnArea .tagList>li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+
+  .shop .shopBtnArea .tagList>li.sp {
+    display: none;
+  }
+
+  .shop .shopBtnArea .nodata {
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding: 60px 0 50px;
+  }
+
+  .shop .shopBtnArea .rst {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .shop .shopBtnArea .rst .btn {
+    display: inline-block;
+    border: 1px solid #000;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    margin: 0 auto;
+    padding: 13px 22px;
+  }
+
+  .shop .shopBtnArea .tagList li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.3px;
+    display: flex;
+    padding: 0;
+    margin-bottom: 0;
+
+  }
+
+  .shop .shopBtnArea .tagList li a {
+    text-decoration: underline;
+  }
+
+  .shop .shopBtnArea .tagList li a:hover {
+    text-decoration: none;
+  }
+
+  .shop .shopBtnArea .tagList {
+    padding-top: 30px;
+  }
+
+  .shop .shopBtnArea .tagList p.tax {
+    display: inline-block;
+    border-radius: 4px;
+  }
+
+  .shop {
+    padding-bottom: 60px;
+  }
+
+  .shop .LinkBox4col .shoplist {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+
+  }
+
+  .shop .LinkBox4col .shoplist li {
+    position: relative;
+  }
+
+  .shop .LinkBox4col .shoplist li.new:before {
+    content: '';
+    display: block;
+    width: 64px;
+    height: 64px;
+    background: url(/serviceinfo/assets/img/sendaiekinaka/shoplist/icon_new.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    z-index: 1;
+
+  }
+
+  .shop .areaBlock+.areaBlock {
+    margin-top: 46px;
+
+  }
+
+  .shop .LinkBox4col .LBoxTagList p {
+    border-radius: 4px;
+  }
+
+  .shop .LBoxTagList p.red {
+    background: #77160A;
+
+  }
+
+  .shop .LBoxTagList p.blue {
+    background: #0A4677;
+
+  }
+
+  .shop .LinkBox3col .linkList .btn .desc {
+    height: 90px;
+  }
+
+  .resizeRatioBox .resizeRatioImg {
+    height: 152px;
+  }
+
+  .resizeRatioBox .resizeRatioImg img {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .LBoxTagList {
+    text-align: left;
+  }
+
+  .shop .LinkBox4col .linkList .ttl {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin: 0 0 8px;
+  }
+
+  .shop .LinkBox4col .linkList .desc {
+    margin-top: 8px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.3px;
+  }
+
+  .shop #more_button .btn {
+    width: 180px;
+    text-align: center;
+    margin-top: 80px;
+    padding: 8px 30px 8px 30px;
+    font-size: 16px;
+  }
+
+  .shop #more_button .arrowbtm:after {
+    right: 19px;
+    width: 6px;
+    height: 6px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+  }
+
+  /* anime */
+  .setObj {
+    position: absolute;
+    z-index: 1;
+  }
+
+  /* business */
+  .business {
+    position: relative;
+  }
+
+  .business:before {
+    content: '';
+    display: block;
+    width: 432px;
+    height: 159px;
+    top: 70px;
+    left: -180px;
+
+    background: url(/serviceinfo/assets/img/sendaiekinaka/shoplist/bg_left_03_pc.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+  }
+
+  .business:after {
+    content: '';
+    display: block;
+    width: 565px;
+    height: 155px;
+    top: 514px;
+    right: -190px;
+    background: url(/serviceinfo/assets/img/sendaiekinaka/shoplist/bg_right_03_pc.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+  }
+
+  .business .heading {
+    text-align: center;
+    padding: 30px 0 30px;
+  }
+
+  .business .heading .ttl {
+    border-radius: 26px;
+    background: #e2e8ea;
+    color: #000;
+    font-size: 28px;
+    letter-spacing: 0.16em;
+    display: inline-block;
+    padding: 10px 75px;
+  }
+
+  .business .heading .ttl h3 {
+    font-weight: 500;
+  }
+
+  .business .lead {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.49;
+    letter-spacing: 0.08em;
+    padding-bottom: 10px;
+  }
+
+  .business .linkBox {
+    padding-bottom: 90px;
+  }
+
+  .business .linkBox2colHorizon .linkList .btn>dl>dd {
+    border-top: solid 1px #e2e8ea;
+    border-right: solid 1px #e2e8ea;
+    border-bottom: solid 1px #e2e8ea;
+  }
+
+  .business .linkBox .linkList .btn:hover {
+    opacity: 0.7;
+  }
+
+  .linkBox2colHorizon .linkList {
+    width: 100%;
+    display: flex;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .linkBox2colHorizon .linkList>li {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px 15px;
+  }
+
+  .linkBox2colHorizon .linkList .btn>dl {
+    display: table;
+    width: 100%;
+  }
+
+  .linkBox2colHorizon .linkList .btn>dl>dt,
+  .linkBox2colHorizon .linkList .btn>dl>dd {
+    background: #fff;
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .linkBox2colHorizon .linkList .btn>dl>dt {
+    border-radius: 15px 0 0 15px;
+    overflow: hidden;
+    width: 218px;
+  }
+
+  .linkBox2colHorizon .linkList .btn>dl>dd {
+    border-radius: 0 15px 15px 0;
+    position: relative;
+  }
+
+  .linkBox2colHorizon .linkList .btn .img img {
+    width: 100%;
+  }
+
+  .linkBox2colHorizon .linkList .btn .bx {
+    position: relative;
+    min-height: 182px;
+    padding: 25px 10px 30px 10px;
+  }
+
+  .linkBox2colHorizon .linkList .btn .hd {
+    text-align: left;
+  }
+
+  .linkBox2colHorizon .linkList .btn .hd .ttl {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.46;
+    letter-spacing: 0.02em;
+  }
+
+  .linkBox2colHorizon .linkList .btn .hd .desc {
+    font-size: 15px;
+    line-height: 1.46;
+    letter-spacing: 0.02em;
+  }
+
+  .linkBox2colHorizon .linkList .btn .btm {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    z-index: 1;
+    text-align: left;
+  }
+
+  .linkBox2colHorizon .linkList .btn .btm p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    border-bottom: solid 2px #000;
+    position: relative;
+    padding: 1px 24px 3px 0;
+  }
+
+  .linkBox2colHorizon .linkList .btn .btm p:after {
+    content: "";
+    position: absolute;
+    top: 1px;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    vertical-align: middle;
+    width: 5px;
+    height: 5px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .business .linkBox2colHorizon .linkList .btn>dl>dd {
+    border-top: solid 1px #e2e8ea;
+    border-right: solid 1px #e2e8ea;
+    border-bottom: solid 1px #e2e8ea;
+  }
+}
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* max-width:768px */
+/* //////////////////////////////////////////////////////////////////////////////// */
+@media screen and (max-width: 768px) {
+  .tpl_footer .tpl_fat_footer .tpl_linkArea {
+	text-align:left;
+}
+  main {
+    position: relative;
+  }
+
+  .breadcrumbs,
+  .tpl_btmBnr,
+  .tpl_contents article {
+    position: relative;
+    z-index: 1;
+  }
+
+  .tpl_contents .illust_bg li {
+    position: absolute;
+  }
+
+  .tpl_contents .illust_bg li img {
+    width: 100%;
+  }
+
+  .tpl_contents .illust_bg li:first-child {
+    width: 69vw;
+    top: 16.4vw;
+    left: -32.4vw;
+  }
+
+  .tpl_contents .illust_bg li:nth-child(2) {
+    width: 84.26vw;
+    top: 28vw;
+    right: -32.4vw;
+  }
+
+  .tpl_contents .illust_bg li:nth-child(3) {
+    width: 72vw;
+    top: 169.3vw;
+    left: -32.4vw;
+  }
+
+  .tpl_contents .illust_bg li:nth-child(4) {
+    width: 72vw;
+    top: 127vw;
+    right: -32.4vw;
+  }
+
+  .introduction .summary .wrap {
+    width: 100%;
+    padding: 0 7vw;
+  }
+
+  .introduction .summary .title {
+    padding-top: 2.454rem;
+  }
+
+  .headingTtl {
+    font-weight: 400;
+    line-height: 1.50;
+    letter-spacing: 4.29px;
+    text-align: center;
+    position: relative;
+    font-size: 1.61rem;
+    padding-top: 4.375rem;
+  }
+
+  .headingTtl.omiyage:before {
+    content: '';
+    display: block;
+    width: 3.69rem;
+    height: 3.69rem;
+    background: url('/serviceinfo/assets/img/sendaiekinaka/shoplist/icon_omiyage.svg') no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+  }
+
+  .headingTtl.restaurant:before {
+    content: '';
+    display: block;
+    width: 4.25rem;
+    height: 3.06rem;
+    background: url('/serviceinfo/assets/img/sendaiekinaka/shoplist/icon_restaurant.svg') no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+  }
+
+  .headingTtl.food:before {
+    content: '';
+    display: block;
+    width: 4.19rem;
+    height: 2.75rem;
+    background: url('/serviceinfo/assets/img/sendaiekinaka/shoplist/icon_food.svg') no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+  }
+
+  .headingTtl.service:before {
+    content: '';
+    display: block;
+    width: 5.19rem;
+    height: 3.5rem;
+    background: url('/serviceinfo/assets/img/sendaiekinaka/shoplist/icon_service.svg') no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+  }
+
+  .introduction {
+    position: relative;
+  }
+
+  .introduction:before {
+    content: '';
+    display: block;
+    width: 35.5vw;
+    height: 23.25vw;
+    background: url(/serviceinfo/assets/img/sendaiekinaka/shoplist/bg_right_01_sp.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 10.44rem;
+    ;
+    right: 0;
+  }
+
+  .introduction:after {
+    content: '';
+    display: block;
+    width: 57.75vw;
+    height: 34vw;
+    background: url(/serviceinfo/assets/img/sendaiekinaka/shoplist/bg_left_01_sp.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  #shopContainer {
+    position: relative;
+  }
+
+  .shopBtnArea:before {
+    content: '';
+    display: block;
+    width: 30.5vw;
+    height: 14.75vw;
+    background: url(/serviceinfo/assets/img/sendaiekinaka/shoplist/bg_right_02_sp.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 2rem;
+    right: -4rem;
+  }
+
+  .shopBtnArea,
+  .shopLinkArea {
+    position: relative;
+  }
+
+
+  .shopLinkArea:before {
+    content: '';
+    display: block;
+    width: 32.75vw;
+    height: 27.5vw;
+    background: url(/serviceinfo/assets/img/sendaiekinaka/shoplist/bg_left_02_sp.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 5rem;
+    left: -2rem;
+  }
+
+  .shopLinkArea:after {
+    content: '';
+    display: block;
+    width: 30.5vw;
+    height: 14.75vw;
+    background: url(/serviceinfo/assets/img/sendaiekinaka/shoplist/bg_right_03_sp.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 36rem;
+    right: -4rem;
+  }
+
+  .introduction .summary .title .row {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .introduction .summary .title .row>dd {
+    margin: 0 auto;
+    display: inline-block;
+  }
+
+  .introduction .summary .title .ttl {
+    font-size: 1.791rem;
+    line-height: 1.53;
+    letter-spacing: 0.2em;
+  }
+
+  .introduction .summary .lead {
+    text-align: center;
+    font-size: 0.928rem;
+    line-height: 1.71;
+    letter-spacing: 0.12em;
+    padding: 1.875rem 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* shop */
+  .shop .areaTitle {
+    font-weight: 500;
+    font-size: 1.13rem;
+    line-height: 1.5;
+    letter-spacing: 0.06rem;
+    text-align: center;
+    vertical-align: bottom;
+    margin-bottom: 1.13rem;
+  }
+
+  .shop .areaBlock+.areaBlock {
+    margin-top: 2.875rem;
+  }
+
+  .shop .areaTitle.omiyage {
+    color: #C17EBE;
+  }
+
+  .shop .areaTitle.restaurant {
+    color: #E5793A;
+  }
+
+  .shop .areaTitle.food {
+    color: #85CA86;
+  }
+
+  .shop .areaTitle.service {
+    color: #88C0E1;
+
+  }
+
+  .shop .categoryTabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .shop .categoryTabs button {
+    width: 43.5vw;
+    height: 12vw;
+    border-radius: 0.38rem;
+    font-weight: 500;
+    font-size: 0.88rem;
+    line-height: 1;
+    letter-spacing: 0.12em;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 0.7625rem;
+  }
+
+  .shop .categoryTabs button[data-category="omiyage"] {
+    background: #C17EBE;
+  }
+
+  .shop .categoryTabs button[data-category="restaurant"] {
+    background: #E5793A;
+  }
+
+  .shop .categoryTabs button[data-category="food"] {
+    background: #85CA86;
+  }
+
+  .shop .categoryTabs button[data-category="service"] {
+    background: #88C0E1;
+
+  }
+
+  .shop .shopBtnArea .tagList p.tax {
+    font-size: 0.75rem;
+    display: inline-block;
+    border-radius: 4px;
+  }
+
+  .shop .LinkBox4col .LBoxTagList p {
+    border-radius: 4px;
+  }
+
+  .shop .LBoxTagList p.red {
+    background: #77160A;
+
+  }
+
+  .shop .LBoxTagList p.blue {
+    background: #0A4677;
+
+  }
+
+  .shop {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .shop .LinkBox4col .shoplist {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.13rem 0.8rem;
+
+  }
+  .shop .LinkBox4col .shoplist li {
+    position: relative;
+  }
+
+  .shop .LinkBox4col .shoplist li.new:before {
+    content: '';
+    display: block;
+    width: 16vw;
+    height: 16vw;
+    background: url(/serviceinfo/assets/img/sendaiekinaka/shoplist/icon_new.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 1.2vw;
+    left: 1.5vw;
+    z-index: 1;
+
+  }
+  .shop .LinkBox4col .LBoxTagList>li {
+    padding: 0.7rem 0.4rem 0 0;
+
+  }
+
+  .shop .LinkBox4col .LBoxTagList p {
+    font-size: 3vw;
+    border-radius: 4px;
+    padding: 0.265rem 0.465rem;
+  }
+
+  .shop .LinkBox4col .LBoxTagList {
+    text-align: left;
+    font-size: 0;
+    padding: 0;
+  }
+
+  .shop .LinkBox4col .ttl {
+    font-size: 3.2vw;
+    line-height: 1.4;
+    text-align: left;
+    padding-top: 0.6rem;
+    padding-bottom: 0.497rem;
+  }
+
+  .shop .LinkBox4col .desc {
+    font-size: 3.2vw;
+    line-height: 1.4;
+    text-align: left;
+  }
+
+  .shop .wrap {
+    padding: 0;
+  }
+
+  .resizeRatioBox .resizeRatioImg {
+    height: 26.8vw;
+  }
+
+  .resizeRatioBox .resizeRatioImg img {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .shop .shopBtnArea {
+    padding: 1.875rem 0;
+  }
+
+  .shop .shopBtnArea .ttl {
+    text-align: center;
+    font-family: "Sawarabi Mincho", serif;
+    font-weight: 500;
+    font-size: 6.4vw;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    /* padding-bottom: 10.6vw; */
+  }
+
+  .shop .shopBtnArea .row>dt {
+    display: none;
+  }
+
+  .shop .shopBtnArea .tagList {
+    display: flex;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .shop .shopBtnArea .tagList>li {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0.75rem;
+    padding: 0 0.332rem 1rem 0;
+    letter-spacing: 0;
+  }
+
+  .shop .shopBtnArea .tagList li a {
+    text-decoration: underline;
+  }
+
+  .shop .shopBtnArea .tagList>li.sp {
+    display: block;
+    padding: 0.497rem 0 0 0.663rem;
+  }
+
+  .shop .shopBtnArea .tagList .tl {
+    font-size: 0.962rem;
+    line-height: 1;
+    letter-spacing: 0.2em;
+  }
+
+  .shop .shopBtnArea .tagList .tag {
+    cursor: pointer;
+    border-radius: 0.995rem;
+    background: #fff;
+    color: #fff;
+    width: 100%;
+    font-size: 0.962rem;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    padding: 0.531rem 1.161rem 0.531rem 2.321rem;
+    position: relative;
+  }
+
+  .shop .shopBtnArea .tagList .tag:after,
+  .shop .shopBtnArea .tagList .tag:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 1.161rem;
+    margin: auto;
+    vertical-align: middle;
+    width: 1px;
+    height: 0.995rem;
+    border-right: 1px solid #fff;
+  }
+
+  .shop .shopBtnArea .tagList .tag:after {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .shop .shopBtnArea .tagList .tag:before {
+    top: 1px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  .shop .shopBtnArea .tagList .tag.s1 {
+    background: #e9b003;
+  }
+
+  .shop .shopBtnArea .tagList .tag.s2 {
+    background: #5c8dc0;
+  }
+
+  .shop .shopBtnArea .tagList .tag.s3 {
+    background: #c17ebe;
+  }
+
+  .shop .shopBtnArea .tagList .tag.s4 {
+    background: #e5793a;
+  }
+
+  .shop .shopBtnArea .tagList .tag.s5 {
+    background: #3ebb6d;
+  }
+
+  .shop .shopBtnArea .tagList .tag.s6 {
+    background: #6fbf28;
+  }
+
+  .shop .shopBtnArea .tagList .tag.ac1 {
+    background: #a2977d;
+  }
+
+  .shop .shopBtnArea .nodata {
+    font-size: 1.094rem;
+    line-height: 1.53;
+    letter-spacing: 0.1em;
+    padding: 1.161rem 1.161rem 1.161rem;
+  }
+
+  .shop .shopBtnArea .rst {
+    text-align: center;
+    padding-top: 1.161rem;
+  }
+
+  .shop .shopBtnArea .rst .btn {
+    display: inline-block;
+    border: 1px solid #000;
+    font-size: 0.962rem;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    margin: 0 auto;
+    padding: 1.061rem 1.393rem;
+  }
+
+  .shop {
+    padding-bottom: 4rem;
+  }
+
+  .shop .LinkBox3col .linkList .btn .desc {
+    height: 6.632rem;
+  }
+
+  .shop #more_button .btn {
+    width: 60vw;
+    text-align: center;
+    margin-top: 8.5vw;
+    padding: 2.3vw;
+    font-size: 5.3vw;
+    letter-spacing: 0.1em;
+    border-radius: 2rem;
+  }
+
+  .shop #more_button .arrowbtm:after {
+    right: 19px;
+    width: 6px;
+    height: 6px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+  }
+
+  /* business */
+  .business .heading {
+    text-align: center;
+    padding: 1.158rem 0 1.158rem;
+  }
+
+  .business .heading .ttl {
+    border-radius: 1.326rem;
+    background: #e2e8ea;
+    color: #000;
+    font-size: 1.492rem;
+    letter-spacing: 0.16em;
+    display: inline-block;
+    padding: 0.663rem 1.326rem 0.663rem 1.658rem;
+  }
+
+  .business .heading .ttl h3 {
+    font-weight: 500;
+  }
+
+  .business .lead {
+    text-align: center;
+    font-size: 0.928rem;
+    line-height: 1.64;
+    letter-spacing: 0.08em;
+    padding-bottom: 1.192rem;
+  }
+
+  .business .linkBox {
+    padding-bottom: 3.437rem;
+  }
+
+  .business .linkBox2colHorizon .linkList .btn>dl>dd {
+    border-top: solid 1px #e2e8ea;
+    border-right: solid 1px #e2e8ea;
+    border-bottom: solid 1px #e2e8ea;
+  }
+
+  .linkBox2colHorizon .linkList>li {
+    padding: 0 0.497rem;
+    padding-bottom: 1.492rem;
+  }
+
+  /* .linkBox2colHorizon .linkList >li img{
+    border-radius: 0.829rem;
+  } */
+  .linkBox2colHorizon .linkList .btn>dl {
+    display: table;
+    width: 100%;
+  }
+
+  .linkBox2colHorizon .linkList .btn>dl>dt,
+  .linkBox2colHorizon .linkList .btn>dl>dd {
+    background: #fff;
+    display: table-cell;
+    vertical-align: top;
+    width: 50%;
+  }
+
+  .linkBox2colHorizon .linkList .btn>dl>dt {
+    border-radius: 0.829rem 0 0 0.829rem;
+    overflow: hidden;
+  }
+
+  .linkBox2colHorizon .linkList .btn>dl>dd {
+    border-radius: 0 0.829rem 0.829rem 0;
+    position: relative;
+  }
+
+  .linkBox2colHorizon .linkList .btn .bx {
+    position: relative;
+    min-height: 8.885rem;
+    padding: 0.829rem 0.332rem 0.729rem 0.497rem;
+  }
+
+  .linkBox2colHorizon .linkList .btn .img img {
+    width: 100%;
+  }
+
+  .linkBox2colHorizon .linkList .btn .hd {
+    text-align: left;
+  }
+
+  .linkBox2colHorizon .linkList .btn .hd .ttl {
+    font-size: 1.061rem;
+    font-weight: 700;
+    line-height: 1.55;
+    letter-spacing: 0.02em;
+  }
+
+  .linkBox2colHorizon .linkList .btn .hd .desc {
+    font-size: 0.962rem;
+    line-height: 1.55;
+    letter-spacing: 0.02em;
+  }
+
+  .linkBox2colHorizon .linkList .btn .btm {
+    position: absolute;
+    right: 0.829rem;
+    bottom: 0.663rem;
+    z-index: 1;
+    text-align: left;
+  }
+
+  .linkBox2colHorizon .linkList .btn .btm p {
+    font-size: 0.862rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    border-bottom: solid 2px #000;
+    position: relative;
+    padding: 1px 1.492rem 0.199rem 0;
+  }
+
+  .linkBox2colHorizon .linkList .btn .btm p:after {
+    content: "";
+    position: absolute;
+    top: 0.066rem;
+    bottom: 0;
+    right: 0.166rem;
+    margin: auto;
+    vertical-align: middle;
+    width: 0.332rem;
+    height: 0.332rem;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+}
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* print */
+/* //////////////////////////////////////////////////////////////////////////////// */
+@media print {
+  .introduction .keyvisual .slidArea .sl img {
+    width: 1024px !important;
+  }
+
+
+  /* introduction */
+  .introduction .keyvisual {
+    text-align: center;
+  }
+
+  .introduction .keyvisual .slidArea {
+    width: 100%;
+  }
+
+  .introduction .keyvisual .slidArea .sl {
+    width: 100%;
+  }
+
+  .introduction .keyvisual .slidArea .sl img {
+    width: 100%;
+  }
+
+  .introduction .keyvisual .slidArea .blk {
+    overflow: hidden;
+  }
+
+  .introduction .keyvisual .slidArea .slider {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .introduction .keyvisual .slidArea .sl {
+    outline: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .introduction .keyvisual .slidArea .slick-dotted.slick-slider {
+    margin-bottom: 0;
+  }
+
+  .introduction .keyvisual .slidArea .slick-dots {
+    left: 22%;
+    bottom: 23px;
+    width: auto;
+  }
+
+  .introduction .keyvisual .slidArea .slider .slick-dots li {
+    padding: 0 11px !important;
+  }
+
+  .introduction .keyvisual .slidArea .slick-dots li button {
+    border: none;
+    background: #fff;
+    width: 13px;
+    height: 13px;
+  }
+
+  .introduction .keyvisual .slidArea .slick-dots li.slick-active button {
+    background: #54aee6;
+  }
+
+  .introduction .summary .title {
+    text-align: center;
+    padding-top: 82px;
+  }
+
+  .introduction .summary .title .row {
+    position: relative;
+  }
+
+  .introduction .summary .title .sns {
+    position: absolute;
+    top: 0;
+    left: 130px;
+    z-index: 1;
+  }
+
+  .introduction .summary .title .sns a {
+    display: block;
+  }
+
+  .introduction .summary .title .ttl {
+    font-size: 29px;
+    line-height: 1.62;
+    letter-spacing: 0.19em;
+  }
+
+  .introduction .summary .lead {
+    text-align: center;
+    font-size: 15px;
+    line-height: 2.13;
+    letter-spacing: 0.2em;
+    padding-top: 40px;
+  }
+
+  /* shop */
+  .shop .shopBtnArea {
+    padding: 80px 0 75px;
+  }
+
+  .shop .shopBtnArea .ttl {
+    text-align: center;
+    font-family: "Sawarabi Mincho", serif;
+    font-weight: 500;
+    font-size: 6.4vw;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    padding-bottom: 10.6vw;
+  }
+
+  .shop .shopBtnArea .row {
+    display: table;
+    margin: 0 auto;
+    min-width: 400px;
+  }
+
+  .shop .shopBtnArea .row>dt,
+  .shop .shopBtnArea .row>dd {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .shop .shopBtnArea .row>dt {
+    width: 95px;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    padding-top: 8px;
+    white-space: nowrap;
+  }
+
+  .shop .shopBtnArea .tagList {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: -webkit-flexbox;
+    display: -moz-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 925px;
+  }
+
+  .shop .shopBtnArea .tagList>li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+
+  .shop .shopBtnArea .tagList>li.sp {
+    display: none;
+  }
+
+  .shop .shopBtnArea .tagList .tag {
+    cursor: pointer;
+    border-radius: 15px;
+    background: #fff;
+    color: #fff;
+    width: 100%;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    padding: 8px 20px 7px 38px;
+    position: relative;
+  }
+
+  .shop .shopBtnArea .tagList .tag:after,
+  .shop .shopBtnArea .tagList .tag:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    margin: auto;
+    vertical-align: middle;
+    width: 1px;
+    height: 15px;
+    border-right: 1px solid #fff;
+  }
+
+  .shop .shopBtnArea .tagList .tag:after {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .shop .shopBtnArea .tagList .tag:before {
+    top: 1px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  .shop .shopBtnArea .tagList .tag.s1 {
+    background: #e9b003;
+  }
+
+  .shop .shopBtnArea .tagList .tag.s2 {
+    background: #5c8dc0;
+  }
+
+  .shop .shopBtnArea .tagList .tag.s3 {
+    background: #c17ebe;
+  }
+
+  .shop .shopBtnArea .tagList .tag.s4 {
+    background: #e5793a;
+  }
+
+  .shop .shopBtnArea .tagList .tag.s5 {
+    background: #3ebb6d;
+  }
+
+  .shop .shopBtnArea .tagList .tag.s6 {
+    background: #6fbf28;
+  }
+
+  .shop .shopBtnArea .tagList .tag.ac1 {
+    background: #a2977d;
+  }
+
+  .shop .shopBtnArea .rst {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .shop .shopBtnArea .rst .btn {
+    display: inline-block;
+    border: 1px solid #000;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    margin: 0 auto;
+    padding: 13px 22px;
+  }
+
+  .shop {
+    padding-bottom: 60px;
+  }
+
+  .shop .LinkBox3col .linkList .btn .desc {
+    height: 90px;
+  }
+
+
+}

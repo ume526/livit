@@ -36,7 +36,7 @@
 									</li>
 									<li>
 										<div class="tpl_unit tpl_unit02">
-											<a class="tpl_btn tpl_navBtn" href="/search?pt[]=24&pt[]=110&keywords=" class="tpl_btn">仙台エキナカ</a>
+											<a class="tpl_btn tpl_navBtn" href="/sendaiekinaka/" class="tpl_btn">仙台エキナカ</a>
 										</div>
 									</li>
 									<li>
@@ -67,10 +67,10 @@
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('本八戸駅') }}" class="tpl_btn"><span>本八戸駅</span></a></li>
 																<li><a href="{{ route('search') }}?tag_names={{ urlencode('岩手県') }}" class="tpl_btn"><span>岩手県</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('盛岡駅') }}" class="tpl_btn"><span>盛岡駅</span></a></li>
-																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('花巻駅') }}" class="tpl_btn"><span>花巻駅</span></a></li>
+																<!-- <li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('花巻駅') }}" class="tpl_btn"><span>花巻駅</span></a></li> -->
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('新花巻駅') }}" class="tpl_btn"><span>新花巻駅</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('北上駅') }}" class="tpl_btn"><span>北上駅</span></a></li>
-																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('水沢駅') }}" class="tpl_btn"><span>水沢駅</span></a></li>
+																<!-- <li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('水沢駅') }}" class="tpl_btn"><span>水沢駅</span></a></li> -->
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('水沢江刺駅') }}" class="tpl_btn"><span>水沢江刺駅</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('一ノ関駅') }}" class="tpl_btn"><span>一ノ関駅</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('釜石駅') }}" class="tpl_btn"><span>釜石駅</span></a></li>
@@ -79,7 +79,7 @@
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('土崎駅') }}" class="tpl_btn"><span>土崎駅</span></a></li>
 																<!-- <li class="tpl_subLink"><a href="/search/sub/生鮮市場" class="tpl_btn"><span>秋田市保戸野</span></a></li> -->
 																<li><a href="{{ route('search') }}?tag_names={{ urlencode('宮城県') }}" class="tpl_btn"><span>宮城県</span></a></li>
-																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('仙台駅') }}" class="tpl_btn"><span>仙台駅</span></a></li>
+																<li class="tpl_subLink"><a href="/sendaiekinaka/shoplist" class="tpl_btn"><span>仙台駅</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('くりこま高原駅') }}" class="tpl_btn"><span>くりこま高原駅</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('古川駅') }}" class="tpl_btn"><span>古川駅</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('石巻駅') }}" class="tpl_btn"><span>石巻駅</span></a></li>
@@ -132,12 +132,12 @@
 										<ul class="tpl_gNavList tpl_clr">
 										    <li>
 												<div class="tpl_dropdown gn1">
-													<a href="/gyutan-sushistreet/" class="tpl_btn">牛たん通り・すし通り</a>
+													<a href="/gyutan-sushistreet/" class="tpl_btn">牛たん通り<br>・すし通り</a>
 												</div>
 											</li>
 											<li>
 												<div class="tpl_dropdown gn2">
-												    <a href="/search?pt[]=24&pt[]=110&keywords=" class="tpl_btn">仙台エキナカ</a>
+												    <a href="/sendaiekinaka/" class="tpl_btn">仙台エキナカ</a>
 												</div>
 											</li>
 											<li>
@@ -162,19 +162,19 @@
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('本八戸駅') }}" class="tpl_btn"><span>本八戸駅</span></a></li>
 																<li><a href="{{ route('search') }}?tag_names={{ urlencode('岩手県') }}"><span>岩手県</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('盛岡駅') }}" class="tpl_btn"><span>盛岡駅</span></a></li>
-																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('花巻駅') }}" class="tpl_btn"><span>花巻駅</span></a></li>
+																<!-- <li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('花巻駅') }}" class="tpl_btn"><span>花巻駅</span></a></li> -->
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('新花巻駅') }}" class="tpl_btn"><span>新花巻駅</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('北上駅') }}" class="tpl_btn"><span>北上駅</span></a></li>
-																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('水沢駅') }}" class="tpl_btn"><span>水沢駅</span></a></li>
+																<!-- <li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('水沢駅') }}" class="tpl_btn"><span>水沢駅</span></a></li> -->
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('水沢江刺駅') }}" class="tpl_btn"><span>水沢江刺駅</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('一ノ関駅') }}" class="tpl_btn"><span>一ノ関駅</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('釜石駅') }}" class="tpl_btn"><span>釜石駅</span></a></li>
 																<li><a href="{{ route('search') }}?tag_names={{ urlencode('秋田県') }}"><span>秋田県</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('秋田駅') }}" class="tpl_btn"><span>秋田駅</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('土崎駅') }}" class="tpl_btn"><span>土崎駅</span></a></li>
-																<li class="tpl_subLink"><a href="/search/sub/生鮮市場" class="tpl_btn"><span>秋田市保戸野</span></a></li>
+																<!-- <li class="tpl_subLink"><a href="/search/sub/生鮮市場" class="tpl_btn"><span>秋田市保戸野</span></a></li> -->
 																<li><a href="{{ route('search') }}?tag_names={{ urlencode('宮城県') }}"><span>宮城県</span></a></li>
-																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('仙台駅') }}" class="tpl_btn"><span>仙台駅</span></a></li>
+																<li class="tpl_subLink"><a href="/sendaiekinaka/shoplist" class="tpl_btn"><span>仙台駅</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('くりこま高原駅') }}" class="tpl_btn"><span>くりこま高原駅</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('古川駅') }}" class="tpl_btn"><span>古川駅</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('石巻駅') }}" class="tpl_btn"><span>石巻駅</span></a></li>
@@ -205,12 +205,12 @@
 											</li>
 											<li>
 												<div class="tpl_dropdown gn6">
-													<a class="tpl_btn tpl_navBtn" href="https://shopping.jreast.co.jp/shop/detail/s013" target="_blank">オンラインショップ</a>
+													<a class="tpl_btn tpl_navBtn" href="https://shopping.jreast.co.jp/shop/detail/s013" target="_blank">オンライン<br>ショップ</a>
 												</div>
 											</li>
 										</ul>
 									</dt>
-									<dd>
+									<dd class="langs">
 										<div class="tpl_translation">
 											<div id="msta_langArea">
 												<select>
@@ -229,11 +229,11 @@
 											<li><a class="tpl_btn" href="/company/">企業情報</a></li>
 										</ul>
 									</dd>
-									<!-- <dd>
+									<dd>
 										<div id="search_btn" class="pc search pc-flex-layout">
 										<gcse:searchbox-only></gcse:searchbox-only>
 									</div>
-								  </dd> -->
+								  </dd>
 								</dl>
 							</div>
 						</nav>

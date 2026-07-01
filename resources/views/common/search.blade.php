@@ -5,10 +5,10 @@ if (!$meta_description) {
     $meta_description = 'JR東日本グループ「JR東日本東北総合サービス株式会社」の公式サイトです。東北６県の駅を起点に展開するエキナカ店舗やショッピングセンター、月極駐車場などのサービス情報をご覧いただけます。目的の県や駅からショップ情報が検索できます。';
 }
 @endphp
-<title>検索結果｜JR東日本東北総合サービス株式会社【LiViT】</title>
+<title>ショップ一覧｜JR東日本東北総合サービス株式会社【LiViT】</title>
 <meta name="description" content="{{ $meta_description }}">
 <meta name="keywords" content="{{ $meta_keywords ?? '' }}">
-<meta property="og:title" content="検索結果｜JR東日本東北総合サービス株式会社【LiViT】">
+<meta property="og:title" content="ショップ一覧｜JR東日本東北総合サービス株式会社【LiViT】">
 <meta property="og:description" content="{{ $meta_description }}">
 <meta property="og:url" content="{{ url()->full() }}">
 @include('layouts.meta_bottom')
@@ -17,7 +17,8 @@ if (!$meta_description) {
 <link rel="stylesheet" href="/serviceinfo/assets/css/common/base.css">
 <link rel="stylesheet" href="/serviceinfo/assets/css/common/common.css">
 <link rel="stylesheet" href="/serviceinfo/assets/css/common/slick.css">
-<link rel="stylesheet" href="/serviceinfo/assets/css/search/index/index.css">
+<link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/serviceinfo/assets/css/shop/index/index.css">
 <!-- [end]css -->
 @include('layouts.head_close')
 </head>
@@ -27,43 +28,11 @@ if (!$meta_description) {
     <div class="tpl_wrapper">
       @include('layouts.header')
       <main role="main">
-        <div class="breadcrumbs"><div class="wrap"><ul class="breadcrumbsList"><li><a href="/"><img src="/serviceinfo/assets/img/common/ico_breadcrumbs_home.png" alt="home" height="10" width="12"></a></li>{!! $breadcrumb !!}<li>検索結果</li></ul></div></div>
+        <div class="breadcrumbs"><div class="wrap"><ul class="breadcrumbsList"><li><a href="/"><img src="/serviceinfo/assets/img/common/ico_breadcrumbs_home.png" alt="home" height="10" width="12"></a></li>{!! $breadcrumb !!}<li>ショップ一覧</li></ul></div></div>
         <div class="tpl_contents">
           <article>
-            @if ($template)
+             @if ($template)
 	          <section class="introduction">
-		        <div class="keyvisual">
-			      <div class="wrap">
-                    <div class="slidArea">
-                      <div class="blk clr">
-                        <div id="js_kvSlider" class="slider">
-                          @for ($i = 1; $i <= config('livit.template1_num_images'); $i++)
-                            @php
-                            $image_pc_url = "image_pc${i}_url";
-                            $image_sp_url = "image_sp${i}_url";
-                            @endphp
-                            @if ($template->$image_pc_url || $template->$image_sp_url)
-                            <div class="sl">
-      	                      <h1>
-                                @if ($template->$image_pc_url)
-                                  <img src="{{ $template->$image_pc_url }}" height="500" width="1400" class="imgpc">
-                                @else
-                                  <img src="{{ $template->$image_sp_url }}" class="imgpc">
-                                @endif
-                                @if ($template->$image_sp_url)
-                                  <img src="{{ $template->$image_sp_url }}" class="imgsp">
-                                @else
-                                  <img src="{{ $template->$image_pc_url }}" class="imgsp">
-                                @endif
-                              </h1>
-                            </div>
-                            @endif
-                          @endfor
-                        </div>
-                      </div>
-                    </div>
-		          </div>
-                </div>
 		        <div class="summary">
 			      <div class="wrap">
 				    <div class="title">
@@ -84,7 +53,7 @@ if (!$meta_description) {
 					  {!! $template->body  !!}
 				    </div>
 			      </div>
-		        </div>
+		        </div> 
                 @if ($template->blog_title)
                   <div class="summary"><div class="title"><div class="ttl fontM">
                     {!! $template->blog_title !!}
@@ -94,70 +63,22 @@ if (!$meta_description) {
                   {!! $template->blog_body !!}
                 @endif
 	          </section>
-            @endif
-	        <section id="search-section" class="search">
-		      <div class="bgHead"></div>
-		      <div class="bgMian">
-			    <div class="wrap">
-				  <div class="pos">
+            @endif 
 
-					<div class="setObj setObj01"><p class="obj"><img src="/serviceinfo/assets/img/search/index/obj_search_01.png" alt="" height="164" width="122"></p></div>
-					<div class="setObj setObj02"><p class="obj"><img src="/serviceinfo/assets/img/search/index/obj_search_02.png" alt="" height="174" width="147"></p></div>
-					<div class="setObj setObj03"><p class="obj"><img src="/serviceinfo/assets/img/search/index/obj_search_03.png" alt="" height="183" width="63"></p></div>
-					<div class="setObj setObj04"><p class="obj"><img src="/serviceinfo/assets/img/search/index/obj_search_04.png" alt="" height="162" width="147"></p></div>
-
-				  </div>
-			    </div>
-		      </div>
-	        </section>
-
-	        <section class="result">
+	        <section class="shop">
 		      <div class="bg_repeat">
 			    <div class="wrap">
 
-				  <div class="resultBtnArea">
-					<div class="ttl"><p>検索結果</p></div>
-                    @if($selected_tags || $keywords)
-					  <dl class="row">
-					    <dt><p>検索条件：</p></dt>
-					    <dd>
-						  <ul class="tagList">
-						    <li class="sp"><p class="tl">検索条件：</p></li>
-                            @foreach ($selected_tags as $tag)
-                              @php
-                              if ($tag->name == ($parent_tag_name ?? null))  {
-                                $button_class = 'remove_parent_button';
-                              } else {
-                                $button_class = 'remove_button';
-                              }
-                              @endphp
-							  <li class="{{ $button_class }}" data-tag-id="{{ $tag->id }}"><p class="tag {{ $tag->class }}">{{ format_pivot_shop(format_tekute_shop($tag->name)) }}</p></li>
-                            @endforeach
-                            @if ($keywords)
-							  <li class="remove_button" data-keywords="{{ $keywords }}"><p class="tag ac1">{{ $keywords }}</p></li>
-                            @endif
-						  </ul>
-					    </dd>
-					  </dl>
-                      @if ($max_keywords_length_exceeded)
-                        <div class="noResult">
-                          キーワードで設定できる最大文字数を超えております。<br />
-                          設定を変更して再度検索してください。
-                        </div>
-                      @elseif(count($contents) == 0)
-                        <div class="noResult">
-                          ご指定の検索条件では該当情報がございませんでした。<br />
-                          設定を変更して再度検索してください。
-                        </div>
-                      @endif
-					  <div class="rst"><p class="btn">検索条件のクリア</p></div>
-                    @endif
+				  <div class="shopBtnArea">
+            
+					<div class="ttl">{{ format_pivot_shop(format_tekute_shop($selected_tags->first()->name ?? '')) }}<p>ショップ一覧</p></div>
+
 				  </div>
 
 
-				  <div class="resultLinkArea">
-					<div class="LinkBox3col">
-					  <ul id="search_results" class="linkList">
+				  <div class="shopLinkArea">
+					<div class="LinkBox4col">
+					  <ul id="search_shops" class="linkList">
                         @include('common/search_result_elements')
 					  </ul>
 					</div>
@@ -174,6 +95,12 @@ if (!$meta_description) {
 
 
           </article>
+          <ul class="illust_bg">
+            <li><img src="/serviceinfo/assets/img/shop/bg01_pc.svg" alt=""></li>
+            <li><img src="/serviceinfo/assets/img/shop/bg02_pc.svg" alt=""></li>
+            <li><img src="/serviceinfo/assets/img/shop/bg03_pc.svg" alt=""></li>
+            <li><img src="/serviceinfo/assets/img/shop/bg04_pc.svg" alt=""></li>
+           </ul>
           <!-- /.tpl_contents --></div>
         <input type="hidden" id="current_page" value="1" />
         <input type="hidden" id="api_search_result_url" value="{{ $search_api_action }}" />
