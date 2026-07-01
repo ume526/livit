@@ -77,7 +77,7 @@
 																<li><a href="{{ route('search') }}?tag_names={{ urlencode('秋田県') }}" class="tpl_btn"><span>秋田県</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('秋田駅') }}" class="tpl_btn"><span>秋田駅</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('土崎駅') }}" class="tpl_btn"><span>土崎駅</span></a></li>
-																<li class="tpl_subLink"><a href="/search/sub/生鮮市場" class="tpl_btn"><span>秋田市保戸野</span></a></li>
+																<!-- <li class="tpl_subLink"><a href="/search/sub/生鮮市場" class="tpl_btn"><span>秋田市保戸野</span></a></li> -->
 																<li><a href="{{ route('search') }}?tag_names={{ urlencode('宮城県') }}" class="tpl_btn"><span>宮城県</span></a></li>
 																<li class="tpl_subLink"><a href="/sendaiekinaka/shoplist" class="tpl_btn"><span>仙台駅</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('くりこま高原駅') }}" class="tpl_btn"><span>くりこま高原駅</span></a></li>
@@ -172,7 +172,7 @@
 																<li><a href="{{ route('search') }}?tag_names={{ urlencode('秋田県') }}"><span>秋田県</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('秋田駅') }}" class="tpl_btn"><span>秋田駅</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('土崎駅') }}" class="tpl_btn"><span>土崎駅</span></a></li>
-																<li class="tpl_subLink"><a href="/search/sub/生鮮市場" class="tpl_btn"><span>秋田市保戸野</span></a></li>
+																<!-- <li class="tpl_subLink"><a href="/search/sub/生鮮市場" class="tpl_btn"><span>秋田市保戸野</span></a></li> -->
 																<li><a href="{{ route('search') }}?tag_names={{ urlencode('宮城県') }}"><span>宮城県</span></a></li>
 																<li class="tpl_subLink"><a href="/sendaiekinaka/shoplist" class="tpl_btn"><span>仙台駅</span></a></li>
 																<li class="tpl_subLink"><a href="{{ route('search') }}?tag_names={{ urlencode('くりこま高原駅') }}" class="tpl_btn"><span>くりこま高原駅</span></a></li>

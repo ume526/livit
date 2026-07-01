@@ -245,7 +245,8 @@ JR東日本グループの<br>
 								<section class="park">
 										<div class="inner">
 													<h2 class="tit">PARKING | 駐車場</h2>
-												<div class="place"> <img src="/serviceinfo/assets/img/pivot/haranomachi_park_pc.png" class="pc" alt="駐車場"><img src="/serviceinfo/assets/img/pivot/haranomachi_park_sp.png" class="sp" alt="駐車場"> </div>
+												<div class="place"> <img src="/serviceinfo/assets/img/pivot/haranomachi_park_pc.png" class="pc" alt="駐車場"><img src="/serviceinfo/assets/img/pivot/haranomachi_park_sp.png" class="sp" alt="駐車場"></div>
+												<p class="note">2026年7月1日より、駐車場料金が変更となります。詳しくはNEWS・EVENTページをご確認いただきますようお願いいたします。</p>
 												<ul class="bgItem">
 														<li class="item15 sp"></li>
 												</ul>
