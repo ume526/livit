@@ -1,5 +1,6 @@
 public/js/__searchbox.js
 resources/views/tekute/sendai.html
+*.bak.js
 resources/views/tekute/nagamachi.html
 resources/views/pivot/koriyama.html
 resources/views/pivot/index.html
