@@ -240,7 +240,7 @@ $(document).ajaxComplete(function(){
 		$('.changeBox .map_changeMap').removeClass('appear');
 		$('.changeBox .map_changeMain').addClass('appear');
 	});
-	$(window).load(function(){
+	$(window).on('load', function(){
 		$('.kv_changeMap .slidArea .sl .img').each(function(){
 			var ImgHeight = $(this).find('img').height();
 			if(206 < ImgHeight){
