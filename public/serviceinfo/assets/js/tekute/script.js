@@ -14,10 +14,6 @@ $(function () {
         controls: true,
     });
 
-    if ($('.storebox .box').length) {
-        $('.storebox .box').matchHeight();
-    }
-
     maps.forEach(map => {
         const instance = Panzoom(map, {
             maxScale: 3,

@@ -95,7 +95,6 @@
 	<script src="/serviceinfo/assets/js/common/jquery.js"></script>
 	<script src="/serviceinfo/assets/js/common/base.js"></script>
 	<script src="/serviceinfo/assets/js/common/common.js"></script>
-	<script src="/serviceinfo/assets/js/common/matchheight.js"></script>
 	<script src="/serviceinfo/assets/js/common/swiper.min.js"></script>
 	<script src="/serviceinfo/assets/js/common/ofi.min.js"></script>  
   <script>
@@ -122,7 +121,6 @@
 
 		$(function(){
 	    objectFitImages();
-			$('.storebox .box').matchHeight();	
 		});
   </script>
   <!-- [end]script -->

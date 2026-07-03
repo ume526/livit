@@ -15,16 +15,18 @@ $(function(){
   });
 });
 
-const target = document.querySelector('.zoom-map');
-const panzoom = Panzoom(target, {
-    maxScale: 3,
-    minScale: 1,
-    step: 0.3
-});
+if (typeof Panzoom !== 'undefined') {
+  const target = document.querySelector('.zoom-map');
+  const panzoom = Panzoom(target, {
+      maxScale: 3,
+      minScale: 1,
+      step: 0.3
+  });
 
-document.querySelector('.zoom-in').addEventListener('click', () => {
-  panzoom.zoomIn({animate: true})
-});
-document.querySelector('.zoom-out').addEventListener('click', () => {
-  panzoom.zoomOut({animate: true})
-});
+  document.querySelector('.zoom-in').addEventListener('click', () => {
+    panzoom.zoomIn({animate: true})
+  });
+  document.querySelector('.zoom-out').addEventListener('click', () => {
+    panzoom.zoomOut({animate: true})
+  });
+}

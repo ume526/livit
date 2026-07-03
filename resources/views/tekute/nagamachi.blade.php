@@ -400,7 +400,6 @@
 <script src="/serviceinfo/assets/js/common/jquery.js"></script>
 <script src="/serviceinfo/assets/js/common/base.js"></script>
 <script src="/serviceinfo/assets/js/common/common.js"></script>
-<script src="/serviceinfo/assets/js/common/matchheight.js"></script>
 <script src="/serviceinfo/assets/js/common/slick.js"></script>
 <script src="https://unpkg.com/@panzoom/panzoom/dist/panzoom.min.js"></script>
 <script src="/serviceinfo/assets/js/tekute/script.js"></script>

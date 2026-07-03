@@ -138,15 +138,12 @@ https://www.google.com/maps/embed?pb=
 <script src="/serviceinfo/assets/js/common/jquery.js"></script>
 <script src="/serviceinfo/assets/js/common/base.js"></script>
 <script src="/serviceinfo/assets/js/common/common.js"></script>
-<!-- <script src="/serviceinfo/assets/js/common/matchheight.js"></script> -->
 <script src="/serviceinfo/assets/js/common/slick.js"></script>
 <script src="https://unpkg.com/@panzoom/panzoom/dist/panzoom.min.js"></script>
 <script src="/serviceinfo/assets/js/tekute/script.js"></script>
 <script src="/serviceinfo/assets/js/tekute/movie_sendai.js"></script>
 <script>
 $(function(){
-	 $('.slider dd').matchHeight();
-
   $('.responsive-iframe-container iframe h1').css('display','none');
 });
 </script>
