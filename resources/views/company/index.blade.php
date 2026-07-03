@@ -86,7 +86,7 @@
 
                        <div class="key_visual standard-box-wrap">
                                 <ul id="main-slider" class="main-slider">
-                                        <li><a href="https://prtimes.jp/main/html/rd/p/000000276.000146951.html" target="_blank"><img src="/assets/img/company/index/keyvisual_img13.jpg" alt="合併に関するお知らせ"></a></li>
+                                        <li><a href="/assets/pdf/company/news-release/20260703.pdf" target="_blank"><img src="/assets/img/company/index/keyvisual_img13.jpg" alt="合併に関するお知らせ"></a></li>
                                         <li><a href="/company/recruit/guideline/"><img src="/assets/img/company/index/keyvisual_img09.png" alt="LiViT 社員募集"></a></li>
                                         <li><a href="/transit-advertising/"><img src="/assets/img/company/index/keyvisual_img12.jpg" alt="交通広告"></a></li>
                                         <li><a href="/gyutan-sushistreet/"><img src="/assets/img/company/index/keyvisual_img10.jpg" alt="牛たん通りす
@@ -97,7 +97,7 @@
                                 </ul>
 
                                 <ul id="thumbnail-slider" class="thumbnail-slider">
-					<li><a href="https://prtimes.jp/main/html/rd/p/000000276.000146951.html" target="_blank"><img src="/assets/img/company/index/keyvisual_img13.jpg" alt="合併に関するお知らせ"></a></li>
+					<li><a href="/assets/pdf/company/news-release/20260703.pdf" target="_blank"><img src="/assets/img/company/index/keyvisual_img13.jpg" alt="合併に関するお知らせ"></a></li>
 					<li><a href="/company/recruit/guideline/"><img src="/assets/img/company/index/keyvisual_img09.png" alt="LiViT 社員募集"></a></li>
 					<li><a href="/transit-advertising/"><img src="/assets/img/company/index/keyvisual_img12.jpg" alt="交通広告"></a></li>
 					<li><a href="/gyutan-sushistreet/"><img src="/assets/img/company/index/keyvisual_img10.jpg" alt="牛たん通りす
