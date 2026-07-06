@@ -44,7 +44,7 @@ function onYouTubeIframeAPIReady() {
         modalCloses.forEach(closeEl => {
           closeEl.addEventListener('click', () => {
             player.mute();
-            if (el) el.textContent = "音声をONにする";
+            if (closeEl) button.textContent = "音声をONにする";
           });
         });
       }
